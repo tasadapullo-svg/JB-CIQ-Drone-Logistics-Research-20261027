@@ -1,0 +1,9 @@
+{
+  "target_filename": "CIQ_Stage8_F0_F1_real_aircraft_and_jb_candidate_363eec16.zip",
+  "original_size_bytes": 26627659,
+  "sha256": "6f616dd2b7bd38f0a484f87fb08e2bc355a2c6584b55513d92581ca5e4716dc7",
+  "parts": [
+    "part_001.bin",
+    "part_002.bin"
+  ]
+}

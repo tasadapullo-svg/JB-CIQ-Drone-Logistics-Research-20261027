@@ -1,0 +1,7 @@
+{
+  "PASS": true,
+  "test": "synthetic directional routing and roster integrity",
+  "forward_minutes": 0.37765,
+  "reverse_minutes": 1.17001,
+  "source": "SYNTHETIC_FIXTURE_NOT_REAL_OSM"
+}

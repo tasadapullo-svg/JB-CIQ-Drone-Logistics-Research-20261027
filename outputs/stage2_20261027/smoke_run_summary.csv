@@ -1,0 +1,4 @@
+﻿scenario_id,seed_id,mode_id,orders_total,orders_not_evaluable,orders_served,formal_metrics_available
+STAGE2_DIAGNOSTIC_ONLY,20261027,M0,8,8,0,0
+STAGE2_DIAGNOSTIC_ONLY,20261027,M1,8,8,0,0
+STAGE2_DIAGNOSTIC_ONLY,20261027,M2,8,8,0,0

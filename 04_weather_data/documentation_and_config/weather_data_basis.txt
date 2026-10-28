@@ -1,0 +1,34 @@
+优先下载的官方数据入口
+1. Singapore NEA — Rainfall
+
+免费历史站点降雨资料，官方说明支持根据日期读取历史数据，适合分析局部短时降雨。
+
+
+
+2. Singapore NEA — Wind Speed
+
+获取风速记录。原始风速单位为 knots，后续统一转换为 m/s。
+
+
+
+3. Singapore NEA — Wind Direction
+
+获取对应时刻的风向，用于顺风、逆风及侧风计算。
+
+
+
+4. Copernicus — ERA5 Hourly Time Series
+
+适合获取连续5个月的逐小时10 m与100 m风场、10 m阵风及累计降雨量。
+
+
+
+5. Malaysia — myMETdata
+
+马来西亚官方历史气象数据申请平台。METMalaysia明确提供小时级等气候数据申请，部分数据可能收费或适用学生减免。
+
+
+
+6. NASA — GPM IMERG
+
+用于验证降雨事件的空间范围。研究使用的 Final Run 产品存在数月延迟，因此2026年8—9月的 Final 数据需要核验是否已发布。

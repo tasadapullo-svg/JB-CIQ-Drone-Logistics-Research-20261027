@@ -1,0 +1,17 @@
+{
+  "status": "PASS_DIAGNOSTIC_GATING_NOT_OPERATIONAL_SIMULATION",
+  "assertions": {
+    "unique_composite_key": true,
+    "same_order_set_all_modes": true,
+    "three_modes_per_order": true,
+    "unknown_metrics_remain_null": true,
+    "uav_modes_not_released_without_permission": true,
+    "unreachable_orders_not_dropped": true,
+    "time_conservation_check": "NOT_APPLICABLE_NO_TIME_OUTPUT_RELEASED",
+    "payload_constraint_check": "BLOCKED_AIRCRAFT_PARAMETERS_MISSING",
+    "energy_nonnegative_check": "NOT_APPLICABLE_NO_ENERGY_OUTPUT_RELEASED"
+  },
+  "sample_orders": 8,
+  "result_rows": 24,
+  "scope": "DIAGNOSTIC_ONLY"
+}

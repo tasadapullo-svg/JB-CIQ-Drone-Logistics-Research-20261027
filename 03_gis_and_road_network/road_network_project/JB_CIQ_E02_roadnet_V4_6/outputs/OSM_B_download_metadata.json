@@ -1,0 +1,12 @@
+{
+  "endpoint": "https://overpass-api.de/api/interpreter",
+  "bbox_S_W_N_E": [
+    1.32,
+    103.515,
+    1.485,
+    103.69
+  ],
+  "downloaded_at_utc": "2026-10-26T08:04:34.938786+00:00",
+  "sha256": "29c1c7b6203efdf8b40cb443f8132f88a646bd01b2e90a19729a782c95b9a56f",
+  "elements": 89866
+}

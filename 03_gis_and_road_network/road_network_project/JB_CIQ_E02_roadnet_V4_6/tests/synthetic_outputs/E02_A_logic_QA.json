@@ -1,0 +1,30 @@
+{
+  "area": "A",
+  "input_file": "/mnt/data/JB_CIQ_E02_roadnet_V4_6/tests/synthetic_OSM_ONEWAY_not_real_roads.json",
+  "input_sha256": "060be640ac0a45c4c77594efaf1ec6dbe96c8a4369e471280b4b5a167cf97597",
+  "OSM_ways_pass_filter": 2,
+  "graph_nodes": 4,
+  "directed_edges": 6,
+  "weak_components": 1,
+  "OSM_edge_length_km": 1.28,
+  "fcd_nearest_review_100m": 0,
+  "fcd_nodes_examined": 145,
+  "FCD_edge_candidates_within_30m": 0,
+  "FCD_edge_candidates_rejected_gt80m": 145,
+  "sites_nearest_review_100m": 3,
+  "sites_examined": 8,
+  "OD_pairs": 56,
+  "OD_model_route_count": 6,
+  "OD_confirmed_traffic_travel_time_count": 0,
+  "oneway_encoded": true,
+  "turn_relations_encoded": false,
+  "MY_SG_boundary_verified": false,
+  "FCD_direction_verified": false,
+  "routing_readiness": "GEOMETRY_ONLY_NOT_RESEARCH_OD",
+  "study_area_bbox_not_legal_boundary": [
+    1.435,
+    103.71,
+    1.55,
+    103.85
+  ]
+}

@@ -1,0 +1,9 @@
+﻿gap_id,priority,description,impact
+DATA_LINEAGE,P0,V5.5 frozen source and V5.6 resampling code absent,BLOCKS_FORMAL_MAIN_EXPERIMENT
+ROAD_ACCESS,P0,37 edge-aware candidates require access/direction review,BLOCKS_FORMAL_ROUTE_REPAIR
+ROAD_RULES,P0,turn restrictions and legal boundary not verified,BLOCKS_FORMAL_ROAD_BASELINE
+CIQ_OBSERVATIONS,P1,no matched hourly corridor-direction wait series,BLOCKS_CIQ_CALIBRATION
+STATION_OPERATIONS,P2,"replenishment, queue, charging and fallback parameters absent",BLOCKS_M1
+TRUCK_DRONE_OPERATIONS,P2,"sync, rendezvous, recovery and capacity parameters absent",BLOCKS_M2
+PERMISSIONS,P2,no approved cross-border route/airspace/cargo evidence,BLOCKS_UAV_RELEASE
+COST_EMISSIONS,P2,functional unit and sourced parameters incomplete,BLOCKS_RQ3

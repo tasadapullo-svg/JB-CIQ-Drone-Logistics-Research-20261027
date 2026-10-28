@@ -1,0 +1,105 @@
+{
+  "generated_at_utc": "2026-10-26T08:14:45.772888+00:00",
+  "status": "E02_PRELIMINARY_OSM_NETWORK_BUILT_FORMAL_ACCEPTANCE_BLOCKED",
+  "scope": "A Causeway and B Second Link only; 128 reference OD pairs, not orders",
+  "areas": {
+    "A": {
+      "osm_endpoint": "https://overpass-api.de/api/interpreter",
+      "downloaded_at_utc": "2026-10-26T08:04:27.170660+00:00",
+      "osm_raw_elements": 144734,
+      "osm_raw_sha256_verified": "7686c2eec13aee3ad9181542b5b2d0723ef780dcb6b8070b4b5e1876d99da667",
+      "ways_pass_filter": 30985,
+      "graph_nodes": 98276,
+      "directed_edges": 178098,
+      "weak_components": 169,
+      "directed_edge_length_km": 4779.74,
+      "fcd_nodes_examined": 145,
+      "fcd_edge_candidates_within_30m": 142,
+      "fcd_edge_candidates_rejected_gt80m": 0,
+      "od_pairs": 56,
+      "od_status_counts": {
+        "MODEL_ROUTE_REQUIRES_QA": 49,
+        "DISCONNECTED_IN_OSM": 7
+      },
+      "route_length_below_beeline_failures": 0,
+      "circuity_gt_3_review_count": 9,
+      "reverse_time_ratio_gt_1_5_count": 1,
+      "turn_relations_encoded": false,
+      "malaysia_legal_boundary_verified": false,
+      "fcd_direction_verified": false,
+      "independent_navigation_time_verified": false
+    },
+    "B": {
+      "osm_endpoint": "https://overpass-api.de/api/interpreter",
+      "downloaded_at_utc": "2026-10-26T08:04:34.938786+00:00",
+      "osm_raw_elements": 89866,
+      "osm_raw_sha256_verified": "29c1c7b6203efdf8b40cb443f8132f88a646bd01b2e90a19729a782c95b9a56f",
+      "ways_pass_filter": 16031,
+      "graph_nodes": 59089,
+      "directed_edges": 104317,
+      "weak_components": 134,
+      "directed_edge_length_km": 3339.59,
+      "fcd_nodes_examined": 69,
+      "fcd_edge_candidates_within_30m": 60,
+      "fcd_edge_candidates_rejected_gt80m": 1,
+      "od_pairs": 72,
+      "od_status_counts": {
+        "MODEL_ROUTE_REQUIRES_QA": 42,
+        "SNAP_REVIEW_REQUIRED": 30
+      },
+      "route_length_below_beeline_failures": 0,
+      "circuity_gt_3_review_count": 5,
+      "reverse_time_ratio_gt_1_5_count": 0,
+      "turn_relations_encoded": false,
+      "malaysia_legal_boundary_verified": false,
+      "fcd_direction_verified": false,
+      "independent_navigation_time_verified": false
+    }
+  },
+  "totals": {
+    "frozen_fcd_nodes": 345,
+    "fcd_nodes_inside_fixed_A_B_download_windows": 214,
+    "fcd_nodes_outside_fixed_A_B_download_windows": 131,
+    "fcd_edge_candidates_generated": 214,
+    "fcd_edge_candidates_within_30m": 202,
+    "fcd_edge_candidates_rejected_gt80m": 1,
+    "reference_od_pairs": 128,
+    "model_routes_requiring_QA": 91,
+    "reference_od_pairs_without_model_route": 37,
+    "route_length_below_beeline_failures": 0,
+    "confirmed_observation_calibrated_od": 0
+  },
+  "traffic_input": {
+    "file": "C:\\Users\\DELL\\Desktop\\CIQ 无人机物流 SCI 研_20261026\\修正后五个月完整交通数据_E01_traffic_calendar_corrected_345nodes_2026_05-09.csv.gz",
+    "sha256": "70ddfc8f265a1784dbaf5734eeb070ae54ae34627ddfcaf1620831c1d0b00a9d",
+    "rows": 1266840,
+    "unique_nodes": 345,
+    "unique_hour_timestamps": 3672,
+    "months": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "speed_missing": 125230,
+    "speed_state_counts": {
+      "POSITIVE": 1141555,
+      "MISSING": 125230,
+      "NONPOSITIVE": 55
+    },
+    "direction_field_present": false,
+    "calibration_use": "BLOCKED_UNTIL_FCD_DIRECTION_AND_EDGE_MATCH_ARE_APPROVED"
+  },
+  "formal_release_gates": {
+    "real_osm_snapshot_and_hash": "PASS",
+    "directed_edges_from_osm_oneway_tags": "PASS_WITHOUT_TURN_RELATIONS",
+    "all_345_nodes_have_approved_edge_and_direction": "FAIL",
+    "malaysia_legal_boundary_and_cross_border_exclusion": "FAIL",
+    "osm_turn_restrictions_applied_and_checked": "FAIL",
+    "fcd_direction_and_road_name_match_approved": "FAIL",
+    "independent_navigation_time_validation": "FAIL",
+    "formal_observation_calibrated_od_matrix": "NOT_RELEASED"
+  },
+  "claim_limit": "All route times remain OSM model estimates and are not observed traffic travel times."
+}

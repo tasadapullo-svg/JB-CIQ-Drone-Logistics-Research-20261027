@@ -1,0 +1,4 @@
+﻿scenario_id,seed,mode,orders_total,orders_served,orders_unserved,orders_censored,on_time_rate,fallback_rate,door_to_door_p50_min,door_to_door_p90_min,door_to_door_p95_min,delay_p50_min,delay_p90_min,delay_p95_min,vehicle_km_total,energy_kwh_total,cost_total,emissions_kgco2e_total,aggregation_note
+PRECHECK_NO_EFFECT_ESTIMATION,20261027,M0,12,0,6,6,,,,,,,,,,,,,No benefit metrics calculated because prerequisites failed
+PRECHECK_NO_EFFECT_ESTIMATION,20261027,M1,12,0,12,0,,,,,,,,,,,,,No benefit metrics calculated because prerequisites failed
+PRECHECK_NO_EFFECT_ESTIMATION,20261027,M2,12,0,12,0,,,,,,,,,,,,,No benefit metrics calculated because prerequisites failed

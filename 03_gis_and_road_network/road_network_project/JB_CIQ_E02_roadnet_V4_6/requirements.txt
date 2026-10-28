@@ -1,0 +1,7 @@
+numpy>=1.24,<3
+pandas>=2.0,<3
+requests>=2.28,<3
+pyproj>=3.4,<4
+networkx>=3.0,<4
+scipy>=1.10,<2
+shapely>=2.0,<3

@@ -1,0 +1,9 @@
+﻿area,point_kind,point_id,reference_latitude,reference_longitude,nearest_osm_node_id,nearest_node_distance_m,snap_status,FCD_direction_evidence,review_note
+A,SITE,A01,1.461194,103.764194,10262066955,47.96,NEAR_NODE_REVIEW,,"Nearest graph node, not nearest directed way; manual directional road match required"
+A,SITE,A02,1.46369,103.76278,11499680776,38.49,NEAR_NODE_REVIEW,,"Nearest graph node, not nearest directed way; manual directional road match required"
+A,SITE,A03,1.48537,103.76228,1338097336,62.44,NEAR_NODE_REVIEW,,"Nearest graph node, not nearest directed way; manual directional road match required"
+A,SITE,A04,1.48012,103.76515,12193660125,49.41,NEAR_NODE_REVIEW,,"Nearest graph node, not nearest directed way; manual directional road match required"
+A,SITE,A05,1.49571,103.74256,5245265322,58.34,NEAR_NODE_REVIEW,,"Nearest graph node, not nearest directed way; manual directional road match required"
+A,SITE,A06,1.45963,103.76929,8506801926,66.55,NEAR_NODE_REVIEW,,"Nearest graph node, not nearest directed way; manual directional road match required"
+A,SITE,A07,1.46731,103.74062,2215622614,42.86,NEAR_NODE_REVIEW,,"Nearest graph node, not nearest directed way; manual directional road match required"
+A,SITE,A08,1.46297,103.76463,4668360475,44.61,NEAR_NODE_REVIEW,,"Nearest graph node, not nearest directed way; manual directional road match required"

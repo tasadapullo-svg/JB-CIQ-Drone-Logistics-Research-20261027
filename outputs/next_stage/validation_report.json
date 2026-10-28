@@ -1,0 +1,86 @@
+{
+  "status": "AUDIT_COMPLETE_FULL_SIMULATION_BLOCKED",
+  "orders": {
+    "source_archive": "08_归档包\\实验归档\\JB_CIQ_E05_V5.6_30次重复订单_全天交通天气稳健性_完整归档.zip",
+    "source_archive_sha256": "d286025aeb53aecd124f4465dfc536925724857e9b35ab6747e11f03089b60bb",
+    "order_member_count": 30,
+    "seed_count": 30,
+    "seed_min": 20261027,
+    "seed_max": 20261056,
+    "total_rows": 918000,
+    "global_unique_order_ids": 918000,
+    "global_duplicate_order_ids": 0,
+    "all_member_hashes_match": true,
+    "manifest_entries_not_present_in_archive": [
+      {
+        "file": "SOURCE_V5.5/01_E05_orders_24h_FCD_ERA5_referenceOD_join.csv.gz",
+        "bytes": "1007063",
+        "sha256": "932899a6178a6f464db2dd66195d4e0d81b058f3501d289e1ad417bd040a71f5"
+      }
+    ],
+    "v56_resampling_generator_code_present": false,
+    "v55_frozen_source_present_in_workspace": false,
+    "claim_status": "918000_ROWS_VERIFIED_AS_RESAMPLED_ENGINEERING_FIXTURE_NOT_EMPIRICAL_ORDERS"
+  },
+  "road_model": {
+    "static_od_rows": 128,
+    "road_validation_rows": 3072,
+    "departure_hours": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "routable_static_od": 91,
+    "unroutable_or_snap_review_static_od": 37,
+    "negative_road_times": 0,
+    "zero_distance_nonself": 0,
+    "ciq_wait_values_available": 0,
+    "total_time_values_available": 0,
+    "claim_status": "INTERNAL_CONSISTENCY_ONLY_NOT_EXTERNAL_CALIBRATION"
+  },
+  "station_rows": 24,
+  "smoke_sample_orders": 12,
+  "smoke_result_rows": 36,
+  "smoke_modes": [
+    "M0",
+    "M1",
+    "M2"
+  ],
+  "formal_effect_metrics_computed": false,
+  "rq_results_xlsx_generated": false,
+  "release_gates": {
+    "30_seed_918000_order_rows_exist_and_unique": "PASS_AS_RESAMPLED_FIXTURE",
+    "v56_generator_code_reproducible": "FAIL_CODE_MISSING",
+    "v55_frozen_source_available": "FAIL_SOURCE_MISSING",
+    "osm_internal_topology": "PASS_WITH_KNOWN_LIMITATIONS",
+    "road_time_external_validation": "FAIL",
+    "ciq_wait_model": "FAIL_MISSING",
+    "approved_station_and_route": "FAIL_MISSING",
+    "aircraft_operating_and_energy_parameters": "FAIL_MISSING",
+    "m0_m1_m2_formal_implementation": "FAIL_MISSING",
+    "cost_and_emission_parameters": "FAIL_MISSING",
+    "full_main_experiment": "NOT_STARTED"
+  },
+  "claim_limit": "No deployment, time-saving, cost, reliability or net-CO2e conclusion is released."
+}

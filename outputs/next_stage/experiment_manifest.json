@@ -1,0 +1,236 @@
+{
+  "created_at_utc": "2026-10-27T13:16:15.947220+00:00",
+  "project_root": "C:\\Users\\DELL\\Desktop\\CIQ 无人机物流 SCI 研_20261026",
+  "git_commit": null,
+  "git_status": "NO_GIT_REPOSITORY_AT_PROJECT_ROOT",
+  "input_version": "DISCOVERED_LOCAL_FILES_2026-10-27",
+  "audit_script": "outputs/next_stage/scripts/audit_and_smoke.py",
+  "inputs": [
+    {
+      "relative_path": "08_归档包/实验归档/JB_CIQ_E05_V5.6_30次重复订单_全天交通天气稳健性_完整归档.zip",
+      "size_bytes": 16960508,
+      "sha256": "d286025aeb53aecd124f4465dfc536925724857e9b35ab6747e11f03089b60bb"
+    },
+    {
+      "relative_path": "08_归档包/实验归档/JB_CIQ_E05_模拟物流订单_OD与多式联运设计_V5.4_示范包.zip",
+      "size_bytes": 745280,
+      "sha256": "966b9969d7d2646713e266a7cdb4faaa18b97a6e302f12a7622e213c80185075"
+    },
+    {
+      "relative_path": "08_归档包/实验归档/JB_CIQ_E05-E07_24小时地空物流联调_V5.3_实验前置归档.zip",
+      "size_bytes": 2022402,
+      "sha256": "3c314e72e87689fc2c950178c2f68857bc52e96672accab142648c91ed338b01"
+    },
+    {
+      "relative_path": "02_基础与交通数据/交通数据/JB_CIQ_E01_修正后五个月交通数据_345nodes_2026-05_09.csv.gz",
+      "size_bytes": 17898780,
+      "sha256": "70ddfc8f265a1784dbaf5734eeb070ae54ae34627ddfcaf1620831c1d0b00a9d"
+    },
+    {
+      "relative_path": "04_天气数据/汇总数据/E03_ERA5_JB_TWO_CIQ_WEATHER_HOURLY.csv",
+      "size_bytes": 2009597,
+      "sha256": "6fcc40d4ef30fd78b7ab8766f540bbed13029081f258c194fa47e41b28013cc7"
+    },
+    {
+      "relative_path": "02_基础与交通数据/联合与派生数据/01_AB_24h_hourly_joint.csv",
+      "size_bytes": 1654709,
+      "sha256": "6d8e27653e6b5816464b515e9bda21601c02cb2f02aa281ae19648020c4e9005"
+    },
+    {
+      "relative_path": "02_基础与交通数据/联合与派生数据/03_hourly_91_reference_OD_MODEL_PROXY_NOT_REAL.csv.gz",
+      "size_bytes": 2239215,
+      "sha256": "b016bb37ef314fdb6c8645dbf3a3c8fa199f1367ed415b96625aba58418433d7"
+    },
+    {
+      "relative_path": "03_GIS与路网/路网工程/JB_CIQ_E02_roadnet_V4_6/inputs/19_site_reference_anchors_NOT_LAUNCH_PADS.csv",
+      "size_bytes": 5462,
+      "sha256": "ef8c1f38c41469fb0c938c102da425a6660e953de587b6f9cfa7a3eedaacda5e"
+    },
+    {
+      "relative_path": "03_GIS与路网/路网工程/JB_CIQ_E02_roadnet_V4_6/outputs/OSM_A_overpass_response.json",
+      "size_bytes": 15657217,
+      "sha256": "7686c2eec13aee3ad9181542b5b2d0723ef780dcb6b8070b4b5e1876d99da667"
+    },
+    {
+      "relative_path": "03_GIS与路网/路网工程/JB_CIQ_E02_roadnet_V4_6/outputs/E02_A_OD_OSM_MODEL_NOT_OBSERVED.csv",
+      "size_bytes": 12783,
+      "sha256": "6587ab21981df25c8b920bb64253353ce21f6d56f7283764a5f5fc35773c6d97"
+    },
+    {
+      "relative_path": "03_GIS与路网/路网工程/JB_CIQ_E02_roadnet_V4_6/outputs/OSM_B_overpass_response.json",
+      "size_bytes": 9205653,
+      "sha256": "29c1c7b6203efdf8b40cb443f8132f88a646bd01b2e90a19729a782c95b9a56f"
+    },
+    {
+      "relative_path": "03_GIS与路网/路网工程/JB_CIQ_E02_roadnet_V4_6/outputs/E02_B_OD_OSM_MODEL_NOT_OBSERVED.csv",
+      "size_bytes": 15942,
+      "sha256": "0eadf44bb5bd1ff5ae2f19f260080476f36c36049b06442241769c1f8ab23ce3"
+    }
+  ],
+  "exact_duplicate_files": [
+    {
+      "file_a": "02_基础与交通数据/联合与派生数据/03_hourly_91_reference_OD_MODEL_PROXY_NOT_REAL.csv.gz",
+      "file_b": "03_hourly_91_reference_OD_MODEL_PROXY_NOT_REAL (1).csv.gz",
+      "same_sha256": true,
+      "removed_during_workspace_cleanup": true
+    }
+  ],
+  "v56_member_hashes": {
+    "rep_01_seed_20261027_orders.csv.gz": {
+      "expected": "263b42455efe4754b84135e8e0bfcb9eba8d46aa07fa46a6c93cd8f8db3c8aa2",
+      "actual": "263b42455efe4754b84135e8e0bfcb9eba8d46aa07fa46a6c93cd8f8db3c8aa2",
+      "matches": true
+    },
+    "rep_02_seed_20261028_orders.csv.gz": {
+      "expected": "34c0c901d528ee6f219856b46dbd28b368846d255ff45efc9cad917f66175932",
+      "actual": "34c0c901d528ee6f219856b46dbd28b368846d255ff45efc9cad917f66175932",
+      "matches": true
+    },
+    "rep_03_seed_20261029_orders.csv.gz": {
+      "expected": "b5dddf15970e4191ef9c7b8d4d584ad726d57674297f57e24973d100af8a8a12",
+      "actual": "b5dddf15970e4191ef9c7b8d4d584ad726d57674297f57e24973d100af8a8a12",
+      "matches": true
+    },
+    "rep_04_seed_20261030_orders.csv.gz": {
+      "expected": "392ef2b141e08410c1cf31ae20950a5c52b0828937e199defc1cb0de2d3e17eb",
+      "actual": "392ef2b141e08410c1cf31ae20950a5c52b0828937e199defc1cb0de2d3e17eb",
+      "matches": true
+    },
+    "rep_05_seed_20261031_orders.csv.gz": {
+      "expected": "f6253d26ae3ddc15a15a3133bbea1b39ed8416ac58fa0d3d5897172bd1111057",
+      "actual": "f6253d26ae3ddc15a15a3133bbea1b39ed8416ac58fa0d3d5897172bd1111057",
+      "matches": true
+    },
+    "rep_06_seed_20261032_orders.csv.gz": {
+      "expected": "1474ac185292eb3a68f47b962d580d64922a11d1e98b9446d8d2d059dc311e8b",
+      "actual": "1474ac185292eb3a68f47b962d580d64922a11d1e98b9446d8d2d059dc311e8b",
+      "matches": true
+    },
+    "rep_07_seed_20261033_orders.csv.gz": {
+      "expected": "7bf4785360a056ceb2e1967d6531e554994ba24ffdc4a27b7ab3805c6c073191",
+      "actual": "7bf4785360a056ceb2e1967d6531e554994ba24ffdc4a27b7ab3805c6c073191",
+      "matches": true
+    },
+    "rep_08_seed_20261034_orders.csv.gz": {
+      "expected": "a0f1fc8db74f7ad3b6dd0aaa91bb44a45792f84d8b0ac74b31b3bc65971cb17a",
+      "actual": "a0f1fc8db74f7ad3b6dd0aaa91bb44a45792f84d8b0ac74b31b3bc65971cb17a",
+      "matches": true
+    },
+    "rep_09_seed_20261035_orders.csv.gz": {
+      "expected": "2841d1422edd08b4bf4f403d7f217c0427cbd90199aceb5aece0a02967992efb",
+      "actual": "2841d1422edd08b4bf4f403d7f217c0427cbd90199aceb5aece0a02967992efb",
+      "matches": true
+    },
+    "rep_10_seed_20261036_orders.csv.gz": {
+      "expected": "994dc13c2d27fd8a8e42955ef5c4210013a9ec4555f911752f01a0f0c83de958",
+      "actual": "994dc13c2d27fd8a8e42955ef5c4210013a9ec4555f911752f01a0f0c83de958",
+      "matches": true
+    },
+    "rep_11_seed_20261037_orders.csv.gz": {
+      "expected": "99f1cd36e52e422753f48809a12a3c2daa5bbc7f479a49d0d4fa09df1442d84c",
+      "actual": "99f1cd36e52e422753f48809a12a3c2daa5bbc7f479a49d0d4fa09df1442d84c",
+      "matches": true
+    },
+    "rep_12_seed_20261038_orders.csv.gz": {
+      "expected": "0609b4c9b0ffbfb6043b4d592c6252692fa1f126884c2f365195a825760867e9",
+      "actual": "0609b4c9b0ffbfb6043b4d592c6252692fa1f126884c2f365195a825760867e9",
+      "matches": true
+    },
+    "rep_13_seed_20261039_orders.csv.gz": {
+      "expected": "94a9e28f84cb2ad3ebaeaf9bba45d9508069ca1683f0bbba4e487b3ba57d626c",
+      "actual": "94a9e28f84cb2ad3ebaeaf9bba45d9508069ca1683f0bbba4e487b3ba57d626c",
+      "matches": true
+    },
+    "rep_14_seed_20261040_orders.csv.gz": {
+      "expected": "a9d41c0c6feb424ffd19ab26b2196b48799617232cfc10b1cab09500473fda73",
+      "actual": "a9d41c0c6feb424ffd19ab26b2196b48799617232cfc10b1cab09500473fda73",
+      "matches": true
+    },
+    "rep_15_seed_20261041_orders.csv.gz": {
+      "expected": "6873c2caf43c7e0943a84b446db2591ba87f6f22f1b690c6c90b7138b4811be8",
+      "actual": "6873c2caf43c7e0943a84b446db2591ba87f6f22f1b690c6c90b7138b4811be8",
+      "matches": true
+    },
+    "rep_16_seed_20261042_orders.csv.gz": {
+      "expected": "ad323e54d28791bc783c14138f17ea8cba985ff22b77ba6c05ac29d44ecdc2a8",
+      "actual": "ad323e54d28791bc783c14138f17ea8cba985ff22b77ba6c05ac29d44ecdc2a8",
+      "matches": true
+    },
+    "rep_17_seed_20261043_orders.csv.gz": {
+      "expected": "be7e15f97989b89152b568f2eae68d218c058d2ed25888e224f548ce85f8fcc0",
+      "actual": "be7e15f97989b89152b568f2eae68d218c058d2ed25888e224f548ce85f8fcc0",
+      "matches": true
+    },
+    "rep_18_seed_20261044_orders.csv.gz": {
+      "expected": "aae6e2895b8e355a18af2233acdeb380dba52af7f4bc075d6b2b08d9777f196a",
+      "actual": "aae6e2895b8e355a18af2233acdeb380dba52af7f4bc075d6b2b08d9777f196a",
+      "matches": true
+    },
+    "rep_19_seed_20261045_orders.csv.gz": {
+      "expected": "864283c4fd60ac9d3e2a676579c81ce61e9d5df69530266f43f0293eab66461e",
+      "actual": "864283c4fd60ac9d3e2a676579c81ce61e9d5df69530266f43f0293eab66461e",
+      "matches": true
+    },
+    "rep_20_seed_20261046_orders.csv.gz": {
+      "expected": "7fe43bec54f2bd8761cb80e720cf91cb841065de3bd19b0020a14c1f73bdc1d5",
+      "actual": "7fe43bec54f2bd8761cb80e720cf91cb841065de3bd19b0020a14c1f73bdc1d5",
+      "matches": true
+    },
+    "rep_21_seed_20261047_orders.csv.gz": {
+      "expected": "ea5109afaedf3be7bb50309725a2e4775c0adb03eb3087a0a9ce735b4c90671f",
+      "actual": "ea5109afaedf3be7bb50309725a2e4775c0adb03eb3087a0a9ce735b4c90671f",
+      "matches": true
+    },
+    "rep_22_seed_20261048_orders.csv.gz": {
+      "expected": "88ca92a5954bc8b12006643607d8eff05828efa373cc616458068c123ee64ed9",
+      "actual": "88ca92a5954bc8b12006643607d8eff05828efa373cc616458068c123ee64ed9",
+      "matches": true
+    },
+    "rep_23_seed_20261049_orders.csv.gz": {
+      "expected": "5cfd04ac906b50e8bed64783f5ed1ff9cc464ac68ad5529228b2c9941120062b",
+      "actual": "5cfd04ac906b50e8bed64783f5ed1ff9cc464ac68ad5529228b2c9941120062b",
+      "matches": true
+    },
+    "rep_24_seed_20261050_orders.csv.gz": {
+      "expected": "cb0000346af18d263cca8c4f03cb1ea4a29c606b9f3d587ccb051649fcd12656",
+      "actual": "cb0000346af18d263cca8c4f03cb1ea4a29c606b9f3d587ccb051649fcd12656",
+      "matches": true
+    },
+    "rep_25_seed_20261051_orders.csv.gz": {
+      "expected": "21c89493b24446e6314d20beda540afffa7743e6353853bdc0602e72e9eee386",
+      "actual": "21c89493b24446e6314d20beda540afffa7743e6353853bdc0602e72e9eee386",
+      "matches": true
+    },
+    "rep_26_seed_20261052_orders.csv.gz": {
+      "expected": "07fcef5768d5b873fad5a03fb40a6b71d8d243da2d58f2c59f47e7133c497c0d",
+      "actual": "07fcef5768d5b873fad5a03fb40a6b71d8d243da2d58f2c59f47e7133c497c0d",
+      "matches": true
+    },
+    "rep_27_seed_20261053_orders.csv.gz": {
+      "expected": "a1ad3c731e2dea8a85bb9b0ed29d76b8edc3ecc245406ab5e107208067b31f2e",
+      "actual": "a1ad3c731e2dea8a85bb9b0ed29d76b8edc3ecc245406ab5e107208067b31f2e",
+      "matches": true
+    },
+    "rep_28_seed_20261054_orders.csv.gz": {
+      "expected": "2dd34285616703b246aaa9cf746f49516e21e43fc9258e654d688db8b6a61071",
+      "actual": "2dd34285616703b246aaa9cf746f49516e21e43fc9258e654d688db8b6a61071",
+      "matches": true
+    },
+    "rep_29_seed_20261055_orders.csv.gz": {
+      "expected": "e21084eb3366678b0ca8c0945a0f29d196f233887717a09058d484673a77e26e",
+      "actual": "e21084eb3366678b0ca8c0945a0f29d196f233887717a09058d484673a77e26e",
+      "matches": true
+    },
+    "rep_30_seed_20261056_orders.csv.gz": {
+      "expected": "a5c7ff7b39b3fdf3d09de81694bfde71864f6eb8e8918866b443e8bc6ee4b536",
+      "actual": "a5c7ff7b39b3fdf3d09de81694bfde71864f6eb8e8918866b443e8bc6ee4b536",
+      "matches": true
+    }
+  },
+  "v55_source_referenced_by_v56_manifest": {
+    "path": "SOURCE_V5.5/01_E05_orders_24h_FCD_ERA5_referenceOD_join.csv.gz",
+    "expected_sha256": "932899a6178a6f464db2dd66195d4e0d81b058f3501d289e1ad417bd040a71f5",
+    "present": false
+  },
+  "full_30_seed_main_experiment_started": false
+}

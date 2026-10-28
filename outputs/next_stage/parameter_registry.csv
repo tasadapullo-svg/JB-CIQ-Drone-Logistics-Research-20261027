@@ -1,0 +1,14 @@
+﻿parameter_name,value,unit,source_type,source_url,source_year,uncertainty_low,uncertainty_high,scenario_id,evidence_level,notes
+traffic_hour_min_valid_fraction,0.7,fraction,assumed,,,,,PRECHECK_NO_EFFECT_ESTIMATION,V5.3 frozen smoke-test policy,descriptive gate only
+uav_range_scenario_3,3,km,assumed,,,,,PRECHECK_NO_EFFECT_ESTIMATION,historical frozen scenario label,interpretation not frozen as one-way or round-trip
+uav_range_scenario_4,4,km,assumed,,,,,PRECHECK_NO_EFFECT_ESTIMATION,historical frozen scenario label,interpretation not frozen as one-way or round-trip
+ciq_wait_model,,min,unknown,,,,,PRECHECK_NO_EFFECT_ESTIMATION,missing,required before M0/M1/M2 time comparison
+approved_station_capacity,,orders/hour,unknown,,,,,PRECHECK_NO_EFFECT_ESTIMATION,missing,no approved station configuration
+aircraft_payload_limit,,kg,unknown,,,,,PRECHECK_NO_EFFECT_ESTIMATION,missing,aircraft-specific evidence required
+aircraft_wind_limit,,m/s,unknown,,,,,PRECHECK_NO_EFFECT_ESTIMATION,missing,aircraft/operator evidence required
+aircraft_rain_limit,,mm/hour,unknown,,,,,PRECHECK_NO_EFFECT_ESTIMATION,missing,aircraft/operator evidence required
+aircraft_energy_model,,Wh,unknown,,,,,PRECHECK_NO_EFFECT_ESTIMATION,missing,payload/weather/reserve/recovery model required
+vehicle_energy_or_fuel_model,,kWh_or_litre/km,unknown,,,,,PRECHECK_NO_EFFECT_ESTIMATION,missing,required for RQ3
+electricity_emission_factor_MY,,kgCO2e/kWh,unknown,,,,,PRECHECK_NO_EFFECT_ESTIMATION,missing,official year-specific source required
+electricity_emission_factor_SG,,kgCO2e/kWh,unknown,,,,,PRECHECK_NO_EFFECT_ESTIMATION,missing,official year-specific source required
+cost_model,,currency/order,unknown,,,,,PRECHECK_NO_EFFECT_ESTIMATION,missing,required for RQ3

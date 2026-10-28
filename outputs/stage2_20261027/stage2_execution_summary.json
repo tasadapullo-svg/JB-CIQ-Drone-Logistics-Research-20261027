@@ -1,0 +1,28 @@
+{
+  "status": "STAGE2_DIAGNOSTIC_COMPLETE_FULL_MAIN_EXPERIMENT_BLOCKED",
+  "od_rows": 128,
+  "original_routes": 91,
+  "original_exceptions": 37,
+  "exception_categories": {
+    "SNAP_FAILURE": 7,
+    "DATA_GAP": 30
+  },
+  "diagnostic_candidates": 37,
+  "formal_repairs": 0,
+  "road_validation_rows": 3072,
+  "smoke_orders": 8,
+  "smoke_rows": 24,
+  "gates": {
+    "G1_DATA_LINEAGE": "BLOCKED",
+    "G2_OD_STATUS": "PASS",
+    "G3_ROAD_INTERNAL": "BLOCKED",
+    "G4_CIQ_SEPARATION": "PASS",
+    "G5_EXTERNAL_CALIBRATION": "BLOCKED",
+    "G6_STATION_OPERATIONS": "BLOCKED",
+    "G7_DRONE_RESTRICTIONS": "BLOCKED",
+    "G8_MODE_PARITY": "PASS",
+    "G9_COST_EMISSIONS": "BLOCKED",
+    "G10_REPRODUCIBILITY": "PASS"
+  },
+  "full_main_experiment_started": false
+}

@@ -1,0 +1,103 @@
+{
+  "created_at_utc": "2026-10-27T13:16:25.617939+00:00",
+  "project_root": "C:\\Users\\DELL\\Desktop\\CIQ 无人机物流 SCI 研_20261026",
+  "git_commit": null,
+  "git_status": "NO_GIT_REPOSITORY_AT_PROJECT_ROOT",
+  "inputs": [
+    {
+      "path": "08_归档包\\实验归档\\JB_CIQ_E05_V5.6_30次重复订单_全天交通天气稳健性_完整归档.zip",
+      "bytes": 16960508,
+      "modified_utc": "2026-10-27T08:07:09.544123+00:00",
+      "sha256": "d286025aeb53aecd124f4465dfc536925724857e9b35ab6747e11f03089b60bb"
+    },
+    {
+      "path": "08_归档包\\实验归档\\JB_CIQ_E05_模拟物流订单_OD与多式联运设计_V5.4_示范包.zip",
+      "bytes": 745280,
+      "modified_utc": "2026-10-27T07:14:52.477596+00:00",
+      "sha256": "966b9969d7d2646713e266a7cdb4faaa18b97a6e302f12a7622e213c80185075"
+    },
+    {
+      "path": "08_归档包\\实验归档\\JB_CIQ_E05-E07_24小时地空物流联调_V5.3_实验前置归档.zip",
+      "bytes": 2022402,
+      "modified_utc": "2026-10-27T06:15:25.870917+00:00",
+      "sha256": "3c314e72e87689fc2c950178c2f68857bc52e96672accab142648c91ed338b01"
+    },
+    {
+      "path": "02_基础与交通数据\\交通数据\\JB_CIQ_E01_修正后五个月交通数据_345nodes_2026-05_09.csv.gz",
+      "bytes": 17898780,
+      "modified_utc": "2026-10-26T07:07:14.924613+00:00",
+      "sha256": "70ddfc8f265a1784dbaf5734eeb070ae54ae34627ddfcaf1620831c1d0b00a9d"
+    },
+    {
+      "path": "04_天气数据\\汇总数据\\E03_ERA5_JB_TWO_CIQ_WEATHER_HOURLY.csv",
+      "bytes": 2009597,
+      "modified_utc": "2026-10-27T02:44:03.913322+00:00",
+      "sha256": "6fcc40d4ef30fd78b7ab8766f540bbed13029081f258c194fa47e41b28013cc7"
+    },
+    {
+      "path": "02_基础与交通数据\\联合与派生数据\\01_AB_24h_hourly_joint.csv",
+      "bytes": 1654709,
+      "modified_utc": "2026-10-27T02:56:30.839429+00:00",
+      "sha256": "6d8e27653e6b5816464b515e9bda21601c02cb2f02aa281ae19648020c4e9005"
+    },
+    {
+      "path": "02_基础与交通数据\\联合与派生数据\\03_hourly_91_reference_OD_MODEL_PROXY_NOT_REAL.csv.gz",
+      "bytes": 2239215,
+      "modified_utc": "2026-10-27T06:15:40.434952+00:00",
+      "sha256": "b016bb37ef314fdb6c8645dbf3a3c8fa199f1367ed415b96625aba58418433d7"
+    },
+    {
+      "path": "03_GIS与路网\\路网工程\\JB_CIQ_E02_roadnet_V4_6\\inputs\\19_site_reference_anchors_NOT_LAUNCH_PADS.csv",
+      "bytes": 5462,
+      "modified_utc": "2026-10-25T23:40:24+00:00",
+      "sha256": "ef8c1f38c41469fb0c938c102da425a6660e953de587b6f9cfa7a3eedaacda5e"
+    },
+    {
+      "path": "03_GIS与路网\\路网工程\\JB_CIQ_E02_roadnet_V4_6\\outputs\\OSM_A_overpass_response.json",
+      "bytes": 15657217,
+      "modified_utc": "2026-10-26T08:04:27.168304+00:00",
+      "sha256": "7686c2eec13aee3ad9181542b5b2d0723ef780dcb6b8070b4b5e1876d99da667"
+    },
+    {
+      "path": "03_GIS与路网\\路网工程\\JB_CIQ_E02_roadnet_V4_6\\outputs\\OSM_B_overpass_response.json",
+      "bytes": 9205653,
+      "modified_utc": "2026-10-26T08:04:34.937647+00:00",
+      "sha256": "29c1c7b6203efdf8b40cb443f8132f88a646bd01b2e90a19729a782c95b9a56f"
+    },
+    {
+      "path": "outputs\\next_stage\\validation_report.json",
+      "bytes": 2674,
+      "modified_utc": "2026-10-27T13:16:16.021765+00:00",
+      "sha256": "f68278311351ccb712daffb7c4d9fd4155888b78824d9b9fa91c6b29be5951fd"
+    },
+    {
+      "path": "outputs\\next_stage\\SHA256_manifest.csv",
+      "bytes": 1469,
+      "modified_utc": "2026-10-27T08:30:10.637197+00:00",
+      "sha256": "3b866d26b26e9475a30d9f5a783d5d4f95c9b2e3aaaaad6797e9edee3c5f379c"
+    },
+    {
+      "path": "outputs\\CIQ_next_stage_audit_smoke_20261027.zip",
+      "bytes": 1018848,
+      "modified_utc": "2026-10-27T08:30:10.705199+00:00",
+      "sha256": "4a11f75927d67f4af5aebe216091fb7db63362b94dae7ce5d2a839f821dc1f1e"
+    },
+    {
+      "path": "00_项目说明\\Codex说明\\CIQ_Codex_Stage2_Repair_Calibrate_Gates_20261027.md",
+      "bytes": 12696,
+      "modified_utc": "2026-10-27T08:53:01.506241+00:00",
+      "sha256": "ec34a10c932eb99307ba789dda762b2ab3196ae69c094d627c75a32ba78855ae"
+    }
+  ],
+  "absent_required_inputs": [
+    {
+      "path": "SOURCE_V5.5/01_E05_orders_24h_FCD_ERA5_referenceOD_join.csv.gz",
+      "expected_bytes": 1007063,
+      "expected_sha256": "932899a6178a6f464db2dd66195d4e0d81b058f3501d289e1ad417bd040a71f5"
+    },
+    {
+      "path": "V5.6 resampling generator code",
+      "expected_sha256": null
+    }
+  ]
+}

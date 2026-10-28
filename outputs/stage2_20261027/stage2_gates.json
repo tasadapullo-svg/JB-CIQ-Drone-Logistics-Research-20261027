@@ -1,0 +1,76 @@
+{
+  "generated_at_utc": "2026-10-27T13:17:08.134015+00:00",
+  "full_main_experiment_allowed": false,
+  "gates": [
+    {
+      "id": "G1_DATA_LINEAGE",
+      "status": "BLOCKED",
+      "evidence": "30-seed snapshot verified; V5.5 source and V5.6 generator absent",
+      "exception": "cannot reproduce transformation from frozen source",
+      "next_action": "recover exact file/hash and generator"
+    },
+    {
+      "id": "G2_OD_STATUS",
+      "status": "PASS",
+      "evidence": "128/128 attributed; 37 exceptions classified; 37 diagnostic candidates",
+      "exception": "formal repairs remain zero",
+      "next_action": "manually validate access and direction for candidates"
+    },
+    {
+      "id": "G3_ROAD_INTERNAL",
+      "status": "BLOCKED",
+      "evidence": "no negative road time; edge-aware diagnostic complete",
+      "exception": "turn restrictions and legal boundary unverified",
+      "next_action": "parse restrictions and validate legal boundary"
+    },
+    {
+      "id": "G4_CIQ_SEPARATION",
+      "status": "PASS",
+      "evidence": "road and CIQ fields separated; 128 inland ODs marked CIQ not applicable",
+      "exception": "cross-border OD set not yet defined",
+      "next_action": "retain separate event components"
+    },
+    {
+      "id": "G5_EXTERNAL_CALIBRATION",
+      "status": "BLOCKED",
+      "evidence": "official sources reviewed; no matched historical wait-minute series",
+      "exception": "MAE/MdAE/SMAPE unavailable",
+      "next_action": "obtain corridor-direction-hour observations or retain scenarios"
+    },
+    {
+      "id": "G6_STATION_OPERATIONS",
+      "status": "BLOCKED",
+      "evidence": "diagnostic state fields created",
+      "exception": "replenishment/queue/charging/fallback model absent",
+      "next_action": "freeze sourced operational parameters and implement"
+    },
+    {
+      "id": "G7_DRONE_RESTRICTIONS",
+      "status": "BLOCKED",
+      "evidence": "weather and geometric screens remain separate",
+      "exception": "aircraft/energy/reserve/permission evidence absent",
+      "next_action": "freeze sourced aircraft and regulatory inputs"
+    },
+    {
+      "id": "G8_MODE_PARITY",
+      "status": "PASS",
+      "evidence": "same existing orders retained once in each M0/M1/M2 diagnostic row",
+      "exception": "all results NOT_EVALUABLE",
+      "next_action": "rerun after G3/G5/G6/G7 pass"
+    },
+    {
+      "id": "G9_COST_EMISSIONS",
+      "status": "BLOCKED",
+      "evidence": "schema reserved and null",
+      "exception": "functional unit/lifecycle and factors absent",
+      "next_action": "freeze sourced accounting boundary"
+    },
+    {
+      "id": "G10_REPRODUCIBILITY",
+      "status": "PASS",
+      "evidence": "read-only inputs hashed; deterministic scripts/tests/manifest included",
+      "exception": "no git repository at root",
+      "next_action": "preserve ZIP and SHA256"
+    }
+  ]
+}

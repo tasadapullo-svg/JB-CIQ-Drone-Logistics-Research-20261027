@@ -1,0 +1,128 @@
+[
+  {
+    "source": "ERA5",
+    "http_status": "HTTP_200_SUCCESS",
+    "records": 745,
+    "returned_variables": [
+      "precipitation",
+      "rain",
+      "wind_speed_10m",
+      "wind_speed_100m",
+      "wind_direction_10m",
+      "wind_direction_100m",
+      "wind_gusts_10m",
+      "temperature_2m",
+      "relative_humidity_2m"
+    ],
+    "valid_counts": {
+      "precipitation": 745,
+      "rain": 745,
+      "wind_speed_10m": 745,
+      "wind_speed_100m": 745,
+      "wind_direction_10m": 745,
+      "wind_direction_100m": 745,
+      "wind_gusts_10m": 745,
+      "temperature_2m": 745,
+      "relative_humidity_2m": 745
+    },
+    "first_timestamp_utc": "2026-04-30 16:00:00+00:00",
+    "last_timestamp_utc": "2026-05-31 16:00:00+00:00",
+    "returned_grid": {
+      "latitude": 1.5,
+      "longitude": 103.75
+    },
+    "sample": "{\"timestamp_utc\":{\"40\":\"2026-04-30T16:00:00.000Z\"},\"precipitation\":{\"40\":0.0},\"rain\":{\"40\":0.0},\"wind_speed_10m\":{\"40\":1.66},\"wind_speed_100m\":{\"40\":2.34},\"wind_direction_10m\":{\"40\":97},\"wind_direction_100m\":{\"40\":79},\"wind_gusts_10m\":{\"40\":2.3},\"temperature_2m\":{\"40\":27.4},\"relative_humidity_2m\":{\"40\":88},\"timestamp_sgt\":{\"40\":\"2026-04-30T16:00:00.000Z\"},\"rain_period_start_sgt\":{\"40\":\"2026-04-30T15:00:00.000Z\"},\"rain_period_end_sgt\":{\"40\":\"2026-04-30T16:00:00.000Z\"},\"point_id\":{\"40\":\"CW_MY\"},\"corridor\":{\"40\":\"Causeway\"},\"source_class\":{\"40\":\"REANALYSIS_ERA5_0.25DEG\"},\"latitude_requested\":{\"40\":1.46502},\"longitude_requested\":{\"40\":103.76663},\"latitude_returned\":{\"40\":1.5},\"longitude_returned\":{\"40\":103.75},\"source_url\":{\"40\":\"https:\\/\\/archive-api.open-meteo.com\\/v1\\/archive\"}}"
+  },
+  {
+    "source": "NASA",
+    "http_status": "HTTP_200_SUCCESS",
+    "records": 744,
+    "returned_variables": [
+      "PRECTOTCORR",
+      "WS10M",
+      "WD10M",
+      "T2M",
+      "RH2M"
+    ],
+    "valid_counts": {
+      "PRECTOTCORR": 744,
+      "WS10M": 744,
+      "WD10M": 744,
+      "T2M": 744,
+      "RH2M": 744
+    },
+    "first_timestamp_utc": "2026-04-30 16:00:00+00:00",
+    "last_timestamp_utc": "2026-05-31 15:00:00+00:00",
+    "returned_grid": {
+      "latitude": 1.465,
+      "longitude": 103.767
+    },
+    "sample": "{\"timestamp_utc\":{\"40\":\"2026-04-30T16:00:00.000Z\"},\"PRECTOTCORR\":{\"40\":11.85},\"WS10M\":{\"40\":1.82},\"WD10M\":{\"40\":119.0},\"T2M\":{\"40\":28.24},\"RH2M\":{\"40\":90.29},\"timestamp_sgt\":{\"40\":\"2026-04-30T16:00:00.000Z\"},\"rain_period_start_sgt\":{\"40\":\"2026-04-30T16:00:00.000Z\"},\"rain_period_end_sgt\":{\"40\":\"2026-04-30T17:00:00.000Z\"},\"point_id\":{\"40\":\"CW_MY\"},\"corridor\":{\"40\":\"Causeway\"},\"source_class\":{\"40\":\"NASA_POWER_ANALYSIS_ESTIMATE\"},\"latitude_requested\":{\"40\":1.46502},\"longitude_requested\":{\"40\":103.76663},\"longitude_returned\":{\"40\":103.767},\"latitude_returned\":{\"40\":1.465},\"elevation_returned_m\":{\"40\":25.8},\"source_url\":{\"40\":\"https:\\/\\/power.larc.nasa.gov\\/api\\/temporal\\/hourly\\/point\"}}"
+  },
+  {
+    "source": "NEA_rainfall",
+    "http_status": "HTTP_200_SUCCESS",
+    "query_date": "2026-05-01",
+    "first_page_rows": 1575,
+    "station_count": 63,
+    "first_page_is_complete": false,
+    "first_timestamp": "2026-05-01T21:55:00+08:00",
+    "last_timestamp": "2026-05-01T23:55:00+08:00",
+    "reading_type": "TB1 Rainfall 5 Minute Total F",
+    "reading_unit": "mm",
+    "sample": [
+      {
+        "kind": "rainfall",
+        "station_id": "S218",
+        "timestamp_raw": "2026-05-01T23:55:00+08:00",
+        "value_raw": 0.0,
+        "reading_type": "TB1 Rainfall 5 Minute Total F",
+        "reading_unit": "mm"
+      }
+    ]
+  },
+  {
+    "source": "NEA_wind-speed",
+    "http_status": "HTTP_200_SUCCESS",
+    "query_date": "2026-05-01",
+    "first_page_rows": 425,
+    "station_count": 17,
+    "first_page_is_complete": false,
+    "first_timestamp": "2026-05-01T23:35:00+08:00",
+    "last_timestamp": "2026-05-01T23:59:00+08:00",
+    "reading_type": "Wind Speed AVG(S)10M M1M",
+    "reading_unit": "knots",
+    "sample": [
+      {
+        "kind": "wind-speed",
+        "station_id": "S108",
+        "timestamp_raw": "2026-05-01T23:59:00+08:00",
+        "value_raw": 3.5,
+        "reading_type": "Wind Speed AVG(S)10M M1M",
+        "reading_unit": "knots"
+      }
+    ]
+  },
+  {
+    "source": "NEA_wind-direction",
+    "http_status": "HTTP_200_SUCCESS",
+    "query_date": "2026-05-01",
+    "first_page_rows": 421,
+    "station_count": 17,
+    "first_page_is_complete": false,
+    "first_timestamp": "2026-05-01T23:35:00+08:00",
+    "last_timestamp": "2026-05-01T23:59:00+08:00",
+    "reading_type": "Wind Dir AVG (S) 10M M1M",
+    "reading_unit": "degrees",
+    "sample": [
+      {
+        "kind": "wind-direction",
+        "station_id": "S108",
+        "timestamp_raw": "2026-05-01T23:59:00+08:00",
+        "value_raw": 0.0,
+        "reading_type": "Wind Dir AVG (S) 10M M1M",
+        "reading_unit": "degrees"
+      }
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+﻿parameter_name,value,unit,region,period,source,source_locator,evidence_level,valid_range,applicable_modes,status,change_note
+v55_frozen_source,,file,all,all,V5.6 internal manifest reference,V5.6 SHA256_manifest.csv,UNVERIFIED,,all,missing,required for lineage
+road_osm_snapshot,A/B snapshots,json,A/B,2026-10-26 snapshot,OSM Overpass,download metadata and hashes,OFFICIAL,,M0/M1/M2,found,turn restrictions and legal boundary still unverified
+regional_fcd_proxy,,ratio,A/B,2026-05 to 2026-09,project FCD aggregate,V5.3 proxy,UNVERIFIED,,M0,found,not directional edge observations
+ciq_wait_minutes,,min,Causeway/Second Link,hourly,none,none,UNVERIFIED,,M0/M1/M2,missing,scenario interface only
+approved_station,,site,A/B,all,none,none,UNVERIFIED,,M1/M2,missing,reference anchors are not approved sites
+aircraft_payload,,kg,A/B,all,none,none,UNVERIFIED,,M1/M2,missing,no operational model
+aircraft_energy,,kWh/km or mission,A/B,all,none,none,UNVERIFIED,,M1/M2,missing,no formal energy results
+cross_border_flight_permission,,status,MY/SG,all,none,none,UNVERIFIED,,M1/M2,missing,technical screen is not approval
+cost_parameters,,currency/function unit,A/B,all,none,none,UNVERIFIED,,M0/M1/M2,missing,RQ3 blocked
+emission_parameters,,kgCO2e/function unit,A/B,all,none,none,UNVERIFIED,,M0/M1/M2,missing,RQ3 blocked

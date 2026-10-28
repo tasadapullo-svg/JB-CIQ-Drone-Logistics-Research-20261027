@@ -1,0 +1,6 @@
+2026-10-26 local execution
+Primary endpoint overpass.kumi.systems timed out after 320 seconds for A and B.
+Fallback endpoint https://overpass-api.de/api/interpreter succeeded for A at 2026-10-26T08:04:27.170660+00:00.
+Fallback endpoint https://overpass-api.de/api/interpreter succeeded for B at 2026-10-26T08:04:34.938786+00:00.
+Saved raw OSM JSON hashes verified against download metadata.
+Formal acceptance remains blocked; see E02_stage_acceptance_report.md.

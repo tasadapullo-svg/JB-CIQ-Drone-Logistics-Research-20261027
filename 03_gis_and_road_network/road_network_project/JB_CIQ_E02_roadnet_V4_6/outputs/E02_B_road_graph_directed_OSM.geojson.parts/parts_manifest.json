@@ -1,0 +1,9 @@
+{
+  "target_filename": "E02_B_road_graph_directed_OSM.geojson",
+  "original_size_bytes": 27717825,
+  "sha256": "8ed45c0a9684c168052193e8ff2e4ec3b9d6cde0235c595b6261defe0b796c8f",
+  "parts": [
+    "part_001.bin",
+    "part_002.bin"
+  ]
+}

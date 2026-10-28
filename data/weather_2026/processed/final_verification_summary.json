@@ -1,0 +1,2505 @@
+{
+  "months": {
+    "05": {
+      "xlsx_bytes": 1506818,
+      "xlsx_sha256": "bc0b411cf2b79c0c9631c216c34bccd9a8130979976b546cd6049947f5724091",
+      "manifest_sha_match": true,
+      "zip_error": null,
+      "sheet_count": 16,
+      "sheets": [
+        "README",
+        "Point_Metadata",
+        "Weather_Hourly",
+        "ERA5_Hourly",
+        "NASA_Hourly",
+        "NEA_30min_Wide",
+        "NEA_30min",
+        "NEA_SelectedRaw",
+        "NEA_Station_Selection",
+        "NEA_Station_Metadata",
+        "NEA_Day_Status",
+        "CrossVal_NASA",
+        "CrossVal_NEA",
+        "QC_Coverage",
+        "Source_Registry",
+        "API_Log"
+      ],
+      "weather_hourly_rows": 2976,
+      "era5_rows": 2980,
+      "nasa_rows": 2976,
+      "time_start_sgt": "2026-05-01 00:00:00+0800",
+      "time_end_sgt": "2026-05-31 23:00:00+0800",
+      "anomaly_total": 0,
+      "era5_nasa_rain": {
+        "n": 2976,
+        "bias_a_minus_b": -4.3162,
+        "rmse": 6.3158,
+        "correlation": 0.0277
+      },
+      "era5_nasa_wind": {
+        "n": 2976,
+        "bias_a_minus_b": -0.3175,
+        "rmse": 0.9441,
+        "correlation": 0.2819
+      },
+      "era5_grid_by_point": [
+        {
+          "point_id": "CW_MY",
+          "latitude_returned": 1.5,
+          "longitude_returned": 103.75
+        },
+        {
+          "point_id": "CW_SG",
+          "latitude_returned": 1.5,
+          "longitude_returned": 103.75
+        },
+        {
+          "point_id": "SL_MY",
+          "latitude_returned": 1.5,
+          "longitude_returned": 103.5
+        },
+        {
+          "point_id": "SL_SG",
+          "latitude_returned": 1.5,
+          "longitude_returned": 103.75
+        }
+      ],
+      "nasa_grid_by_point": [
+        {
+          "point_id": "CW_MY",
+          "latitude_returned": 1.465,
+          "longitude_returned": 103.767
+        },
+        {
+          "point_id": "CW_SG",
+          "latitude_returned": 1.447,
+          "longitude_returned": 103.769
+        },
+        {
+          "point_id": "SL_MY",
+          "latitude_returned": 1.378,
+          "longitude_returned": 103.599
+        },
+        {
+          "point_id": "SL_SG",
+          "latitude_returned": 1.348,
+          "longitude_returned": 103.636
+        }
+      ],
+      "coverage": [
+        {
+          "point_id": "CW_MY",
+          "source": "ERA5",
+          "variable": "wind_speed_10m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100.0,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_MY",
+          "source": "ERA5",
+          "variable": "wind_direction_10m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100.0,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_MY",
+          "source": "ERA5",
+          "variable": "wind_speed_100m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100.0,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_MY",
+          "source": "ERA5",
+          "variable": "wind_direction_100m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100.0,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_MY",
+          "source": "ERA5",
+          "variable": "wind_gusts_10m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100.0,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_MY",
+          "source": "ERA5",
+          "variable": "precipitation",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100.0,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_MY",
+          "source": "NASA_POWER",
+          "variable": "WS10M",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100.0,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_MY",
+          "source": "NASA_POWER",
+          "variable": "WD10M",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100.0,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_MY",
+          "source": "NASA_POWER",
+          "variable": "PRECTOTCORR",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100.0,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "ERA5",
+          "variable": "wind_speed_10m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100.0,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "ERA5",
+          "variable": "wind_direction_10m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100.0,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "ERA5",
+          "variable": "wind_speed_100m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100.0,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "ERA5",
+          "variable": "wind_direction_100m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100.0,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "ERA5",
+          "variable": "wind_gusts_10m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100.0,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "ERA5",
+          "variable": "precipitation",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100.0,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "NASA_POWER",
+          "variable": "WS10M",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100.0,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "NASA_POWER",
+          "variable": "WD10M",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100.0,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "NASA_POWER",
+          "variable": "PRECTOTCORR",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100.0,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_MY",
+          "source": "ERA5",
+          "variable": "wind_speed_10m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100.0,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_MY",
+          "source": "ERA5",
+          "variable": "wind_direction_10m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100.0,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_MY",
+          "source": "ERA5",
+          "variable": "wind_speed_100m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100.0,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_MY",
+          "source": "ERA5",
+          "variable": "wind_direction_100m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100.0,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_MY",
+          "source": "ERA5",
+          "variable": "wind_gusts_10m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100.0,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_MY",
+          "source": "ERA5",
+          "variable": "precipitation",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100.0,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_MY",
+          "source": "NASA_POWER",
+          "variable": "WS10M",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100.0,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_MY",
+          "source": "NASA_POWER",
+          "variable": "WD10M",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100.0,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_MY",
+          "source": "NASA_POWER",
+          "variable": "PRECTOTCORR",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100.0,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "ERA5",
+          "variable": "wind_speed_10m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100.0,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "ERA5",
+          "variable": "wind_direction_10m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100.0,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "ERA5",
+          "variable": "wind_speed_100m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100.0,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "ERA5",
+          "variable": "wind_direction_100m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100.0,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "ERA5",
+          "variable": "wind_gusts_10m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100.0,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "ERA5",
+          "variable": "precipitation",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100.0,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "NASA_POWER",
+          "variable": "WS10M",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100.0,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "NASA_POWER",
+          "variable": "WD10M",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100.0,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "NASA_POWER",
+          "variable": "PRECTOTCORR",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100.0,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "NEA",
+          "variable": "rainfall",
+          "expected_slots": 1488,
+          "observed_valid_slots": 47,
+          "coverage_pct": 3.16,
+          "status": "PARTIAL"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "NEA",
+          "variable": "wind-speed",
+          "expected_slots": 1488,
+          "observed_valid_slots": 27,
+          "coverage_pct": 1.81,
+          "status": "PARTIAL"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "NEA",
+          "variable": "wind-direction",
+          "expected_slots": 1488,
+          "observed_valid_slots": 1,
+          "coverage_pct": 0.07,
+          "status": "PARTIAL"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "NEA",
+          "variable": "rainfall",
+          "expected_slots": 1488,
+          "observed_valid_slots": 47,
+          "coverage_pct": 3.16,
+          "status": "PARTIAL"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "NEA",
+          "variable": "wind-speed",
+          "expected_slots": 1488,
+          "observed_valid_slots": 27,
+          "coverage_pct": 1.81,
+          "status": "PARTIAL"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "NEA",
+          "variable": "wind-direction",
+          "expected_slots": 1488,
+          "observed_valid_slots": 1,
+          "coverage_pct": 0.07,
+          "status": "PARTIAL"
+        },
+        {
+          "point_id": "SG_STATIONS",
+          "source": "NEA",
+          "variable": "rainfall_daily_pagination",
+          "expected_slots": 32,
+          "observed_valid_slots": 1,
+          "coverage_pct": 3.12,
+          "status": "PAGINATION_AUDIT"
+        },
+        {
+          "point_id": "SG_STATIONS",
+          "source": "NEA",
+          "variable": "wind-direction_daily_pagination",
+          "expected_slots": 32,
+          "observed_valid_slots": 0,
+          "coverage_pct": 0.0,
+          "status": "PAGINATION_AUDIT"
+        },
+        {
+          "point_id": "SG_STATIONS",
+          "source": "NEA",
+          "variable": "wind-speed_daily_pagination",
+          "expected_slots": 32,
+          "observed_valid_slots": 0,
+          "coverage_pct": 0.0,
+          "status": "PAGINATION_AUDIT"
+        }
+      ],
+      "nea_station_selection": [
+        {
+          "point_id": "CW_SG",
+          "corridor": "Causeway",
+          "kind": "rainfall",
+          "station_id": "S210",
+          "station_name": "Woodlands Centre",
+          "distance_km": 0.754,
+          "station_lat": 1.44003,
+          "station_lon": 103.76904,
+          "selection": "nearest_station_proxy"
+        },
+        {
+          "point_id": "SL_SG",
+          "corridor": "Second_Link",
+          "kind": "rainfall",
+          "station_id": "S44",
+          "station_name": "Nanyang Avenue",
+          "distance_km": 5.098,
+          "station_lat": 1.34583,
+          "station_lon": 103.68166,
+          "selection": "nearest_station_proxy"
+        },
+        {
+          "point_id": "CW_SG",
+          "corridor": "Causeway",
+          "kind": "wind-speed",
+          "station_id": "S104",
+          "station_name": "Woodlands Avenue 9",
+          "distance_km": 1.829,
+          "station_lat": 1.44387,
+          "station_lon": 103.78538,
+          "selection": "nearest_station_proxy"
+        },
+        {
+          "point_id": "SL_SG",
+          "corridor": "Second_Link",
+          "kind": "wind-speed",
+          "station_id": "S44",
+          "station_name": "Nanyang Avenue",
+          "distance_km": 5.098,
+          "station_lat": 1.34583,
+          "station_lon": 103.68166,
+          "selection": "nearest_station_proxy"
+        },
+        {
+          "point_id": "CW_SG",
+          "corridor": "Causeway",
+          "kind": "wind-direction",
+          "station_id": "S104",
+          "station_name": "Woodlands Avenue 9",
+          "distance_km": 1.829,
+          "station_lat": 1.44387,
+          "station_lon": 103.78538,
+          "selection": "nearest_station_proxy"
+        },
+        {
+          "point_id": "SL_SG",
+          "corridor": "Second_Link",
+          "kind": "wind-direction",
+          "station_id": "S44",
+          "station_name": "Nanyang Avenue",
+          "distance_km": 5.098,
+          "station_lat": 1.34583,
+          "station_lon": 103.68166,
+          "selection": "nearest_station_proxy"
+        }
+      ],
+      "nea_era5_rain": {
+        "n": 46,
+        "bias_a_minus_b": -0.2043,
+        "rmse": 0.9132,
+        "correlation": 0.2169
+      },
+      "nea_era5_wind": {
+        "n": 26,
+        "bias_a_minus_b": -0.0454,
+        "rmse": 0.8218,
+        "correlation": 0.2297
+      }
+    },
+    "06": {
+      "xlsx_bytes": 1025243,
+      "xlsx_sha256": "1fbdbd4094f97737f7c71c0b7f5ab0de8c3827aa2bf0b6ede553b31b752125d7",
+      "manifest_sha_match": true,
+      "zip_error": null,
+      "sheet_count": 16,
+      "sheets": [
+        "README",
+        "Point_Metadata",
+        "Weather_Hourly",
+        "ERA5_Hourly",
+        "NASA_Hourly",
+        "NEA_30min_Wide",
+        "NEA_30min",
+        "NEA_SelectedRaw",
+        "NEA_Station_Selection",
+        "NEA_Station_Metadata",
+        "NEA_Day_Status",
+        "CrossVal_NASA",
+        "CrossVal_NEA",
+        "QC_Coverage",
+        "Source_Registry",
+        "API_Log"
+      ],
+      "weather_hourly_rows": 2880,
+      "era5_rows": 2884,
+      "nasa_rows": 2880,
+      "time_start_sgt": "2026-06-01 00:00:00+0800",
+      "time_end_sgt": "2026-06-30 23:00:00+0800",
+      "anomaly_total": 0,
+      "era5_nasa_rain": {
+        "n": 2880,
+        "bias_a_minus_b": -5.2638,
+        "rmse": 7.0635,
+        "correlation": 0.0319
+      },
+      "era5_nasa_wind": {
+        "n": 2880,
+        "bias_a_minus_b": -0.4922,
+        "rmse": 0.9641,
+        "correlation": 0.5402
+      },
+      "era5_grid_by_point": [
+        {
+          "point_id": "CW_MY",
+          "latitude_returned": 1.5,
+          "longitude_returned": 103.75
+        },
+        {
+          "point_id": "CW_SG",
+          "latitude_returned": 1.5,
+          "longitude_returned": 103.75
+        },
+        {
+          "point_id": "SL_MY",
+          "latitude_returned": 1.5,
+          "longitude_returned": 103.5
+        },
+        {
+          "point_id": "SL_SG",
+          "latitude_returned": 1.5,
+          "longitude_returned": 103.75
+        }
+      ],
+      "nasa_grid_by_point": [
+        {
+          "point_id": "CW_MY",
+          "latitude_returned": 1.465,
+          "longitude_returned": 103.767
+        },
+        {
+          "point_id": "CW_SG",
+          "latitude_returned": 1.447,
+          "longitude_returned": 103.769
+        },
+        {
+          "point_id": "SL_MY",
+          "latitude_returned": 1.378,
+          "longitude_returned": 103.599
+        },
+        {
+          "point_id": "SL_SG",
+          "latitude_returned": 1.348,
+          "longitude_returned": 103.636
+        }
+      ],
+      "coverage": [
+        {
+          "point_id": "CW_MY",
+          "source": "ERA5",
+          "variable": "wind_speed_10m",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_MY",
+          "source": "ERA5",
+          "variable": "wind_direction_10m",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_MY",
+          "source": "ERA5",
+          "variable": "wind_speed_100m",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_MY",
+          "source": "ERA5",
+          "variable": "wind_direction_100m",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_MY",
+          "source": "ERA5",
+          "variable": "wind_gusts_10m",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_MY",
+          "source": "ERA5",
+          "variable": "precipitation",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_MY",
+          "source": "NASA_POWER",
+          "variable": "WS10M",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_MY",
+          "source": "NASA_POWER",
+          "variable": "WD10M",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_MY",
+          "source": "NASA_POWER",
+          "variable": "PRECTOTCORR",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "ERA5",
+          "variable": "wind_speed_10m",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "ERA5",
+          "variable": "wind_direction_10m",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "ERA5",
+          "variable": "wind_speed_100m",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "ERA5",
+          "variable": "wind_direction_100m",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "ERA5",
+          "variable": "wind_gusts_10m",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "ERA5",
+          "variable": "precipitation",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "NASA_POWER",
+          "variable": "WS10M",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "NASA_POWER",
+          "variable": "WD10M",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "NASA_POWER",
+          "variable": "PRECTOTCORR",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_MY",
+          "source": "ERA5",
+          "variable": "wind_speed_10m",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_MY",
+          "source": "ERA5",
+          "variable": "wind_direction_10m",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_MY",
+          "source": "ERA5",
+          "variable": "wind_speed_100m",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_MY",
+          "source": "ERA5",
+          "variable": "wind_direction_100m",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_MY",
+          "source": "ERA5",
+          "variable": "wind_gusts_10m",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_MY",
+          "source": "ERA5",
+          "variable": "precipitation",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_MY",
+          "source": "NASA_POWER",
+          "variable": "WS10M",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_MY",
+          "source": "NASA_POWER",
+          "variable": "WD10M",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_MY",
+          "source": "NASA_POWER",
+          "variable": "PRECTOTCORR",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "ERA5",
+          "variable": "wind_speed_10m",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "ERA5",
+          "variable": "wind_direction_10m",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "ERA5",
+          "variable": "wind_speed_100m",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "ERA5",
+          "variable": "wind_direction_100m",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "ERA5",
+          "variable": "wind_gusts_10m",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "ERA5",
+          "variable": "precipitation",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "NASA_POWER",
+          "variable": "WS10M",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "NASA_POWER",
+          "variable": "WD10M",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "NASA_POWER",
+          "variable": "PRECTOTCORR",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "NEA",
+          "variable": "rainfall",
+          "expected_slots": 1440,
+          "observed_valid_slots": 0,
+          "coverage_pct": 0,
+          "status": "NOT_REQUESTED"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "NEA",
+          "variable": "wind-speed",
+          "expected_slots": 1440,
+          "observed_valid_slots": 0,
+          "coverage_pct": 0,
+          "status": "NOT_REQUESTED"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "NEA",
+          "variable": "wind-direction",
+          "expected_slots": 1440,
+          "observed_valid_slots": 0,
+          "coverage_pct": 0,
+          "status": "NOT_REQUESTED"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "NEA",
+          "variable": "rainfall",
+          "expected_slots": 1440,
+          "observed_valid_slots": 0,
+          "coverage_pct": 0,
+          "status": "NOT_REQUESTED"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "NEA",
+          "variable": "wind-speed",
+          "expected_slots": 1440,
+          "observed_valid_slots": 0,
+          "coverage_pct": 0,
+          "status": "NOT_REQUESTED"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "NEA",
+          "variable": "wind-direction",
+          "expected_slots": 1440,
+          "observed_valid_slots": 0,
+          "coverage_pct": 0,
+          "status": "NOT_REQUESTED"
+        }
+      ]
+    },
+    "07": {
+      "xlsx_bytes": 1060449,
+      "xlsx_sha256": "54249b05c44dda5f72db4f48378ff515a706a5a26f81cf26f2ed3d82172128c2",
+      "manifest_sha_match": true,
+      "zip_error": null,
+      "sheet_count": 16,
+      "sheets": [
+        "README",
+        "Point_Metadata",
+        "Weather_Hourly",
+        "ERA5_Hourly",
+        "NASA_Hourly",
+        "NEA_30min_Wide",
+        "NEA_30min",
+        "NEA_SelectedRaw",
+        "NEA_Station_Selection",
+        "NEA_Station_Metadata",
+        "NEA_Day_Status",
+        "CrossVal_NASA",
+        "CrossVal_NEA",
+        "QC_Coverage",
+        "Source_Registry",
+        "API_Log"
+      ],
+      "weather_hourly_rows": 2976,
+      "era5_rows": 2980,
+      "nasa_rows": 2976,
+      "time_start_sgt": "2026-07-01 00:00:00+0800",
+      "time_end_sgt": "2026-07-31 23:00:00+0800",
+      "anomaly_total": 0,
+      "era5_nasa_rain": {
+        "n": 2976,
+        "bias_a_minus_b": -5.145,
+        "rmse": 6.8882,
+        "correlation": 0.0256
+      },
+      "era5_nasa_wind": {
+        "n": 2976,
+        "bias_a_minus_b": -0.6732,
+        "rmse": 0.9926,
+        "correlation": 0.6823
+      },
+      "era5_grid_by_point": [
+        {
+          "point_id": "CW_MY",
+          "latitude_returned": 1.5,
+          "longitude_returned": 103.75
+        },
+        {
+          "point_id": "CW_SG",
+          "latitude_returned": 1.5,
+          "longitude_returned": 103.75
+        },
+        {
+          "point_id": "SL_MY",
+          "latitude_returned": 1.5,
+          "longitude_returned": 103.5
+        },
+        {
+          "point_id": "SL_SG",
+          "latitude_returned": 1.5,
+          "longitude_returned": 103.75
+        }
+      ],
+      "nasa_grid_by_point": [
+        {
+          "point_id": "CW_MY",
+          "latitude_returned": 1.465,
+          "longitude_returned": 103.767
+        },
+        {
+          "point_id": "CW_SG",
+          "latitude_returned": 1.447,
+          "longitude_returned": 103.769
+        },
+        {
+          "point_id": "SL_MY",
+          "latitude_returned": 1.378,
+          "longitude_returned": 103.599
+        },
+        {
+          "point_id": "SL_SG",
+          "latitude_returned": 1.348,
+          "longitude_returned": 103.636
+        }
+      ],
+      "coverage": [
+        {
+          "point_id": "CW_MY",
+          "source": "ERA5",
+          "variable": "wind_speed_10m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_MY",
+          "source": "ERA5",
+          "variable": "wind_direction_10m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_MY",
+          "source": "ERA5",
+          "variable": "wind_speed_100m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_MY",
+          "source": "ERA5",
+          "variable": "wind_direction_100m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_MY",
+          "source": "ERA5",
+          "variable": "wind_gusts_10m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_MY",
+          "source": "ERA5",
+          "variable": "precipitation",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_MY",
+          "source": "NASA_POWER",
+          "variable": "WS10M",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_MY",
+          "source": "NASA_POWER",
+          "variable": "WD10M",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_MY",
+          "source": "NASA_POWER",
+          "variable": "PRECTOTCORR",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "ERA5",
+          "variable": "wind_speed_10m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "ERA5",
+          "variable": "wind_direction_10m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "ERA5",
+          "variable": "wind_speed_100m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "ERA5",
+          "variable": "wind_direction_100m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "ERA5",
+          "variable": "wind_gusts_10m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "ERA5",
+          "variable": "precipitation",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "NASA_POWER",
+          "variable": "WS10M",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "NASA_POWER",
+          "variable": "WD10M",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "NASA_POWER",
+          "variable": "PRECTOTCORR",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_MY",
+          "source": "ERA5",
+          "variable": "wind_speed_10m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_MY",
+          "source": "ERA5",
+          "variable": "wind_direction_10m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_MY",
+          "source": "ERA5",
+          "variable": "wind_speed_100m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_MY",
+          "source": "ERA5",
+          "variable": "wind_direction_100m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_MY",
+          "source": "ERA5",
+          "variable": "wind_gusts_10m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_MY",
+          "source": "ERA5",
+          "variable": "precipitation",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_MY",
+          "source": "NASA_POWER",
+          "variable": "WS10M",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_MY",
+          "source": "NASA_POWER",
+          "variable": "WD10M",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_MY",
+          "source": "NASA_POWER",
+          "variable": "PRECTOTCORR",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "ERA5",
+          "variable": "wind_speed_10m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "ERA5",
+          "variable": "wind_direction_10m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "ERA5",
+          "variable": "wind_speed_100m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "ERA5",
+          "variable": "wind_direction_100m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "ERA5",
+          "variable": "wind_gusts_10m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "ERA5",
+          "variable": "precipitation",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "NASA_POWER",
+          "variable": "WS10M",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "NASA_POWER",
+          "variable": "WD10M",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "NASA_POWER",
+          "variable": "PRECTOTCORR",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "NEA",
+          "variable": "rainfall",
+          "expected_slots": 1488,
+          "observed_valid_slots": 0,
+          "coverage_pct": 0,
+          "status": "NOT_REQUESTED"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "NEA",
+          "variable": "wind-speed",
+          "expected_slots": 1488,
+          "observed_valid_slots": 0,
+          "coverage_pct": 0,
+          "status": "NOT_REQUESTED"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "NEA",
+          "variable": "wind-direction",
+          "expected_slots": 1488,
+          "observed_valid_slots": 0,
+          "coverage_pct": 0,
+          "status": "NOT_REQUESTED"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "NEA",
+          "variable": "rainfall",
+          "expected_slots": 1488,
+          "observed_valid_slots": 0,
+          "coverage_pct": 0,
+          "status": "NOT_REQUESTED"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "NEA",
+          "variable": "wind-speed",
+          "expected_slots": 1488,
+          "observed_valid_slots": 0,
+          "coverage_pct": 0,
+          "status": "NOT_REQUESTED"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "NEA",
+          "variable": "wind-direction",
+          "expected_slots": 1488,
+          "observed_valid_slots": 0,
+          "coverage_pct": 0,
+          "status": "NOT_REQUESTED"
+        }
+      ]
+    },
+    "08": {
+      "xlsx_bytes": 1060496,
+      "xlsx_sha256": "2fca7424cb8123ab0973b766727bdf6bae25383274316abaf77cd4f964caa8c9",
+      "manifest_sha_match": true,
+      "zip_error": null,
+      "sheet_count": 16,
+      "sheets": [
+        "README",
+        "Point_Metadata",
+        "Weather_Hourly",
+        "ERA5_Hourly",
+        "NASA_Hourly",
+        "NEA_30min_Wide",
+        "NEA_30min",
+        "NEA_SelectedRaw",
+        "NEA_Station_Selection",
+        "NEA_Station_Metadata",
+        "NEA_Day_Status",
+        "CrossVal_NASA",
+        "CrossVal_NEA",
+        "QC_Coverage",
+        "Source_Registry",
+        "API_Log"
+      ],
+      "weather_hourly_rows": 2976,
+      "era5_rows": 2980,
+      "nasa_rows": 2976,
+      "time_start_sgt": "2026-08-01 00:00:00+0800",
+      "time_end_sgt": "2026-08-31 23:00:00+0800",
+      "anomaly_total": 0,
+      "era5_nasa_rain": {
+        "n": 2976,
+        "bias_a_minus_b": -3.656,
+        "rmse": 5.207,
+        "correlation": 0.0875
+      },
+      "era5_nasa_wind": {
+        "n": 2976,
+        "bias_a_minus_b": -0.8725,
+        "rmse": 1.125,
+        "correlation": 0.7674
+      },
+      "era5_grid_by_point": [
+        {
+          "point_id": "CW_MY",
+          "latitude_returned": 1.5,
+          "longitude_returned": 103.75
+        },
+        {
+          "point_id": "CW_SG",
+          "latitude_returned": 1.5,
+          "longitude_returned": 103.75
+        },
+        {
+          "point_id": "SL_MY",
+          "latitude_returned": 1.5,
+          "longitude_returned": 103.5
+        },
+        {
+          "point_id": "SL_SG",
+          "latitude_returned": 1.5,
+          "longitude_returned": 103.75
+        }
+      ],
+      "nasa_grid_by_point": [
+        {
+          "point_id": "CW_MY",
+          "latitude_returned": 1.465,
+          "longitude_returned": 103.767
+        },
+        {
+          "point_id": "CW_SG",
+          "latitude_returned": 1.447,
+          "longitude_returned": 103.769
+        },
+        {
+          "point_id": "SL_MY",
+          "latitude_returned": 1.378,
+          "longitude_returned": 103.599
+        },
+        {
+          "point_id": "SL_SG",
+          "latitude_returned": 1.348,
+          "longitude_returned": 103.636
+        }
+      ],
+      "coverage": [
+        {
+          "point_id": "CW_MY",
+          "source": "ERA5",
+          "variable": "wind_speed_10m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_MY",
+          "source": "ERA5",
+          "variable": "wind_direction_10m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_MY",
+          "source": "ERA5",
+          "variable": "wind_speed_100m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_MY",
+          "source": "ERA5",
+          "variable": "wind_direction_100m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_MY",
+          "source": "ERA5",
+          "variable": "wind_gusts_10m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_MY",
+          "source": "ERA5",
+          "variable": "precipitation",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_MY",
+          "source": "NASA_POWER",
+          "variable": "WS10M",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_MY",
+          "source": "NASA_POWER",
+          "variable": "WD10M",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_MY",
+          "source": "NASA_POWER",
+          "variable": "PRECTOTCORR",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "ERA5",
+          "variable": "wind_speed_10m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "ERA5",
+          "variable": "wind_direction_10m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "ERA5",
+          "variable": "wind_speed_100m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "ERA5",
+          "variable": "wind_direction_100m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "ERA5",
+          "variable": "wind_gusts_10m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "ERA5",
+          "variable": "precipitation",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "NASA_POWER",
+          "variable": "WS10M",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "NASA_POWER",
+          "variable": "WD10M",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "NASA_POWER",
+          "variable": "PRECTOTCORR",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_MY",
+          "source": "ERA5",
+          "variable": "wind_speed_10m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_MY",
+          "source": "ERA5",
+          "variable": "wind_direction_10m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_MY",
+          "source": "ERA5",
+          "variable": "wind_speed_100m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_MY",
+          "source": "ERA5",
+          "variable": "wind_direction_100m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_MY",
+          "source": "ERA5",
+          "variable": "wind_gusts_10m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_MY",
+          "source": "ERA5",
+          "variable": "precipitation",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_MY",
+          "source": "NASA_POWER",
+          "variable": "WS10M",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_MY",
+          "source": "NASA_POWER",
+          "variable": "WD10M",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_MY",
+          "source": "NASA_POWER",
+          "variable": "PRECTOTCORR",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "ERA5",
+          "variable": "wind_speed_10m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "ERA5",
+          "variable": "wind_direction_10m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "ERA5",
+          "variable": "wind_speed_100m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "ERA5",
+          "variable": "wind_direction_100m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "ERA5",
+          "variable": "wind_gusts_10m",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "ERA5",
+          "variable": "precipitation",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "NASA_POWER",
+          "variable": "WS10M",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "NASA_POWER",
+          "variable": "WD10M",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "NASA_POWER",
+          "variable": "PRECTOTCORR",
+          "expected_slots": 744,
+          "observed_valid_slots": 744,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "NEA",
+          "variable": "rainfall",
+          "expected_slots": 1488,
+          "observed_valid_slots": 0,
+          "coverage_pct": 0,
+          "status": "NOT_REQUESTED"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "NEA",
+          "variable": "wind-speed",
+          "expected_slots": 1488,
+          "observed_valid_slots": 0,
+          "coverage_pct": 0,
+          "status": "NOT_REQUESTED"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "NEA",
+          "variable": "wind-direction",
+          "expected_slots": 1488,
+          "observed_valid_slots": 0,
+          "coverage_pct": 0,
+          "status": "NOT_REQUESTED"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "NEA",
+          "variable": "rainfall",
+          "expected_slots": 1488,
+          "observed_valid_slots": 0,
+          "coverage_pct": 0,
+          "status": "NOT_REQUESTED"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "NEA",
+          "variable": "wind-speed",
+          "expected_slots": 1488,
+          "observed_valid_slots": 0,
+          "coverage_pct": 0,
+          "status": "NOT_REQUESTED"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "NEA",
+          "variable": "wind-direction",
+          "expected_slots": 1488,
+          "observed_valid_slots": 0,
+          "coverage_pct": 0,
+          "status": "NOT_REQUESTED"
+        }
+      ]
+    },
+    "09": {
+      "xlsx_bytes": 1029483,
+      "xlsx_sha256": "ff2a013729846ddaa9e79959726f9ab04f44584e23eadaa8407d64f1a255896f",
+      "manifest_sha_match": true,
+      "zip_error": null,
+      "sheet_count": 16,
+      "sheets": [
+        "README",
+        "Point_Metadata",
+        "Weather_Hourly",
+        "ERA5_Hourly",
+        "NASA_Hourly",
+        "NEA_30min_Wide",
+        "NEA_30min",
+        "NEA_SelectedRaw",
+        "NEA_Station_Selection",
+        "NEA_Station_Metadata",
+        "NEA_Day_Status",
+        "CrossVal_NASA",
+        "CrossVal_NEA",
+        "QC_Coverage",
+        "Source_Registry",
+        "API_Log"
+      ],
+      "weather_hourly_rows": 2880,
+      "era5_rows": 2884,
+      "nasa_rows": 2880,
+      "time_start_sgt": "2026-09-01 00:00:00+0800",
+      "time_end_sgt": "2026-09-30 23:00:00+0800",
+      "anomaly_total": 0,
+      "era5_nasa_rain": {
+        "n": 2880,
+        "bias_a_minus_b": -5.9718,
+        "rmse": 9.27,
+        "correlation": 0.1324
+      },
+      "era5_nasa_wind": {
+        "n": 2880,
+        "bias_a_minus_b": -0.9032,
+        "rmse": 1.2569,
+        "correlation": 0.673
+      },
+      "era5_grid_by_point": [
+        {
+          "point_id": "CW_MY",
+          "latitude_returned": 1.5,
+          "longitude_returned": 103.75
+        },
+        {
+          "point_id": "CW_SG",
+          "latitude_returned": 1.5,
+          "longitude_returned": 103.75
+        },
+        {
+          "point_id": "SL_MY",
+          "latitude_returned": 1.5,
+          "longitude_returned": 103.5
+        },
+        {
+          "point_id": "SL_SG",
+          "latitude_returned": 1.5,
+          "longitude_returned": 103.75
+        }
+      ],
+      "nasa_grid_by_point": [
+        {
+          "point_id": "CW_MY",
+          "latitude_returned": 1.465,
+          "longitude_returned": 103.767
+        },
+        {
+          "point_id": "CW_SG",
+          "latitude_returned": 1.447,
+          "longitude_returned": 103.769
+        },
+        {
+          "point_id": "SL_MY",
+          "latitude_returned": 1.378,
+          "longitude_returned": 103.599
+        },
+        {
+          "point_id": "SL_SG",
+          "latitude_returned": 1.348,
+          "longitude_returned": 103.636
+        }
+      ],
+      "coverage": [
+        {
+          "point_id": "CW_MY",
+          "source": "ERA5",
+          "variable": "wind_speed_10m",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_MY",
+          "source": "ERA5",
+          "variable": "wind_direction_10m",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_MY",
+          "source": "ERA5",
+          "variable": "wind_speed_100m",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_MY",
+          "source": "ERA5",
+          "variable": "wind_direction_100m",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_MY",
+          "source": "ERA5",
+          "variable": "wind_gusts_10m",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_MY",
+          "source": "ERA5",
+          "variable": "precipitation",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_MY",
+          "source": "NASA_POWER",
+          "variable": "WS10M",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_MY",
+          "source": "NASA_POWER",
+          "variable": "WD10M",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_MY",
+          "source": "NASA_POWER",
+          "variable": "PRECTOTCORR",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "ERA5",
+          "variable": "wind_speed_10m",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "ERA5",
+          "variable": "wind_direction_10m",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "ERA5",
+          "variable": "wind_speed_100m",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "ERA5",
+          "variable": "wind_direction_100m",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "ERA5",
+          "variable": "wind_gusts_10m",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "ERA5",
+          "variable": "precipitation",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "NASA_POWER",
+          "variable": "WS10M",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "NASA_POWER",
+          "variable": "WD10M",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "NASA_POWER",
+          "variable": "PRECTOTCORR",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_MY",
+          "source": "ERA5",
+          "variable": "wind_speed_10m",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_MY",
+          "source": "ERA5",
+          "variable": "wind_direction_10m",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_MY",
+          "source": "ERA5",
+          "variable": "wind_speed_100m",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_MY",
+          "source": "ERA5",
+          "variable": "wind_direction_100m",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_MY",
+          "source": "ERA5",
+          "variable": "wind_gusts_10m",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_MY",
+          "source": "ERA5",
+          "variable": "precipitation",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_MY",
+          "source": "NASA_POWER",
+          "variable": "WS10M",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_MY",
+          "source": "NASA_POWER",
+          "variable": "WD10M",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_MY",
+          "source": "NASA_POWER",
+          "variable": "PRECTOTCORR",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "ERA5",
+          "variable": "wind_speed_10m",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "ERA5",
+          "variable": "wind_direction_10m",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "ERA5",
+          "variable": "wind_speed_100m",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "ERA5",
+          "variable": "wind_direction_100m",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "ERA5",
+          "variable": "wind_gusts_10m",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "ERA5",
+          "variable": "precipitation",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "NASA_POWER",
+          "variable": "WS10M",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "NASA_POWER",
+          "variable": "WD10M",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "NASA_POWER",
+          "variable": "PRECTOTCORR",
+          "expected_slots": 720,
+          "observed_valid_slots": 720,
+          "coverage_pct": 100,
+          "status": "DATA"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "NEA",
+          "variable": "rainfall",
+          "expected_slots": 1440,
+          "observed_valid_slots": 0,
+          "coverage_pct": 0,
+          "status": "NOT_REQUESTED"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "NEA",
+          "variable": "wind-speed",
+          "expected_slots": 1440,
+          "observed_valid_slots": 0,
+          "coverage_pct": 0,
+          "status": "NOT_REQUESTED"
+        },
+        {
+          "point_id": "CW_SG",
+          "source": "NEA",
+          "variable": "wind-direction",
+          "expected_slots": 1440,
+          "observed_valid_slots": 0,
+          "coverage_pct": 0,
+          "status": "NOT_REQUESTED"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "NEA",
+          "variable": "rainfall",
+          "expected_slots": 1440,
+          "observed_valid_slots": 0,
+          "coverage_pct": 0,
+          "status": "NOT_REQUESTED"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "NEA",
+          "variable": "wind-speed",
+          "expected_slots": 1440,
+          "observed_valid_slots": 0,
+          "coverage_pct": 0,
+          "status": "NOT_REQUESTED"
+        },
+        {
+          "point_id": "SL_SG",
+          "source": "NEA",
+          "variable": "wind-direction",
+          "expected_slots": 1440,
+          "observed_valid_slots": 0,
+          "coverage_pct": 0,
+          "status": "NOT_REQUESTED"
+        }
+      ]
+    }
+  },
+  "raw": {
+    "nasa": {
+      "2026-05": {
+        "files": 4,
+        "bytes": 76943
+      },
+      "2026-06": {
+        "files": 4,
+        "bytes": 73818
+      },
+      "2026-07": {
+        "files": 4,
+        "bytes": 76129
+      },
+      "2026-08": {
+        "files": 4,
+        "bytes": 75710
+      },
+      "2026-09": {
+        "files": 4,
+        "bytes": 74277
+      }
+    },
+    "nea": {
+      "2026-05": {
+        "files": 45,
+        "bytes": 83348
+      }
+    },
+    "openmeteo": {
+      "2026-05": {
+        "files": 4,
+        "bytes": 45202
+      },
+      "2026-06": {
+        "files": 4,
+        "bytes": 43196
+      },
+      "2026-07": {
+        "files": 4,
+        "bytes": 43642
+      },
+      "2026-08": {
+        "files": 4,
+        "bytes": 42699
+      },
+      "2026-09": {
+        "files": 4,
+        "bytes": 42958
+      }
+    }
+  },
+  "api_status_counts": {
+    "SKIPPED_AFTER_HTTP_429_RATE_LIMIT": 190,
+    "CACHED_REUSED": 118,
+    "HTTP_200_SUCCESS": 85,
+    "SUCCESS": 5
+  },
+  "gzip_invalid": []
+}

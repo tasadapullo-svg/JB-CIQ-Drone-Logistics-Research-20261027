@@ -1,0 +1,13 @@
+﻿corridor,direction,day_type,hour_local,scenario,ciq_wait_min,parameter_status,evidence_level,source_url,applicability
+Causeway,MY_TO_SG,UNSPECIFIED,UNSPECIFIED,LOW,,MISSING_NOT_CALIBRATED,UNVERIFIED,,future cross-border OD only; not applicable to current 128 inland reference ODs
+Causeway,MY_TO_SG,UNSPECIFIED,UNSPECIFIED,BASE,,MISSING_NOT_CALIBRATED,UNVERIFIED,,future cross-border OD only; not applicable to current 128 inland reference ODs
+Causeway,MY_TO_SG,UNSPECIFIED,UNSPECIFIED,HIGH,,MISSING_NOT_CALIBRATED,UNVERIFIED,,future cross-border OD only; not applicable to current 128 inland reference ODs
+Causeway,SG_TO_MY,UNSPECIFIED,UNSPECIFIED,LOW,,MISSING_NOT_CALIBRATED,UNVERIFIED,,future cross-border OD only; not applicable to current 128 inland reference ODs
+Causeway,SG_TO_MY,UNSPECIFIED,UNSPECIFIED,BASE,,MISSING_NOT_CALIBRATED,UNVERIFIED,,future cross-border OD only; not applicable to current 128 inland reference ODs
+Causeway,SG_TO_MY,UNSPECIFIED,UNSPECIFIED,HIGH,,MISSING_NOT_CALIBRATED,UNVERIFIED,,future cross-border OD only; not applicable to current 128 inland reference ODs
+Second_Link,MY_TO_SG,UNSPECIFIED,UNSPECIFIED,LOW,,MISSING_NOT_CALIBRATED,UNVERIFIED,,future cross-border OD only; not applicable to current 128 inland reference ODs
+Second_Link,MY_TO_SG,UNSPECIFIED,UNSPECIFIED,BASE,,MISSING_NOT_CALIBRATED,UNVERIFIED,,future cross-border OD only; not applicable to current 128 inland reference ODs
+Second_Link,MY_TO_SG,UNSPECIFIED,UNSPECIFIED,HIGH,,MISSING_NOT_CALIBRATED,UNVERIFIED,,future cross-border OD only; not applicable to current 128 inland reference ODs
+Second_Link,SG_TO_MY,UNSPECIFIED,UNSPECIFIED,LOW,,MISSING_NOT_CALIBRATED,UNVERIFIED,,future cross-border OD only; not applicable to current 128 inland reference ODs
+Second_Link,SG_TO_MY,UNSPECIFIED,UNSPECIFIED,BASE,,MISSING_NOT_CALIBRATED,UNVERIFIED,,future cross-border OD only; not applicable to current 128 inland reference ODs
+Second_Link,SG_TO_MY,UNSPECIFIED,UNSPECIFIED,HIGH,,MISSING_NOT_CALIBRATED,UNVERIFIED,,future cross-border OD only; not applicable to current 128 inland reference ODs

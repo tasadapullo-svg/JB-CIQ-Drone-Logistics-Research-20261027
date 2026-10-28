@@ -1,0 +1,2 @@
+# Core Stage 6 simulation uses the Python standard library only.
+# Optional XLSX regeneration requires artifact_tool from the Codex workspace runtime.

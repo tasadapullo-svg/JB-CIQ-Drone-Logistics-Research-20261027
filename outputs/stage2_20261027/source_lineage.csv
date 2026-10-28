@@ -1,0 +1,5 @@
+﻿lineage_step,artifact,status,source_or_code,transformation,output,risk
+1,V5.4 synthetic order fixture,FOUND_VERIFIED,JB_CIQ_E05_模拟物流订单_OD与多式联运设计_V5.4_示范包.zip::generate_synthetic_od.py,"fixed illustrative demand assumptions create 30,600 records",V5.4 example orders,not empirical demand
+2,V5.5 frozen joined source,ABSENT,SOURCE_V5.5/01_E05_orders_24h_FCD_ERA5_referenceOD_join.csv.gz,claimed traffic/weather/reference-OD join,V5.5 frozen source,referenced hash exists but data file is absent
+3,V5.6 resampling transformation,ABSENT,generator code not present in V5.6 archive or workspace,stratified resampling with replacement,30 seed shards,transformation cannot be independently rerun
+4,V5.6 current baseline snapshot,FOUND_VERIFIED,JB_CIQ_E05_V5.6_30次重复订单_全天交通天气稳健性_完整归档.zip,none in Stage 2; read-only audit,"30 seeds / 918,000 rows","usable as current snapshot, not renameable as V5.5"

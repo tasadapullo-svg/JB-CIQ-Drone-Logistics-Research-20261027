@@ -1,0 +1,53 @@
+﻿area,anomaly_type,origin_id,destination_id,status,beeline_km,route_length_km,model_minutes,circuity_ratio,detail
+A,NO_APPROVED_MODEL_ROUTE,A05,A01,DISCONNECTED_IN_OSM,4.5125,nan,nan,nan,Disconnected OSM graph or site snap exceeds 100 m
+A,NO_APPROVED_MODEL_ROUTE,A05,A02,DISCONNECTED_IN_OSM,4.1951,nan,nan,nan,Disconnected OSM graph or site snap exceeds 100 m
+A,NO_APPROVED_MODEL_ROUTE,A05,A03,DISCONNECTED_IN_OSM,2.4745,nan,nan,nan,Disconnected OSM graph or site snap exceeds 100 m
+A,NO_APPROVED_MODEL_ROUTE,A05,A04,DISCONNECTED_IN_OSM,3.0482,nan,nan,nan,Disconnected OSM graph or site snap exceeds 100 m
+A,NO_APPROVED_MODEL_ROUTE,A05,A06,DISCONNECTED_IN_OSM,4.9764,nan,nan,nan,Disconnected OSM graph or site snap exceeds 100 m
+A,NO_APPROVED_MODEL_ROUTE,A05,A07,DISCONNECTED_IN_OSM,3.1477,nan,nan,nan,Disconnected OSM graph or site snap exceeds 100 m
+A,NO_APPROVED_MODEL_ROUTE,A05,A08,DISCONNECTED_IN_OSM,4.3747,nan,nan,nan,Disconnected OSM graph or site snap exceeds 100 m
+A,CIRCUITY_GT_3_REVIEW,A01,A06,MODEL_ROUTE_REQUIRES_QA,0.5929,3.0386,5.39,5.125,"Topology/snap/access-leg review required; threshold is a QA flag, not a universal standard"
+A,CIRCUITY_GT_3_REVIEW,A01,A08,MODEL_ROUTE_REQUIRES_QA,0.2023,2.7913,3.9083,13.7988,"Topology/snap/access-leg review required; threshold is a QA flag, not a universal standard"
+A,CIRCUITY_GT_3_REVIEW,A02,A01,MODEL_ROUTE_REQUIRES_QA,0.3177,1.4198,1.7299,4.4689,"Topology/snap/access-leg review required; threshold is a QA flag, not a universal standard"
+A,CIRCUITY_GT_3_REVIEW,A02,A06,MODEL_ROUTE_REQUIRES_QA,0.8523,2.6802,4.9654,3.1447,"Topology/snap/access-leg review required; threshold is a QA flag, not a universal standard"
+A,CIRCUITY_GT_3_REVIEW,A02,A08,MODEL_ROUTE_REQUIRES_QA,0.2207,2.4329,3.4837,11.0221,"Topology/snap/access-leg review required; threshold is a QA flag, not a universal standard"
+A,CIRCUITY_GT_3_REVIEW,A06,A01,MODEL_ROUTE_REQUIRES_QA,0.5929,4.4495,6.3293,7.5049,"Topology/snap/access-leg review required; threshold is a QA flag, not a universal standard"
+A,CIRCUITY_GT_3_REVIEW,A06,A02,MODEL_ROUTE_REQUIRES_QA,0.8523,3.0297,4.5994,3.5549,"Topology/snap/access-leg review required; threshold is a QA flag, not a universal standard"
+A,CIRCUITY_GT_3_REVIEW,A08,A01,MODEL_ROUTE_REQUIRES_QA,0.2023,2.966,3.6451,14.6624,"Topology/snap/access-leg review required; threshold is a QA flag, not a universal standard"
+A,CIRCUITY_GT_3_REVIEW,A08,A02,MODEL_ROUTE_REQUIRES_QA,0.2207,2.8355,3.5724,12.8461,"Topology/snap/access-leg review required; threshold is a QA flag, not a universal standard"
+A,REVERSE_TIME_RATIO_GT_1_5,A01,A02,DIRECTIONAL_QA_REQUIRED,0.3177,0.3584,0.4246,1.128,reverse_model_minutes=1.7299; ratio=4.0742
+B,NO_APPROVED_MODEL_ROUTE,B01,B02,SNAP_REVIEW_REQUIRED,2.4583,nan,nan,nan,Disconnected OSM graph or site snap exceeds 100 m
+B,NO_APPROVED_MODEL_ROUTE,B01,B07,SNAP_REVIEW_REQUIRED,6.7511,nan,nan,nan,Disconnected OSM graph or site snap exceeds 100 m
+B,NO_APPROVED_MODEL_ROUTE,B02,B01,SNAP_REVIEW_REQUIRED,2.4583,nan,nan,nan,Disconnected OSM graph or site snap exceeds 100 m
+B,NO_APPROVED_MODEL_ROUTE,B02,B03,SNAP_REVIEW_REQUIRED,2.6384,nan,nan,nan,Disconnected OSM graph or site snap exceeds 100 m
+B,NO_APPROVED_MODEL_ROUTE,B02,B04,SNAP_REVIEW_REQUIRED,4.4795,nan,nan,nan,Disconnected OSM graph or site snap exceeds 100 m
+B,NO_APPROVED_MODEL_ROUTE,B02,B05,SNAP_REVIEW_REQUIRED,2.2734,nan,nan,nan,Disconnected OSM graph or site snap exceeds 100 m
+B,NO_APPROVED_MODEL_ROUTE,B02,B06,SNAP_REVIEW_REQUIRED,2.585,nan,nan,nan,Disconnected OSM graph or site snap exceeds 100 m
+B,NO_APPROVED_MODEL_ROUTE,B02,B07,SNAP_REVIEW_REQUIRED,6.491,nan,nan,nan,Disconnected OSM graph or site snap exceeds 100 m
+B,NO_APPROVED_MODEL_ROUTE,B02,B08,SNAP_REVIEW_REQUIRED,8.8815,nan,nan,nan,Disconnected OSM graph or site snap exceeds 100 m
+B,NO_APPROVED_MODEL_ROUTE,B02,B09,SNAP_REVIEW_REQUIRED,7.8346,nan,nan,nan,Disconnected OSM graph or site snap exceeds 100 m
+B,NO_APPROVED_MODEL_ROUTE,B03,B02,SNAP_REVIEW_REQUIRED,2.6384,nan,nan,nan,Disconnected OSM graph or site snap exceeds 100 m
+B,NO_APPROVED_MODEL_ROUTE,B03,B07,SNAP_REVIEW_REQUIRED,9.1293,nan,nan,nan,Disconnected OSM graph or site snap exceeds 100 m
+B,NO_APPROVED_MODEL_ROUTE,B04,B02,SNAP_REVIEW_REQUIRED,4.4795,nan,nan,nan,Disconnected OSM graph or site snap exceeds 100 m
+B,NO_APPROVED_MODEL_ROUTE,B04,B07,SNAP_REVIEW_REQUIRED,10.73,nan,nan,nan,Disconnected OSM graph or site snap exceeds 100 m
+B,NO_APPROVED_MODEL_ROUTE,B05,B02,SNAP_REVIEW_REQUIRED,2.2734,nan,nan,nan,Disconnected OSM graph or site snap exceeds 100 m
+B,NO_APPROVED_MODEL_ROUTE,B05,B07,SNAP_REVIEW_REQUIRED,8.1868,nan,nan,nan,Disconnected OSM graph or site snap exceeds 100 m
+B,NO_APPROVED_MODEL_ROUTE,B06,B02,SNAP_REVIEW_REQUIRED,2.585,nan,nan,nan,Disconnected OSM graph or site snap exceeds 100 m
+B,NO_APPROVED_MODEL_ROUTE,B06,B07,SNAP_REVIEW_REQUIRED,4.1042,nan,nan,nan,Disconnected OSM graph or site snap exceeds 100 m
+B,NO_APPROVED_MODEL_ROUTE,B07,B01,SNAP_REVIEW_REQUIRED,6.7511,nan,nan,nan,Disconnected OSM graph or site snap exceeds 100 m
+B,NO_APPROVED_MODEL_ROUTE,B07,B02,SNAP_REVIEW_REQUIRED,6.491,nan,nan,nan,Disconnected OSM graph or site snap exceeds 100 m
+B,NO_APPROVED_MODEL_ROUTE,B07,B03,SNAP_REVIEW_REQUIRED,9.1293,nan,nan,nan,Disconnected OSM graph or site snap exceeds 100 m
+B,NO_APPROVED_MODEL_ROUTE,B07,B04,SNAP_REVIEW_REQUIRED,10.73,nan,nan,nan,Disconnected OSM graph or site snap exceeds 100 m
+B,NO_APPROVED_MODEL_ROUTE,B07,B05,SNAP_REVIEW_REQUIRED,8.1868,nan,nan,nan,Disconnected OSM graph or site snap exceeds 100 m
+B,NO_APPROVED_MODEL_ROUTE,B07,B06,SNAP_REVIEW_REQUIRED,4.1042,nan,nan,nan,Disconnected OSM graph or site snap exceeds 100 m
+B,NO_APPROVED_MODEL_ROUTE,B07,B08,SNAP_REVIEW_REQUIRED,12.9558,nan,nan,nan,Disconnected OSM graph or site snap exceeds 100 m
+B,NO_APPROVED_MODEL_ROUTE,B07,B09,SNAP_REVIEW_REQUIRED,8.604,nan,nan,nan,Disconnected OSM graph or site snap exceeds 100 m
+B,NO_APPROVED_MODEL_ROUTE,B08,B02,SNAP_REVIEW_REQUIRED,8.8815,nan,nan,nan,Disconnected OSM graph or site snap exceeds 100 m
+B,NO_APPROVED_MODEL_ROUTE,B08,B07,SNAP_REVIEW_REQUIRED,12.9558,nan,nan,nan,Disconnected OSM graph or site snap exceeds 100 m
+B,NO_APPROVED_MODEL_ROUTE,B09,B02,SNAP_REVIEW_REQUIRED,7.8346,nan,nan,nan,Disconnected OSM graph or site snap exceeds 100 m
+B,NO_APPROVED_MODEL_ROUTE,B09,B07,SNAP_REVIEW_REQUIRED,8.604,nan,nan,nan,Disconnected OSM graph or site snap exceeds 100 m
+B,CIRCUITY_GT_3_REVIEW,B01,B06,MODEL_ROUTE_REQUIRES_QA,3.9484,12.9338,15.7737,3.2757,"Topology/snap/access-leg review required; threshold is a QA flag, not a universal standard"
+B,CIRCUITY_GT_3_REVIEW,B03,B06,MODEL_ROUTE_REQUIRES_QA,5.1598,18.535,22.7799,3.5922,"Topology/snap/access-leg review required; threshold is a QA flag, not a universal standard"
+B,CIRCUITY_GT_3_REVIEW,B05,B06,MODEL_ROUTE_REQUIRES_QA,4.0836,18.5957,25.9958,4.5538,"Topology/snap/access-leg review required; threshold is a QA flag, not a universal standard"
+B,CIRCUITY_GT_3_REVIEW,B06,B03,MODEL_ROUTE_REQUIRES_QA,5.1598,16.015,19.7492,3.1038,"Topology/snap/access-leg review required; threshold is a QA flag, not a universal standard"
+B,CIRCUITY_GT_3_REVIEW,B06,B05,MODEL_ROUTE_REQUIRES_QA,4.0836,16.0757,22.9651,3.9367,"Topology/snap/access-leg review required; threshold is a QA flag, not a universal standard"

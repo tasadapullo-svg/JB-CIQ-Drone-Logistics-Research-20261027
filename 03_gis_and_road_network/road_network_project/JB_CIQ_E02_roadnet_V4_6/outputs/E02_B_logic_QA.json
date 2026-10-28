@@ -1,0 +1,30 @@
+{
+  "area": "B",
+  "input_file": "outputs/OSM_B_overpass_response.json",
+  "input_sha256": "29c1c7b6203efdf8b40cb443f8132f88a646bd01b2e90a19729a782c95b9a56f",
+  "OSM_ways_pass_filter": 16031,
+  "graph_nodes": 59089,
+  "directed_edges": 104317,
+  "weak_components": 134,
+  "OSM_edge_length_km": 3339.59,
+  "fcd_nearest_review_100m": 65,
+  "fcd_nodes_examined": 69,
+  "FCD_edge_candidates_within_30m": 60,
+  "FCD_edge_candidates_rejected_gt80m": 1,
+  "sites_nearest_review_100m": 7,
+  "sites_examined": 9,
+  "OD_pairs": 72,
+  "OD_model_route_count": 42,
+  "OD_confirmed_traffic_travel_time_count": 0,
+  "oneway_encoded": true,
+  "turn_relations_encoded": false,
+  "MY_SG_boundary_verified": false,
+  "FCD_direction_verified": false,
+  "routing_readiness": "GEOMETRY_ONLY_NOT_RESEARCH_OD",
+  "study_area_bbox_not_legal_boundary": [
+    1.32,
+    103.515,
+    1.485,
+    103.69
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "passed": 12,
+  "total": 12,
+  "failed": [],
+  "checks": {
+    "orders_unchanged_30_seeds_918000": true,
+    "all_128_od_attributed": true,
+    "exactly_37_original_exceptions": true,
+    "no_formal_route_repairs_without_evidence": true,
+    "road_grid_128_x_24": true,
+    "no_negative_road_times": true,
+    "ciq_not_double_counted_in_inland_od": true,
+    "same_orders_all_modes": true,
+    "unique_smoke_primary_key": true,
+    "unknown_metrics_not_fabricated": true,
+    "uav_not_released_without_permission": true,
+    "full_main_experiment_not_allowed": true
+  }
+}
