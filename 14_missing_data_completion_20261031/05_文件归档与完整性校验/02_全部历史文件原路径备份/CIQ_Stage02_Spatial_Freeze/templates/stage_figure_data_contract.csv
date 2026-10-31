@@ -1,0 +1,7 @@
+﻿figure,stage_dependency,required_input,may_reuse_historical_figures,release_status
+Fig.1,Stage 02,"Approved new three-zone spatial network, verified boundaries and map labels",REFERENCE_ONLY,HOLD
+Fig.3(a),Stage 02,"Approved map nodes+edges, 2 aircraft publicly sourced limits; not permitted routes",REFERENCE_ONLY,HOLD
+Fig.4,Weather and road follow-on,Hourly/half-hourly source QC and new OD traffic exposure,BASELINE_ONLY,NOT_STARTED
+Fig.5,Matched-task simulation,"M0/M1/M2 shared ID/seed/date/demand, takeoff-time weather",BASELINE_ONLY,NOT_STARTED
+Fig.6,Operational emissions & cost,"Road-only fuel+vehicle km, UAV task energy, transfer and grid factors",BASELINE_ONLY,NOT_STARTED
+Fig.7,Uncertainty / Pareto,30-seed matched full run + joint robustness,BASELINE_ONLY,NOT_STARTED

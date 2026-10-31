@@ -1,0 +1,5 @@
+﻿filename,format,purpose,sha256,status,provenance_url,reviewer
+paired_run_results.csv,CSV,按seed/date/zone/vehicle/uav/mode的完整账本汇总,,MISSING,,
+uncertainty_draws.csv,CSV,有来源的联合参数不确定性抽样,,MISSING,,
+release_qa.json,JSON,所有前序阶段签核和版本,,MISSING,,
+figure_data.csv,CSV,每个子图真实数据源表,,MISSING,,

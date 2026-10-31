@@ -1,0 +1,19 @@
+﻿gate_id,test,status,evidence_or_gap,release_requirement
+G01,Latest QGIS three-zone spatial geometry and node/edge hashes,BLOCKED,No verified QGIS archive in active workspace,Stage02 evidence
+G02,New/old node mapping and crossing country indicators,BLOCKED,No validated new coordinate and crosswalk,Stage02 export
+G03,One frozen sample/population with source hash,BLOCKED,Legacy 918000 and 29842 distinct fixtures,Frozen-task registry
+G04,Same task ID and deadline across 3 modes,PROTOCOL_FROZEN,Schema and rules defined; no task data tested,Main sim matched tasks
+G05,Bidirectional road connectivity or flagged missing,BLOCKED,37 historical fixes not applied; new routes absent,New OSRM/OSM validation
+G06,Cross-border delay and in-country OD classification,BLOCKED,Old 128 OD all cross_border_route=False,Realistic crossing scenario/out-of-scope flag
+G07,Wind/rain at actual flight time and missingness,BLOCKED,Stage6 uses release-hour proxy and sparse NEA coverage,Mission-time weather join
+G08,DJI FlyCart 30 sourced mission energy curve,BLOCKED,Max-range/nominal-kWh do not measure task energy,Independent phase power/source
+G09,Wingcopter Cargo sourced mission energy curve,BLOCKED,No cargo-specific validated battery/energy source,Cargo energy data or explicit bounded scenarios
+G10,Validated petrol car or diesel van fuel curve,BLOCKED,No vehicle-type road-cycle/load specific L/100km,Local vehicle data or sourced range
+G11,Tank-to-wheel CO2 emission method and EF,METHOD_FROZEN,IPCC default 69300 and 74100 kgCO2/TJ,Fuel density/NCV & local composition needed
+G12,Country and gas consistent charging grid factors,BLOCKED,MY 0.740 CO2e vs SG 0.402 CO2 differ,"Harmonize species and year, preserve charge location"
+G13,"M0 M1 M2 equivalent vehicle capacity, returns, fallback",PROTOCOL_FROZEN,"Matching counterfactual rule defined, not test-run",Staged smoke test
+G14,Full cost model source and currency year,BLOCKED,"Labor, fuel, charging, maintenance unknown",Source registry & cost scenario
+G15,Airspace/land and cross-border permit checks,BLOCKED,Candidates not authorized; CAAS cross-border permit required,Regulatory approvals or no-flight scenario
+G16,Computational reproducibility / source dependencies,BLOCKED,Legacy Stage6 references unverified run_stage4_dispatch.py,Immutable repository checkout and dependency/test run
+G17,Operational vs WTW vs LCA accounting separated,PROTOCOL_FROZEN,Boundary and separate ledgers defined,Run-level assertions
+G18,End-to-end independent smoke QA before full seed runs,BLOCKED,Not run against real frozen inputs,QA report and per-order checks

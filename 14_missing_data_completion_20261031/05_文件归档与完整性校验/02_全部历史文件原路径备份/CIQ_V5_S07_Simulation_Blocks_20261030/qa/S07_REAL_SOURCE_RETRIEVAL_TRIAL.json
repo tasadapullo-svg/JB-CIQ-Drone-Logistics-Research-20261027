@@ -1,0 +1,9 @@
+{
+  "checked_at_utc": "2026-10-30T05:19:11.567232+00:00",
+  "source": "PINNED_GITHUB_RAW_WEATHER_MAY2026",
+  "http_head_status": "FAIL_NETWORK_DNS",
+  "curl_exit_code": 6,
+  "error": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\n  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: raw.githubusercontent.com\n",
+  "source_bytes_obtained": false,
+  "source_sha256_verified": false
+}

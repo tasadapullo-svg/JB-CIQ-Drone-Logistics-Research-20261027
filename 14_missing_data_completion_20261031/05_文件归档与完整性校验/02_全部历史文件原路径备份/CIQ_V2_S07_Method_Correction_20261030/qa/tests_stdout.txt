@@ -1,0 +1,11 @@
+test_counts_actual (test_preflight_s07.TestActualS06Audit.test_counts_actual) ... ok
+test_geometry_separation (test_preflight_s07.TestActualS06Audit.test_geometry_separation) ... ok
+test_hard_hold (test_preflight_s07.TestActualS06Audit.test_hard_hold) ... ok
+test_isolation_actual (test_preflight_s07.TestActualS06Audit.test_isolation_actual) ... ok
+test_legacy_exception (test_preflight_s07.TestActualS06Audit.test_legacy_exception) ... ok
+test_no_fake_road (test_preflight_s07.TestActualS06Audit.test_no_fake_road) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.013s
+
+OK

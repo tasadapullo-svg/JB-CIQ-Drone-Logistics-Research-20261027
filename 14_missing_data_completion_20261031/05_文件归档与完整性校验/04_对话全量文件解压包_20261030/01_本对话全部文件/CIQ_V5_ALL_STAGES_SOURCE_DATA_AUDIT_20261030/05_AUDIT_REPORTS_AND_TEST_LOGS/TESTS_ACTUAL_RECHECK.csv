@@ -1,0 +1,5 @@
+﻿test_suite,test_count,returncode,result
+S07_time_weather,30,0,PASS
+S07_pairing,11,0,PASS
+S08_petrol,19,0,PASS
+S09_drone,18,0,PASS

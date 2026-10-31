@@ -1,0 +1,32 @@
+{
+  "research_scope": "JB CIQ carbon-first study; reference-only dataset",
+  "stage": "V2-S07-R2",
+  "status": "HOLD_NO_FULL_JOIN",
+  "technical_substeps_pass": [
+    "all_69_nodes_preserved"
+  ],
+  "blocked_substeps": [
+    "pinned_source_bytes_all11",
+    "actual_five_weather_workbooks_extracted",
+    "legacy_AB_graph_bytes_parsed",
+    "verified_new_C_graph",
+    "verified_new_ABC_directed_routes",
+    "new_ABC_synthetic_orders_frozen",
+    "historical_37_OD_repair_approved",
+    "uav_flight_operational_authorization"
+  ],
+  "checks": {
+    "pinned_source_bytes_all11": false,
+    "actual_five_weather_workbooks_extracted": false,
+    "legacy_AB_graph_bytes_parsed": false,
+    "all_69_nodes_preserved": true,
+    "verified_new_C_graph": false,
+    "verified_new_ABC_directed_routes": false,
+    "new_ABC_synthetic_orders_frozen": false,
+    "historical_37_OD_repair_approved": false,
+    "uav_flight_operational_authorization": false
+  },
+  "release_M0_M1_M2": false,
+  "weather_emissions_effect_computed": false,
+  "note": "Existing spatial reference is retained. Static reference integrity is not operational route availability."
+}

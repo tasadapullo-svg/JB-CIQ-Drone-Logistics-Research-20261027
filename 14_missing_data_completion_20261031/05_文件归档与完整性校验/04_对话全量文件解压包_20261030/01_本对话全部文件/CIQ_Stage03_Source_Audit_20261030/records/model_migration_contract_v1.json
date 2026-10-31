@@ -1,0 +1,32 @@
+{
+  "schema_version": "CIQ_STAGE03_MODEL_INTERFACE_V1",
+  "purpose": "interfaces only; NOT permission to recalculate",
+  "logical_inputs": {
+    "spatial_nodes": {
+      "required": ["node_id", "zone", "node_name", "longitude_wgs84", "latitude_wgs84", "node_role", "source_sha256", "reviewer_decision"],
+      "constraints": ["Unique (zone,node_id)", "WGS84 coordinates", "Unknown role/permit remains unresolved", "No automatic transfer of old 19 sites"]
+    },
+    "candidate_uav_edges": {
+      "required": ["edge_id", "from_node_id", "to_node_id", "zone", "screening_only", "geometry_source", "airspace_review"],
+      "constraints": ["Referential integrity", "Geometric line is NOT a permitted flight route", "No crossing national border without explicit scenario definition"]
+    },
+    "synthetic_tasks": {
+      "required": ["task_id", "replicate_seed", "release_time_sgt", "origin_node_id", "destination_node_id", "payload_kg", "deadline_sgt", "demand_protocol_hash"],
+      "constraints": ["Same task IDs for M0/M1/M2", "Explicit service denominators and unreachable rows", "One selected frozen protocol; never add Stage2 and Stage6 sample sizes"]
+    },
+    "weather_exposure": {
+      "required": ["source_id", "source_class", "source_grid_or_station_id", "source_lat", "source_lon", "timestamp_sgt", "wind_height_m", "wind_speed_m_s", "wind_direction_from_deg", "rain_mm_h", "gust_m_s", "missing_reason"],
+      "constraints": ["Flight status uses actual proposed takeoff/return time window", "Respect grid/observed distinction", "No interpolation without method", "No missing-to-zero"]
+    },
+    "road_routes": {
+      "required": ["origin_node_id", "destination_node_id", "departure_time_sgt", "directed_route_status", "route_distance_km", "travel_time_minutes", "data_class", "road_network_hash"],
+      "constraints": ["No unflagged reverse-path mirroring", "Traffic proxy remains proxy", "Border crossing wait and toll have separate component or OUT_OF_SCOPE"]
+    },
+    "operational_emissions": {
+      "required": ["task_id", "mode", "road_vehicle_type", "road_distance_km", "fuel_l", "fuel_kgco2e_per_l", "uav_grid_kwh", "grid_kgco2e_per_kwh", "transfer_kgco2e", "total_operational_kgco2e"],
+      "constraints": ["Fuel and electricity not double counted", "Ground transport distance includes defined return/reposition boundary", "Country-specific energy factors identified", "Embodied and LCA not added to operating unless separately labelled", "Null until inputs validated"]
+    }
+  },
+  "hard_gates": ["S02_SPATIAL_FROZEN", "S03_WEATHER_SOURCES_VALIDATED", "S04_ROAD_BASELINE_REBUILT", "S05_AIRCRAFT_ENERGY_AND_ROAD_FUEL_MODEL_SOURCED", "MATCHED_TASK_RUN_RELEASED"],
+  "run_authorization": "DENY_ALL"
+}

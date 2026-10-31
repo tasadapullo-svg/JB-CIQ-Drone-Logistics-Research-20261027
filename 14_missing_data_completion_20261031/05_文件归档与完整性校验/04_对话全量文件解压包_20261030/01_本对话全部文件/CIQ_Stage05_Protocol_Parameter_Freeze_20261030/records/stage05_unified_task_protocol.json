@@ -1,0 +1,105 @@
+{
+  "version": "STAGE05_PROTOCOL_V1_20261030",
+  "status": "PROTOCOL_FROZEN_NO_NUMERICAL_RUN",
+  "historical_git_commit": "4569817b8145efe2ae06f4b21addc1986f971c12",
+  "old_stage6_script_git_blob_sha": "1bbf7864ee9546b781f048d515c5d756da8752",
+  "scope": {
+    "geography": "Johor Bahru + Singapore CIQ comparison, A/B/C three-zone proposal; exact QGIS areas not yet verified",
+    "historic_limit": "Old 128 ODs were all inland cross_border_route=False; never reclassify as cross-border",
+    "primary_functional_unit": "one frozen synthetic consignment delivered to destination by deadline",
+    "secondary_units": [
+      "per matched eligible order",
+      "per full fixed-demand scenario",
+      "per vehicle-day and per ton-km where denominators documented"
+    ],
+    "period": "historical 2026-05 through 2026-09; exact dates remain to freeze with one demand population",
+    "analysis_kind": "counterfactual conditional modeling, no observed shipment or approved UAV mission claim"
+  },
+  "task_schema_required": [
+    "task_id",
+    "seed",
+    "date_sgt",
+    "release_time_sgt",
+    "deadline_time_sgt",
+    "origin_node_id",
+    "destination_node_id",
+    "origin_country",
+    "destination_country",
+    "zone",
+    "payload_kg",
+    "parcel_count",
+    "demand_protocol_id",
+    "task_population_id"
+  ],
+  "task_constraints": [
+    "Same immutable task IDs, locations, mass, timestamps and deadline for M0 M1 M2",
+    "One frozen sample only: never add 918000 resampled Stage2 to 29842 Stage6",
+    "UNREACHABLE, WEATHER_BLOCKED, NOT_AUTHORIZED and MISSING_INPUT retained as distinct outcomes",
+    "All order status and fallback outputs retained; no success-only denominator",
+    "Do not change synthetic-demand geography unless explicitly remapped and versioned",
+    "Cross-border class defined by actual country pair; no assumptions from zone names"
+  ],
+  "modes": {
+    "M0": {
+      "definition": "road-only petrol car OR diesel van (distinct paired sensitivity profiles)",
+      "asset_boundary": "same depot/reposition/return/vehicle capacity and handling as corresponding mixed modes"
+    },
+    "M1": {
+      "definition": "fixed-site feeder with consolidation and UAV segment as candidate scenario",
+      "asset_boundary": "road feeder, terminal and transfer, UAV outbound and return, charging, fallback, queuing and reserve"
+    },
+    "M2": {
+      "definition": "vehicle-drone coordinated rendezvous with physical vehicle and drone time synchronization",
+      "asset_boundary": "shared vehicle kilometers counted once; moving drone launch, pickup recovery, wait, service and fallback"
+    }
+  },
+  "time_components": [
+    "depot_preparation",
+    "road_queue",
+    "road_drive",
+    "CIQ_wait_if_crossing",
+    "cargo_transfer",
+    "UAV_charge",
+    "UAV_queue",
+    "UAV_takeoff",
+    "UAV_cruise",
+    "delivery",
+    "UAV_return_or_rendezvous",
+    "repositioning"
+  ],
+  "weather_join": "proposed actual UAV takeoff+arrival+return hour or finer source resolution, flag uncertainty for longer hourly data",
+  "road_join": "directed OSM/model path and source-hour traffic proxy; no invented reverse, CIQ customs modeled separately when crossing",
+  "accounting": {
+    "primary": "fuel tank-to-wheel CO2 plus location-based charging electricity CO2 using gas-consistent emission factors; primary CO2e withheld until harmonized full GHG inputs",
+    "secondary": "fossil fuel upstream and embodied emissions excluded from operational totals; may be separate explicitly labeled sensitivity",
+    "petrol_diesel_CO2_formula": "road_fuel_L = route_km * validated_L_per_100km/100 + validated_disjoint_idle_L; CO2_kg = road_fuel_L * density_kg_per_L * NCV_MJ_per_kg/1e6 * EF_kgCO2_per_TJ",
+    "grid_CO2_formula": "sum_by_charging_country(wall_kWh * national_grid_kgCO2_per_kWh); do not use 0.740 MY kgCO2e and 0.402 SG kgCO2 as one CO2e ledger",
+    "mission_electricity": "battery discharge kWh, charging loss, idle loads and battery swap logistics separately; no battery nominal/max range quotient",
+    "no_double_count": [
+      "no grid factor on combusted fuel",
+      "no second count of shared M2 road movement",
+      "no repeated shared linehaul trip per parcel",
+      "no additional turnaround if part of route energy already"
+    ],
+    "required_output_ledger": [
+      "operational_CO2_kg_if_gas_consistent",
+      "operational_CO2e_kg_if_harmonized",
+      "route_fuel_l",
+      "wall_charge_kWh_MY",
+      "wall_charge_kWh_SG",
+      "road_distance_km",
+      "UAV_flight_distance_km",
+      "batch_allocation_method",
+      "status_and_uncertainty"
+    ]
+  },
+  "run_policy": {
+    "allow_main_simulation": false,
+    "stage02_spatial_required": true,
+    "stage03_stage04_weather_road_required": true,
+    "actual_parameter_energy_required": true,
+    "independent_smoke_reproduction_required": true,
+    "regulatory_status": "candidate_only; no legal cross-border flight claims"
+  },
+  "notes": "This freezes definitions and source hierarchy, NOT numerical mission energy, fuel economy, cost, or permit assumptions."
+}

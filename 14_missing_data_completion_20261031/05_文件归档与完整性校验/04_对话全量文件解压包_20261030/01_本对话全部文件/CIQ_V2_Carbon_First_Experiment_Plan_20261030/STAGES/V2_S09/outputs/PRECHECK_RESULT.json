@@ -1,0 +1,50 @@
+{
+  "stage": "V2_S09",
+  "status": "HOLD",
+  "input_checks": [
+    {
+      "file": "uav_models.csv",
+      "exists": false,
+      "size_bytes": null,
+      "sha256": null,
+      "schema_valid": null,
+      "source_recorded": false
+    },
+    {
+      "file": "uav_energy_parameters.csv",
+      "exists": false,
+      "size_bytes": null,
+      "sha256": null,
+      "schema_valid": null,
+      "source_recorded": false
+    },
+    {
+      "file": "uav_candidate_missions.csv",
+      "exists": false,
+      "size_bytes": null,
+      "sha256": null,
+      "schema_valid": null,
+      "source_recorded": false
+    },
+    {
+      "file": "regulatory_scenarios.csv",
+      "exists": false,
+      "size_bytes": null,
+      "sha256": null,
+      "schema_valid": null,
+      "source_recorded": false
+    }
+  ],
+  "blockers": [
+    "MISSING_INPUT:regulatory_scenarios.csv",
+    "MISSING_INPUT:uav_candidate_missions.csv",
+    "MISSING_INPUT:uav_energy_parameters.csv",
+    "MISSING_INPUT:uav_models.csv",
+    "QA_GATES_NOT_ALL_PASS",
+    "SCIENTIFIC_APPROVAL_MISSING",
+    "UPSTREAM_NOT_APPROVED:V2_S06",
+    "UPSTREAM_NOT_APPROVED:V2_S07",
+    "UPSTREAM_NOT_APPROVED:V2_S08"
+  ],
+  "scientific_note": "This tool does not certify airspace authorization, real deployment, or numerical accuracy."
+}

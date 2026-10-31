@@ -1,0 +1,10 @@
+﻿stage,item,status,release_action
+S07,2026-05–09 weather native hourly values,HOLD,Obtain 5 pinned XLSX; verify SHA256 and units; parse time intervals and source grids
+S07,V5 A/B/C directed OSM road graph,HOLD,"Run V5 OSMnx retrieval; retain all 68 nodes; audit entrance, access, turns, crossborder; freeze snapshot"
+S07,Legacy A/B FCD and road speed to V5 directed graph,HOLD,"Verify 5-month traffic source and directional edge crosswalk, explicit unmatched edges"
+S07,V5 synthetic orders / run membership,PASS,"82,620 conditional tasks, 4,590 seed-date blocks; identical across five modes"
+S08,M0-Strong gasoline vehicle trip simulation,HOLD,Needs accepted directional travel times and petrol parameters; physical trip once
+S09,DJI/Wingcopter mission energy,HOLD,"Needs weather per simulated event time, aircraft-specific energy calibration and reserve rules"
+S10,Paired M0 M1 M2 five-mode dispatch,HOLD,"22,950 paired mode-run keys ready; no operational metrics computed"
+S11,WTW operational CO2e and Pareto minima,HOLD,"Must derive from S10 accepted real model run results, never use straight distances"
+S12,Scenario/day/seed robust tests and SCI figures,HOLD,"Run statistical blocks, sensitivity, uncertainty after S10/S11"

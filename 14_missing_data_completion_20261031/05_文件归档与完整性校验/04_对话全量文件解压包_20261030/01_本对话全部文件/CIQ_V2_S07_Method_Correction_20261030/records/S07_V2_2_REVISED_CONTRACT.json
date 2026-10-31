@@ -1,0 +1,18 @@
+{
+  "stage":"V2-S07", "revision":"V2.2_METHOD_PATCH_20261030", "status":"METHOD_CORRECTED_NOT_RELEASABLE",
+  "source_lock": {
+    "s06_source_name":"CIQ_ABC_QGIS322_NEW_COMPLETE_PROJECT_ALL_FILES_V3.zip",
+    "s06_zip_sha256":"a4e4d05397fa62d4611ea8a9a443445f8c6b9ae95c5ad545e7dea83aecd8ad92",
+    "git_repository":"tasadapullo-svg/JB-CIQ-Drone-Logistics-Research-20261027",
+    "git_commit":"4569817b8145efe2ae06f4b21addc1986f971c12",
+    "historic_stage3_8_read_only":true
+  },
+  "time_axis":{"from_local":"2026-05-01T00:00:00+08:00","until_exclusive_local":"2026-10-01T00:00:00+08:00","days":153,"hourly_intervals":3672,"timezone":"Asia/Kuala_Lumpur","weather_interval_timestamps_required":true,"rainfall_accumulation_end_time_required":true},
+  "spatial_nodes":{"total":69,"zones":{"A":23,"B":10,"C":29,"PORT_A":6,"GATEWAY":1},"role_mapping_required":true,"uav_geometry_count":116,"ground_reference_count":5,"uav_zero_degree_nodes":13,"geometric_edges_are_authorized_routes":false},
+  "task_cohort_policy":{"allow_legacy_stage6_A_B_only_if_19_reference_coordinates_verified":true,"legacy_order_count":29842,"legacy_days_per_seed":5,"allow_new_ABC_population":true,"new_population_requires_new_id_and_deterministic_generator":true,"do_not_merge_populations":true,"one_task_row_per_task_id_in_manifest":true,"mode_views_reference_shared_manifest":true},
+  "weather_policy":{"ERA5_four_reference_points_return_two_distinct_cells":true,"ERA5_rain_valid_end_window":true,"keep_NASA_ERA5_NEA_separate":true,"do_not_zero_fill_missing":true,"do_not_use_release_hour_as_final_dispatch_weather":true,"operational_weather_query_stage":"V2-S10"},
+  "traffic_policy":{"directed_osm_graph_required":true,"vehicle_snap_and_vehicle_access_required":true,"oneway_turn_restriction_and_components_audited":true,"FCD_temporal_direction_quality_required":true,"all_37_historical_OD_repairs_stay_unapproved":true,"do_not_use_ground_straight_reference_as_road":true},
+  "cross_border_policy":{"country_and_zone_are_distinct":true,"domestic_ciq_wait":"NOT_APPLICABLE","cross_border_wait_required_only_if_cross_border_tasks_exist":true,"no_observed_wait_means_scenario_or_hold":true},
+  "release_levels":{"S06_REFERENCE_SPATIAL":"PASS","S07_DATA_FUSION":"HOLD","OPERATIONS_CONDITIONAL_SIMULATION":"HOLD","REAL_WORLD_FLIGHT_APPROVAL":"NOT_ESTABLISHED"},
+  "downstream_modes":["M0_PETROL","M1_DJI","M1_WING","M2_DJI","M2_WING"]
+}

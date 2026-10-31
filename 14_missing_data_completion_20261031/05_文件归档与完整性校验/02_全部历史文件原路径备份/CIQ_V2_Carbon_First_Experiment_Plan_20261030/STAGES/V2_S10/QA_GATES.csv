@@ -1,0 +1,6 @@
+﻿gate_id,acceptance_criterion,status,evidence_path,reviewer
+V2_S10-G01,每个 task × scenario × mode 一条最终结局,BLOCKED,,
+V2_S10-G02,物理车次/航次 ID 唯一且共享里程只计一次,BLOCKED,,
+V2_S10-G03,天气禁飞回退时仍保留任务且有真实耗时,BLOCKED,,
+V2_S10-G04,同等需求及明确车队资源约束,BLOCKED,,
+V2_S10-G05,小样本已验收且30种子运行可复现,BLOCKED,,

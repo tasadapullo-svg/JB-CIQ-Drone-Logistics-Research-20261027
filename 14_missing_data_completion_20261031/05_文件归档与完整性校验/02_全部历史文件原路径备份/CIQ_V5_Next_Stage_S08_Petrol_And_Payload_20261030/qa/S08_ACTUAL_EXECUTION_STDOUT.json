@@ -1,0 +1,68 @@
+{
+  "stage": "S08_DEV_PAYLOAD_SCREEN",
+  "status": "EXECUTED_PAYLOAD_ONLY__FULL_SIM_HOLD",
+  "v5_spatial_basis_sha256": "0d19633630b6f12525ad9bd776bbf966ec1e8a46520bd8bc3d904013b02dce74",
+  "frozen_task_file_sha256": "8cc9c4d20b78cb80bff4fa9fd69750e0b7c172d6f48d07a7880b224bf5ddecca",
+  "task_count": 82620,
+  "distinct_task_ids": 82620,
+  "seed_count": 30,
+  "day_count": 153,
+  "by_origin_zone": {
+    "A": 27540,
+    "B": 27540,
+    "C": 27540
+  },
+  "by_month": {
+    "2026-05": 16740,
+    "2026-06": 16200,
+    "2026-07": 16740,
+    "2026-08": 16740,
+    "2026-09": 16200
+  },
+  "by_payload_kg": {
+    "0.5": 13770,
+    "1.0": 13770,
+    "2.5": 13770,
+    "4.5": 13770,
+    "5.0": 13770,
+    "8.0": 13770
+  },
+  "by_deadline_minutes": {
+    "45": 27540,
+    "90": 27540,
+    "150": 27540
+  },
+  "by_demand_stratum": {
+    "DESIGNED_WITHIN_ZONE": 68850,
+    "DESIGNED_CROSS_ZONE_STRESS": 13770
+  },
+  "wingcopter198_cargo_within_0_5kg_of_nominal_payload": 13770,
+  "wingcopter198_near_limit_warning": "4.5 kg tasks have 0.2 kg nominal margin; packaging/winch and other payload mass must be defined, not operationally approved",
+  "payload_only": {
+    "DJI_FC30": {
+      "PAYLOAD_ONLY_PASS": 82620,
+      "PAYLOAD_ONLY_EXCEED": 0
+    },
+    "WINGCOPTER198_CARGO": {
+      "PAYLOAD_ONLY_PASS": 55080,
+      "PAYLOAD_ONLY_EXCEED": 27540
+    }
+  },
+  "geodesic_lower_bound_km_statistics_NOT_ROUTE": {
+    "min": 0.20653264026349835,
+    "mean": 7.931099721087294,
+    "max": 33.254578539835265
+  },
+  "no_real_road_mileage_computed": true,
+  "no_operational_flight_eligibility_claimed": true,
+  "no_actual_operational_carbon_or_cost_computed": true,
+  "all_five_modes_identical_task_denominator": true,
+  "required_next_inputs": [
+    "accepted_V5_ABC_directed_road_graph_and_access",
+    "actual_2026_May_Sep_weather_hourly_data",
+    "sourced_petrol_consumption_and_fuel_chemistry",
+    "two_UAV_mission_energy_models",
+    "verified_dispatch_policy_and_resource_constraints"
+  ],
+  "interpretation": "Conditional synthetic tasks only, no observed company orders or real deployment claims"
+}

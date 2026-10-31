@@ -1,0 +1,61 @@
+{
+  "stage": "V2_S06",
+  "stage_name_cn": "三分区空间网络冻结",
+  "purpose_en": "Spatial network acceptance",
+  "research_questions": "RQ1",
+  "inputs": [
+    {
+      "filename": "qgis_project_bundle.zip",
+      "type": "ZIP",
+      "purpose": "最新 QGIS QGZ/QGS 与全部本地依赖；不得只提交地图图片"
+    },
+    {
+      "filename": "nodes.csv",
+      "type": "CSV",
+      "purpose": "完整新版节点清单"
+    },
+    {
+      "filename": "edges.csv",
+      "type": "CSV",
+      "purpose": "完整新版候选连接与类别"
+    },
+    {
+      "filename": "spatial_screen.csv",
+      "type": "CSV",
+      "purpose": "道路接入及空域/场地证据分类"
+    },
+    {
+      "filename": "legacy_crosswalk.csv",
+      "type": "CSV",
+      "purpose": "历史节点与新版节点关系"
+    }
+  ],
+  "outputs": [
+    {
+      "filename": "nodes_checked.csv",
+      "purpose": "可核验节点及空间证据"
+    },
+    {
+      "filename": "edges_checked.csv",
+      "purpose": "可核验连接及端点"
+    },
+    {
+      "filename": "spatial_exclusions.csv",
+      "purpose": "硬排除/待审批/情景适用分别编码"
+    },
+    {
+      "filename": "spatial_freeze.json",
+      "purpose": "CRS/输入 SHA/统计/人工验收签核"
+    }
+  ],
+  "release_gates": [
+    "每条 node_id 唯一且坐标有效",
+    "每条 edge 的起终点存在",
+    "CRS 与跨国边界口径明确",
+    "所有未知审批保留 UNKNOWN，不自动通过",
+    "空间输入哈希+版本冻结、人工认可"
+  ],
+  "expected_status": "BLOCKED_UNTIL_REAL_INPUTS_ACCEPTED",
+  "historical_git_commit": "4569817b8145efe2ae06f4b21addc1986f971c12",
+  "review_rule": "Automatic schema gate is not scientific approval; release requires human evidence review plus frozen source hashes."
+}

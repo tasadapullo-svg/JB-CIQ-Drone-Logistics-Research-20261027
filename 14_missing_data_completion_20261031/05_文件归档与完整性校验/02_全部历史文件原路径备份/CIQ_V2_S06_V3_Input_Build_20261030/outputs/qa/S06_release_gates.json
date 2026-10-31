@@ -1,0 +1,13 @@
+{
+  "M0_M1_M2_real_experiment": "HOLD_NO_ROUTING_ENERGY_COMPLIANCE",
+  "QGIS_3_22_GUI_render": "HOLD_NOT_TESTED",
+  "S07_node_reference_handoff": "CONDITIONAL_GO_MAPPING_ONLY",
+  "actual_routable_road_graph": "HOLD_NOT_IN_V3_ARCHIVE",
+  "effective_time_official_airspace": "HOLD_NOT_VERIFIED",
+  "geometry_category_separation": "PASS",
+  "legacy_19_old_new_coordinates": "HOLD_SOURCE_OLD19_NOT_RETRIEVED",
+  "node_identity_consistency": "PASS",
+  "operator_site_pad_approval": "HOLD_NOT_VERIFIED",
+  "road_entry_legal_access": "HOLD_NOT_VERIFIED",
+  "spatial_reference_lock": "PASS_FOR_REFERENCE_AND_S06_INPUT_BUILD"
+}

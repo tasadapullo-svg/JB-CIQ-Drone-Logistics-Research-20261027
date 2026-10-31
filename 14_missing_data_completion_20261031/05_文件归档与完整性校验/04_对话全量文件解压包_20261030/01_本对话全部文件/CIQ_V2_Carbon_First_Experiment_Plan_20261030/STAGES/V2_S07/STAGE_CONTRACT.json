@@ -1,0 +1,56 @@
+{
+  "stage": "V2_S07",
+  "stage_name_cn": "任务—气象—交通同口径冻结",
+  "purpose_en": "Paired tasks & time-aligned weather/road",
+  "research_questions": "RQ1,RQ2",
+  "inputs": [
+    {
+      "filename": "frozen_tasks.csv",
+      "type": "CSV",
+      "purpose": "不可变任务样本与任务总体ID"
+    },
+    {
+      "filename": "road_od_hourly.csv",
+      "type": "CSV",
+      "purpose": "方向级道路 OD/小时代理与证据状态"
+    },
+    {
+      "filename": "weather_hourly.csv",
+      "type": "CSV",
+      "purpose": "降雨、风向/风速、时区、站点或网格来源"
+    },
+    {
+      "filename": "cross_border_wait.csv",
+      "type": "CSV",
+      "purpose": "国境等候实测/情景分离"
+    }
+  ],
+  "outputs": [
+    {
+      "filename": "paired_task_manifest.csv",
+      "purpose": "任务总体与种子/日期哈希"
+    },
+    {
+      "filename": "time_join_QA.csv",
+      "purpose": "天气道路时间戳覆盖及缺测"
+    },
+    {
+      "filename": "road_access_repair_log.csv",
+      "purpose": "可达性候选/实际修复逐条追踪"
+    },
+    {
+      "filename": "demand_freeze.json",
+      "purpose": "可评价分母及排除理由"
+    }
+  ],
+  "release_gates": [
+    "同一 task_id 在各模式只定义一次",
+    "无跨日期或不同订单总体混合",
+    "未验证 37 OD 不视为 PASS",
+    "无法计算的数值为缺失而非 0",
+    "每条跨境任务有实际国家对及排队证据类型"
+  ],
+  "expected_status": "BLOCKED_UNTIL_REAL_INPUTS_ACCEPTED",
+  "historical_git_commit": "4569817b8145efe2ae06f4b21addc1986f971c12",
+  "review_rule": "Automatic schema gate is not scientific approval; release requires human evidence review plus frozen source hashes."
+}

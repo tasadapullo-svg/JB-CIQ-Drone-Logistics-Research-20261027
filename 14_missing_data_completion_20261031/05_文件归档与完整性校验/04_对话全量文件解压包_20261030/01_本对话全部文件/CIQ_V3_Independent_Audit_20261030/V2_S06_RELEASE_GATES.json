@@ -1,0 +1,8 @@
+{
+  "V2_S06_spatial_reference_inventory": "PASS_REFERENCE_ONLY",
+  "V2_S06_qgis_3_22_desktop_open_and_layout_export": "HOLD_NOT_RUN_IN_QGIS_RUNTIME",
+  "V2_S06_online_osm_basemap_borders_terrain": "HOLD_NEED_EXTERNAL_GIS",
+  "V2_S06_drivable_road_access_and_turn_restrictions": "HOLD_NO_ROUTABLE_ROAD_GRAPH",
+  "V2_S06_airspace_and_flight_regulatory_feasibility": "HOLD_REFERENCE_ONLY",
+  "V2_S06_all_inputs_for_fuel_carbon_main_sim": "HOLD"
+}

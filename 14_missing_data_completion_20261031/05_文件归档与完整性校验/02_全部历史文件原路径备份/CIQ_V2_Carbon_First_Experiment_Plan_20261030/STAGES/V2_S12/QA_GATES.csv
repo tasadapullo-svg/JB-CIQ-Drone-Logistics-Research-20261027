@@ -1,0 +1,6 @@
+﻿gate_id,acceptance_criterion,status,evidence_path,reviewer
+V2_S12-G01,不将订单行数当独立样本数,BLOCKED,,
+V2_S12-G02,不发表未授权飞行/实际净减排的断言,BLOCKED,,
+V2_S12-G03,所有图表数值与输出CSV一致,BLOCKED,,
+V2_S12-G04,最后一个seed每项计算可重放,BLOCKED,,
+V2_S12-G05,公开汇总无密钥、无隐私、来源许可检查通过,BLOCKED,,

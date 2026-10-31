@@ -1,0 +1,10 @@
+﻿id,required_task,audit_status,scientific_evidence_and_blocker
+S09-01,机型规格、版本及来源,PASS_DJI__HOLD_CARGO_VARIANT,DJI 官方双电池/30kg/试验航程；198 Delivery Variant 2021 文件记录5kg及2×814Wh，与研究中 Cargo 4.7kg 配置不等价
+S09-02,"82,620 订单载重/空间筛查",PASS_STATIC,"165,240 条任务×机型；11,060 DJI、7,377 Wingcopter 方向一致且载重通过的候选几何；不等于航线获批"
+S09-03,2026年5–9月风雨事件核验,HOLD_REAL_WEATHER,五个月气象原始字节尚未独立数值验收；B/C粗网格空间代表性预警；事件时刻由S10调度给出
+S09-04,带载/空载/返程/起降能耗,PASS_SCENARIO_CODE__HOLD_CALIBRATION,"165,933条功率×风况设计情景；两机型无已校准任务级功率曲线；没有真实kWh"
+S09-05,充电/能源来源/运营CO2e,PASS_ACCOUNTING_TEST__HOLD_EF,电网和车载发动机供电严格分账；缺少实际充电效率/可核验2026电力因子/实际任务kWh
+S09-06,M1固定站点/M2动态会合接口,PASS_SCHEMA__HOLD_REAL_S10_EVENTS,事件 UTC、连续航段、天气窗口、合法路由与机型证据门控；未运行真实起降/会合排程
+S09-07,机型功率、5m/s逆顺风敏感性,PASS_ILLUSTRATIVE_ONLY,3种功率×3种合成风况；不得引用为历史运营表现或实际天气限制
+S09-08,执行复现、测试、异常审计,PASS_ENGINEERING_QA,冻结源SHA逐项匹配；37项自动测试通过；没有将缺失实证转为0或PASS
+S09-09,最终SCI可投稿能耗验收,HOLD__NOT_FINAL_PASS,S07原始风雨数值、Cargo配置匹配、两机型任务能耗标定、合法航路及S10实际任务时刻均未验收

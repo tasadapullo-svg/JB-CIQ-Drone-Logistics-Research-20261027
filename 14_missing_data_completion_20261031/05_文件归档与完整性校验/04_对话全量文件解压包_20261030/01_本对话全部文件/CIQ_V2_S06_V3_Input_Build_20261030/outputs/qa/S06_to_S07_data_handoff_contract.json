@@ -1,0 +1,22 @@
+{
+  "schema_version": "V2-S06-to-S07-v1",
+  "spatial_lock": "QGIS_ABC_V3_20261030_S06_SOURCE_LOCK",
+  "source_v3_sha256": "a4e4d05397fa62d4611ea8a9a443445f8c6b9ae95c5ad545e7dea83aecd8ad92",
+  "entities": {
+    "nodes_csv": "outputs/data/S06_69_node_master.csv",
+    "uav_geom_candidates_csv": "outputs/data/S06_116_uav_geometry_candidates_ONLY.csv",
+    "ground_relation_not_roads_csv": "outputs/data/S06_5_ground_handoff_straight_references_NOT_ROUTES.csv",
+    "road_access_holds": "outputs/data/S06_69_road_access_evidence_HOLD.csv",
+    "airspace_holds": "outputs/data/S06_69_airspace_and_site_evidence_HOLD.csv"
+  },
+  "order_mapping_allowed": "REFERENCE_ONLY_PENDING_ID_COORDINATE_VERIFICATION",
+  "s07_real_weather_road_input_allowed": false,
+  "hypothetical_scenario_model_development_allowed": true,
+  "m0_petrol_vehicle_routing_released": false,
+  "m1_m2_real_drone_route_release": false,
+  "reasons": [
+    "no authoritative legal road route graph in V3 archive",
+    "no effective airspace GIS boundary",
+    "no verified old Stage8 19-point coordinates"
+  ]
+}

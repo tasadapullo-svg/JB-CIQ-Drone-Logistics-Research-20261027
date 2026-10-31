@@ -1,0 +1,67 @@
+{
+  "audit": "STAGE04_HISTORICAL_ROAD_WEATHER_STRUCTURAL_RECONCILIATION",
+  "sources": {
+    "repository": "tasadapullo-svg/JB-CIQ-Drone-Logistics-Research-20261027",
+    "commit": "4569817b8145efe2ae06f4b21addc1986f971c12",
+    "road_diagnostics": {
+      "path": "outputs/stage2_20261027/od_connectivity_diagnostics.csv",
+      "git_blob_sha1": "c144da04db6fed8df228accb776b07d5493972d9",
+      "line_rows_parsed": 128
+    },
+    "road_repairs": {
+      "path": "outputs/stage2_20261027/od_route_repair_log.csv",
+      "git_blob_sha1": "6f1cee1b994959e327eaeecf1708fb7efada1b0d",
+      "line_rows_parsed": 37
+    },
+    "road_gates": {
+      "path": "outputs/stage2_20261027/stage2_gates.json",
+      "git_blob_sha1": "63a6fb3a1ea21b85306e0a2b1a06869810515140"
+    },
+    "weather_qc": {
+      "path": "data/weather_2026/processed/final_verification_summary.json",
+      "git_blob_sha1": "85845782a5f5cdbb4fa49737bb6e63aaa6dc06c7",
+      "type": "PRECOMPUTED_QC_METADATA_NOT_HOURLY_RAW"
+    }
+  },
+  "road_results": {
+    "od_total": 128,
+    "A_total": 56,
+    "B_total": 72,
+    "routable_original": 91,
+    "unroutable_original": 37,
+    "A_exceptions": 7,
+    "B_exceptions": 30,
+    "diagnostic_candidate_routes_found": 37,
+    "applied_repairs": 0,
+    "cross_border_od": 0,
+    "diagnostic_category": {
+      "NONE_EXISTING_ROUTE": 91,
+      "SNAP_FAILURE": 7,
+      "DATA_GAP": 30
+    }
+  },
+  "road_stage2_gate_summary": {
+    "G2_OD_STATUS": "PASS_DIAGNOSTIC_ONLY",
+    "G3_ROAD_INTERNAL": "BLOCKED",
+    "G4_CIQ_SEPARATION": "PASS_ONLY_OLD_DOMESTIC_TASK_SCOPE",
+    "G5_EXTERNAL_CALIBRATION": "BLOCKED"
+  },
+  "weather_results": {
+    "period": "2026-05 through 2026-09",
+    "reference_point_count": 4,
+    "unique_ERA5_returned_grids_each_month": 2,
+    "unique_NASA_returned_grids_each_month": 4,
+    "five_month_total_reported_hourly_rows": 14688,
+    "NEA_06_09": "NOT_REQUESTED",
+    "NEA_05": "PARTIAL",
+    "hourly_raw_values_independently_recomputed": false
+  },
+  "scientific_release": {
+    "spatial_three_zone_inputs_frozen": false,
+    "new_road_OD_rebuilt": false,
+    "weather_real_task_exposure_verified": false,
+    "fuel_vehicle_and_uav_operational_carbon_recalculated": false,
+    "status": "HOLD"
+  },
+  "interpretation": "Connector lines re-counted for historical OD and repair records. Weather results are precomputed historical QC metadata. Not an independent full-source SHA256 or new numerical simulation."
+}

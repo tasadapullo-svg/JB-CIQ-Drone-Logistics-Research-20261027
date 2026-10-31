@@ -1,0 +1,11 @@
+{
+"source_commit":"4569817b8145efe2ae06f4b21addc1986f971c12",
+"legacy19_full_source_path":"03_gis_and_road_network/road_network_project/JB_CIQ_E02_roadnet_V4_6/inputs/19_site_reference_anchors_NOT_LAUNCH_PADS.csv",
+"legacy19_full_source_git_blob_sha1":"4c76d71d50cd48ba4a01ed902bd9e253fdef49cf",
+"extract_notice":"legacy19_COORDINATE_EXTRACT_FROM_GITHUB.csv is a curated five-column extraction of historical GitHub file, not the unmodified raw CSV or its SHA-256. Independent comparison to original full file remains required for formal raw input freeze.",
+"historical_A_directed_edges_csv_path":"03_gis_and_road_network/road_network_project/JB_CIQ_E02_roadnet_V4_6/outputs/E02_A_directed_edges_OSM.csv",
+"historical_A_directed_edges_size_bytes":14959641,
+"historical_B_directed_edges_csv_path":"03_gis_and_road_network/road_network_project/JB_CIQ_E02_roadnet_V4_6/outputs/E02_B_directed_edges_OSM.csv",
+"historical_B_directed_edges_size_bytes":8652178,
+"historical_road_warning":"Old A/B road graph not automatically compatible with updated 69-node A/B/C V3 scope; source bytes not present in this package."
+}

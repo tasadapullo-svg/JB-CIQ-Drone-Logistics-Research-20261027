@@ -1,0 +1,28 @@
+{
+  "stage": "V2-S07-R2",
+  "date": "2026-10-30",
+  "source_files_pinned": 11,
+  "source_files_read_from_raw_bytes": 0,
+  "source_files_network_download_fail_count": 11,
+  "network_blocked_message": "Temporary failure in name resolution",
+  "weather_months_version_registry": 5,
+  "weather_months_raw_values_recomputed": 0,
+  "legacy_directed_osm_graphs_loaded": 0,
+  "legacy_stage6_orders_verified_raw_bytes": false,
+  "node_road_status_rows": 69,
+  "node_zone_counts": {
+    "A": 23,
+    "C": 29,
+    "PORT_A": 6,
+    "B": 10,
+    "GATEWAY": 1
+  },
+  "old19_crosswalk_rows": 19,
+  "hourly_axis_rows": 3672,
+  "node_grid_candidate_count": 69,
+  "potential_proxy_hourly_rows_if_sources_pass": 253368,
+  "legacy_37_OD_exception_resolution": "UNCHANGED_NO_REPAIR",
+  "C_graph_available": false,
+  "M0_M1_M2_results_released": false,
+  "stage_release": "HOLD_NO_FULL_JOIN"
+}

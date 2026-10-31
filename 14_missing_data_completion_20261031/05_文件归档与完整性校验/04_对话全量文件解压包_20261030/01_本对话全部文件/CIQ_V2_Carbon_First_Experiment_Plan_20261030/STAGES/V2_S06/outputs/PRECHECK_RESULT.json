@@ -1,0 +1,56 @@
+{
+  "stage": "V2_S06",
+  "status": "HOLD",
+  "input_checks": [
+    {
+      "file": "qgis_project_bundle.zip",
+      "exists": false,
+      "size_bytes": null,
+      "sha256": null,
+      "schema_valid": null,
+      "source_recorded": false
+    },
+    {
+      "file": "nodes.csv",
+      "exists": false,
+      "size_bytes": null,
+      "sha256": null,
+      "schema_valid": null,
+      "source_recorded": false
+    },
+    {
+      "file": "edges.csv",
+      "exists": false,
+      "size_bytes": null,
+      "sha256": null,
+      "schema_valid": null,
+      "source_recorded": false
+    },
+    {
+      "file": "spatial_screen.csv",
+      "exists": false,
+      "size_bytes": null,
+      "sha256": null,
+      "schema_valid": null,
+      "source_recorded": false
+    },
+    {
+      "file": "legacy_crosswalk.csv",
+      "exists": false,
+      "size_bytes": null,
+      "sha256": null,
+      "schema_valid": null,
+      "source_recorded": false
+    }
+  ],
+  "blockers": [
+    "MISSING_INPUT:edges.csv",
+    "MISSING_INPUT:legacy_crosswalk.csv",
+    "MISSING_INPUT:nodes.csv",
+    "MISSING_INPUT:qgis_project_bundle.zip",
+    "MISSING_INPUT:spatial_screen.csv",
+    "QA_GATES_NOT_ALL_PASS",
+    "SCIENTIFIC_APPROVAL_MISSING"
+  ],
+  "scientific_note": "This tool does not certify airspace authorization, real deployment, or numerical accuracy."
+}

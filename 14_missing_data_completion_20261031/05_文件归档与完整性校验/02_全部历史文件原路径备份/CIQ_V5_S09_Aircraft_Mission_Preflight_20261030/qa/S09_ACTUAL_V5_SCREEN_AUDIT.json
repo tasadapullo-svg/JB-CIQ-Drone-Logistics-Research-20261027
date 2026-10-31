@@ -1,0 +1,40 @@
+{
+  "status": "GEOMETRY_AND_PAYLOAD_SCREEN_PASS__MISSION_ENERGY_AND_CARBON_HOLD",
+  "fixed_population": 82620,
+  "nodes": 68,
+  "edges": 116,
+  "counts": {
+    "tasks": 82620,
+    "mode_DIRECTED_CANDIDATE_MATCH_NOT_AIR_ROUTE": 11060,
+    "dji_WEIGHT_ONLY_PASS": 82620,
+    "wing_WEIGHT_ONLY_PASS": 55080,
+    "dji_geom_PASS_GEOMETRY_TEST_PROXY_NOT_ENERGY": 26553,
+    "wing_geom_WITHIN_92KM_UPPER_BOUND_ONLY_NOT_LOADED_RANGE": 28477,
+    "mode_NO_DIRECT_CANDIDATE_GEOMETRY": 54143,
+    "dji_geom_HOLD_NO_DIRECT_GEOMETRY": 54143,
+    "wing_geom_HOLD_NO_DIRECT_GEOMETRY": 54143,
+    "wing_WEIGHT_FAIL": 27540,
+    "cross_zone_designed": 13770,
+    "mode_REVERSE_CANDIDATE_ONLY_DIRECTION_UNVERIFIED": 17417,
+    "dji_geom_EXCEEDS_PUBLIC_TEST_EQUIVALENT_PROXY": 1924,
+    "edge_count": 116,
+    "edge_DJI_assumed_25pct_reserve_pass": 104,
+    "edge_DJI_test_proxy_energy_fraction_only_pass": 114,
+    "edge_Wingcopter_92km_max_geometric_roundtrip_below_upper_bound": 116,
+    "task_five_mode_fully_simulated": 0
+  },
+  "provenance": {
+    "S07_V5_SYNTHETIC_TASKS_CONDITIONAL_DESIGN.csv": "8cc9c4d20b78cb80bff4fa9fd69750e0b7c172d6f48d07a7880b224bf5ddecca",
+    "S06_V5_68_NODE_MASTER_AUTHORITATIVE.csv": "6d10ce88b5d7770fa1a776bffb5c386655d9ccab18064138c06ce11ea9d756a9",
+    "S06_V5_116_UAV_GEOMETRY_ONLY.csv": "1589b41e1ce20406d186faaa14df4c1ba74d4ffa5020104260d517ff418cc2e4",
+    "V5_FROZEN_SOURCE.zip": "0d19633630b6f12525ad9bd776bbf966ec1e8a46520bd8bc3d904013b02dce74"
+  },
+  "claims_not_supported": [
+    "aircraft operational flight feasibility",
+    "valid actual wind and rain windows",
+    "task kWh or CO2",
+    "petrol road-km",
+    "carbon reduction or optimization"
+  ],
+  "v5_source_status": "FROZEN_UNCHANGED"
+}

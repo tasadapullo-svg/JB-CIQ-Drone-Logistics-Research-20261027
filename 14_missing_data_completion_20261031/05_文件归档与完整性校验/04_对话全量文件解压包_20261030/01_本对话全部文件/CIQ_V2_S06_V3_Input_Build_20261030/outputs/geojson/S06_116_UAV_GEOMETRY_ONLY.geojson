@@ -1,0 +1,4878 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.7743763,
+            1.5311284
+          ],
+          [
+            103.777987,
+            1.500802
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.33,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "A01--A04",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "A01",
+        "from_zone": "A",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 3.37733,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 3.377,
+        "source_series": "V7_111",
+        "to_id": "A04",
+        "to_zone": "A",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.7743763,
+            1.5311284
+          ],
+          [
+            103.7997,
+            1.5013
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.201,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "A01--A07",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "A01",
+        "from_zone": "A",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 4.338201,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 4.338,
+        "source_series": "V7_111",
+        "to_id": "A07",
+        "to_zone": "A",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.7743763,
+            1.5311284
+          ],
+          [
+            103.7842881,
+            1.5204315
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.289,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "A01--A05",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "A01",
+        "from_zone": "A",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 1.617289,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 1.617,
+        "source_series": "V7_111",
+        "to_id": "A05",
+        "to_zone": "A",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.7743763,
+            1.5311284
+          ],
+          [
+            103.76439,
+            1.5263
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.123,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "A01--A08",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "A01",
+        "from_zone": "A",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 1.232877,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 1.233,
+        "source_series": "V7_111",
+        "to_id": "A08",
+        "to_zone": "A",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.77658,
+            1.53356
+          ],
+          [
+            103.7842881,
+            1.5204315
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.161,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "A02--A05",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "A02",
+        "from_zone": "A",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 1.686161,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 1.686,
+        "source_series": "V7_111",
+        "to_id": "A05",
+        "to_zone": "A",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.783,
+            1.4985
+          ],
+          [
+            103.81647,
+            1.49596
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.174,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "A03--A06",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "A03",
+        "from_zone": "A",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 3.735174,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 3.735,
+        "source_series": "V7_111",
+        "to_id": "A06",
+        "to_zone": "A",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.7842881,
+            1.5204315
+          ],
+          [
+            103.7997,
+            1.5013
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.344,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "A05--A07",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "A05",
+        "from_zone": "A",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 2.723344,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 2.723,
+        "source_series": "V7_111",
+        "to_id": "A07",
+        "to_zone": "A",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.777987,
+            1.500802
+          ],
+          [
+            103.783,
+            1.4985
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.184,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "A04--A03",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "A04",
+        "from_zone": "A",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 0.613184,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 0.613,
+        "source_series": "V7_111",
+        "to_id": "A03",
+        "to_zone": "A",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.783,
+            1.4985
+          ],
+          [
+            103.78839,
+            1.49531
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.161,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "A03--A_C01",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "A03",
+        "from_zone": "A",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 0.695839,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 0.696,
+        "source_series": "V7_111",
+        "to_id": "A_C01",
+        "to_zone": "A",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.777987,
+            1.500802
+          ],
+          [
+            103.78839,
+            1.49531
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.276,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "A04--A_C01",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "A04",
+        "from_zone": "A",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 1.307276,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 1.307,
+        "source_series": "V7_111",
+        "to_id": "A_C01",
+        "to_zone": "A",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.7997,
+            1.5013
+          ],
+          [
+            103.78839,
+            1.49531
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.239,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "A07--A_C01",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "A07",
+        "from_zone": "A",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 1.422239,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 1.422,
+        "source_series": "V7_111",
+        "to_id": "A_C01",
+        "to_zone": "A",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.7997,
+            1.5013
+          ],
+          [
+            103.8172,
+            1.4883
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.498,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "A07--A_C03",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "A07",
+        "from_zone": "A",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 2.420502,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 2.421,
+        "source_series": "V7_111",
+        "to_id": "A_C03",
+        "to_zone": "A",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.81647,
+            1.49596
+          ],
+          [
+            103.8172,
+            1.4883
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.109,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "A06--A_C03",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "A06",
+        "from_zone": "A",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 0.850891,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 0.851,
+        "source_series": "V7_111",
+        "to_id": "A_C03",
+        "to_zone": "A",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.65939,
+            1.49927
+          ],
+          [
+            103.6633132,
+            1.4868072
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.423,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "A09--A10",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "A09",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 1.445577,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 1.446,
+        "source_series": "V7_111",
+        "to_id": "A10",
+        "to_zone": "C",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.65939,
+            1.49927
+          ],
+          [
+            103.65556,
+            1.48044
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.303,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "A09--C01",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "A09",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 2.125303,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 2.125,
+        "source_series": "V7_111",
+        "to_id": "C01",
+        "to_zone": "C",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.6633132,
+            1.4868072
+          ],
+          [
+            103.65556,
+            1.48044
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.4,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "A10--C01",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "A10",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 1.1136,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 1.114,
+        "source_series": "V7_111",
+        "to_id": "C01",
+        "to_zone": "C",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.65556,
+            1.48044
+          ],
+          [
+            103.6505056,
+            1.4771782
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.173,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "C01--C02",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "C01",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 0.668173,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 0.668,
+        "source_series": "V7_111",
+        "to_id": "C02",
+        "to_zone": "C",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.6505056,
+            1.4771782
+          ],
+          [
+            103.64555,
+            1.4576
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.003,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "C02--C03",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "C02",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 2.233997,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 2.234,
+        "source_series": "V7_111",
+        "to_id": "C03",
+        "to_zone": "C",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.64555,
+            1.4576
+          ],
+          [
+            103.6245841,
+            1.4688333
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.197,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "C03--C04",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "C03",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 2.643197,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 2.643,
+        "source_series": "V7_111",
+        "to_id": "C04",
+        "to_zone": "C",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.6245841,
+            1.4688333
+          ],
+          [
+            103.61631,
+            1.44104
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.216,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "C04--C05",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "C04",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 3.208216,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 3.208,
+        "source_series": "V7_111",
+        "to_id": "C05",
+        "to_zone": "C",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.61631,
+            1.44104
+          ],
+          [
+            103.6181463,
+            1.4407571
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.268,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "C05--C06",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "C05",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 0.206732,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 0.207,
+        "source_series": "V7_111",
+        "to_id": "C06",
+        "to_zone": "C",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.6245841,
+            1.4688333
+          ],
+          [
+            103.6205,
+            1.4487
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.159,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "C04--B07",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "C04",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 2.272159,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 2.272,
+        "source_series": "V7_111",
+        "to_id": "B07",
+        "to_zone": "B",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.61631,
+            1.44104
+          ],
+          [
+            103.6205,
+            1.4487
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.132,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "C05--B07",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "C05",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 0.966868,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 0.967,
+        "source_series": "V7_111",
+        "to_id": "B07",
+        "to_zone": "B",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.61631,
+            1.44104
+          ],
+          [
+            103.62725,
+            1.41221
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.443,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "C05--B06",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "C05",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 3.412443,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 3.412,
+        "source_series": "V7_111",
+        "to_id": "B06",
+        "to_zone": "B",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.62725,
+            1.41221
+          ],
+          [
+            103.62855,
+            1.39669
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.21,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "B06--C07",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "B06",
+        "from_zone": "B",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 1.72221,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 1.722,
+        "source_series": "V7_111",
+        "to_id": "C07",
+        "to_zone": "C",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.62855,
+            1.39669
+          ],
+          [
+            103.62,
+            1.39
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.231,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "C07--B02",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "C07",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 1.205231,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 1.205,
+        "source_series": "V7_111",
+        "to_id": "B02",
+        "to_zone": "B",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.62855,
+            1.39669
+          ],
+          [
+            103.598,
+            1.392
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.135,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "C07--B01",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "C07",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 3.439135,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 3.439,
+        "source_series": "V7_111",
+        "to_id": "B01",
+        "to_zone": "B",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.64555,
+            1.4576
+          ],
+          [
+            103.6205,
+            1.4487
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.273,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "C03--B07",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "C03",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 2.956273,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 2.956,
+        "source_series": "V7_111",
+        "to_id": "B07",
+        "to_zone": "B",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.65939,
+            1.49927
+          ],
+          [
+            103.67148,
+            1.51709
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.055,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "A09--C08",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "A09",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 2.385945,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 2.386,
+        "source_series": "V7_111",
+        "to_id": "C08",
+        "to_zone": "C",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.67148,
+            1.51709
+          ],
+          [
+            103.68541,
+            1.5159
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.284,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "C08--C09",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "C08",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 1.555716,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 1.556,
+        "source_series": "V7_111",
+        "to_id": "C09",
+        "to_zone": "C",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.68541,
+            1.5159
+          ],
+          [
+            103.7051,
+            1.5288
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.494,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "C09--C10",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "C09",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 2.614506,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 2.615,
+        "source_series": "V7_111",
+        "to_id": "C10",
+        "to_zone": "C",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.7051,
+            1.5288
+          ],
+          [
+            103.7184,
+            1.5462
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.398,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "C10--C11",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "C10",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 2.427398,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 2.427,
+        "source_series": "V7_111",
+        "to_id": "C11",
+        "to_zone": "C",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.7184,
+            1.5462
+          ],
+          [
+            103.73679,
+            1.5521
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.103,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "C11--C12",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "C11",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 2.147897,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 2.148,
+        "source_series": "V7_111",
+        "to_id": "C12",
+        "to_zone": "C",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.73679,
+            1.5521
+          ],
+          [
+            103.75577,
+            1.5312
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.232,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "C12--C13",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "C12",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 3.130768,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 3.131,
+        "source_series": "V7_111",
+        "to_id": "C13",
+        "to_zone": "C",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.75577,
+            1.5312
+          ],
+          [
+            103.76439,
+            1.5263
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.32,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "C13--A08",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "C13",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 1.10168,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 1.102,
+        "source_series": "V7_111",
+        "to_id": "A08",
+        "to_zone": "A",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.7743763,
+            1.5311284
+          ],
+          [
+            103.8024,
+            1.5428
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.023,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "A01--A_N06",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "A01",
+        "from_zone": "A",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 3.374977,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 3.375,
+        "source_series": "V7_111",
+        "to_id": "A_N06",
+        "to_zone": "A",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.8024,
+            1.5428
+          ],
+          [
+            103.81482,
+            1.52818
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.123,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "A_N06--A_N04",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "A_N06",
+        "from_zone": "A",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 2.126877,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 2.127,
+        "source_series": "V7_111",
+        "to_id": "A_N04",
+        "to_zone": "A",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.81482,
+            1.52818
+          ],
+          [
+            103.8327,
+            1.5167
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.141,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "A_N04--A_N07",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "A_N04",
+        "from_zone": "A",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 2.360141,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 2.36,
+        "source_series": "V7_111",
+        "to_id": "A_N07",
+        "to_zone": "A",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.81719,
+            1.52906
+          ],
+          [
+            103.8327,
+            1.5167
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.449,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "A_N05--A_N07",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "A_N05",
+        "from_zone": "A",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 2.201551,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 2.202,
+        "source_series": "V7_111",
+        "to_id": "A_N07",
+        "to_zone": "A",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.8327,
+            1.5167
+          ],
+          [
+            103.82572,
+            1.52331
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.445,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "A_N07--A_N08",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "A_N07",
+        "from_zone": "A",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 1.066555,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 1.067,
+        "source_series": "V7_111",
+        "to_id": "A_N08",
+        "to_zone": "A",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.82572,
+            1.52331
+          ],
+          [
+            103.81647,
+            1.49596
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.393,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "A_N08--A06",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "A_N08",
+        "from_zone": "A",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 3.194607,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 3.195,
+        "source_series": "V7_111",
+        "to_id": "A06",
+        "to_zone": "A",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.82572,
+            1.52331
+          ],
+          [
+            103.7842881,
+            1.5204315
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.464,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "A_N08--A05",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "A_N08",
+        "from_zone": "A",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 4.621536,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 4.622,
+        "source_series": "V7_111",
+        "to_id": "A05",
+        "to_zone": "A",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.8327,
+            1.5167
+          ],
+          [
+            103.83147,
+            1.48613
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.049,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "A_N07--A_N03",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "A_N07",
+        "from_zone": "A",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 3.383049,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 3.383,
+        "source_series": "V7_111",
+        "to_id": "A_N03",
+        "to_zone": "A",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.83147,
+            1.48613
+          ],
+          [
+            103.81647,
+            1.49596
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.067,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "A_N03--A06",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "A_N03",
+        "from_zone": "A",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 1.991933,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 1.992,
+        "source_series": "V7_111",
+        "to_id": "A06",
+        "to_zone": "A",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.81838,
+            1.4961
+          ],
+          [
+            103.83147,
+            1.48613
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.177,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "A_N02--A_N03",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "A_N02",
+        "from_zone": "A",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 1.826823,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 1.827,
+        "source_series": "V7_111",
+        "to_id": "A_N03",
+        "to_zone": "A",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.81838,
+            1.4961
+          ],
+          [
+            103.8327,
+            1.5167
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.076,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "A_N02--A_N07",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "A_N02",
+        "from_zone": "A",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 2.779924,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 2.78,
+        "source_series": "V7_111",
+        "to_id": "A_N07",
+        "to_zone": "A",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.7743763,
+            1.5311284
+          ],
+          [
+            103.81482,
+            1.52818
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.371,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "A01--A_N04",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "A01",
+        "from_zone": "A",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 4.512371,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 4.512,
+        "source_series": "V7_111",
+        "to_id": "A_N04",
+        "to_zone": "A",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.783,
+            1.4985
+          ],
+          [
+            103.7904,
+            1.50059
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.298,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "A03--A_N01",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "A03",
+        "from_zone": "A",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 0.855298,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 0.855,
+        "source_series": "V7_111",
+        "to_id": "A_N01",
+        "to_zone": "A",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.7904,
+            1.50059
+          ],
+          [
+            103.78839,
+            1.49531
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.217,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "A_N01--A_C01",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "A_N01",
+        "from_zone": "A",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 0.625217,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 0.625,
+        "source_series": "V7_111",
+        "to_id": "A_C01",
+        "to_zone": "A",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.7997,
+            1.5013
+          ],
+          [
+            103.7904,
+            1.50059
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.108,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "A07--A_N01",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "A07",
+        "from_zone": "A",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 1.037892,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 1.038,
+        "source_series": "V7_111",
+        "to_id": "A_N01",
+        "to_zone": "A",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.7904,
+            1.50059
+          ],
+          [
+            103.81838,
+            1.4961
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.004,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "A_N01--A_N02",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "A_N01",
+        "from_zone": "A",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 3.152996,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 3.153,
+        "source_series": "V7_111",
+        "to_id": "A_N02",
+        "to_zone": "A",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.65939,
+            1.49927
+          ],
+          [
+            103.6533,
+            1.49385
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.309,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "A09--C14",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "A09",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 0.904691,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 0.905,
+        "source_series": "V7_111",
+        "to_id": "C14",
+        "to_zone": "C",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.6533,
+            1.49385
+          ],
+          [
+            103.63836,
+            1.47271
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.497,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "C14--C15",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "C14",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 2.868497,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 2.868,
+        "source_series": "V7_111",
+        "to_id": "C15",
+        "to_zone": "C",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.63836,
+            1.47271
+          ],
+          [
+            103.63147,
+            1.4774
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.348,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "C15--C16",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "C15",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 0.925652,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 0.926,
+        "source_series": "V7_111",
+        "to_id": "C16",
+        "to_zone": "C",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.63147,
+            1.4774
+          ],
+          [
+            103.6245841,
+            1.4688333
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.399,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "C16--C04",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "C16",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 1.218399,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 1.218,
+        "source_series": "V7_111",
+        "to_id": "C04",
+        "to_zone": "C",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.63147,
+            1.4774
+          ],
+          [
+            103.62071,
+            1.48934
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.376,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "C16--C24",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "C16",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 1.782376,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 1.782,
+        "source_series": "V7_111",
+        "to_id": "C24",
+        "to_zone": "C",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.62071,
+            1.48934
+          ],
+          [
+            103.61698,
+            1.50231
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.018,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "C24--C19",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "C24",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 1.493018,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 1.493,
+        "source_series": "V7_111",
+        "to_id": "C19",
+        "to_zone": "C",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.61698,
+            1.50231
+          ],
+          [
+            103.60088,
+            1.48009
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.159,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "C19--C20",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "C19",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 3.040841,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 3.041,
+        "source_series": "V7_111",
+        "to_id": "C20",
+        "to_zone": "C",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.60088,
+            1.48009
+          ],
+          [
+            103.59728,
+            1.46662
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.382,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "C20--C21",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "C20",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 1.542382,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 1.542,
+        "source_series": "V7_111",
+        "to_id": "C21",
+        "to_zone": "C",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.59728,
+            1.46662
+          ],
+          [
+            103.6205,
+            1.4487
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.294,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "C21--B07",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "C21",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 3.256294,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 3.256,
+        "source_series": "V7_111",
+        "to_id": "B07",
+        "to_zone": "B",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.59728,
+            1.46662
+          ],
+          [
+            103.61631,
+            1.44104
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.447,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "C21--C05",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "C21",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 3.533447,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 3.533,
+        "source_series": "V7_111",
+        "to_id": "C05",
+        "to_zone": "C",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.59728,
+            1.46662
+          ],
+          [
+            103.61348,
+            1.43277
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.5,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "C21--C22",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "C21",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 4.1545,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 4.155,
+        "source_series": "V7_111",
+        "to_id": "C22",
+        "to_zone": "C",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.61348,
+            1.43277
+          ],
+          [
+            103.6205,
+            1.4487
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.075,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "C22--B07",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "C22",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 1.926925,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 1.927,
+        "source_series": "V7_111",
+        "to_id": "B07",
+        "to_zone": "B",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.61348,
+            1.43277
+          ],
+          [
+            103.61631,
+            1.44104
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.167,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "C22--C05",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "C22",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 0.967167,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 0.967,
+        "source_series": "V7_111",
+        "to_id": "C05",
+        "to_zone": "C",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.60088,
+            1.48009
+          ],
+          [
+            103.58949,
+            1.47979
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.057,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "C20--C27",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "C20",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 1.267943,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 1.268,
+        "source_series": "V7_111",
+        "to_id": "C27",
+        "to_zone": "C",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.58949,
+            1.47979
+          ],
+          [
+            103.59728,
+            1.46662
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.233,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "C27--C21",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "C27",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 1.694767,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 1.695,
+        "source_series": "V7_111",
+        "to_id": "C21",
+        "to_zone": "C",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.61698,
+            1.50231
+          ],
+          [
+            103.59728,
+            1.46662
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.451,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "C19--C21",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "C19",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 4.514451,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 4.514,
+        "source_series": "V7_111",
+        "to_id": "C21",
+        "to_zone": "C",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.63221,
+            1.51383
+          ],
+          [
+            103.66164,
+            1.52056
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.476,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "C17--C18",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "C17",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 3.358476,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 3.358,
+        "source_series": "V7_111",
+        "to_id": "C18",
+        "to_zone": "C",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.66164,
+            1.52056
+          ],
+          [
+            103.67148,
+            1.51709
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.28,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "C18--C08",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "C18",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 1.16028,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 1.16,
+        "source_series": "V7_111",
+        "to_id": "C08",
+        "to_zone": "C",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.66164,
+            1.52056
+          ],
+          [
+            103.68541,
+            1.5159
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.137,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "C18--C09",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "C18",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 2.694863,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 2.695,
+        "source_series": "V7_111",
+        "to_id": "C09",
+        "to_zone": "C",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.63221,
+            1.51383
+          ],
+          [
+            103.61698,
+            1.50231
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.146,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "C17--C19",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "C17",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 2.120146,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 2.12,
+        "source_series": "V7_111",
+        "to_id": "C19",
+        "to_zone": "C",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.63221,
+            1.51383
+          ],
+          [
+            103.62071,
+            1.48934
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.146,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "C17--C24",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "C17",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 2.995146,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 2.995,
+        "source_series": "V7_111",
+        "to_id": "C24",
+        "to_zone": "C",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.63221,
+            1.51383
+          ],
+          [
+            103.62863,
+            1.53769
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.229,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "C17--C26",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "C17",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 2.668229,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 2.668,
+        "source_series": "V7_111",
+        "to_id": "C26",
+        "to_zone": "C",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.62863,
+            1.53769
+          ],
+          [
+            103.66164,
+            1.52056
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.04,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "C26--C18",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "C26",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 4.13296,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 4.133,
+        "source_series": "V7_111",
+        "to_id": "C18",
+        "to_zone": "C",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.69155,
+            1.53445
+          ],
+          [
+            103.68541,
+            1.5159
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.026,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "C25--C09",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "C25",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 2.161974,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 2.162,
+        "source_series": "V7_111",
+        "to_id": "C09",
+        "to_zone": "C",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.69155,
+            1.53445
+          ],
+          [
+            103.7051,
+            1.5288
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.147,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "C25--C10",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "C25",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 1.632147,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 1.632,
+        "source_series": "V7_111",
+        "to_id": "C10",
+        "to_zone": "C",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.69155,
+            1.53445
+          ],
+          [
+            103.66164,
+            1.52056
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.33,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "C25--C18",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "C25",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 3.66567,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 3.666,
+        "source_series": "V7_111",
+        "to_id": "C18",
+        "to_zone": "C",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.6533,
+            1.49385
+          ],
+          [
+            103.65556,
+            1.48044
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.012,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "C14--C01",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "C14",
+        "from_zone": "C",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 1.503988,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 1.504,
+        "source_series": "V7_111",
+        "to_id": "C01",
+        "to_zone": "C",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.598,
+            1.392
+          ],
+          [
+            103.62,
+            1.39
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.28,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "B01--B02",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "B01",
+        "from_zone": "B",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 2.45828,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 2.458,
+        "source_series": "V7_111",
+        "to_id": "B02",
+        "to_zone": "B",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.598,
+            1.392
+          ],
+          [
+            103.61988,
+            1.36614
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.254,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "B01--B03",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "B01",
+        "from_zone": "B",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 3.755746,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 3.756,
+        "source_series": "V7_111",
+        "to_id": "B03",
+        "to_zone": "B",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.598,
+            1.392
+          ],
+          [
+            103.60302,
+            1.35327
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.148,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "B01--B04",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "B01",
+        "from_zone": "B",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 4.318852,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 4.319,
+        "source_series": "V7_111",
+        "to_id": "B04",
+        "to_zone": "B",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.598,
+            1.392
+          ],
+          [
+            103.63508,
+            1.37613
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.157,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "B01--B05",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "B01",
+        "from_zone": "B",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 4.484157,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 4.484,
+        "source_series": "V7_111",
+        "to_id": "B05",
+        "to_zone": "B",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.598,
+            1.392
+          ],
+          [
+            103.62725,
+            1.41221
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.395,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "B01--B06",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "B01",
+        "from_zone": "B",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 3.948395,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 3.948,
+        "source_series": "V7_111",
+        "to_id": "B06",
+        "to_zone": "B",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.598,
+            1.392
+          ],
+          [
+            103.6205,
+            1.4487
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.113,
+        "dji_5p6km_scenario_only": "False",
+        "drone_dispatch_released": "NO",
+        "edge_id": "B01--B07",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "B01",
+        "from_zone": "B",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 6.751113,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 6.751,
+        "source_series": "V7_111",
+        "to_id": "B07",
+        "to_zone": "B",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.598,
+            1.392
+          ],
+          [
+            103.5468,
+            1.358
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.461,
+        "dji_5p6km_scenario_only": "False",
+        "drone_dispatch_released": "NO",
+        "edge_id": "B01--B08",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "B01",
+        "from_zone": "B",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 6.826461,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 6.826,
+        "source_series": "V7_111",
+        "to_id": "B08",
+        "to_zone": "B",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.598,
+            1.392
+          ],
+          [
+            103.5528,
+            1.41112
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.389,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "B01--B09",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "B01",
+        "from_zone": "B",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 5.456389,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 5.456,
+        "source_series": "V7_111",
+        "to_id": "B09",
+        "to_zone": "B",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.62,
+            1.39
+          ],
+          [
+            103.61988,
+            1.36614
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.351,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "B02--B03",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "B02",
+        "from_zone": "B",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 2.638351,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 2.638,
+        "source_series": "V7_111",
+        "to_id": "B03",
+        "to_zone": "B",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.62,
+            1.39
+          ],
+          [
+            103.60302,
+            1.35327
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.497,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "B02--B04",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "B02",
+        "from_zone": "B",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 4.479503,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 4.48,
+        "source_series": "V7_111",
+        "to_id": "B04",
+        "to_zone": "B",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.62,
+            1.39
+          ],
+          [
+            103.63508,
+            1.37613
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.445,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "B02--B05",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "B02",
+        "from_zone": "B",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 2.273445,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 2.273,
+        "source_series": "V7_111",
+        "to_id": "B05",
+        "to_zone": "B",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.62,
+            1.39
+          ],
+          [
+            103.62725,
+            1.41221
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.007,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "B02--B06",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "B02",
+        "from_zone": "B",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 2.585007,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 2.585,
+        "source_series": "V7_111",
+        "to_id": "B06",
+        "to_zone": "B",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.62,
+            1.39
+          ],
+          [
+            103.5528,
+            1.41112
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.395,
+        "dji_5p6km_scenario_only": "False",
+        "drone_dispatch_released": "NO",
+        "edge_id": "B02--B09",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "B02",
+        "from_zone": "B",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 7.834605,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 7.835,
+        "source_series": "V7_111",
+        "to_id": "B09",
+        "to_zone": "B",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.61988,
+            1.36614
+          ],
+          [
+            103.60302,
+            1.35327
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.049,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "B03--B04",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "B03",
+        "from_zone": "B",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 2.354951,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 2.355,
+        "source_series": "V7_111",
+        "to_id": "B04",
+        "to_zone": "B",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.61988,
+            1.36614
+          ],
+          [
+            103.63508,
+            1.37613
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.313,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "B03--B05",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "B03",
+        "from_zone": "B",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 2.020313,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 2.02,
+        "source_series": "V7_111",
+        "to_id": "B05",
+        "to_zone": "B",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.61988,
+            1.36614
+          ],
+          [
+            103.62725,
+            1.41221
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.209,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "B03--B06",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "B03",
+        "from_zone": "B",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 5.159791,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 5.16,
+        "source_series": "V7_111",
+        "to_id": "B06",
+        "to_zone": "B",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.61988,
+            1.36614
+          ],
+          [
+            103.6205,
+            1.4487
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.328,
+        "dji_5p6km_scenario_only": "False",
+        "drone_dispatch_released": "NO",
+        "edge_id": "B03--B07",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "B03",
+        "from_zone": "B",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 9.129328,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 9.129,
+        "source_series": "V7_111",
+        "to_id": "B07",
+        "to_zone": "B",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.61988,
+            1.36614
+          ],
+          [
+            103.5468,
+            1.358
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.4,
+        "dji_5p6km_scenario_only": "False",
+        "drone_dispatch_released": "NO",
+        "edge_id": "B03--B08",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "B03",
+        "from_zone": "B",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 8.1826,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 8.183,
+        "source_series": "V7_111",
+        "to_id": "B08",
+        "to_zone": "B",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.61988,
+            1.36614
+          ],
+          [
+            103.5528,
+            1.41112
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.257,
+        "dji_5p6km_scenario_only": "False",
+        "drone_dispatch_released": "NO",
+        "edge_id": "B03--B09",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "B03",
+        "from_zone": "B",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 8.970257,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 8.97,
+        "source_series": "V7_111",
+        "to_id": "B09",
+        "to_zone": "B",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.60302,
+            1.35327
+          ],
+          [
+            103.63508,
+            1.37613
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.43,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "B04--B05",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "B04",
+        "from_zone": "B",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 4.37257,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 4.373,
+        "source_series": "V7_111",
+        "to_id": "B05",
+        "to_zone": "B",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.60302,
+            1.35327
+          ],
+          [
+            103.62725,
+            1.41221
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.09,
+        "dji_5p6km_scenario_only": "False",
+        "drone_dispatch_released": "NO",
+        "edge_id": "B04--B06",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "B04",
+        "from_zone": "B",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 7.05309,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 7.053,
+        "source_series": "V7_111",
+        "to_id": "B06",
+        "to_zone": "B",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.60302,
+            1.35327
+          ],
+          [
+            103.6205,
+            1.4487
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.025,
+        "dji_5p6km_scenario_only": "False",
+        "drone_dispatch_released": "NO",
+        "edge_id": "B04--B07",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "B04",
+        "from_zone": "B",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 10.729975,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 10.73,
+        "source_series": "V7_111",
+        "to_id": "B07",
+        "to_zone": "B",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.60302,
+            1.35327
+          ],
+          [
+            103.5468,
+            1.358
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.464,
+        "dji_5p6km_scenario_only": "False",
+        "drone_dispatch_released": "NO",
+        "edge_id": "B04--B08",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "B04",
+        "from_zone": "B",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 6.278464,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 6.278,
+        "source_series": "V7_111",
+        "to_id": "B08",
+        "to_zone": "B",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.60302,
+            1.35327
+          ],
+          [
+            103.5528,
+            1.41112
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.337,
+        "dji_5p6km_scenario_only": "False",
+        "drone_dispatch_released": "NO",
+        "edge_id": "B04--B09",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "B04",
+        "from_zone": "B",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 8.494337,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 8.494,
+        "source_series": "V7_111",
+        "to_id": "B09",
+        "to_zone": "B",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.63508,
+            1.37613
+          ],
+          [
+            103.62725,
+            1.41221
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.404,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "B05--B06",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "B05",
+        "from_zone": "B",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 4.083596,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 4.084,
+        "source_series": "V7_111",
+        "to_id": "B06",
+        "to_zone": "B",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.63508,
+            1.37613
+          ],
+          [
+            103.6205,
+            1.4487
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.179,
+        "dji_5p6km_scenario_only": "False",
+        "drone_dispatch_released": "NO",
+        "edge_id": "B05--B07",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "B05",
+        "from_zone": "B",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 8.186821,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 8.187,
+        "source_series": "V7_111",
+        "to_id": "B07",
+        "to_zone": "B",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.63508,
+            1.37613
+          ],
+          [
+            103.5468,
+            1.358
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.045,
+        "dji_5p6km_scenario_only": "False",
+        "drone_dispatch_released": "NO",
+        "edge_id": "B05--B08",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "B05",
+        "from_zone": "B",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 10.026955,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 10.027,
+        "source_series": "V7_111",
+        "to_id": "B08",
+        "to_zone": "B",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.63508,
+            1.37613
+          ],
+          [
+            103.5528,
+            1.41112
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.476,
+        "dji_5p6km_scenario_only": "False",
+        "drone_dispatch_released": "NO",
+        "edge_id": "B05--B09",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "B05",
+        "from_zone": "B",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 9.940524,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 9.941,
+        "source_series": "V7_111",
+        "to_id": "B09",
+        "to_zone": "B",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.62725,
+            1.41221
+          ],
+          [
+            103.6205,
+            1.4487
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.208,
+        "dji_5p6km_scenario_only": "True",
+        "drone_dispatch_released": "NO",
+        "edge_id": "B06--B07",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "B06",
+        "from_zone": "B",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 4.104208,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 4.104,
+        "source_series": "V7_111",
+        "to_id": "B07",
+        "to_zone": "B",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.62725,
+            1.41221
+          ],
+          [
+            103.5468,
+            1.358
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.433,
+        "dji_5p6km_scenario_only": "False",
+        "drone_dispatch_released": "NO",
+        "edge_id": "B06--B08",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "B06",
+        "from_zone": "B",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 10.774433,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 10.774,
+        "source_series": "V7_111",
+        "to_id": "B08",
+        "to_zone": "B",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.62725,
+            1.41221
+          ],
+          [
+            103.5528,
+            1.41112
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.114,
+        "dji_5p6km_scenario_only": "False",
+        "drone_dispatch_released": "NO",
+        "edge_id": "B06--B09",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "B06",
+        "from_zone": "B",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 8.286114,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 8.286,
+        "source_series": "V7_111",
+        "to_id": "B09",
+        "to_zone": "B",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.6205,
+            1.4487
+          ],
+          [
+            103.5528,
+            1.41112
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.016,
+        "dji_5p6km_scenario_only": "False",
+        "drone_dispatch_released": "NO",
+        "edge_id": "B07--B09",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "B07",
+        "from_zone": "B",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 8.603984,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 8.604,
+        "source_series": "V7_111",
+        "to_id": "B09",
+        "to_zone": "B",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.5468,
+            1.358
+          ],
+          [
+            103.5528,
+            1.41112
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.429,
+        "dji_5p6km_scenario_only": "False",
+        "drone_dispatch_released": "NO",
+        "edge_id": "B08--B09",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "B08",
+        "from_zone": "B",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "False",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 5.911571,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 5.912,
+        "source_series": "V7_111",
+        "to_id": "B09",
+        "to_zone": "B",
+        "wing_32p2km_scenario_only": "True"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.78232,
+            1.46958
+          ],
+          [
+            103.783,
+            1.4985
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.025,
+        "dji_5p6km_scenario_only": "1",
+        "drone_dispatch_released": "NO",
+        "edge_id": "P01_A_P01_A03",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "A_P01",
+        "from_zone": "PORT_A",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "0",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 3.198725,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 3.1987,
+        "source_series": "V8_10",
+        "to_id": "A03",
+        "to_zone": "A",
+        "wing_32p2km_scenario_only": "1"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.78232,
+            1.46958
+          ],
+          [
+            103.777987,
+            1.500802
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.016,
+        "dji_5p6km_scenario_only": "1",
+        "drone_dispatch_released": "NO",
+        "edge_id": "P02_A_P01_A04",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "A_P01",
+        "from_zone": "PORT_A",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "0",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 3.485884,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 3.4859,
+        "source_series": "V8_10",
+        "to_id": "A04",
+        "to_zone": "A",
+        "wing_32p2km_scenario_only": "1"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.78232,
+            1.46958
+          ],
+          [
+            103.7997,
+            1.5013
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.05,
+        "dji_5p6km_scenario_only": "1",
+        "drone_dispatch_released": "NO",
+        "edge_id": "P03_A_P01_A07",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "A_P01",
+        "from_zone": "PORT_A",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "0",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 4.00535,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 4.0053,
+        "source_series": "V8_10",
+        "to_id": "A07",
+        "to_zone": "A",
+        "wing_32p2km_scenario_only": "1"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.78232,
+            1.46958
+          ],
+          [
+            103.78839,
+            1.49531
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.017,
+        "dji_5p6km_scenario_only": "1",
+        "drone_dispatch_released": "NO",
+        "edge_id": "P04_A_P01_A_C01",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "A_P01",
+        "from_zone": "PORT_A",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "0",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 2.924183,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 2.9242,
+        "source_series": "V8_10",
+        "to_id": "A_C01",
+        "to_zone": "A",
+        "wing_32p2km_scenario_only": "1"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.78232,
+            1.46958
+          ],
+          [
+            103.7904,
+            1.50059
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "RESEARCH_GEOMETRY_ONLY",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.036,
+        "dji_5p6km_scenario_only": "1",
+        "drone_dispatch_released": "NO",
+        "edge_id": "P05_A_P01_A_N01",
+        "endpoint_pad_approval": "HOLD",
+        "flight_energy_kwh": "",
+        "from_id": "A_P01",
+        "from_zone": "PORT_A",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "historical_wmp_circle_intersection": "0",
+        "historical_wmp_semantics": "HISTORICAL_NON_AUTHORITATIVE_SCREEN_NOT_PERMISSION",
+        "line_distance_geodesic_km": 3.544864,
+        "line_mode": "UAV_GEOMETRY_SEARCH",
+        "route_altitude_m": "",
+        "route_clearance_3d": "HOLD",
+        "source_distance_km": 3.5449,
+        "source_series": "V8_10",
+        "to_id": "A_N01",
+        "to_zone": "A",
+        "wing_32p2km_scenario_only": "1"
+      },
+      "type": "Feature"
+    }
+  ],
+  "name": "S06_116_UAV_GEOMETRY_ONLY",
+  "type": "FeatureCollection"
+}

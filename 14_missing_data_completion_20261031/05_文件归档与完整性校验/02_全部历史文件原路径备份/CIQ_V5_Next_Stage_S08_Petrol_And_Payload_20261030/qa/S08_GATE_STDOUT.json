@@ -1,0 +1,19 @@
+{
+  "status": "HOLD",
+  "frozen_V5_spatial_reference": "sha256:0d19633630b6f12525ad9bd776bbf966ec1e8a46520bd8bc3d904013b02dce74",
+  "missing_fuel_and_cost_params": [
+    "vehicle_definition",
+    "litres_per_100km",
+    "density_kg_per_litre",
+    "net_calorific_value_MJ_per_kg",
+    "petrol_MYR_per_litre",
+    "driver_MYR_per_hour",
+    "cruising_rate_includes_idling"
+  ],
+  "accepted_physical_trip_legs_in_local_input": 0,
+  "road_graph_accepted": "NOT_EVIDENCED",
+  "weather_2026_05_09_numeric_join": "NOT_EVIDENCED",
+  "full_main_M0_run": "HOLD",
+  "five_mode_comparison": "HOLD",
+  "note": "The IPCC 69300 factor alone cannot calculate gasoline CO2 per litre; density & NCV are mandatory. No price or time model without sourced parameters. Never substitute straight-line distance."
+}

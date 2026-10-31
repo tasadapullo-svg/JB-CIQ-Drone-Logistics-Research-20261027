@@ -1,0 +1,70 @@
+﻿new_node_id,legacy_node_id_candidate,new_name,zone,new_longitude,new_latitude,crosswalk_status,old_source_sha256,old_longitude,old_latitude,old_coordinate_delta_m,source
+A01,A01,Swift Tebrau II,A,103.7743763,1.5311284,SAME_ID_CANDIDATE_COORDINATES_NOT_INDEPENDENTLY_VERIFIED,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+A02,A02,Tebrau II,A,103.77658,1.53356,SAME_ID_CANDIDATE_COORDINATES_NOT_INDEPENDENTLY_VERIFIED,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+A03,A03,Bakar Batu,A,103.783,1.4985,SAME_ID_CANDIDATE_COORDINATES_NOT_INDEPENDENTLY_VERIFIED,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+A04,A04,Mid Valley Southkey,A,103.777987,1.500802,SAME_ID_CANDIDATE_COORDINATES_NOT_INDEPENDENTLY_VERIFIED,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+A05,A05,Taman Molek,A,103.7842881,1.5204315,SAME_ID_CANDIDATE_COORDINATES_NOT_INDEPENDENTLY_VERIFIED,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+A06,A06,Permas Jaya,A,103.81647,1.49596,SAME_ID_CANDIDATE_COORDINATES_NOT_INDEPENDENTLY_VERIFIED,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+A07,A07,Kampung Tengah,A,103.7997,1.5013,SAME_ID_CANDIDATE_COORDINATES_NOT_INDEPENDENTLY_VERIFIED,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+A08,A08,Pandan wholesale market,A,103.76439,1.5263,SAME_ID_CANDIDATE_COORDINATES_NOT_INDEPENDENTLY_VERIFIED,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+A09,A09,Bukit Indah industrial reference,C,103.65939,1.49927,SAME_ID_CANDIDATE_COORDINATES_NOT_INDEPENDENTLY_VERIFIED,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+A10,,Bukit Indah courier reference,C,103.6633132,1.4868072,V3_LEGACY_ALIAS_OUTSIDE_19_STAGE8_REFERENCE_COUNT_REVIEW,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+A_C01,,Taman Sri Stulang,A,103.78839,1.49531,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+A_C02,,Taman Sentosa,A,103.77529,1.49352,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+A_C03,,Kampung Senibong,A,103.8172,1.4883,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+T_STULANG,,Berjaya Waterfront Ferry Terminal,A,103.78491,1.47028,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+A_C04,,Kampung Setulang Laut,A,103.778,1.4706,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+A_N01,,Taman Bayu Puteri,A,103.7904,1.50059,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+A_N02,,AEON Permas Jaya,A,103.81838,1.4961,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+A_N03,,Senibong Cove,A,103.83147,1.48613,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+A_N04,,Giant Hypermarket Plentong,A,103.81482,1.52818,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+A_N05,,Taman Perindustrian Plentong,A,103.81719,1.52906,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+A_N06,,Taman Johor Jaya,A,103.8024,1.5428,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+A_N07,,Kawasan Perindustrian Sri Pelentong,A,103.8327,1.5167,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+A_N08,,Taman Plentong Utama,A,103.82572,1.52331,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+A_N09,,Taman Pelangi,A,103.77535,1.47607,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+A_N10,,KSL City Mall,A,103.76228,1.48537,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+C01,,AEON Bukit Indah,C,103.65556,1.48044,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+C02,,J&T Bukit Indah (JHR479),C,103.6505056,1.4771782,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+C03,,Horizon Hills,C,103.64555,1.4576,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+C04,,J&T Nusa Sentral (JHR408),C,103.6245841,1.4688333,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+C05,,Eco Galleria,C,103.61631,1.44104,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+C06,,MBE Eco Botanic (reference),C,103.6181463,1.4407571,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+C07,,Sunway Big Box Retail Park,C,103.62855,1.39669,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+C08,,Sutera Mall precinct,C,103.67148,1.51709,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+C09,,Paradigm Mall Johor Bahru,C,103.68541,1.5159,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+C10,,Kempas,C,103.7051,1.5288,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+C11,,Setia Tropika,C,103.7184,1.5462,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+C12,,Tebing @ Bandar Dato Onn,C,103.73679,1.5521,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+C13,,Kangkar Tebrau,C,103.75577,1.5312,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+C14,,Taman Nusa Bestari 2,C,103.6533,1.49385,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+C15,,Taman Nusa Idaman,C,103.63836,1.47271,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+C16,,Taman Nusa Indah,C,103.63147,1.4774,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+C17,,Mutiara Rini,C,103.63221,1.51383,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+C18,,Taman Ungku Tun Aminah,C,103.66164,1.52056,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+C19,,Lima Kedai,C,103.61698,1.50231,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+C20,,Taman Nusa Bayu,C,103.60088,1.48009,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+C21,,Southern Industrial and Logistics Clusters,C,103.59728,1.46662,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+C22,,EduCity Iskandar Malaysia,C,103.61348,1.43277,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+C23,,Puteri Harbour,C,103.65815,1.41706,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+C24,,Taman Mutiara Utama,C,103.62071,1.48934,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+C25,,Taman Anggerik,C,103.69155,1.53445,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+C26,,Taman Universiti,C,103.62863,1.53769,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+C27,,Taman Nusantara Prima,C,103.58949,1.47979,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+B00,B00,Sultan Abu Bakar CIQ / Second Link,B,103.59894,1.37765,SAME_ID_CANDIDATE_COORDINATES_NOT_INDEPENDENTLY_VERIFIED,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+B01,B01,Truck transfer search zone west (B-T1),B,103.598,1.392,SAME_ID_CANDIDATE_COORDINATES_NOT_INDEPENDENTLY_VERIFIED,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+B02,B02,Truck transfer search zone east (B-T2),B,103.62,1.39,SAME_ID_CANDIDATE_COORDINATES_NOT_INDEPENDENTLY_VERIFIED,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+B03,B03,Kampung Ladang,B,103.61988,1.36614,SAME_ID_CANDIDATE_COORDINATES_NOT_INDEPENDENTLY_VERIFIED,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+B04,B04,Kampung Tanjung Kupang,B,103.60302,1.35327,SAME_ID_CANDIDATE_COORDINATES_NOT_INDEPENDENTLY_VERIFIED,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+B05,B05,Kampung Pendas Baru,B,103.63508,1.37613,SAME_ID_CANDIDATE_COORDINATES_NOT_INDEPENDENTLY_VERIFIED,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+B06,B06,Medini township,B,103.62725,1.41221,SAME_ID_CANDIDATE_COORDINATES_NOT_INDEPENDENTLY_VERIFIED,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+B07,B07,Eco Botanic retail precinct,B,103.6205,1.4487,SAME_ID_CANDIDATE_COORDINATES_NOT_INDEPENDENTLY_VERIFIED,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+B08,B08,Port of Tanjung Pelepas,B,103.5468,1.358,SAME_ID_CANDIDATE_COORDINATES_NOT_INDEPENDENTLY_VERIFIED,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+B09,B09,Forest City Golf Hotel area,B,103.5528,1.41112,SAME_ID_CANDIDATE_COORDINATES_NOT_INDEPENDENTLY_VERIFIED,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+A_P01,,Berjaya Waterfront surface parking,PORT_A,103.78232,1.46958,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+A_P02,,The Zon Duty Free,PORT_A,103.78294,1.47156,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+A_P03,,De Stulang commercial precinct,PORT_A,103.78129,1.46979,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+A_P04,,Stulang Residents bus stop,PORT_A,103.7811,1.47115,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+A_P05,,Berjaya Waterfront Food Truck Park,PORT_A,103.78196,1.46912,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+A_P06,,Johor Bahru International Ferry Terminal building,PORT_A,103.78456,1.47088,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required
+G_CIQ,,Sultan Iskandar CIQ / Causeway,GATEWAY,103.76663,1.46502,NO_CONFIRMED_STAGE8_REFERENCE_ID,,,,,V3 ID and prior Stage8 summary; original 19-reference snapshot still required

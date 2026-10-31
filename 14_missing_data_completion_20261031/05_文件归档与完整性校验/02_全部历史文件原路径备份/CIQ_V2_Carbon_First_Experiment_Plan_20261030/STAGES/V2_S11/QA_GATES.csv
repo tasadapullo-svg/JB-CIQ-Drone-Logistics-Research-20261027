@@ -1,0 +1,6 @@
+﻿gate_id,acceptance_criterion,status,evidence_path,reviewer
+V2_S11-G01,CO2 与 CO2e 口径不可混用,BLOCKED,,
+V2_S11-G02,MY/SG 供电按真实地点分账,BLOCKED,,
+V2_S11-G03,排放相同物理车次不重复计,BLOCKED,,
+V2_S11-G04,低碳结论必须满足已冻结的服务与成本约束,BLOCKED,,
+V2_S11-G05,成本/能耗/排放因子缺失禁止输出净减排,BLOCKED,,

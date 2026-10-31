@@ -1,0 +1,1 @@
+{"verified": 0, "out_of": 14, "S07": "HOLD", "scenario": "PASS_V5_FROZEN_PAIRS"}

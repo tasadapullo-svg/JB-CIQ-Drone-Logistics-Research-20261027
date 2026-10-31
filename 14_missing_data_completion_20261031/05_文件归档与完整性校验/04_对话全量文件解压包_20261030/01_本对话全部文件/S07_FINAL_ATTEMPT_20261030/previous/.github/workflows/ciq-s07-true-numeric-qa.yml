@@ -1,0 +1,39 @@
+name: CIQ V5 S07 actual weather traffic and road structural QA
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/ciq-s07-true-numeric-qa.yml'
+      - 'tools/ciq_s07/**'
+permissions:
+  contents: read
+jobs:
+  s07_numeric_qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - name: Checkout QA code and frozen V5 fixture from current branch
+        uses: actions/checkout@v4
+        with:
+          path: review
+          persist-credentials: false
+      - name: Checkout pinned GitHub historic input commit read-only
+        uses: actions/checkout@v4
+        with:
+          ref: 4569817b8145efe2ae06f4b21addc1986f971c12
+          path: historic_inputs
+          persist-credentials: false
+      - name: Verify real source bytes and run S07 numeric checks
+        run: |
+          python3 review/tools/ciq_s07/qa_real.py \
+            --repo-root historic_inputs \
+            --tools-dir review/tools/ciq_s07 \
+            --output qa_s07_actual
+      - name: Publish audit (PASS/HOLD, never fake emissions)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: CIQ-V5-S07-actual-QA
+          path: qa_s07_actual/
+          if-no-files-found: error
+          retention-days: 30

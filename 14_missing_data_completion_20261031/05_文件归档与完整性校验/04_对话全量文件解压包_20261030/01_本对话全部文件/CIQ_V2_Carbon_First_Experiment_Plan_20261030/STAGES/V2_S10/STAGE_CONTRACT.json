@@ -1,0 +1,56 @@
+{
+  "stage": "V2_S10",
+  "stage_name_cn": "M1/M2 混合物流统一仿真",
+  "purpose_en": "Road–air multimodal dispatch",
+  "research_questions": "RQ2,RQ3",
+  "inputs": [
+    {
+      "filename": "dispatch_config.json",
+      "type": "JSON",
+      "purpose": "车辆/无人机/服务资源及策略"
+    },
+    {
+      "filename": "paired_tasks.csv",
+      "type": "CSV",
+      "purpose": "完全相同的任务输入和样本标识"
+    },
+    {
+      "filename": "road_trip_library.csv",
+      "type": "CSV",
+      "purpose": "可用道路行程与小时条件"
+    },
+    {
+      "filename": "uav_mission_library.csv",
+      "type": "CSV",
+      "purpose": "可用航次与机型能耗证据"
+    }
+  ],
+  "outputs": [
+    {
+      "filename": "event_log.csv",
+      "purpose": "逐事件日志：等待、装卸、起飞、回收、兜底"
+    },
+    {
+      "filename": "trip_ledger.csv",
+      "purpose": "唯一物理车辆/航次/共享干线行程"
+    },
+    {
+      "filename": "order_mode_results.csv",
+      "purpose": "M0/M1/M2逐任务完成、按时、费用分项"
+    },
+    {
+      "filename": "dispatch_QA.json",
+      "purpose": "同订单/容量/时间/服务公平性检查"
+    }
+  ],
+  "release_gates": [
+    "每个 task × scenario × mode 一条最终结局",
+    "物理车次/航次 ID 唯一且共享里程只计一次",
+    "天气禁飞回退时仍保留任务且有真实耗时",
+    "同等需求及明确车队资源约束",
+    "小样本已验收且30种子运行可复现"
+  ],
+  "expected_status": "BLOCKED_UNTIL_REAL_INPUTS_ACCEPTED",
+  "historical_git_commit": "4569817b8145efe2ae06f4b21addc1986f971c12",
+  "review_rule": "Automatic schema gate is not scientific approval; release requires human evidence review plus frozen source hashes."
+}

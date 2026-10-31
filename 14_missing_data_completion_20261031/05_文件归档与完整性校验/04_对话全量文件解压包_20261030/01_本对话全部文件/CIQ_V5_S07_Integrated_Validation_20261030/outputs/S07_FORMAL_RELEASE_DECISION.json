@@ -1,0 +1,235 @@
+{
+  "input_status": {
+    "status": "PASS",
+    "node_count": 68,
+    "task_count": 82620,
+    "scenario_count": 4590,
+    "errors": {},
+    "orders_by_month": {
+      "5": 16740,
+      "6": 16200,
+      "7": 16740,
+      "8": 16740,
+      "9": 16200
+    },
+    "node_zones": {
+      "A": 29,
+      "B": 10,
+      "C": 29
+    }
+  },
+  "source_commit": "4569817b8145efe2ae06f4b21addc1986f971c12",
+  "sources": [
+    {
+      "name": "JB_SG_Weather_2026_05.xlsx",
+      "role": "MAY_SEP_2026",
+      "repo_path": "data/weather_2026/processed/JB_SG_Weather_2026_05.xlsx",
+      "expected_bytes": 13001616,
+      "expected_blob": "4ae1a0f8f9462a66fda3f2cd24965604d1afb081",
+      "expected_sha256": "4d0a54ac41c2a6f64e1c7526d4dffd553650978be3ec33c5c05d1ecb06f5493d",
+      "status": "MISSING_BYTES",
+      "actual_bytes": 0
+    },
+    {
+      "name": "JB_SG_Weather_2026_06.xlsx",
+      "role": "MAY_SEP_2026",
+      "repo_path": "data/weather_2026/processed/JB_SG_Weather_2026_06.xlsx",
+      "expected_bytes": 13001925,
+      "expected_blob": "b773932d1249c32a6788149bc6f8f8c7f08fb847",
+      "expected_sha256": "0069e69e2dbe1fd3689a29c16aac63ea4685c0ee3975938c067f16fe093522e6",
+      "status": "MISSING_BYTES",
+      "actual_bytes": 0
+    },
+    {
+      "name": "JB_SG_Weather_2026_07.xlsx",
+      "role": "MAY_SEP_2026",
+      "repo_path": "data/weather_2026/processed/JB_SG_Weather_2026_07.xlsx",
+      "expected_bytes": 13752431,
+      "expected_blob": "a554f49d64500bd1d9df4b23b40a1da174f4eca0",
+      "expected_sha256": "ec8f77c31cb30d43829d26768dc3c72c2a7680557c922cb3eadb3cb502cc16dc",
+      "status": "MISSING_BYTES",
+      "actual_bytes": 0
+    },
+    {
+      "name": "JB_SG_Weather_2026_08.xlsx",
+      "role": "MAY_SEP_2026",
+      "repo_path": "data/weather_2026/processed/JB_SG_Weather_2026_08.xlsx",
+      "expected_bytes": 14124507,
+      "expected_blob": "a1ad400f2e0897dce3e775a63e8f20a64bc2d86f",
+      "expected_sha256": "b3f54eb0604176f43ed93c49286e08cb85e86eda5b5a434512ad17475c3b40ef",
+      "status": "MISSING_BYTES",
+      "actual_bytes": 0
+    },
+    {
+      "name": "JB_SG_Weather_2026_09.xlsx",
+      "role": "MAY_SEP_2026",
+      "repo_path": "data/weather_2026/processed/JB_SG_Weather_2026_09.xlsx",
+      "expected_bytes": 14148344,
+      "expected_blob": "ba4fbefe437989ae7103b4895fcaf06b32c92b9e",
+      "expected_sha256": "e4e29921a69fdf9493f503418573e685b75dc4bd912f20c6e8f69d0be485835a",
+      "status": "MISSING_BYTES",
+      "actual_bytes": 0
+    },
+    {
+      "name": "E02_A_directed_edges_OSM.csv",
+      "role": "LEGACY_AB_ONLY",
+      "repo_path": "03_gis_and_road_network/road_network_project/JB_CIQ_E02_roadnet_V4_6/outputs/E02_A_directed_edges_OSM.csv",
+      "expected_bytes": 14959641,
+      "expected_blob": "96245d509e964d509e36bb0fde50015113cf91a0",
+      "expected_sha256": "",
+      "status": "MISSING_BYTES",
+      "actual_bytes": 0
+    },
+    {
+      "name": "E02_B_directed_edges_OSM.csv",
+      "role": "LEGACY_AB_ONLY",
+      "repo_path": "03_gis_and_road_network/road_network_project/JB_CIQ_E02_roadnet_V4_6/outputs/E02_B_directed_edges_OSM.csv",
+      "expected_bytes": 8652178,
+      "expected_blob": "da71c01fdbea6da04eb63d80584219a081312d41",
+      "expected_sha256": "",
+      "status": "MISSING_BYTES",
+      "actual_bytes": 0
+    },
+    {
+      "name": "E02_A_road_graph_nodes.csv",
+      "role": "LEGACY_AB_ONLY",
+      "repo_path": "03_gis_and_road_network/road_network_project/JB_CIQ_E02_roadnet_V4_6/outputs/E02_A_road_graph_nodes.csv",
+      "expected_bytes": 3230183,
+      "expected_blob": "afc8bb3150af914c397bdf59777997c07384cb03",
+      "expected_sha256": "",
+      "status": "MISSING_BYTES",
+      "actual_bytes": 0
+    },
+    {
+      "name": "E02_B_road_graph_nodes.csv",
+      "role": "LEGACY_AB_ONLY",
+      "repo_path": "03_gis_and_road_network/road_network_project/JB_CIQ_E02_roadnet_V4_6/outputs/E02_B_road_graph_nodes.csv",
+      "expected_bytes": 1942569,
+      "expected_blob": "e48dd04e4147b09cdeda8585698ee131d8eb74c7",
+      "expected_sha256": "",
+      "status": "MISSING_BYTES",
+      "actual_bytes": 0
+    },
+    {
+      "name": "stage6_order_level.csv.gz",
+      "role": "LEGACY_29842",
+      "repo_path": "10_experiment_results/stage6_dual_region_multilevel_feeder/stage6_order_level.csv.gz",
+      "expected_bytes": 1542821,
+      "expected_blob": "5e68fb71c0b0737ed1846f680c85f82a4d04ce06",
+      "expected_sha256": "",
+      "status": "MISSING_BYTES",
+      "actual_bytes": 0
+    },
+    {
+      "name": "E03_ERA5_JB_TWO_CIQ_WEATHER_HOURLY.csv",
+      "role": "LEGACY_TWO_CIQ",
+      "repo_path": "04_weather_data/summary_data/E03_ERA5_JB_TWO_CIQ_WEATHER_HOURLY.csv",
+      "expected_bytes": 2002252,
+      "expected_blob": "93eaac5b0f05f264c9d9c0b8a0c4322c0505010c",
+      "expected_sha256": "",
+      "status": "MISSING_BYTES",
+      "actual_bytes": 0
+    },
+    {
+      "name": "JB_CIQ_E01_corrected_five_month_traffic_data_345nodes_2026-05_09.csv.gz",
+      "role": "FCD_MAY_SEP_2026",
+      "repo_path": "02_base_and_traffic_data/traffic_data/JB_CIQ_E01_corrected_five_month_traffic_data_345nodes_2026-05_09.csv.gz",
+      "expected_bytes": 17898780,
+      "expected_blob": "7615e1e124be99fc450c5ea4c7c592627793fbef",
+      "expected_sha256": "",
+      "status": "MISSING_BYTES",
+      "actual_bytes": 0
+    },
+    {
+      "name": "JB_FCD_345nodes_G1-G5_Grouped_2026-05_09.zip",
+      "role": "FCD_GROUPED",
+      "repo_path": "02_base_and_traffic_data/traffic_data/JB_FCD_345nodes_G1-G5_Grouped_2026-05_09.zip",
+      "expected_bytes": 7691136,
+      "expected_blob": "7caa522a8be469cd1bf6f5639aa435e72ddfc0ab",
+      "expected_sha256": "",
+      "status": "MISSING_BYTES",
+      "actual_bytes": 0
+    },
+    {
+      "name": "JB_FCD_345nodes_G1-G5_grouped_statistics_and_node_master.xlsx",
+      "role": "FCD_NODE_METADATA",
+      "repo_path": "02_base_and_traffic_data/traffic_data/JB_FCD_345nodes_G1-G5_grouped_statistics_and_node_master.xlsx",
+      "expected_bytes": 147690,
+      "expected_blob": "918f4bcde9b31e9f3513306d32ee07b4e9bacd34",
+      "expected_sha256": "",
+      "status": "MISSING_BYTES",
+      "actual_bytes": 0
+    }
+  ],
+  "core_numeric_source_files_verified": "0/6",
+  "historical_AB_files_verified": "0/4",
+  "weather_monthly": [
+    {
+      "month": 5,
+      "file": "JB_SG_Weather_2026_05.xlsx",
+      "status": "HOLD_MISSING_BYTES",
+      "expected_rows": 2976
+    },
+    {
+      "month": 6,
+      "file": "JB_SG_Weather_2026_06.xlsx",
+      "status": "HOLD_MISSING_BYTES",
+      "expected_rows": 2880
+    },
+    {
+      "month": 7,
+      "file": "JB_SG_Weather_2026_07.xlsx",
+      "status": "HOLD_MISSING_BYTES",
+      "expected_rows": 2976
+    },
+    {
+      "month": 8,
+      "file": "JB_SG_Weather_2026_08.xlsx",
+      "status": "HOLD_MISSING_BYTES",
+      "expected_rows": 2976
+    },
+    {
+      "month": 9,
+      "file": "JB_SG_Weather_2026_09.xlsx",
+      "status": "HOLD_MISSING_BYTES",
+      "expected_rows": 2880
+    }
+  ],
+  "fcd": {
+    "file": "JB_CIQ_E01_corrected_five_month_traffic_data_345nodes_2026-05_09.csv.gz",
+    "status": "HOLD_MISSING_BYTES"
+  },
+  "old_AB_road_candidate_graph": {
+    "status": "HOLD_MISSING_BYTES",
+    "paths": [
+      "E02_A_road_graph_nodes.csv",
+      "E02_A_directed_edges_OSM.csv",
+      "E02_B_road_graph_nodes.csv",
+      "E02_B_directed_edges_OSM.csv"
+    ],
+    "missing": [
+      "E02_A_road_graph_nodes.csv",
+      "E02_A_directed_edges_OSM.csv",
+      "E02_B_road_graph_nodes.csv",
+      "E02_B_directed_edges_OSM.csv"
+    ]
+  },
+  "static_V5_recalculation": {
+    "node_hour_keys": 249696,
+    "order_event_keys": 82620,
+    "weather_nearest_gt10km_nodes": 31,
+    "weather_nearest_gt10km_task_origins": 55080
+  },
+  "checks": {
+    "weather_time_values": "HOLD",
+    "fcd_structure": "HOLD",
+    "weather_units_rain_accumulation_and_grid_coverage": "HOLD_NOT_INDEPENDENTLY_ACCEPTED",
+    "v5_ABC_directed_road_and_site_access": "HOLD_NOT_VERIFIED",
+    "FCD_direction_to_road_edge": "HOLD_NOT_VERIFIED"
+  },
+  "S07_FORMAL_RELEASE": "HOLD_UNTIL_REAL_BYTES_VALUES_V5_ABC_ROAD_AND_OBSERVATION_MAPPING",
+  "S09_HISTORICAL_WEATHER_DRIVEN_UAV": "NOT_RUN",
+  "S08_M0_ACTUAL_ROUTES": "NOT_RUN",
+  "S10_S11_OPERATIONAL_CARBON": "NOT_RUN",
+  "scientific_scope": "conditional synthetic orders and archival weather; NOT observed delivery and not approved UAV flight"
+}

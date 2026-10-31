@@ -1,0 +1,30 @@
+{
+  "algorithm": "SHA256",
+  "files": [
+    {
+      "file": "PRESTART_FORMAL_DECISION_CN.md",
+      "bytes": 7532,
+      "sha256": "0f86873d4a674542f8df615cf833e640a6808d6700ef2e1b542574068accf79c"
+    },
+    {
+      "file": "README_CN.md",
+      "bytes": 2314,
+      "sha256": "bac6d18a9d83e3466dd1829a2dd3f4b1e7801e5c5cb0643624f89a650626f532"
+    },
+    {
+      "file": "github_remote_evidence_20261030.json",
+      "bytes": 1796,
+      "sha256": "be755de110bbeca3e93491d0ebc401eb8a0019c7de26eefe44963be3ce57ae7b"
+    },
+    {
+      "file": "local_prestart_evidence.json",
+      "bytes": 9426,
+      "sha256": "c6b221ba96ddbcbb2e52e54eecd34a7913b7f56300137799586d8c0e41dfd1ae"
+    },
+    {
+      "file": "run_prestart_audit.py",
+      "bytes": 6985,
+      "sha256": "f2637c84759b517dc13471ad8452a399fa6c88b1f2592724fd6fcabbb197a973"
+    }
+  ]
+}

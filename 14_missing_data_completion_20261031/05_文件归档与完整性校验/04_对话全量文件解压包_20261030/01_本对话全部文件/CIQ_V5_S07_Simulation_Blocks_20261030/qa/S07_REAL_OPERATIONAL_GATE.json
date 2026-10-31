@@ -1,0 +1,9 @@
+{
+  "nodes": 68,
+  "weather": {
+    "status": "HOLD_WEATHER_BYTES_MISSING"
+  },
+  "road": {
+    "status": "HOLD_ROAD_BYTES_MISSING"
+  }
+}

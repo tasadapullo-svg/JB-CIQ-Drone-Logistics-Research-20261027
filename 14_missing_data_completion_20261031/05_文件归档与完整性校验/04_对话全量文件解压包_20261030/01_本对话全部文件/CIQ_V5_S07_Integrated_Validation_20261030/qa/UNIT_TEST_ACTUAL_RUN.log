@@ -1,0 +1,38 @@
+test_correct_edge (test_directed_road.TestRoad.test_correct_edge) ... ok
+test_directed (test_directed_road.TestRoad.test_directed) ... ok
+test_directionality_not_symmetry (test_directed_road.TestRoad.test_directionality_not_symmetry) ... ok
+test_invalid_graph (test_directed_road.TestRoad.test_invalid_graph) ... ok
+test_od_reachable_distance (test_directed_road.TestRoad.test_od_reachable_distance) ... ok
+test_od_unreachable (test_directed_road.TestRoad.test_od_unreachable) ... ok
+test_zero_length_rejected (test_directed_road.TestRoad.test_zero_length_rejected) ... ok
+test_01_real_frozen_node_count (test_s07_integrated.S07ActualTests.test_01_real_frozen_node_count) ... ok
+test_02_real_frozen_order_count (test_s07_integrated.S07ActualTests.test_02_real_frozen_order_count) ... ok
+test_03_real_scenario_count (test_s07_integrated.S07ActualTests.test_03_real_scenario_count) ... ok
+test_04_zone_totals (test_s07_integrated.S07ActualTests.test_04_zone_totals) ... ok
+test_05_a09_a10_zone_is_source_c (test_s07_integrated.S07ActualTests.test_05_a09_a10_zone_is_source_c) ... ok
+test_06_no_legacy_a_n10 (test_s07_integrated.S07ActualTests.test_06_no_legacy_a_n10) ... ok
+test_07_no_frozen_error (test_s07_integrated.S07ActualTests.test_07_no_frozen_error) ... ok
+test_08_v5_source_zip_sha_lock (test_s07_integrated.S07ActualTests.test_08_v5_source_zip_sha_lock) ... ok
+test_09_zip_crc (test_s07_integrated.S07ActualTests.test_09_zip_crc) ... ok
+test_10_timezone_utc (test_s07_integrated.S07ActualTests.test_10_timezone_utc) ... ok
+test_11_timezone_local (test_s07_integrated.S07ActualTests.test_11_timezone_local) ... ok
+test_12_reject_partial_hours (test_s07_integrated.S07ActualTests.test_12_reject_partial_hours) ... ok
+test_13_all_nodes_have_grid (test_s07_integrated.S07ActualTests.test_13_all_nodes_have_grid) ... ok
+test_14_coarse_grid_warning (test_s07_integrated.S07ActualTests.test_14_coarse_grid_warning) ... ok
+test_15_task_weather_warning (test_s07_integrated.S07ActualTests.test_15_task_weather_warning) ... ok
+test_16_actual_hour_keys (test_s07_integrated.S07ActualTests.test_16_actual_hour_keys) ... ok
+test_17_no_invented_weather (test_s07_integrated.S07ActualTests.test_17_no_invented_weather) ... ok
+test_18_all_task_keys (test_s07_integrated.S07ActualTests.test_18_all_task_keys) ... ok
+test_19_no_false_emissions (test_s07_integrated.S07ActualTests.test_19_no_false_emissions) ... ok
+test_20_source_lock_pinned (test_s07_integrated.S07ActualTests.test_20_source_lock_pinned) ... ok
+test_21_missing_files_are_not_released (test_s07_integrated.S07ActualTests.test_21_missing_files_are_not_released) ... ok
+test_22_source_sha_does_not_match_lookalike (test_s07_integrated.S07ActualTests.test_22_source_sha_does_not_match_lookalike) ... ok
+test_23_fcd_missing_cannot_be_zero_speed (test_s07_integrated.S07ActualTests.test_23_fcd_missing_cannot_be_zero_speed) ... ok
+test_24_era5_month_744_hours (test_s07_integrated.S07ActualTests.test_24_era5_month_744_hours) ... ok
+test_25_weather_sheet_with_real_xlsx_engine (test_s07_integrated.S07ActualTests.test_25_weather_sheet_with_real_xlsx_engine) ... ok
+test_26_timing_unique (test_s07_integrated.S07ActualTests.test_26_timing_unique) ... ok
+
+----------------------------------------------------------------------
+Ran 33 tests in 2.539s
+
+OK

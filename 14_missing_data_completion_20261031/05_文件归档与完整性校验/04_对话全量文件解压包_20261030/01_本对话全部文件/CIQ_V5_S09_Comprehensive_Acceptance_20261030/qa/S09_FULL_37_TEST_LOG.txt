@@ -1,0 +1,42 @@
+test_01_frozen_order_hash (test_s09_comprehensive.Tests.test_01_frozen_order_hash) ... ok
+test_02_frozen_v5_geo_hash (test_s09_comprehensive.Tests.test_02_frozen_v5_geo_hash) ... ok
+test_03_nodes_68 (test_s09_comprehensive.Tests.test_03_nodes_68) ... ok
+test_04_edges_116 (test_s09_comprehensive.Tests.test_04_edges_116) ... ok
+test_05_tasks_82620 (test_s09_comprehensive.Tests.test_05_tasks_82620) ... ok
+test_06_scenarios_4590 (test_s09_comprehensive.Tests.test_06_scenarios_4590) ... ok
+test_07_zone_balanced (test_s09_comprehensive.Tests.test_07_zone_balanced) ... ok
+test_08_direct_11060 (test_s09_comprehensive.Tests.test_08_direct_11060) ... ok
+test_09_reverse_17417 (test_s09_comprehensive.Tests.test_09_reverse_17417) ... ok
+test_10_no_direct_54143 (test_s09_comprehensive.Tests.test_10_no_direct_54143) ... ok
+test_11_dji_payload (test_s09_comprehensive.Tests.test_11_dji_payload) ... ok
+test_12_wing_payload (test_s09_comprehensive.Tests.test_12_wing_payload) ... ok
+test_13_wing_direct_after_payload (test_s09_comprehensive.Tests.test_13_wing_direct_after_payload) ... ok
+test_14_stress_rows (test_s09_comprehensive.Tests.test_14_stress_rows) ... ok
+test_15_no_real_energy_emission (test_s09_comprehensive.Tests.test_15_no_real_energy_emission) ... ok
+test_16_energy_positive (test_s09_comprehensive.Tests.test_16_energy_positive) ... ok
+test_17_payload_limit (test_s09_comprehensive.Tests.test_17_payload_limit) ... ok
+test_18_wind_symmetry_time (test_s09_comprehensive.Tests.test_18_wind_symmetry_time) ... ok
+test_19_headwind_energy_differs (test_s09_comprehensive.Tests.test_19_headwind_energy_differs) ... ok
+test_20_power_level_order (test_s09_comprehensive.Tests.test_20_power_level_order) ... ok
+test_21_longer_path_higher_energy (test_s09_comprehensive.Tests.test_21_longer_path_higher_energy) ... ok
+test_22_bad_distance (test_s09_comprehensive.Tests.test_22_bad_distance) ... ok
+test_23_bad_wind (test_s09_comprehensive.Tests.test_23_bad_wind) ... ok
+test_24_scenario_is_not_calibrated (test_s09_comprehensive.Tests.test_24_scenario_is_not_calibrated) ... ok
+test_25_real_carbon_uncomputed (test_s09_comprehensive.Tests.test_25_real_carbon_uncomputed) ... ok
+test_26_weather_two_hour_coverage (test_s09_comprehensive.Tests.test_26_weather_two_hour_coverage) ... ok
+test_27_weather_hard_gap (test_s09_comprehensive.Tests.test_27_weather_hard_gap) ... ok
+test_28_missing_event_evidence (test_s09_comprehensive.Tests.test_28_missing_event_evidence) ... ok
+test_29_weather_direction_sign (test_s09_comprehensive.Tests.test_29_weather_direction_sign) ... ok
+test_30_no_flight_results_even_if_all_flags_yes (test_s09_comprehensive.Tests.test_30_no_flight_results_even_if_all_flags_yes) ... ok
+test_31_no_teleportation (test_s09_comprehensive.Tests.test_31_no_teleportation) ... ok
+test_32_no_dropped_tasks (test_s09_comprehensive.Tests.test_32_no_dropped_tasks) ... ok
+test_33_grid_no_real_ef_holds (test_s09_comprehensive.Tests.test_33_grid_no_real_ef_holds) ... ok
+test_34_engine_no_double_count (test_s09_comprehensive.Tests.test_34_engine_no_double_count) ... ok
+test_35_fixture_carbon_math (test_s09_comprehensive.Tests.test_35_fixture_carbon_math) ... ok
+test_36_negative_energy_rejected (test_s09_comprehensive.Tests.test_36_negative_energy_rejected) ... ok
+test_37_missing_data_cannot_final_pass (test_s09_comprehensive.Tests.test_37_missing_data_cannot_final_pass) ... ok
+
+----------------------------------------------------------------------
+Ran 37 tests in 0.899s
+
+OK

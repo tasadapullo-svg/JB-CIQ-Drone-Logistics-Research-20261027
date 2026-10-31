@@ -1,0 +1,19 @@
+{
+  "status": "NOT_CALIBRATED",
+  "random_seeds": 30,
+  "sample_dates": [
+    "2026-05-15",
+    "2026-06-15",
+    "2026-07-15",
+    "2026-08-15",
+    "2026-09-15"
+  ],
+  "task_population_id": null,
+  "vehicle_capacity_kg": null,
+  "uav_count": null,
+  "charger_count": null,
+  "transfer_time_min": null,
+  "fallback_policy": "GROUND_WITH_ACTUAL_DELAY_NOT_ASSUMED_ZERO",
+  "dispatch_strategy": "TO_BE_FROZEN_FROM_EXPERIMENT_PROPOSAL",
+  "note": "Historical five dates are candidate reference only, not equivalent to five complete months."
+}

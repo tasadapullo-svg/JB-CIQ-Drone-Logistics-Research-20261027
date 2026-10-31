@@ -1,0 +1,34 @@
+[
+  {
+    "authority": "CAAM",
+    "evidence_scope": "requirements_only",
+    "geospatial_artifact_loaded": false,
+    "permit_validated": false,
+    "source_type": "UAS requirements",
+    "url": "https://www.caam.gov.my/public/unmanned-aircraft-system-uas/"
+  },
+  {
+    "authority": "CAAM AIS",
+    "evidence_scope": "portal_reference_only",
+    "geospatial_artifact_loaded": false,
+    "permit_validated": false,
+    "source_type": "AIP AIP SUP NOTAM service",
+    "url": "https://www.caam.gov.my/public/ais/"
+  },
+  {
+    "authority": "CAAS",
+    "evidence_scope": "guidance_reference_only",
+    "geospatial_artifact_loaded": false,
+    "permit_validated": false,
+    "source_type": "OneMap no-fly and UA areas",
+    "url": "https://www.caas.gov.sg/unmanned-aircraft/no-fly-zones-and-ua-flying-areas/"
+  },
+  {
+    "authority": "CAAS",
+    "evidence_scope": "regulatory_document_index_only",
+    "geospatial_artifact_loaded": false,
+    "permit_validated": false,
+    "source_type": "Cross-border UA permit circular AC101-2-3",
+    "url": "https://www.caas.gov.sg/resources/regulatory-requirements-and-guidelines/unmanned-aircraft/"
+  }
+]

@@ -1,0 +1,1 @@
+{"graphs": [{"area": "A", "status": "HOLD_OSM_FILES_MISSING", "nodes": 0, "arcs": 0}, {"area": "B", "status": "HOLD_OSM_FILES_MISSING", "nodes": 0, "arcs": 0}], "site_rows": 69, "release": "HOLD"}

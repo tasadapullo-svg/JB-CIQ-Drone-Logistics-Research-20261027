@@ -1,0 +1,17 @@
+{
+  "audit_stage": "Stage02",
+  "audit_date": "2026-10-30",
+  "latest_github_commit_confirmed": "4569817b8145efe2ae06f4b21addc1986f971c12",
+  "current_workspace_qgis_project_candidates": 0,
+  "current_workspace_qgis_source_evidence": "results/actual_current_workspace/stage02_offline_gate.json",
+  "offline_preflight_status": "HOLD",
+  "synthetic_tests_passed": 4,
+  "qgis_console_ran_against_real_project": false,
+  "qgis_console_static_syntax_checked": true,
+  "new_three_zone_network_coordinates_validated": false,
+  "legacy_19_nodes_mapped_to_new_network": false,
+  "weather_road_carbon_recalculation_executed": false,
+  "spatial_data_freeze_approved": false,
+  "recalculation_allowed": false,
+  "next_real_input": "Newest QGIS QGS/QGZ plus all locally referenced vector source layers and researcher stage02 audit outputs"
+}

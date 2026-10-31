@@ -1,0 +1,18 @@
+﻿gate_id,stage,criterion,status,blocker
+G01,V2_S06,new QGIS vector dependency & exact CRS locked,BLOCKED,no new project original
+G02,V2_S06,"new A/B/C nodes mapped, airspace classification present",BLOCKED,new project missing
+G03,V2_S07,single immutable demand ID set and version,BLOCKED,QGIS mapping missing
+G04,V2_S07,"time-zone, rainfall and wind quality checks",BLOCKED,real full hourly raw refit not rerun
+G05,V2_S07,directed road repaired/validated and border waiting declared,BLOCKED,37 old OD not applied
+G06,V2_S08,petrol vehicle and observed/literature evidence class for L/100km and L/h,BLOCKED,fuel economy missing
+G07,V2_S08,fuel emission factor and boundary single gas,BLOCKED,vehicle TTW full factor sheet missing
+G08,V2_S09,DJI mission energy interval credible & sourced,BLOCKED,not calibrated
+G09,V2_S09,Wingcopter mission energy interval credible & sourced,BLOCKED,not calibrated
+G10,V2_S09,regulatory screen scenario status and route geometry,BLOCKED,new airspace/route missing
+G11,V2_S10,paired M0/M1/M2 state machine smoke tests,BLOCKED,run forbidden
+G12,V2_S10,full demand + failed/fallback preserved,BLOCKED,run forbidden
+G13,V2_S11,MY/SG electricity consistent CO2 gas scope or separate ledger,BLOCKED,not harmonized
+G14,V2_S11,carbon & cost & service comparable denominator and tested physical trip ledger,BLOCKED,no ledgers
+G15,V2_S11,Pareto service/time/cost constraints pre-registered,BLOCKED,parameters not locked
+G16,V2_S12,30 seeds clusters + uncertainty & independent reproduction,BLOCKED,no outputs
+G17,V2_S12,SCI figures derived from reproducible CSV not manually edited,BLOCKED,no outputs

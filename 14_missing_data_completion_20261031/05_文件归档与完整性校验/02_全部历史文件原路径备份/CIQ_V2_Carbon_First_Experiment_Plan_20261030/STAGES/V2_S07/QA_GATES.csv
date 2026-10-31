@@ -1,0 +1,6 @@
+﻿gate_id,acceptance_criterion,status,evidence_path,reviewer
+V2_S07-G01,同一 task_id 在各模式只定义一次,BLOCKED,,
+V2_S07-G02,无跨日期或不同订单总体混合,BLOCKED,,
+V2_S07-G03,未验证 37 OD 不视为 PASS,BLOCKED,,
+V2_S07-G04,无法计算的数值为缺失而非 0,BLOCKED,,
+V2_S07-G05,每条跨境任务有实际国家对及排队证据类型,BLOCKED,,

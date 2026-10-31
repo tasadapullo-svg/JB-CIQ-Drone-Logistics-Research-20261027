@@ -1,0 +1,3 @@
+﻿aircraft,task_count,weight_pass,weight_fail,direct_and_weight_design_only,central_budget_screen_pass_design_only,central_budget_screen_fail_design_only,actual_weather_verified,real_mission_kwh_verified,S09_final_release
+DJI_FLYCART_30_DUAL,82620,82620,0,11060,11060,0,NO,NO,HOLD
+WINGCOPTER_198_CARGO_ASSUMED,82620,55080,27540,7377,7377,0,NO,NO,HOLD

@@ -1,0 +1,30 @@
+{
+  "phase": "V5_S07_TO_S10_BLOCKWISE_SIMULATION_ADMISSION",
+  "source_v5_node_csv_sha256": "6d10ce88b5d7770fa1a776bffb5c386655d9ccab18064138c06ce11ea9d756a9",
+  "frozen_synthetic_tasks_sha256": "8cc9c4d20b78cb80bff4fa9fd69750e0b7c172d6f48d07a7880b224bf5ddecca",
+  "v5_nodes": 68,
+  "task_rows": 82620,
+  "unique_task_ids": 82620,
+  "unique_seeds": 30,
+  "dates": 153,
+  "independent_seed_day_scenarios": 4590,
+  "mode_run_keys": 22950,
+  "modes": [
+    "M0",
+    "M1_DJI",
+    "M1_WING",
+    "M2_DJI",
+    "M2_WING"
+  ],
+  "tasks_per_seed_day_histogram": {
+    "18": 4590
+  },
+  "status": "PASS_PAIRED_INPUT_STRUCTURE_ONLY",
+  "hold": [
+    "REAL_WEATHER_VALUES_NOT_VERIFIED",
+    "ABC_DIRECTED_ROAD_UNAVAILABLE",
+    "VEHICLE_FUEL_AND_UAV_ENERGY_NOT_VERIFIED",
+    "M0_M1_M2_NOT_EXECUTED"
+  ],
+  "scientific_warning": "Seed/day replicate scenarios are not 82620 independent empirical orders; all five modes must consume the identical per-run task hash. Do not pool orders from different seeds or days in one physical vehicle route."
+}

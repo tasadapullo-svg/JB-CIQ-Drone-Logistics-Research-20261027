@@ -1,0 +1,15 @@
+﻿file,role,status,size,sha256,git_blob,path
+JB_SG_Weather_2026_05.xlsx,MAY_SEP_2026,MISSING,,,,data/weather_2026/processed/JB_SG_Weather_2026_05.xlsx
+JB_SG_Weather_2026_06.xlsx,MAY_SEP_2026,MISSING,,,,data/weather_2026/processed/JB_SG_Weather_2026_06.xlsx
+JB_SG_Weather_2026_07.xlsx,MAY_SEP_2026,MISSING,,,,data/weather_2026/processed/JB_SG_Weather_2026_07.xlsx
+JB_SG_Weather_2026_08.xlsx,MAY_SEP_2026,MISSING,,,,data/weather_2026/processed/JB_SG_Weather_2026_08.xlsx
+JB_SG_Weather_2026_09.xlsx,MAY_SEP_2026,MISSING,,,,data/weather_2026/processed/JB_SG_Weather_2026_09.xlsx
+E02_A_directed_edges_OSM.csv,LEGACY_AB_ONLY,MISSING,,,,03_gis_and_road_network/road_network_project/JB_CIQ_E02_roadnet_V4_6/outputs/E02_A_directed_edges_OSM.csv
+E02_B_directed_edges_OSM.csv,LEGACY_AB_ONLY,MISSING,,,,03_gis_and_road_network/road_network_project/JB_CIQ_E02_roadnet_V4_6/outputs/E02_B_directed_edges_OSM.csv
+E02_A_road_graph_nodes.csv,LEGACY_AB_ONLY,MISSING,,,,03_gis_and_road_network/road_network_project/JB_CIQ_E02_roadnet_V4_6/outputs/E02_A_road_graph_nodes.csv
+E02_B_road_graph_nodes.csv,LEGACY_AB_ONLY,MISSING,,,,03_gis_and_road_network/road_network_project/JB_CIQ_E02_roadnet_V4_6/outputs/E02_B_road_graph_nodes.csv
+stage6_order_level.csv.gz,LEGACY_29842,MISSING,,,,10_experiment_results/stage6_dual_region_multilevel_feeder/stage6_order_level.csv.gz
+E03_ERA5_JB_TWO_CIQ_WEATHER_HOURLY.csv,LEGACY_TWO_CIQ,MISSING,,,,04_weather_data/summary_data/E03_ERA5_JB_TWO_CIQ_WEATHER_HOURLY.csv
+JB_CIQ_E01_corrected_five_month_traffic_data_345nodes_2026-05_09.csv.gz,FCD_MAY_SEP_2026,MISSING,,,,02_base_and_traffic_data/traffic_data/JB_CIQ_E01_corrected_five_month_traffic_data_345nodes_2026-05_09.csv.gz
+JB_FCD_345nodes_G1-G5_Grouped_2026-05_09.zip,FCD_GROUPED,MISSING,,,,02_base_and_traffic_data/traffic_data/JB_FCD_345nodes_G1-G5_Grouped_2026-05_09.zip
+JB_FCD_345nodes_G1-G5_grouped_statistics_and_node_master.xlsx,FCD_NODE_METADATA,MISSING,,,,02_base_and_traffic_data/traffic_data/JB_FCD_345nodes_G1-G5_grouped_statistics_and_node_master.xlsx

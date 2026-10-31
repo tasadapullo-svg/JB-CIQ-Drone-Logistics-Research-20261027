@@ -1,0 +1,89 @@
+{
+  "metadata_source_commit": "4569817b8145efe2ae06f4b21addc1986f971c12",
+  "files": [
+    {
+      "name": "JB_SG_Weather_2026_05.xlsx",
+      "git_blob": "4ae1a0f8f9462a66fda3f2cd24965604d1afb081",
+      "expected_bytes": 13001616,
+      "raw_bytes_available": false,
+      "status": "HOLD_BYTES_ABSENT"
+    },
+    {
+      "name": "JB_SG_Weather_2026_06.xlsx",
+      "git_blob": "b773932d1249c32a6788149bc6f8f8c7f08fb847",
+      "expected_bytes": 13001925,
+      "raw_bytes_available": false,
+      "status": "HOLD_BYTES_ABSENT"
+    },
+    {
+      "name": "JB_SG_Weather_2026_07.xlsx",
+      "git_blob": "a554f49d64500bd1d9df4b23b40a1da174f4eca0",
+      "expected_bytes": 13752431,
+      "raw_bytes_available": false,
+      "status": "HOLD_BYTES_ABSENT"
+    },
+    {
+      "name": "JB_SG_Weather_2026_08.xlsx",
+      "git_blob": "a1ad400f2e0897dce3e775a63e8f20a64bc2d86f",
+      "expected_bytes": 14124507,
+      "raw_bytes_available": false,
+      "status": "HOLD_BYTES_ABSENT"
+    },
+    {
+      "name": "JB_SG_Weather_2026_09.xlsx",
+      "git_blob": "ba4fbefe437989ae7103b4895fcaf06b32c92b9e",
+      "expected_bytes": 14148344,
+      "raw_bytes_available": false,
+      "status": "HOLD_BYTES_ABSENT"
+    },
+    {
+      "name": "E02_A_directed_edges_OSM.csv",
+      "git_blob": "96245d509e964d509e36bb0fde50015113cf91a0",
+      "expected_bytes": 14959641,
+      "raw_bytes_available": false,
+      "status": "HOLD_BYTES_ABSENT"
+    },
+    {
+      "name": "E02_B_directed_edges_OSM.csv",
+      "git_blob": "da71c01fdbea6da04eb63d80584219a081312d41",
+      "expected_bytes": 8652178,
+      "raw_bytes_available": false,
+      "status": "HOLD_BYTES_ABSENT"
+    },
+    {
+      "name": "E02_A_road_graph_nodes.csv",
+      "git_blob": "afc8bb3150af914c397bdf59777997c07384cb03",
+      "expected_bytes": 3230183,
+      "raw_bytes_available": false,
+      "status": "HOLD_BYTES_ABSENT"
+    },
+    {
+      "name": "E02_B_road_graph_nodes.csv",
+      "git_blob": "e48dd04e4147b09cdeda8585698ee131d8eb74c7",
+      "expected_bytes": 1942569,
+      "raw_bytes_available": false,
+      "status": "HOLD_BYTES_ABSENT"
+    },
+    {
+      "name": "stage6_order_level.csv.gz",
+      "git_blob": "5e68fb71c0b0737ed1846f680c85f82a4d04ce06",
+      "expected_bytes": 1542821,
+      "raw_bytes_available": false,
+      "status": "HOLD_BYTES_ABSENT"
+    },
+    {
+      "name": "E03_ERA5_JB_TWO_CIQ_WEATHER_HOURLY.csv",
+      "git_blob": "93eaac5b0f05f264c9d9c0b8a0c4322c0505010c",
+      "expected_bytes": 2002252,
+      "raw_bytes_available": false,
+      "status": "HOLD_BYTES_ABSENT"
+    }
+  ],
+  "physical_files_with_verified_sha256": 0,
+  "weather_workbooks_accepted": 0,
+  "full_ABC_road_graph": "HOLD_FULL_ABC_GRAPH_NOT_PRESENT",
+  "S07_numeric_weather_released": false,
+  "S07_driving_route_released": false,
+  "S08_fuel_and_S09_mission_carbon_released": false,
+  "reason": "Metadata alone is not a numeric data read; GIS straight lines are not driving routes."
+}

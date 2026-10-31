@@ -1,0 +1,42 @@
+{
+  "project": "CIQ Johor-Singapore Road-Air Low Carbon Logistics SCI",
+  "version": "V2_20261030_PLAN",
+  "scope": "conditional scenario simulation; not proven deployment",
+  "historical_baseline_git_commit": "4569817b8145efe2ae06f4b21addc1986f971c12",
+  "spatial_source": "latest three-zone QGIS project, hash and exact boundary pending",
+  "research_questions": {
+    "RQ1": "Where can candidate road-air logistics nodes and corridors be screened given geography, technology and regulation?",
+    "RQ2": "When, under weather and traffic, is multimodal delivery more reliable or timely than a paired petrol-road baseline?",
+    "RQ3": "Can carbon-minimizing feasible multimodal combinations reduce operational CO2 without losing service and within explicit cost constraints?"
+  },
+  "modes": {
+    "M0_PETROL": "road-only gasoline delivery vehicle (primary baseline)",
+    "M1_DJI": "fixed-hub gasoline feeder + DJI FlyCart 30",
+    "M1_WING": "fixed-hub gasoline feeder + Wingcopter 198 Cargo",
+    "M2_DJI": "gasoline vehicle + synchronized DJI FlyCart 30 rendezvous",
+    "M2_WING": "gasoline vehicle + synchronized Wingcopter 198 Cargo"
+  },
+  "sensitivity": "diesel road-only baseline only separately; energy and weather intervals for each UAV",
+  "task_population_policy": "same frozen task IDs; do not concatenate Stage2 918000 with Stage6 29842; remap and hash any revised demand",
+  "historical_demand_candidate": "Stage6 29842 synthetic order population across 30 seeds, five dates; no claims of real orders or 5-month coverage",
+  "mode_fairness": "road vehicle assumptions, capacity, infrastructure and task cohort matched where physically meaningful; mixed modes must count feeder trucks, transfer and fallback",
+  "primary_carbon_metric": "operational kg CO2 = petrol road exhaust CO2 (TTW) + location-based purchased charging electricity CO2, if gas consistent; otherwise separate ledgers only",
+  "CO2e_policy": "only calculate with documented coverage of other gases and harmonized MY/SG factor scope",
+  "system_boundary": [
+    "road loaded/empty/reposition/return",
+    "fuel idle and queues",
+    "consolidation/transfer ground vehicle",
+    "UAV loaded outbound and return/rendezvous",
+    "charging wall electricity",
+    "fallback road service"
+  ],
+  "exclude_primary": [
+    "embodied carbon",
+    "electricity upstream unless explicitly same accounting scope",
+    "fuel well-to-tank upstream unless separately reported"
+  ],
+  "eligibility": "Regulatory not authorized != legal route. A simulation scenario may be conditional only with clearly identified restrictions, no claim of deployment.",
+  "missing_data": "NaN/blank and explicit reason, never 0",
+  "optimization": "minimize matched operational CO2 subject to same task cohort, service and on-time constraints plus declared cost budget; no feasible solution -> infeasible",
+  "status": "METHOD_PLAN_NOT_NUMERICALLY_RELEASED"
+}

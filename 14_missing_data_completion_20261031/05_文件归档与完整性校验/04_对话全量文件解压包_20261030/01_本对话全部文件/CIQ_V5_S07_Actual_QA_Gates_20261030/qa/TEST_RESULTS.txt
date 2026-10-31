@@ -1,0 +1,20 @@
+test_01_current_frozen_scenarios (test_s07_structural_numeric.QAGates.test_01_current_frozen_scenarios) ... ok
+test_02_time_zone (test_s07_structural_numeric.QAGates.test_02_time_zone) ... ok
+test_03_utc_conversion (test_s07_structural_numeric.QAGates.test_03_utc_conversion) ... ok
+test_04_invalid_time (test_s07_structural_numeric.QAGates.test_04_invalid_time) ... ok
+test_05_excel_serial (test_s07_structural_numeric.QAGates.test_05_excel_serial) ... ok
+test_06_column_resolution (test_s07_structural_numeric.QAGates.test_06_column_resolution) ... ok
+test_07_missing_source (test_s07_structural_numeric.QAGates.test_07_missing_source) ... ok
+test_08_actual_git_blob_hash (test_s07_structural_numeric.QAGates.test_08_actual_git_blob_hash) ... ok
+test_09_gzip_speed_missing_not_zero (test_s07_structural_numeric.QAGates.test_09_gzip_speed_missing_not_zero) ... ok
+test_10_duplicate_FCD_key (test_s07_structural_numeric.QAGates.test_10_duplicate_FCD_key) ... ok
+test_11_weather_schema_two_points_incomplete (test_s07_structural_numeric.QAGates.test_11_weather_schema_two_points_incomplete) ... ok
+test_12_weather_duplicate_key (test_s07_structural_numeric.QAGates.test_12_weather_duplicate_key) ... ok
+test_13_road_length_bad (test_s07_structural_numeric.QAGates.test_13_road_length_bad) ... ok
+test_14_hash_failure_fails_closed (test_s07_structural_numeric.QAGates.test_14_hash_failure_fails_closed) ... ok
+test_15_valid_byte_hash (test_s07_structural_numeric.QAGates.test_15_valid_byte_hash) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.230s
+
+OK

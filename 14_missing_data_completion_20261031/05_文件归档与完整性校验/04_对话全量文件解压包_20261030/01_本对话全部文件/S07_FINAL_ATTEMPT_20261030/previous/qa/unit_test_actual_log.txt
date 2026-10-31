@@ -1,0 +1,17 @@
+test_bad_fcd_not_released (test_s07_real.RealS07QA.test_bad_fcd_not_released) ... ok
+test_byte_identity_pass_and_fail (test_s07_real.RealS07QA.test_byte_identity_pass_and_fail) ... ok
+test_duplicate_hour_is_blocked (test_s07_real.RealS07QA.test_duplicate_hour_is_blocked) ... ok
+test_frozen_has_unchanged_68_82620_4590_22950 (test_s07_real.RealS07QA.test_frozen_has_unchanged_68_82620_4590_22950) ... ok
+test_invalid_timestamp_rejected (test_s07_real.RealS07QA.test_invalid_timestamp_rejected) ... ok
+test_local_time_with_offset (test_s07_real.RealS07QA.test_local_time_with_offset) ... ok
+test_monthly_weather_fixture_good_with_four_boundary_rows (test_s07_real.RealS07QA.test_monthly_weather_fixture_good_with_four_boundary_rows) ... ok
+test_no_unauthorized_emission (test_s07_real.RealS07QA.test_no_unauthorized_emission) ... ok
+test_non_hour_timestamp_rejected (test_s07_real.RealS07QA.test_non_hour_timestamp_rejected) ... ok
+test_pinned_git_commit (test_s07_real.RealS07QA.test_pinned_git_commit) ... ok
+test_utc_to_malaysia (test_s07_real.RealS07QA.test_utc_to_malaysia) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 2.396s
+
+OK
+{"frozen": "PASS", "core_byte_verified": "0/6", "legacy_AB_byte_verified": "0/4", "core_structure": "HOLD", "formal_S07": "HOLD_NEEDS_V5_ABC_APPROVED_ROAD_FCD_DIRECTION_WEATHER_UNITS_AND_SPATIAL_QA"}

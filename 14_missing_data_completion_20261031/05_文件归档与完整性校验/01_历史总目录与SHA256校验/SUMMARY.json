@@ -1,0 +1,26 @@
+{
+  "created_date": "2026-10-30",
+  "root": "/mnt/data",
+  "count": 867,
+  "zip_count": 71,
+  "bytes": 591947899,
+  "source_bytes_missing": "14 GitHub sources not mounted",
+  "by_extension": {
+    ".py": 134,
+    ".zip": 71,
+    ".log": 4,
+    ".docx": 7,
+    ".md": 70,
+    ".png": 48,
+    ".csv": 264,
+    ".json": 128,
+    ".txt": 54,
+    ".pyc": 55,
+    ".tmp": 1,
+    ".geojson": 3,
+    ".cmd": 13,
+    ".qgs": 4,
+    ".qgz": 4,
+    ".gpkg": 7
+  }
+}

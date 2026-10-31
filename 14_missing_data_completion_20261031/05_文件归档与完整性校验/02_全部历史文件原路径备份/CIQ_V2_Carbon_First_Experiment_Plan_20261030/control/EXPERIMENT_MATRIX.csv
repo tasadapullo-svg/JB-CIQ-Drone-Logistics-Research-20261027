@@ -1,0 +1,12 @@
+﻿experiment_id,mode,uav,operation,weather_traffic,ground_vehicle,sample,primary_comparison,RQ,status
+EXP00,M0_PETROL,NONE,BASELINE,historical weather and traffic on frozen task hours,PETROL_ROAD_ONLY,30 seeds x 5 frozen dates after mapping,M0 benchmark,"RQ2,RQ3",BLOCKED
+EXP01,M1_DJI,DJI_FC30,FIXED_HUB,same weather / traffic / tasks,PETROL_FEEDER,30 x 5,fixed feeder comparison,"RQ2,RQ3",BLOCKED
+EXP02,M1_WING,W198_CARGO,FIXED_HUB,same weather / traffic / tasks,PETROL_FEEDER,30 x 5,fixed feeder comparison,"RQ2,RQ3",BLOCKED
+EXP03,M2_DJI,DJI_FC30,RENDEZVOUS,same weather / traffic / tasks,PETROL_COORDINATED,30 x 5,vehicle drone coordination,"RQ2,RQ3",BLOCKED
+EXP04,M2_WING,W198_CARGO,RENDEZVOUS,same weather / traffic / tasks,PETROL_COORDINATED,30 x 5,vehicle drone coordination,"RQ2,RQ3",BLOCKED
+EXP05,M0_DIESEL,NONE,SENSITIVITY,identical cohort,DIESEL_ROAD_ONLY,paired 30 x 5,vehicle-fuel sensitivity only,RQ3,BLOCKED
+EXP06,M1_M2_ALL,BOTH,WEATHER_STRESS,dry/wet/high-wind sourced intervals,PETROL,paired 30 x 5,weather/flight sensitivity,"RQ2,RQ3",BLOCKED
+EXP07,M1_M2_ALL,BOTH,ROAD_STRESS,FCD speed ratios or validated ranges,PETROL,paired 30 x 5,traffic stress,"RQ2,RQ3",BLOCKED
+EXP08,M1_M2_ALL,BOTH,COST_CAP_STRESS,same input,PETROL,paired 30 x 5,cost cap 1.00/1.05/1.10/1.20 as proposed scenarios,RQ3,BLOCKED
+EXP09,M1_M2_ALL,BOTH,JOINT_UNCERTAINTY,weather/fuel/UAV energy/queue joint draws,PETROL,30-seed clustered uncertainty,robust min carbon feasible set,RQ3,BLOCKED
+EXP10,M1_M2_ALL,BOTH,CROSS_BORDER,ONLY if verified new OD / travel wait / airspace scenarios,PETROL,separate population and analysis,crossborder conditional sensitivity,"RQ1,RQ2,RQ3",BLOCKED

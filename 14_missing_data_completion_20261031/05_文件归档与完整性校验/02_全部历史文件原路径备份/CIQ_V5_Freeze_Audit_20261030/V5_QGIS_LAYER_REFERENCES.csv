@@ -1,0 +1,21 @@
+﻿layername,source,dataset_layer,kind,source_reference_valid
+A Area — label ON/OFF,./data/CIQ_ABC_V5_ACTIVE.gpkg|layername=A_AREA_LABEL,A_AREA_LABEL,vector,True
+B Area — label ON/OFF,./data/CIQ_ABC_V5_ACTIVE.gpkg|layername=B_AREA_LABEL,B_AREA_LABEL,vector,True
+C Area — label ON/OFF,./data/CIQ_ABC_V5_ACTIVE.gpkg|layername=C_AREA_LABEL,C_AREA_LABEL,vector,True
+WMP228 — label ON/OFF,./data/CIQ_ABC_V5_ACTIVE.gpkg|layername=WMP228_LABEL,WMP228_LABEL,vector,True
+WMP228 | 2026 reference circle (NOT legal coastline boundary),./data/CIQ_ABC_V5_ACTIVE.gpkg|layername=WMP228_ONE_2026_REFERENCE,WMP228_ONE_2026_REFERENCE,vector,True
+A | node IDs,./data/CIQ_ABC_V5_ACTIVE.gpkg|layername=A_NODES,A_NODES,vector,True
+A | CIQ port nodes (6),./data/CIQ_ABC_V5_ACTIVE.gpkg|layername=A_PORT_6_NODES,A_PORT_6_NODES,vector,True
+A | G_CIQ ground gateway,./data/CIQ_ABC_V5_ACTIVE.gpkg|layername=A_GROUND_GATEWAY,A_GROUND_GATEWAY,vector,True
+A | trimmed editable area outline,./data/CIQ_ABC_V5_ACTIVE.gpkg|layername=A_AREA_OUTLINE,A_AREA_OUTLINE,vector,True
+A | candidate geometric links,./data/CIQ_ABC_V5_ACTIVE.gpkg|layername=A_GEOMETRY_LINKS,A_GEOMETRY_LINKS,vector,True
+A | CIQ port geometry links,./data/CIQ_ABC_V5_ACTIVE.gpkg|layername=A_PORT_LINKS,A_PORT_LINKS,vector,True
+B | node IDs,./data/CIQ_ABC_V5_ACTIVE.gpkg|layername=B_NODES,B_NODES,vector,True
+B | trimmed editable area outline,./data/CIQ_ABC_V5_ACTIVE.gpkg|layername=B_AREA_OUTLINE,B_AREA_OUTLINE,vector,True
+B | candidate geometric links,./data/CIQ_ABC_V5_ACTIVE.gpkg|layername=B_GEOMETRY_LINKS,B_GEOMETRY_LINKS,vector,True
+C | node IDs,./data/CIQ_ABC_V5_ACTIVE.gpkg|layername=C_NODES,C_NODES,vector,True
+C | trimmed editable area outline,./data/CIQ_ABC_V5_ACTIVE.gpkg|layername=C_AREA_OUTLINE,C_AREA_OUTLINE,vector,True
+C | candidate geometric links,./data/CIQ_ABC_V5_ACTIVE.gpkg|layername=C_GEOMETRY_LINKS,C_GEOMETRY_LINKS,vector,True
+A/B/C cross-area geometry | independent,./data/CIQ_ABC_V5_ACTIVE.gpkg|layername=INTER_AREA_LINKS,INTER_AREA_LINKS,vector,True
+A ground-only links — HOLD,./data/CIQ_ABC_V5_ACTIVE.gpkg|layername=A_GROUND_ONLY_HOLD,A_GROUND_ONLY_HOLD,vector,True
+OpenStreetMap (online),crs=EPSG:3857&format&type=xyz&url=https://tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png&zmax=19&zmin=0,online,online_xyz,True

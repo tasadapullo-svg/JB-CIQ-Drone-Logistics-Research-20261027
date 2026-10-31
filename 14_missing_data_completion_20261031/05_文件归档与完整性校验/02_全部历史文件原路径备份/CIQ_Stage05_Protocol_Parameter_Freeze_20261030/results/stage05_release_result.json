@@ -1,0 +1,133 @@
+{
+  "stage": "S05",
+  "release_status": "HOLD_NO_SIMULATION",
+  "permission_to_run_main_experiment": false,
+  "permission_to_run_unvalidated_comparative_emissions": false,
+  "ready_for_independent_smoke_review": false,
+  "gate_status": [
+    {
+      "gate_id": "S02_SPATIAL",
+      "status": "BLOCKED",
+      "evidence_path": null,
+      "checks": [
+        "GATE_NOT_PASS",
+        "EVIDENCE_NOT_IDENTIFIED",
+        "EVIDENCE_SHA256_NOT_FROZEN"
+      ],
+      "pass": false
+    },
+    {
+      "gate_id": "ORDER_POPULATION",
+      "status": "BLOCKED",
+      "evidence_path": null,
+      "checks": [
+        "GATE_NOT_PASS",
+        "EVIDENCE_NOT_IDENTIFIED",
+        "EVIDENCE_SHA256_NOT_FROZEN"
+      ],
+      "pass": false
+    },
+    {
+      "gate_id": "WEATHER_HOURLY",
+      "status": "BLOCKED",
+      "evidence_path": null,
+      "checks": [
+        "GATE_NOT_PASS",
+        "EVIDENCE_NOT_IDENTIFIED",
+        "EVIDENCE_SHA256_NOT_FROZEN"
+      ],
+      "pass": false
+    },
+    {
+      "gate_id": "ROAD_OD_NEW",
+      "status": "BLOCKED",
+      "evidence_path": null,
+      "checks": [
+        "GATE_NOT_PASS",
+        "EVIDENCE_NOT_IDENTIFIED",
+        "EVIDENCE_SHA256_NOT_FROZEN"
+      ],
+      "pass": false
+    },
+    {
+      "gate_id": "FUEL_CONSUMPTION_AND_CARBON",
+      "status": "BLOCKED",
+      "evidence_path": null,
+      "checks": [
+        "GATE_NOT_PASS",
+        "EVIDENCE_NOT_IDENTIFIED",
+        "EVIDENCE_SHA256_NOT_FROZEN"
+      ],
+      "pass": false
+    },
+    {
+      "gate_id": "DJI_TASK_ENERGY",
+      "status": "BLOCKED",
+      "evidence_path": null,
+      "checks": [
+        "GATE_NOT_PASS",
+        "EVIDENCE_NOT_IDENTIFIED",
+        "EVIDENCE_SHA256_NOT_FROZEN"
+      ],
+      "pass": false
+    },
+    {
+      "gate_id": "W198_CARGO_TASK_ENERGY",
+      "status": "BLOCKED",
+      "evidence_path": null,
+      "checks": [
+        "GATE_NOT_PASS",
+        "EVIDENCE_NOT_IDENTIFIED",
+        "EVIDENCE_SHA256_NOT_FROZEN"
+      ],
+      "pass": false
+    },
+    {
+      "gate_id": "COUNTRY_GRID_GAS_HARMONIZED",
+      "status": "BLOCKED",
+      "evidence_path": null,
+      "checks": [
+        "GATE_NOT_PASS",
+        "EVIDENCE_NOT_IDENTIFIED",
+        "EVIDENCE_SHA256_NOT_FROZEN"
+      ],
+      "pass": false
+    },
+    {
+      "gate_id": "CROSS_BORDER_SCENARIO_STATUS",
+      "status": "BLOCKED",
+      "evidence_path": null,
+      "checks": [
+        "GATE_NOT_PASS",
+        "EVIDENCE_NOT_IDENTIFIED",
+        "EVIDENCE_SHA256_NOT_FROZEN"
+      ],
+      "pass": false
+    },
+    {
+      "gate_id": "MATCHED_TASK_SMOKE_TEST",
+      "status": "BLOCKED",
+      "evidence_path": null,
+      "checks": [
+        "GATE_NOT_PASS",
+        "EVIDENCE_NOT_IDENTIFIED",
+        "EVIDENCE_SHA256_NOT_FROZEN"
+      ],
+      "pass": false
+    }
+  ],
+  "parameter_status": {
+    "count": 42,
+    "blocked_count": 27,
+    "issues": [
+      {
+        "parameter": "Singapore_grid_GEF_2024",
+        "error": "SINGAPORE_GEF_GAS_LABEL_REVIEW"
+      }
+    ]
+  },
+  "policy_issues": [
+    "PARAMETER_REGISTER_INVALID"
+  ],
+  "source": "Offline metadata and hash evidence only; no flight approval, no weather/road/CO2 simulation."
+}

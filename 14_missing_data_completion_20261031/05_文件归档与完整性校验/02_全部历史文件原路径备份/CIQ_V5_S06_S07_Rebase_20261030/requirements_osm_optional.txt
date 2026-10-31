@@ -1,0 +1,3 @@
+# Only needed for downloading a new complete V5 A/B/C OSM drive graph.
+osmnx>=2.0,<3.0
+scikit-learn>=1.5,<2.0

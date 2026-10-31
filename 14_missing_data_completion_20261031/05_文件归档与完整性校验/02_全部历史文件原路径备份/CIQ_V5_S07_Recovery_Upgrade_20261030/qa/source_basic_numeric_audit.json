@@ -1,0 +1,55 @@
+[
+  {
+    "month": "05",
+    "source_verified": false,
+    "status": "HOLD_SOURCE_BYTES",
+    "raw_weather_rows": null,
+    "fields": null
+  },
+  {
+    "month": "06",
+    "source_verified": false,
+    "status": "HOLD_SOURCE_BYTES",
+    "raw_weather_rows": null,
+    "fields": null
+  },
+  {
+    "month": "07",
+    "source_verified": false,
+    "status": "HOLD_SOURCE_BYTES",
+    "raw_weather_rows": null,
+    "fields": null
+  },
+  {
+    "month": "08",
+    "source_verified": false,
+    "status": "HOLD_SOURCE_BYTES",
+    "raw_weather_rows": null,
+    "fields": null
+  },
+  {
+    "month": "09",
+    "source_verified": false,
+    "status": "HOLD_SOURCE_BYTES",
+    "raw_weather_rows": null,
+    "fields": null
+  },
+  {
+    "kind": "A_EDGES",
+    "status": "HOLD_SOURCE_BYTES",
+    "rows": null,
+    "fields": null
+  },
+  {
+    "kind": "B_EDGES",
+    "status": "HOLD_SOURCE_BYTES",
+    "rows": null,
+    "fields": null
+  },
+  {
+    "kind": "FCD_5_MONTH",
+    "status": "HOLD_SOURCE_BYTES",
+    "rows": null,
+    "fields": null
+  }
+]

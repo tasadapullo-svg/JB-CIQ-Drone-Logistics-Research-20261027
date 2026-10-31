@@ -1,0 +1,13 @@
+{
+  "frozen_spatial_version": "V5_68_NODES",
+  "frozen_task_population": 82620,
+  "frozen_paired_scenarios": 4590,
+  "git_commit": "4569817b8145efe2ae06f4b21addc1986f971c12",
+  "source_files": 14,
+  "files_with_verified_full_bytes": 0,
+  "weather_fcd_osm_numeric_release": "HOLD_PENDING_FULL_QA",
+  "v5_c_directed_road": "HOLD_NOT_IN_14_HISTORICAL_FILES",
+  "S08_petrol_operational_result": "HOLD",
+  "S09_aircraft_mission_operational_energy": "HOLD",
+  "S10_S11_S12_results": "NOT_RUN"
+}

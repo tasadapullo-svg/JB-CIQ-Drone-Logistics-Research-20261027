@@ -1,0 +1,38 @@
+{
+  "approved_UAV_sites": 0,
+  "gates": {
+    "M0_M1_M2_real_experiment": "HOLD_NO_ROUTING_ENERGY_COMPLIANCE",
+    "QGIS_3_22_GUI_render": "HOLD_NOT_TESTED",
+    "S07_node_reference_handoff": "CONDITIONAL_GO_MAPPING_ONLY",
+    "actual_routable_road_graph": "HOLD_NOT_IN_V3_ARCHIVE",
+    "effective_time_official_airspace": "HOLD_NOT_VERIFIED",
+    "geometry_category_separation": "PASS",
+    "legacy_19_old_new_coordinates": "HOLD_SOURCE_OLD19_NOT_RETRIEVED",
+    "node_identity_consistency": "PASS",
+    "operator_site_pad_approval": "HOLD_NOT_VERIFIED",
+    "road_entry_legal_access": "HOLD_NOT_VERIFIED",
+    "spatial_reference_lock": "PASS_FOR_REFERENCE_AND_S06_INPUT_BUILD"
+  },
+  "gis_crs": "EPSG:4326",
+  "ground_reference_beelines": 5,
+  "legacy_a10_claims_alias_but_stage8_A_count_9": "HOLD_REVIEW",
+  "max_line_geodesic_attribute_delta_m": 0.5,
+  "max_node_geom_coordinate_delta_deg": 0.0,
+  "nodes_by_zone": {
+    "A": 23,
+    "B": 10,
+    "C": 29,
+    "GATEWAY": 1,
+    "PORT_A": 6
+  },
+  "nodes_total": 69,
+  "official_airspace_boundaries_loaded": 0,
+  "old_road_exceptions_linked": 37,
+  "old_stage8_19_candidate_ids": 19,
+  "old_stage8_crosspackage_coords_verified": false,
+  "release_tag": "QGIS_ABC_V3_20261030_S06_SOURCE_LOCK",
+  "road_access_independently_verified": 0,
+  "source_note": "V3 GIS polygons are reference constructs. No road travel or flight permissions inferred.",
+  "source_v3_sha256": "a4e4d05397fa62d4611ea8a9a443445f8c6b9ae95c5ad545e7dea83aecd8ad92",
+  "uav_geometry_candidates": 116
+}

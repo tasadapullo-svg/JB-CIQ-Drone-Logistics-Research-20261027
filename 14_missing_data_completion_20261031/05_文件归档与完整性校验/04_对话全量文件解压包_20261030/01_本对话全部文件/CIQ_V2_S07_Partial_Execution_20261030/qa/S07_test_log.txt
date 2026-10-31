@@ -1,0 +1,43 @@
+test_37_od_remain_blocked (test_s07_partial.TestS07.test_37_od_remain_blocked) ... ok
+test_external_inputs_registered (test_s07_partial.TestS07.test_external_inputs_registered) ... ok
+test_git_blob_hash_function (test_s07_partial.TestS07.test_git_blob_hash_function) ... ok
+test_legacy_id_collisions (test_s07_partial.TestS07.test_legacy_id_collisions) ... ok
+test_monthly_coverage_metadata (test_s07_partial.TestS07.test_monthly_coverage_metadata) ... ok
+test_no_carbons_or_orders_claimed (test_s07_partial.TestS07.test_no_carbons_or_orders_claimed) ... ok
+test_no_operational_releases (test_s07_partial.TestS07.test_no_operational_releases) ... ok
+test_numeric_weather_not_fabricated (test_s07_partial.TestS07.test_numeric_weather_not_fabricated) ... ok
+test_old_a03_new_an10_and_old_a00_gateway (test_s07_partial.TestS07.test_old_a03_new_an10_and_old_a00_gateway) ... ok
+test_static_nodes_and_zones (test_s07_partial.TestS07.test_static_nodes_and_zones) ... ok
+test_time_axis (test_s07_partial.TestS07.test_time_axis) ... ok
+test_weather_grid_only_two_and_far_dist (test_s07_partial.TestS07.test_weather_grid_only_two_and_far_dist) ... ok
+test_workbook_version_gate (test_s07_partial.TestS07.test_workbook_version_gate) ... ok
+test_zero_degree_counts (test_s07_partial.TestS07.test_zero_degree_counts) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.213s
+
+OK
+{
+  "weather_nodes_gt_10km_from_nearest_historic_ERA5_cell": 31,
+  "weather_workbook_size_mismatch_months": 5,
+  "nodes": 69,
+  "node_zone_counts": {
+    "A": 23,
+    "B": 10,
+    "C": 29,
+    "PORT_A": 6,
+    "GATEWAY": 1
+  },
+  "uav_reference_edges": 116,
+  "ground_reference_edges": 5,
+  "uav_zero_degree_nodes": 13,
+  "historic_legacy_ids": 19,
+  "historic_road_OD_anomalies_preserved": 37,
+  "legacy_same_id_collisions": 8,
+  "legacy_same_id_coordinate_matches": 10,
+  "hours": 3672,
+  "days": 153,
+  "ERA5_distinct_historic_returned_cells": 2,
+  "missing_hourly_values": 7344
+}
+S07 STATUS: PARTIAL_EXECUTION_HOLD_MAIN_EXPERIMENT

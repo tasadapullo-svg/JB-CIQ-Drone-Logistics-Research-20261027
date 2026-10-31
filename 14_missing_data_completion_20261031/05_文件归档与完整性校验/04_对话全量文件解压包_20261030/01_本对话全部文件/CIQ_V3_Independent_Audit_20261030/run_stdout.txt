@@ -1,0 +1,91 @@
+{
+  "checks": {
+    "sha256": {
+      "manifest_entries": 33,
+      "actual_files": 34,
+      "all_match": true,
+      "missing_referenced_files": []
+    },
+    "qgz_xml_identical": true,
+    "nodes": {
+      "total": 69,
+      "unique_ids": 69,
+      "nonempty_names": 69,
+      "zone_count": {
+        "A": 23,
+        "C": 29,
+        "B": 10,
+        "PORT": 6,
+        "GATEWAY": 1
+      },
+      "lon_range": [
+        103.5468,
+        103.8327
+      ],
+      "lat_range": [
+        1.35327,
+        1.5521
+      ],
+      "invalid_point_geometries": 0
+    },
+    "source_csv_nodes": {
+      "rows": 68,
+      "matched": 68,
+      "mismatch": 0
+    },
+    "links": {
+      "total": 121,
+      "by_mode": {
+        "V7_UAV_GEOMETRY": 111,
+        "UAV_GEOMETRY_SEARCH": 5,
+        "GROUND_HANDOFF_STRAIGHT_REFERENCE": 5
+      },
+      "source_layer_count": {
+        "V7_ALL_111_GEOMETRY_ONLY": 111,
+        "V8_CIQ_PORT_10_GROUND_AND_UAV_GEOMETRY": 10
+      },
+      "unresolved_or_bad_endpoint": 0,
+      "max_endpoint_offset_m": 0,
+      "max_distance_error_m": 0.5,
+      "errors_over_150m": 0,
+      "errors_over_10m": 0,
+      "self_loops": 0,
+      "duplicated_edge_ids": {},
+      "duplicate_directed_endpoints": {},
+      "v8_modes": {
+        "UAV_GEOMETRY_SEARCH": 5,
+        "GROUND_HANDOFF_STRAIGHT_REFERENCE": 5
+      }
+    },
+    "source_csv_links": {
+      "rows": 121,
+      "match_ids": 121,
+      "unique_ids": 121
+    },
+    "label_qa": {
+      "rows": 69,
+      "unique_ids": 69,
+      "columns": [
+        "node_id",
+        "full_name",
+        "zone",
+        "longitude_E",
+        "latitude_N",
+        "source_layer",
+        "overview_label",
+        "regional_and_canvas_label",
+        "expected_display"
+      ]
+    }
+  },
+  "gpkg_count": 19,
+  "qgs_layer_count": 19,
+  "release": {
+    "V2_S06_spatial_reference_inventory": "PASS_REFERENCE_ONLY",
+    "V2_S06_qgis_3_22_desktop_open_and_layout_export": "HOLD_NOT_RUN_IN_QGIS_RUNTIME",
+    "V2_S06_online_osm_basemap_borders_terrain": "HOLD_NEED_EXTERNAL_GIS",
+    "V2_S06_drivable_road_access_and_turn_restrictions": "HOLD_NO_ROUTABLE_ROAD_GRAPH",
+    "V2_S06_airspace_and_flight_regulatory_feasibility": "HOLD_REFERENCE_ONLY",
+    "V2_S06_all_inputs_for_fuel_carbon_main_sim": "HOLD"
+  }
+}

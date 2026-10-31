@@ -1,0 +1,68 @@
+{
+  "source_v5_immutable_zip_sha256": "0d19633630b6f12525ad9bd776bbf966ec1e8a46520bd8bc3d904013b02dce74",
+  "frozen_nodes": 68,
+  "frozen_tasks": 82620,
+  "hours": 3672,
+  "distinct_seeds": 30,
+  "distinct_days": 153,
+  "seed_day_zone_blocks": 13770,
+  "every_seed_day_zone_has_six_tasks": true,
+  "candidate_direct_edge_tasks": 11060,
+  "candidate_reverse_only_tasks": 17417,
+  "no_direct_edge_tasks": 54143,
+  "origin_weather_geographic_proxies_farther_10km": 55080,
+  "origin_context_grid_counts": {
+    "WX_EAST": 55317,
+    "WX_WEST": 27303
+  },
+  "cross_zone_synthetic_tasks": 13770,
+  "monthly_task_count": {
+    "05": 16740,
+    "06": 16200,
+    "07": 16740,
+    "08": 16740,
+    "09": 16200
+  },
+  "mode_reference_count": 5,
+  "all_tasks_are_synthetic": true,
+  "weather_point_values_accepted": false,
+  "valid_ABC_directed_road_routes_accepted": false,
+  "official_operational_flight_approved": false,
+  "petrol_M0_results_approved": false,
+  "operational_CO2e_and_cost_results_approved": false,
+  "pinned_source_verified_count": 0,
+  "source_files_expected": 11,
+  "version_pinning": "4569817b8145efe2ae06f4b21addc1986f971c12",
+  "input_registry": {
+    "nodes": {
+      "filename": "S06_V5_68_NODE_MASTER_AUTHORITATIVE.csv",
+      "bytes": 13948,
+      "sha256": "6d10ce88b5d7770fa1a776bffb5c386655d9ccab18064138c06ce11ea9d756a9"
+    },
+    "tasks": {
+      "filename": "S07_V5_SYNTHETIC_TASKS_CONDITIONAL_DESIGN.csv",
+      "bytes": 31487232,
+      "sha256": "8cc9c4d20b78cb80bff4fa9fd69750e0b7c172d6f48d07a7880b224bf5ddecca"
+    },
+    "hours": {
+      "filename": "S07_V5_3672_HOURLY_TIMELINE.csv",
+      "bytes": 765028,
+      "sha256": "b14d424084d29e421c7c18f2488e7560073f53fc8c7f9abd5e9f71829fd716bf"
+    },
+    "grids": {
+      "filename": "S07_V5_68_NODE_ERA5_COARSE_GRID_CANDIDATES.csv",
+      "bytes": 6369,
+      "sha256": "ac6ecb0090e53415ae000ac96bb6bdcbe90724c36891661dfc93c9ee2e60b900"
+    },
+    "edges": {
+      "filename": "S06_V5_116_UAV_GEOMETRY_ONLY.csv",
+      "bytes": 16482,
+      "sha256": "1589b41e1ce20406d186faaa14df4c1ba74d4ffa5020104260d517ff418cc2e4"
+    },
+    "v5": {
+      "filename": "V5_FROZEN_SOURCE.zip",
+      "bytes": 515950,
+      "sha256": "0d19633630b6f12525ad9bd776bbf966ec1e8a46520bd8bc3d904013b02dce74"
+    }
+  }
+}

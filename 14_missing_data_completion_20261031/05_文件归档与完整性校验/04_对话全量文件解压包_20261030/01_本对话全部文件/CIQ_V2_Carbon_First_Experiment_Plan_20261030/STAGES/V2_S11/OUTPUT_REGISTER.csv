@@ -1,0 +1,5 @@
+﻿filename,definition,status,sha256
+operational_carbon_ledger.csv,燃油与电力独立碳账本,NOT_PRODUCED,
+matched_comparison.csv,服务匹配时间/成本/碳变化,NOT_PRODUCED,
+pareto_feasible.csv,可行 Pareto 情景/不可行原因,NOT_PRODUCED,
+emission_QA.json,单位和跨模式共享车次复算,NOT_PRODUCED,

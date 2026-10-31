@@ -1,0 +1,36 @@
+
+test_01_nodes_count (test_s07_event_contract.S07ScientificChecks.test_01_nodes_count) ... ok
+test_02_node_unique (test_s07_event_contract.S07ScientificChecks.test_02_node_unique) ... ok
+test_03_locked_input_exists (test_s07_event_contract.S07ScientificChecks.test_03_locked_input_exists) ... ok
+test_04_task_count (test_s07_event_contract.S07ScientificChecks.test_04_task_count) ... ok
+test_05_task_id_unique (test_s07_event_contract.S07ScientificChecks.test_05_task_id_unique) ... ok
+test_06_seed_count (test_s07_event_contract.S07ScientificChecks.test_06_seed_count) ... ok
+test_07_day_count (test_s07_event_contract.S07ScientificChecks.test_07_day_count) ... ok
+test_08_hours (test_s07_event_contract.S07ScientificChecks.test_08_hours) ... ok
+test_09_grid_member (test_s07_event_contract.S07ScientificChecks.test_09_grid_member) ... ok
+test_10_edge_count (test_s07_event_contract.S07ScientificChecks.test_10_edge_count) ... ok
+test_11_edge_classification (test_s07_event_contract.S07ScientificChecks.test_11_edge_classification) ... ok
+test_12_no_stale_A_N10 (test_s07_event_contract.S07ScientificChecks.test_12_no_stale_A_N10) ... ok
+test_13_no_null_ids (test_s07_event_contract.S07ScientificChecks.test_13_no_null_ids) ... ok
+test_14_event_keys_count (test_s07_event_contract.S07ScientificChecks.test_14_event_keys_count) ... ok
+test_15_hour_windows (test_s07_event_contract.S07ScientificChecks.test_15_hour_windows) ... ok
+test_16_all_mode_identical_population (test_s07_event_contract.S07ScientificChecks.test_16_all_mode_identical_population) ... ok
+test_17_no_unauthorized_road_or_weather (test_s07_event_contract.S07ScientificChecks.test_17_no_unauthorized_road_or_weather) ... ok
+test_18_edge_direction_partition (test_s07_event_contract.S07ScientificChecks.test_18_edge_direction_partition) ... ok
+test_19_time_strata (test_s07_event_contract.S07ScientificChecks.test_19_time_strata) ... ok
+test_20_no_operational_carbon_claim (test_s07_event_contract.S07ScientificChecks.test_20_no_operational_carbon_claim) ... ok
+test_21_pinned_missing_source_block (test_s07_event_contract.S07ScientificChecks.test_21_pinned_missing_source_block) ... ok
+test_22_workbook_filename_preserved (test_s07_event_contract.S07ScientificChecks.test_22_workbook_filename_preserved) ... ok
+test_23_reject_stale_node (test_s07_event_contract.S07ScientificChecks.test_23_reject_stale_node) ... ok
+test_24_reject_missing_road_field (test_s07_event_contract.S07ScientificChecks.test_24_reject_missing_road_field) ... ok
+test_25_reject_unverified_road_access (test_s07_event_contract.S07ScientificChecks.test_25_reject_unverified_road_access) ... ok
+test_26_reject_unverified_weather_units (test_s07_event_contract.S07ScientificChecks.test_26_reject_unverified_weather_units) ... ok
+test_27_reject_bad_weather_interval (test_s07_event_contract.S07ScientificChecks.test_27_reject_bad_weather_interval) ... ok
+test_28_no_CIQ_wait_fabrication (test_s07_event_contract.S07ScientificChecks.test_28_no_CIQ_wait_fabrication) ... ok
+test_29_source_digest (test_s07_event_contract.S07ScientificChecks.test_29_source_digest) ... ok
+test_30_real_grid_distance_not_zero_placeholder (test_s07_event_contract.S07ScientificChecks.test_30_real_grid_distance_not_zero_placeholder) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 2.145s
+
+OK

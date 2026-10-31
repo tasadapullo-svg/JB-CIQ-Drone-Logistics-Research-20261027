@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-30",
+  "historical_file_count": 867,
+  "new_file_count": 86,
+  "total_file_count": 953,
+  "total_uncompressed_bytes": 670216600,
+  "source_archive_sha256": "8ca1dbf11971db4aada2ed249b9908128a56a4c53aeb5c47950ffbf5fbcddc6e",
+  "source_archive_filename": "CIQ_V5_本对话全部867份文件_完整汇总_20261030.zip",
+  "archive_includes_prior_archive_directly": false,
+  "file_types": {
+    ".py": 150,
+    ".zip": 77,
+    ".log": 6,
+    ".docx": 7,
+    ".md": 81,
+    ".png": 52,
+    ".csv": 286,
+    ".json": 139,
+    ".txt": 56,
+    ".pyc": 59,
+    ".tmp": 1,
+    ".geojson": 3,
+    ".cmd": 16,
+    ".qgs": 4,
+    ".qgz": 4,
+    ".gpkg": 7,
+    ".pdf": 2,
+    ".gz": 2,
+    ".yml": 1
+  },
+  "science_data_gaps": "14 large GitHub raw-source objects not currently present as complete files"
+}

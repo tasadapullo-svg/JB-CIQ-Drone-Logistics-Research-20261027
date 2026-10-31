@@ -1,0 +1,19 @@
+test_01_original_uploaded_sha256 (test_s06_input_build.SourceAndModeTests.test_01_original_uploaded_sha256) ... ok
+test_02_zip_crc_and_referenced_parts (test_s06_input_build.SourceAndModeTests.test_02_zip_crc_and_referenced_parts) ... ok
+test_03_geopackage_source_reading (test_s06_input_build.SourceAndModeTests.test_03_geopackage_source_reading) ... ok
+test_04_node_unique_complete_and_zone_partition (test_s06_input_build.SourceAndModeTests.test_04_node_unique_complete_and_zone_partition) ... ok
+test_05_source_label_name_and_coordinates (test_s06_input_build.SourceAndModeTests.test_05_source_label_name_and_coordinates) ... ok
+test_06_unambiguous_edge_mode_split (test_s06_input_build.SourceAndModeTests.test_06_unambiguous_edge_mode_split) ... ok
+test_07_known_bad_mode_flags_cannot_dispatch (test_s06_input_build.SourceAndModeTests.test_07_known_bad_mode_flags_cannot_dispatch) ... ok
+test_08_geometry_endpoint_and_length_audit (test_s06_input_build.SourceAndModeTests.test_08_geometry_endpoint_and_length_audit) ... ok
+test_09_crosswalk_not_wrongly_certified (test_s06_input_build.SourceAndModeTests.test_09_crosswalk_not_wrongly_certified) ... ok
+test_10_road_access_and_airspace_not_claimed (test_s06_input_build.SourceAndModeTests.test_10_road_access_and_airspace_not_claimed) ... ok
+test_11_geojson_matches_counts (test_s06_input_build.SourceAndModeTests.test_11_geojson_matches_counts) ... ok
+test_12_legacy_road_exception_not_repaired (test_s06_input_build.SourceAndModeTests.test_12_legacy_road_exception_not_repaired) ... ok
+test_13_release_gates_stop_simulation (test_s06_input_build.SourceAndModeTests.test_13_release_gates_stop_simulation) ... ok
+test_14_qgs_qgz_xml_same_source (test_s06_input_build.SourceAndModeTests.test_14_qgs_qgz_xml_same_source) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.027s
+
+OK

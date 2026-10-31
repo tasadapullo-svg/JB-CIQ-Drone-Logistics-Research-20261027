@@ -1,0 +1,5 @@
+﻿filename,definition,status,sha256
+paired_task_manifest.csv,任务总体与种子/日期哈希,NOT_PRODUCED,
+time_join_QA.csv,天气道路时间戳覆盖及缺测,NOT_PRODUCED,
+road_access_repair_log.csv,可达性候选/实际修复逐条追踪,NOT_PRODUCED,
+demand_freeze.json,可评价分母及排除理由,NOT_PRODUCED,

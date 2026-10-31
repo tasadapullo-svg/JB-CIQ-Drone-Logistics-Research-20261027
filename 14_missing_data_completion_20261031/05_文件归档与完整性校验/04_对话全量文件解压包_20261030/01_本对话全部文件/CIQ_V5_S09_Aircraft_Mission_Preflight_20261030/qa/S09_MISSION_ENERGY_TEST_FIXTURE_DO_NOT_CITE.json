@@ -1,0 +1,14 @@
+{
+  "release_status": "CONDITIONAL_MODEL_UNVALIDATED",
+  "segments": 2,
+  "flight_minutes": 4.444444444444445,
+  "battery_mission_kwh_assumed": 0.7296296296296297,
+  "grid_recharge_kwh_assumed": 0.8583877995642702,
+  "usable_battery_kwh_assumed": 3.37348,
+  "reserve_adjusted_budget_kwh_assumed": 2.698784,
+  "conditional_energy_budget_pass": true,
+  "has_real_event_time_weather": false,
+  "has_accepted_corridor": false,
+  "notice": "Inputs are SCENARIO assumptions; no calibrated model-specific cruise power; NOT validated carbon savings.",
+  "disclaimer": "UNREALISTIC_TOY_ASSUMPTIONS_FOR_PROGRAMMING_QA_ONLY; NOT DJI MEASURED POWER, NOT THE EXPERIMENT RESULT"
+}

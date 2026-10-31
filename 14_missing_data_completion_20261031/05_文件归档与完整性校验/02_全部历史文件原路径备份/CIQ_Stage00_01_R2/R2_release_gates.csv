@@ -1,0 +1,14 @@
+﻿gate_id,subject,status,current_evidence,required_to_close,recalculation_released
+G00,Historical commit identity,PASS_IDENTITY_ONLY,GitHub main confirms commit 4569817b8145efe2ae06f4b21addc1986f971c12,Do not infer individual content hashes from this alone,NO
+G01,Newest QGIS .qgz/.qgs and referenced local vectors,BLOCKED,Latest 2026-10-29 three-zone project not available in current workspace/connected search,"Obtain exact source file and dependent GPKG/GeoJSON/shapefiles, SHA-256 each",NO
+G02,"Zone A/B/C node IDs, names and coordinates",BLOCKED,No current QGIS node/feature file to inspect,Automated candidate extract + QGIS human review + crosswalk,NO
+G03,New edges and end-point referential integrity,BLOCKED,No current QGIS edge/line feature file to inspect,"Audit endpoints, geometry, topology, routes vs screening lines",NO
+G04,Old / new network migration table,BLOCKED,Old Stage8 19 nodes not identical to latest network; source CSV needs localization,Create explicit KEEP / MOVED / RENAMED / ADDED / REMOVED / SEARCH_ZONE statuses,NO
+G05,Stage3–8 reproducibility dependencies,BLOCKED,Stage6 run_stage6.py import run_stage4_dispatch unresolved at documented path; Stage7.2 report inaccessible,Locate archived members and repeat independently on frozen inputs,NO
+G06,Historical file-by-file SHA-256 inventory,BLOCKED,20k+ files not in local container; historical self-report cannot count as independent verification,"Clone frozen commit, verify 13 split assets, hash/check manifest entries",NO
+G07,Unified synthetic demand & matching protocol,BLOCKED,"918,000 resamples and 29,842 Stage6 samples must not combine","Freeze new task generation, IDs, seeds, dates and identical M0/M1/M2 denominator",NO
+G08,"CAAM/CAAS airspace, WMP228, CTR and sites",BLOCKED,No approved route/site evidence; historic F0/F1 explicitly blocked,"Official source/version/height/time and approvals, uncertainty flags",NO
+G09,Weather source and takeoff-time feasibility,NOT_STARTED,Historical ERA5/NASA/NEA source class separation still required,Source registry and timestamp alignment after G01-G08,NO
+G10,Road-only matched vehicle baseline,NOT_STARTED,Old E02 91/128 routed ODs; FCD is region proxy and CIQ time absent,Rebuild new road access and fuel/EV scenarios with consistent service,NO
+G11,Task-level energy and operational CO2e,NOT_STARTED,Old Generic UAV and electric van model not calibrated for two aircraft or ICE roads,"Model energy/ground fuel/return leg, explicit system boundaries",NO
+G12,Release of numerical experiment Stage02+,BLOCKED,Mandatory Stage00/01 blockers remain,"Formal researcher approval, then sign input manifest",NO

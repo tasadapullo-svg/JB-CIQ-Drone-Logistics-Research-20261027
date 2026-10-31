@@ -1,0 +1,6 @@
+﻿logical_dataset,path,sha256,version,evidence_class,role,active_for_new_run,approval,note
+LATEST_QGIS_THREE_ZONE,,,,SPATIAL_INPUT,GEOMETRIC_CANDIDATE,NO,HOLD,No user-provided original project
+HISTORIC_STAGE3_TO_STAGE8,github:4569817b8145efe2ae06f4b21addc1986f971c12,,2026-10-28,HISTORICAL_BASELINE,COMPARISON_ONLY,NO,READ_ONLY_HISTORY,Repository commit is not a data file SHA256
+NEW_ROAD_OD,,,,UNVALIDATED,RECALC_REQUIRED,NO,HOLD,Old E02 routing cannot be inherited unchanged
+NEW_WEATHER_EXPOSURE,,,,UNVALIDATED,RECALC_REQUIRED,NO,HOLD,Use validated source/point/time alignment
+NEW_ENERGY_AND_EMISSION,,,,UNVALIDATED,RECALC_REQUIRED,NO,HOLD,No generic-UAV/EV assumptions transferred

@@ -1,0 +1,43 @@
+﻿parameter,unit,value,classification,source_id,scope,freeze_decision,notes
+DJI_FC30_dual_payload_max,kg,30,MANUFACTURER_SPEC,SRC01,FC30_DUAL,SCREENING_FROZEN,"Manufacturer rated ceiling, not validated parcel operations"
+DJI_FC30_dual_full_load_range,km,16,MANUFACTURER_SPEC,SRC01,FC30_DUAL,SCREENING_FROZEN,"At 30kg load, 15m/s, windless, full battery; not each leg or guaranteed round trip"
+DJI_FC30_dual_empty_range,km,28,MANUFACTURER_SPEC,SRC01,FC30_DUAL,SCREENING_FROZEN,Windless at 15m/s; no load
+DJI_FC30_wind_resistance_max,m/s,12,MANUFACTURER_SPEC,SRC01,FC30_DUAL,SCREENING_FROZEN,Not an unconditional legal dispatch threshold
+DJI_DB2000_single_nominal_energy,kWh,1.9844,MANUFACTURER_SPEC,SRC01,FC30_DUAL,SCREENING_FROZEN,Each DB2000 battery; nominal not usable energy
+DJI_FC30_dual_total_nominal_energy,kWh,3.9688,DERIVED_MANUFACTURER_SPEC,SRC01,FC30_DUAL,SCREENING_FROZEN,2x1.9844; do not equate to flight energy
+DJI_FC30_takeoff_energy_model,kWh/task,,MISSING_MEASURED,SRC01,FC30_DUAL,BLOCKED,"Requires mission phase power, payload/wind/flight path"
+DJI_FC30_cruise_energy_model,kWh/km,,MISSING_MEASURED,SRC01,FC30_DUAL,BLOCKED,Do not derive from nominal energy / max range
+DJI_FC30_descent_landing_energy_model,kWh/task,,MISSING_MEASURED,SRC01,FC30_DUAL,BLOCKED,Includes hover/drop/recovery
+DJI_FC30_usable_SOC_reserve,fraction,,MISSING_POLICY,SRC01,FC30_DUAL,BLOCKED,Must be distinct from nominal battery energy
+DJI_FC30_charging_efficiency,fraction,,MISSING_EVIDENCE,SRC01,FC30_DUAL,BLOCKED,Wall input energy required
+Wingcopter_198_Cargo_payload_max,kg,4.7,MANUFACTURER_SPEC,SRC02,W198_CARGO,SCREENING_FROZEN,Cargo model only
+Wingcopter_198_Cargo_max_range,km,92,MANUFACTURER_SPEC,SRC02,W198_CARGO,SCREENING_FROZEN,Up to; load/weather/reserve profile unspecified
+Wingcopter_198_Cargo_wind_resistance,m/s,18,MANUFACTURER_SPEC,SRC02,W198_CARGO,SCREENING_FROZEN,"Up to, weather and operations limits unverified"
+Wingcopter_198_Cargo_battery_nominal_energy,kWh,,MISSING_MANUFACTURER,SRC02,W198_CARGO,BLOCKED,Must not borrow generic W198 specs
+Wingcopter_198_Cargo_usable_SOC_reserve,fraction,,MISSING_MANUFACTURER,SRC02,W198_CARGO,BLOCKED,Reserve unknown
+Wingcopter_198_Cargo_mission_energy_model,kWh/task,,MISSING_MEASURED,SRC02,W198_CARGO,BLOCKED,No validated payload and weather task mapping
+Wingcopter_198_Cargo_charging_efficiency,fraction,,MISSING_EVIDENCE,SRC02,W198_CARGO,BLOCKED,No validated input-to-battery ratio
+petrol_TTW_fuel_energy_CO2_EF,kgCO2/TJ,69300,IPCC_DEFAULT,SRC03,GASOLINE,METHOD_FROZEN,Tier1 fallback; local fuel chemistry preferred
+diesel_TTW_fuel_energy_CO2_EF,kgCO2/TJ,74100,IPCC_DEFAULT,SRC03,DIESEL,METHOD_FROZEN,Tier1 fallback; local fuel chemistry preferred
+petrol_fuel_density,kg/L,,LOCAL_FUEL_NEEDED,SRC03,GASOLINE,BLOCKED,No invented density; fuel blend dependency
+diesel_fuel_density,kg/L,,LOCAL_FUEL_NEEDED,SRC03,DIESEL,BLOCKED,No invented density; blend dependence
+petrol_net_calorific_value,MJ/kg,,LOCAL_FUEL_NEEDED,SRC03,GASOLINE,BLOCKED,Must reconcile to local fuel composition
+diesel_net_calorific_value,MJ/kg,,LOCAL_FUEL_NEEDED,SRC03,DIESEL,BLOCKED,Needed when using IPCC kg/TJ
+petrol_car_fuel_consumption,L/100km,,LOCAL_VEHICLE_NEEDED,SRC03,M0_PETROL,BLOCKED,"Representative type, traffic cycle and load needed"
+diesel_van_fuel_consumption,L/100km,,LOCAL_VEHICLE_NEEDED,SRC03,M0_DIESEL,BLOCKED,Capacity-equivalent local van with evidence
+road_idle_fuel_lph,L/hour,,LOCAL_VEHICLE_NEEDED,SRC03,ROAD,BLOCKED,Avoid double counting if base fuel rate contains congestion/idling
+road_vehicle_capacity,kg,,MODEL_SCENARIO_NEEDED,HIST01,ROAD,BLOCKED,Match payload and vehicle load profile
+M0_M1_M2_operational_stops,minutes/stop,,MODEL_SCENARIO_NEEDED,HIST01,ALL,BLOCKED,"Loading, unloading, transfer and charging queue service"
+M0_fuel_price,MYR/L,,DATED_PRICE_NEEDED,,M0,BLOCKED,Do not freeze volatile 2026 price without date and source
+operational_labor_cost,MYR/hour,,EMPLOYMENT_EVIDENCE_NEEDED,,ALL,BLOCKED,Country and employer-specific; scenario only before validation
+Peninsular_MY_grid_GEF_2024_provisional,kgCO2e/kWh,0.74,REGULATOR_GEF,SRC04,GRID_MY_PENINSULAR,REFERENCE_FROZEN,"2024 provisional, not 2026 observation"
+Singapore_grid_GEF_2024,kgCO2/kWh,0.402,OFFICIAL_GEF,SRC05,GRID_SG,REFERENCE_FROZEN,"CO2 only, not kgCO2e; cannot sum with Malaysia factor as harmonized CO2e"
+GRID_MY_2026_location_factor,kgCO2e/kWh,,MISSING_YEAR_MATCH,,GRID_MY_PENINSULAR,BLOCKED,Year-match or explicitly prior-year proxy plus uncertainty
+GRID_SG_2026_harmonized_CO2e_factor,kgCO2e/kWh,,MISSING_GAS_MATCH,,GRID_SG,BLOCKED,Need compatible CO2e or conduct CO2-only separate inventory
+road_upstream_fuel_WTT_EF,kgCO2e/L,,OUTSIDE_CURRENT_BOUNDARY,SRC07,UPSTREAM,NOT_MAIN_RESULT,"If added, report separate WTW analysis; do not mix with TTW"
+battery_vehicle_embodied_emissions,kgCO2e/unit,,OUTSIDE_CURRENT_BOUNDARY,SRC07,LCA,NOT_MAIN_RESULT,Do not call operational emission life-cycle
+airspace_cross_border_permit,document+route_id,,EXTERNAL_AUTHORIZATION,SRC09,CROSS_BORDER_UAV,BLOCKED,No approved route identified
+actual_route_energy_reserve_margin,fraction,,MISSING_SCENARIO,,UAV,BLOCKED,"Need wind, load, reserve and route detour"
+weather_rain_dispatch_limits,mm/h,,AIRCRAFT_EVIDENCE_NEEDED,SRC01,UAV,BLOCKED,Old 0.1 mm/h generic is unsupported for either aircraft
+mission_timing_weather_resolution,minute,,DATA_RESOLUTION_NEEDED,HIST01,UAV,BLOCKED,"Actual takeoff/return timestamps, not only release hour"
+cross_border_CIQ_wait_model,min/crossing,,INDEPENDENT_SOURCE_NEEDED,HIST03,CROSS_BORDER,BLOCKED,No artificial 0-minute border wait

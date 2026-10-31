@@ -1,0 +1,37 @@
+{
+  "qgis_project": "/tmp/tmpygdeieza/src/case.qgs",
+  "qgis_project_candidate_count": 1,
+  "declared_layer_count": 1,
+  "local_sources_missing": 0,
+  "result": "HOLD",
+  "blockers": []
+}
+{
+  "qgis_project": "/tmp/tmpygdeieza/src/case.qgz",
+  "qgis_project_candidate_count": 2,
+  "declared_layer_count": 1,
+  "local_sources_missing": 0,
+  "result": "HOLD",
+  "blockers": []
+}
+{
+  "qgis_project": "/tmp/tmpygdeieza/src/case.qgs",
+  "qgis_project_candidate_count": 2,
+  "declared_layer_count": 1,
+  "local_sources_missing": 1,
+  "result": "HOLD",
+  "blockers": [
+    "MISSING_LOCAL_LAYER_SOURCES"
+  ]
+}
+{
+  "qgis_project": null,
+  "qgis_project_candidate_count": 0,
+  "declared_layer_count": 0,
+  "local_sources_missing": 0,
+  "result": "HOLD",
+  "blockers": [
+    "PROJECT_NOT_EXPLICITLY_SELECTED"
+  ]
+}
+4 synthetic checks passed; no scientific PASS issued

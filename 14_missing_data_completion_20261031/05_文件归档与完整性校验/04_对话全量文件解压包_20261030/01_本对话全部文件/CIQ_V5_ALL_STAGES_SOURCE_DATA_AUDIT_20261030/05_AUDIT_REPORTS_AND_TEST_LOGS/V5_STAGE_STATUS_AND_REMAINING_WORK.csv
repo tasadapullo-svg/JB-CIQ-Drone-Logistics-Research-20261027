@@ -1,0 +1,8 @@
+﻿stage,scope,state,verified_output,missing_inputs,release_requirement
+S06,V5 point/edge spatial freeze,PASS_STATIC,68 nodes and V5 125 edge records; no operational site authorization,Frozen V5 GIS + node master,Do not modify V5 or infer legal flight clearance
+S07,Five-month weather + V5 directed road + FCD + orders,PARTIAL_HOLD,"82,620 tasks and paired scenarios passed; weather/FCD/road source bytes missing from current runtime","5-month raw weather, FCD 345 nodes, directed road for A/B/C","Full raw-byte hash, interval, topology, travel-time and missingness QA"
+S08,Strong petrol M0 multi-stop route + emissions,CODE_TESTED_HOLD,"19 algebraic unit tests passed, not an observed road operation","validated directed road, fuel, idle, cost and vehicle schedule",Do not compute route/km/fuel/CO2 from straight lines
+S09,DJI and Wingcopter mission energy,SCREEN_TESTED_HOLD,18 unit tests passed; load/edge screening; no validated mission-energy result,"weather at event time, aircraft power/load/return/reserve and charging data",Prevent max-range assumptions from becoming measured kWh
+S10,5-mode matched dispatch experiment,NOT_RUN,"22,950 five-mode run keys ready; no dispatch results","S07, S08, S09 release + calibrated station capacities",Real completed task and physical trip/flight ledger
+S11,"WTW/TTW emissions, cost, min-carbon feasibility",NOT_RUN,no operational kgCO2e or real Pareto results,"S10 physical ledger, harmonized petrol/electric scope and factors",Must compare all modes on same demand and service/cost constraints
+S12,"Robustness, statistical inference, SCI outputs",NOT_RUN,no final effect distributions/plots,"S10 S11 results, independent seed/day scenario units","Check selection bias, demand uncertainty, geography/weather mismatch"

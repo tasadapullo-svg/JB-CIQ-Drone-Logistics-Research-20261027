@@ -1,0 +1,70 @@
+{
+  "algorithm": "sha256",
+  "files": [
+    {
+      "path": "MODEL_SCI_QA_TESTS.md",
+      "sha256": "e5bdf95f9a1295fc2a1f657932f5ad7b101020a6ffb2762f5e4c5703a9d08040",
+      "size": 3540
+    },
+    {
+      "path": "README_CN.md",
+      "sha256": "251b5bb726e486a4d022bafdf660efea93ba350e377ffbc76357b416908c3a44",
+      "size": 1359
+    },
+    {
+      "path": "SCI_METHOD_REVIEW_CN.md",
+      "sha256": "14d9abaad0c19ea8ad41f127b8ee218faf9fc4b247e6a77b5b0396e066423d41",
+      "size": 9757
+    },
+    {
+      "path": "WORK_MODE_MASTER_PROMPT_CN.md",
+      "sha256": "fcbf27bb5b0167fc6c9655452eba53da32719e2d8d67227155def75154faf745",
+      "size": 5670
+    },
+    {
+      "path": "control/V2_1_release_policy.json",
+      "sha256": "a319deee20869eff6a66ce705d7d0bf5a6e951cd84a6fafc2251f39599bd2384",
+      "size": 1134
+    },
+    {
+      "path": "control/amendment_register.json",
+      "sha256": "48b179dc660d1ad2ae1725126c1c0946ae0242cf7fc46bac39e34c8c33fec6e4",
+      "size": 5652
+    },
+    {
+      "path": "stages/V2_S06_PATCH.md",
+      "sha256": "01451262a99e0a3083e84ba7ec665effad2a3675875853778d32af667eb7f191",
+      "size": 999
+    },
+    {
+      "path": "stages/V2_S07_PATCH.md",
+      "sha256": "79ef2189589ae8e8497803899ee45e3fff65342bab2bd70f001f35bf62a824ff",
+      "size": 1303
+    },
+    {
+      "path": "stages/V2_S08_PATCH.md",
+      "sha256": "52eb3db5321b04051bc1eccb2e280075f6edfb3f44b32ba845163da94fc3281f",
+      "size": 970
+    },
+    {
+      "path": "stages/V2_S09_PATCH.md",
+      "sha256": "b5ee10b41a8828e980153d37236ab0c276429eb7c6512a5c5ee9520acd4cdbd5",
+      "size": 978
+    },
+    {
+      "path": "stages/V2_S10_PATCH.md",
+      "sha256": "cdf328dabb1cc0260d4bfc08e0bf838410db38ff12d3d40fd213ecbf74ea652f",
+      "size": 1546
+    },
+    {
+      "path": "stages/V2_S11_PATCH.md",
+      "sha256": "5d4164ff6d4a7ec659f3ba2cbbd670396518ca53b3900afdb1e04df3c1273701",
+      "size": 1462
+    },
+    {
+      "path": "stages/V2_S12_PATCH.md",
+      "sha256": "ccd9f2ae427d793baa8a7d0c41e0d4888415df73372a85d78c6bd8e67c9d1b60",
+      "size": 1438
+    }
+  ]
+}

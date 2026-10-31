@@ -1,0 +1,68 @@
+[
+  {
+    "file": "JB_SG_Weather_2026_05.xlsx",
+    "status": "NOT_PRESENT",
+    "reason": "Run --download in network-enabled environment or supply matching local file",
+    "source_url": "https://raw.githubusercontent.com/tasadapullo-svg/JB-CIQ-Drone-Logistics-Research-20261027/4569817b8145efe2ae06f4b21addc1986f971c12/data/weather_2026/processed/JB_SG_Weather_2026_05.xlsx"
+  },
+  {
+    "file": "JB_SG_Weather_2026_06.xlsx",
+    "status": "NOT_PRESENT",
+    "reason": "Run --download in network-enabled environment or supply matching local file",
+    "source_url": "https://raw.githubusercontent.com/tasadapullo-svg/JB-CIQ-Drone-Logistics-Research-20261027/4569817b8145efe2ae06f4b21addc1986f971c12/data/weather_2026/processed/JB_SG_Weather_2026_06.xlsx"
+  },
+  {
+    "file": "JB_SG_Weather_2026_07.xlsx",
+    "status": "NOT_PRESENT",
+    "reason": "Run --download in network-enabled environment or supply matching local file",
+    "source_url": "https://raw.githubusercontent.com/tasadapullo-svg/JB-CIQ-Drone-Logistics-Research-20261027/4569817b8145efe2ae06f4b21addc1986f971c12/data/weather_2026/processed/JB_SG_Weather_2026_07.xlsx"
+  },
+  {
+    "file": "JB_SG_Weather_2026_08.xlsx",
+    "status": "NOT_PRESENT",
+    "reason": "Run --download in network-enabled environment or supply matching local file",
+    "source_url": "https://raw.githubusercontent.com/tasadapullo-svg/JB-CIQ-Drone-Logistics-Research-20261027/4569817b8145efe2ae06f4b21addc1986f971c12/data/weather_2026/processed/JB_SG_Weather_2026_08.xlsx"
+  },
+  {
+    "file": "JB_SG_Weather_2026_09.xlsx",
+    "status": "NOT_PRESENT",
+    "reason": "Run --download in network-enabled environment or supply matching local file",
+    "source_url": "https://raw.githubusercontent.com/tasadapullo-svg/JB-CIQ-Drone-Logistics-Research-20261027/4569817b8145efe2ae06f4b21addc1986f971c12/data/weather_2026/processed/JB_SG_Weather_2026_09.xlsx"
+  },
+  {
+    "file": "E02_A_directed_edges_OSM.csv",
+    "status": "NOT_PRESENT",
+    "reason": "Run --download in network-enabled environment or supply matching local file",
+    "source_url": "https://raw.githubusercontent.com/tasadapullo-svg/JB-CIQ-Drone-Logistics-Research-20261027/4569817b8145efe2ae06f4b21addc1986f971c12/03_gis_and_road_network/road_network_project/JB_CIQ_E02_roadnet_V4_6/outputs/E02_A_directed_edges_OSM.csv"
+  },
+  {
+    "file": "E02_B_directed_edges_OSM.csv",
+    "status": "NOT_PRESENT",
+    "reason": "Run --download in network-enabled environment or supply matching local file",
+    "source_url": "https://raw.githubusercontent.com/tasadapullo-svg/JB-CIQ-Drone-Logistics-Research-20261027/4569817b8145efe2ae06f4b21addc1986f971c12/03_gis_and_road_network/road_network_project/JB_CIQ_E02_roadnet_V4_6/outputs/E02_B_directed_edges_OSM.csv"
+  },
+  {
+    "file": "E02_A_road_graph_nodes.csv",
+    "status": "NOT_PRESENT",
+    "reason": "Run --download in network-enabled environment or supply matching local file",
+    "source_url": "https://raw.githubusercontent.com/tasadapullo-svg/JB-CIQ-Drone-Logistics-Research-20261027/4569817b8145efe2ae06f4b21addc1986f971c12/03_gis_and_road_network/road_network_project/JB_CIQ_E02_roadnet_V4_6/outputs/E02_A_road_graph_nodes.csv"
+  },
+  {
+    "file": "E02_B_road_graph_nodes.csv",
+    "status": "NOT_PRESENT",
+    "reason": "Run --download in network-enabled environment or supply matching local file",
+    "source_url": "https://raw.githubusercontent.com/tasadapullo-svg/JB-CIQ-Drone-Logistics-Research-20261027/4569817b8145efe2ae06f4b21addc1986f971c12/03_gis_and_road_network/road_network_project/JB_CIQ_E02_roadnet_V4_6/outputs/E02_B_road_graph_nodes.csv"
+  },
+  {
+    "file": "19_site_reference_anchors_NOT_LAUNCH_PADS.csv",
+    "status": "NOT_PRESENT",
+    "reason": "Run --download in network-enabled environment or supply matching local file",
+    "source_url": "https://raw.githubusercontent.com/tasadapullo-svg/JB-CIQ-Drone-Logistics-Research-20261027/4569817b8145efe2ae06f4b21addc1986f971c12/03_gis_and_road_network/road_network_project/JB_CIQ_E02_roadnet_V4_6/inputs/19_site_reference_anchors_NOT_LAUNCH_PADS.csv"
+  },
+  {
+    "file": "stage6_order_level.csv.gz",
+    "status": "NOT_PRESENT",
+    "reason": "Run --download in network-enabled environment or supply matching local file",
+    "source_url": "https://raw.githubusercontent.com/tasadapullo-svg/JB-CIQ-Drone-Logistics-Research-20261027/4569817b8145efe2ae06f4b21addc1986f971c12/10_experiment_results/stage6_dual_region_multilevel_feeder/stage6_order_level.csv.gz"
+  }
+]

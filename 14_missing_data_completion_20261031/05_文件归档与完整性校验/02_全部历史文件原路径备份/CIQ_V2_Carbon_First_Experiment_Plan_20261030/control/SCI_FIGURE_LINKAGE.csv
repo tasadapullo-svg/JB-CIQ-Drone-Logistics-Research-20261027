@@ -1,0 +1,9 @@
+﻿figure,subject,stage,RQ,data,deliverable,warning
+Fig1,A/B/C QGIS geographically registered maps,V2_S06,RQ1,verified_nodes/edges/airspace,QGIS PNG/TIFF + shapefile context,Do not export prototype as final
+Fig3(a),dual UAV manufacturer spec and candidate locations,"V2_S06,V2_S09",RQ1,spec_registry + GIS freeze,PNG/PDF,spec ranges ≠ task energy
+"Fig3(b,c)",mission geometry and operational constraints,V2_S09,RQ1,mission candidate / weather reg states,SVG/PNG,no approved route implication
+Fig4,2026 May–Sep weather + road time proxy,V2_S07,RQ2,weather_qc + road_od_hourly,PNG,not independent 4 ERA5 grid points
+Fig5,"paired delivery & SLA, fallback / weather",V2_S10,RQ2,order_mode_results / event_log,PNG,same task IDs denominator
+Fig6(a),cost ratio vs paired on-time service delta (2 UAVs),V2_S11,RQ3,matched comparison,PNG,Do not mix unmatched service
+Fig6(b),petrol vs hybrid operational CO2 & cost,V2_S11,RQ3,carbon ledger / matched comparison,PNG,CO2/CO2e scope harmonized
+Fig7,feasible Pareto + 30-seed uncertainty,V2_S12,RQ3,pareto / bootstraps,PNG,report infeasible cases

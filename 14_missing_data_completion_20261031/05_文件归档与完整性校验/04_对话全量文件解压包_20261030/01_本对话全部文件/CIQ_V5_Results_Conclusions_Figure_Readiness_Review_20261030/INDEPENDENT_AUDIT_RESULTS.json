@@ -1,0 +1,57 @@
+{
+  "audit_type": "Direct file content check, not new historical-weather simulation",
+  "source_SHA256": {
+    "S09_complete_zip": "71e9cc871b9e31c7b1ef290c7e1510239aad7364e1e722c23d0fa24c2b081b4c",
+    "S08_zip": "2a9548fae33f2f1db393c778afad239fcdb78fc304d172c545dcefa07cde854f",
+    "V5_source_zip": "0d19633630b6f12525ad9bd776bbf966ec1e8a46520bd8bc3d904013b02dce74",
+    "S07_gate_json": "9d2703ed90122bb81fe0335915a73924bd026c12ce186fca8200258c4a8717ef"
+  },
+  "frozen_orders": 82620,
+  "aircraft_pair_records": 165240,
+  "direct_candidate_orders": 11060,
+  "reverse_only_orders": 17417,
+  "no_direct_candidate_orders": 54143,
+  "dji_weight_and_direct_candidate": 11060,
+  "wingcopter_weight_and_direct_candidate": 7377,
+  "verified_real_energy_records": 0,
+  "verified_real_carbon_records": 0,
+  "non_HOLD_M1_status_records": 0,
+  "non_HOLD_M2_status_records": 0,
+  "S07_real_numeric_gate": "HOLD",
+  "S07_large_source_files_verified": 0,
+  "S08_petrol_full_run_gate": "HOLD",
+  "S09_mission_gate": "HOLD_UNTIL_REAL_WEATHER_MODEL_CALIBRATION_FLIGHT_ROLE_AND_EVENT_TIME",
+  "S09_computed_actual_M1_M2_missions": 0,
+  "manuscript_conclusions_final_ready": false,
+  "Fig1_3_possible": "method/static cartographic drafts",
+  "Fig4_7_final_ready": false,
+  "weather_grid_zone_counts": [
+    {
+      "zone": "A",
+      "n_nodes": "29",
+      "n_nodes_farther_than_10km": "0",
+      "n_task_origins": "27540",
+      "n_task_origins_farther_than_10km": "0",
+      "max_grid_distance_km": "9.3783",
+      "validation_level": "DISTANCE_FROM_HISTORICAL_ERA5_GRID_ONLY_NO_ACTUAL_WEATHER"
+    },
+    {
+      "zone": "B",
+      "n_nodes": "10",
+      "n_nodes_farther_than_10km": "10",
+      "n_task_origins": "27540",
+      "n_task_origins_farther_than_10km": "27540",
+      "max_grid_distance_km": "19.9782",
+      "validation_level": "DISTANCE_FROM_HISTORICAL_ERA5_GRID_ONLY_NO_ACTUAL_WEATHER"
+    },
+    {
+      "zone": "C",
+      "n_nodes": "29",
+      "n_nodes_farther_than_10km": "21",
+      "n_task_origins": "27540",
+      "n_task_origins_farther_than_10km": "27540",
+      "max_grid_distance_km": "17.7263",
+      "validation_level": "DISTANCE_FROM_HISTORICAL_ERA5_GRID_ONLY_NO_ACTUAL_WEATHER"
+    }
+  ]
+}

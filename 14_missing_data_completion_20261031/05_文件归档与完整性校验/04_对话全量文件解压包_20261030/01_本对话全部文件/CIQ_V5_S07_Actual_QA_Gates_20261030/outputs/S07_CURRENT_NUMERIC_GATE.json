@@ -1,0 +1,56 @@
+{
+  "study": "CIQ_V5_FROZEN_68_NODES",
+  "orders": 82620,
+  "source_commit": "4569817b8145efe2ae06f4b21addc1986f971c12",
+  "source_files_expected": 14,
+  "source_files_verified_actual": 0,
+  "scenario_gate": {
+    "V5_nodes": 68,
+    "paired_scenarios": 4590,
+    "mode_keys": 22950,
+    "scenarios_each_with_five_modes": 4590,
+    "status": "PASS_V5_FROZEN_PAIRS"
+  },
+  "weather_fcd_road_results": [
+    {
+      "section": "WEATHER",
+      "month": 5,
+      "status": "HOLD_SOURCE_BYTES_NOT_AVAILABLE"
+    },
+    {
+      "section": "WEATHER",
+      "month": 6,
+      "status": "HOLD_SOURCE_BYTES_NOT_AVAILABLE"
+    },
+    {
+      "section": "WEATHER",
+      "month": 7,
+      "status": "HOLD_SOURCE_BYTES_NOT_AVAILABLE"
+    },
+    {
+      "section": "WEATHER",
+      "month": 8,
+      "status": "HOLD_SOURCE_BYTES_NOT_AVAILABLE"
+    },
+    {
+      "section": "WEATHER",
+      "month": 9,
+      "status": "HOLD_SOURCE_BYTES_NOT_AVAILABLE"
+    },
+    {
+      "section": "FCD",
+      "status": "HOLD_SOURCE_BYTES_NOT_AVAILABLE"
+    },
+    {
+      "section": "ROAD_A",
+      "status": "HOLD_SOURCE_BYTES_NOT_AVAILABLE"
+    },
+    {
+      "section": "ROAD_B",
+      "status": "HOLD_SOURCE_BYTES_NOT_AVAILABLE"
+    }
+  ],
+  "S07_NUMERIC_ACCEPTANCE": "HOLD",
+  "S08_S09_S10_S11_S12_EMISSIONS": "NOT_COMPUTED",
+  "caution": "HISTORICAL_GITHUB_JSON_STATS_ARE_NOT_THIS_RUN_RAW_NUMERIC_RESULTS"
+}

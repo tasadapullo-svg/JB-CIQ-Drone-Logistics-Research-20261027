@@ -1,0 +1,11 @@
+code,severity,historical_evidence,scientific_risk,new_requirement,release_state
+WX_RELEASE_TIME,HIGH,"Stage6 run_stage6.py lines 75-84",Release-hour weather used instead of predicted/actual takeoff weather,Re-align exposure to takeoff and return hours with routing wind,REVIEW_REQUIRED
+WX_GRID_INDEPENDENCE,HIGH,"weather final_verification_summary.json four reference points",Some ERA5 grid points overlap across MY/SG reference sites,Preserve grid ID and spatial representativeness in weather tasks,REVIEW_REQUIRED
+WX_CROSS_SOURCE_RAIN,HIGH,"weather summary May-Sep rainfall correlations 0.0256-0.1324",Cross-source rainfall consistency not established,Audit time units grid and accumulation basis before agreement claims,REVIEW_REQUIRED
+NEA_COVERAGE,HIGH,"weather summary May partial June-Sep NOT_REQUESTED",Station observation evidence missing in multiple months,Distinguish NEA partial verification from full five-month comparisons,REVIEW_REQUIRED
+ROAD_REVERSE_PROXY,HIGH,"Stage6 run_stage6.py lines 61-68",Missing return route replaced with doubled forward path,Require directed reverse routing or explicit censored status,REVIEW_REQUIRED
+ROAD_HOUR_PROXY,HIGH,"Stage6 run_stage6.py lines 53-60",Road proxy frozen at source hour; not observed trip trajectory,Specify time assignment and independent calibration boundary,REVIEW_REQUIRED
+VEHICLE_FUEL,HIGH,"Stage6 run_stage6.py lines 319-334",EV kWh/km used for all road operational emissions,Build road fuel-litres baseline and fuel emission factors with geography and vehicle type,REVIEW_REQUIRED
+UAV_GENERIC_POWER,HIGH,"Stage6 run_stage6.py lines 83-106",Generic UAV nominal 470 W cannot represent two selected aircraft,Source aircraft-specific energy task model and scenarios,REVIEW_REQUIRED
+CROSS_BORDER_SCOPE,HIGH,"Stage6 project readme and Stage8 F0/F1 audit",Historical OD are MY-only and do not model actual cross-border CIQ operations,Define new A/B/C border jurisdiction and modeled customs/waiting boundary,REVIEW_REQUIRED
+HISTORICAL_ORDER_SET,HIGH,"Stage2 918000 Stage6 29842",Two demand samples have different genealogy and modeling intent,Choose one published simulation demand protocol and matched IDs,REVIEW_REQUIRED

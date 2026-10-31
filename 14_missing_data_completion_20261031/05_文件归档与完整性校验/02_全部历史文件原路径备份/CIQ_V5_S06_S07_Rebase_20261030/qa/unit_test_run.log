@@ -1,0 +1,38 @@
+test_01_source_zip_hash (test_v5_rebase.TestV5ScienceHandover.test_01_source_zip_hash) ... ok
+test_02_source_gpkg_hash (test_v5_rebase.TestV5ScienceHandover.test_02_source_gpkg_hash) ... /mnt/data/CIQ_V5_S06_S07_Rebase_20261030/tests/test_v5_rebase.py:15: ResourceWarning: unclosed file <_io.TextIOWrapper name='/mnt/data/CIQ_V5_S06_S07_Rebase_20261030/qa/V5_REBASE_EXECUTION_AUDIT.json' mode='r' encoding='utf-8'>
+  def test_02_source_gpkg_hash(self):self.assertEqual(json.load(open(ROOT/'qa/V5_REBASE_EXECUTION_AUDIT.json'))['v5_active_gpkg_sha256'],EXPECTED_ACTIVE_GPKG_SHA256)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_03_node_count_unique (test_v5_rebase.TestV5ScienceHandover.test_03_node_count_unique) ... ok
+test_04_no_old_node_A_N10 (test_v5_rebase.TestV5ScienceHandover.test_04_no_old_node_A_N10) ... ok
+test_05_gateway_present (test_v5_rebase.TestV5ScienceHandover.test_05_gateway_present) ... ok
+test_06_A09_A10_are_zone_C (test_v5_rebase.TestV5ScienceHandover.test_06_A09_A10_are_zone_C) ... ok
+test_07_zone_counts (test_v5_rebase.TestV5ScienceHandover.test_07_zone_counts) ... ok
+test_08_edge_counts (test_v5_rebase.TestV5ScienceHandover.test_08_edge_counts) ... ok
+test_09_endpoint_ids (test_v5_rebase.TestV5ScienceHandover.test_09_endpoint_ids) ... ok
+test_10_no_road_distance_fabricated (test_v5_rebase.TestV5ScienceHandover.test_10_no_road_distance_fabricated) ... ok
+test_11_no_authorized_flights (test_v5_rebase.TestV5ScienceHandover.test_11_no_authorized_flights) ... ok
+test_12_no_pad_approved (test_v5_rebase.TestV5ScienceHandover.test_12_no_pad_approved) ... ok
+test_13_legacy19_all_blocked (test_v5_rebase.TestV5ScienceHandover.test_13_legacy19_all_blocked) ... ok
+test_14_legacy_collisions (test_v5_rebase.TestV5ScienceHandover.test_14_legacy_collisions) ... ok
+test_15_old_37_no_repair (test_v5_rebase.TestV5ScienceHandover.test_15_old_37_no_repair) ... ok
+test_16_hourly_153days (test_v5_rebase.TestV5ScienceHandover.test_16_hourly_153days) ... ok
+test_17_timezone_and_interval (test_v5_rebase.TestV5ScienceHandover.test_17_timezone_and_interval) ... ok
+test_18_all_tasks_unique (test_v5_rebase.TestV5ScienceHandover.test_18_all_tasks_unique) ... ok
+test_19_task_volume (test_v5_rebase.TestV5ScienceHandover.test_19_task_volume) ... ok
+test_20_task_seed_date_counts (test_v5_rebase.TestV5ScienceHandover.test_20_task_seed_date_counts) ... ok
+test_21_task_hours (test_v5_rebase.TestV5ScienceHandover.test_21_task_hours) ... ok
+test_22_equal_crosszone_directions (test_v5_rebase.TestV5ScienceHandover.test_22_equal_crosszone_directions) ... ok
+test_23_eligible_anchors (test_v5_rebase.TestV5ScienceHandover.test_23_eligible_anchors) ... ok
+test_24_weather_grid_68 (test_v5_rebase.TestV5ScienceHandover.test_24_weather_grid_68) ... ok
+test_25_no_unvalidated_outcomes (test_v5_rebase.TestV5ScienceHandover.test_25_no_unvalidated_outcomes) ... ok
+test_26_one_order_identity_for_five_modes (test_v5_rebase.TestV5ScienceHandover.test_26_one_order_identity_for_five_modes) ... ok
+test_27_deterministic_sample_replay (test_v5_rebase.TestV5ScienceHandover.test_27_deterministic_sample_replay) ... ok
+test_28_offline_source_gate_truthful (test_v5_rebase.TestV5ScienceHandover.test_28_offline_source_gate_truthful) ... ok
+test_29_no_wmp_clearance_inferred (test_v5_rebase.TestV5ScienceHandover.test_29_no_wmp_clearance_inferred) ... ok
+test_30_legacy_history_not_blended (test_v5_rebase.TestV5ScienceHandover.test_30_legacy_history_not_blended) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 1.147s
+
+OK

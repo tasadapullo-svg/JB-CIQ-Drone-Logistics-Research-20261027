@@ -1,0 +1,19 @@
+﻿figure,panel,content,source_file,readiness,limitation
+Fig.3,a,WMP228 geography,rq1_WMP228_edge_sensitivity.csv,GIS,边界圆域保守代理
+Fig.3,b,eligibility funnel,sci_final_weather_screen.csv|rq1_WMP228_summary.csv,ready after consistency checks,分层筛查顺序需核对
+Fig.3,c,drone specs vs frozen scenario,sci_final_parameter_registry.json,ready,不可将官方包络等于模型实际航段
+Fig.3,d,airspace scenario coverage,rq1_WMP228_summary.csv,ready,相同机型计数不累加
+Fig.4,a,24h traffic FCD ratio,bundle_source.zip:01_AB_24h_hourly_joint.csv,ready for visualization,速度观测非OD观测
+Fig.4,b,24h rain gust and pass,bundle_source.zip:E03_ERA5_JB_TWO_CIQ_WEATHER_HOURLY.csv|sci_final_weather_screen.csv,ready for visualization,网格代理，天气与载荷筛查混合
+Fig.4,c,paired time and p95,sci_final_pairs.csv|sci_final_bootstrap.csv,ready with group bootstrap,M2 only W198 central
+Fig.4,d,completion and ontime,sci_final_daily.csv,ready,相同输入订单分母
+Fig.5,a,area A emission cost,sci_final_daily.csv,ready,严格约束通过标记
+Fig.5,b,area B emission cost,sci_final_daily.csv,ready,B区柴油干线
+Fig.5,c,drone x energy impact / SimpleLC,sci_final_area_summary.csv|sci_final_seed_pairs.csv,ready,工程假设非实测
+Fig.6,a,feasible envelope,lc_m1_closed_attempts.csv,ready,离线有限后验搜索
+Fig.6,b,failure decomposition,lc_m1_closed_attempts.csv,ready,A区成本，B区无UAV候选
+Fig.6,c,reversion matrix,lc_m1_closed_summary.csv,ready,均为M0回退
+Fig.7,a,mode choice gates,policy/criteria,conceptual,非在线控制器
+Fig.7,b,conditional selection,sci_final_feasible_modes.csv|lc_m1_closed_summary.csv,ready,M2 vs LC-M1不同比较协议
+Fig.S1,a-d,hourly 153-day full profiles,bundle_source.zip:01_AB_24h_hourly_joint.csv,ready,与5日仿真分开
+Fig.S2,a-d,matched weather traffic efficiency,sci_final_order_level.csv.gz|01_AB_24h_hourly_joint.csv,requires aggregation,有共同样本前提；不新增实验

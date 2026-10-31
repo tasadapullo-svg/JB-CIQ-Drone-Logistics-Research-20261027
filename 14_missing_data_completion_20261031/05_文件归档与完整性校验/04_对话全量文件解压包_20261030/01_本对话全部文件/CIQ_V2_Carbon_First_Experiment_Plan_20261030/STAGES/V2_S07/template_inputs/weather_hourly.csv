@@ -1,0 +1,1 @@
+﻿weather_id,grid_cell_id,time_sgt,latitude,longitude,rain_mm_hour,wind_10m_ms,wind_dir_deg,gust_ms,source,qc_status

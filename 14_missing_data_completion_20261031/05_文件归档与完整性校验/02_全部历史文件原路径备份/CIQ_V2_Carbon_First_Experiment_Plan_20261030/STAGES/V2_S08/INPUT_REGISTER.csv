@@ -1,0 +1,5 @@
+﻿filename,format,purpose,sha256,status,provenance_url,reviewer
+vehicle_registry.csv,CSV,汽油车型/容量/服务配置及证据,,MISSING,,
+fuel_parameters.csv,CSV,油耗/怠速/油品密度/热值/因子可追溯参数,,MISSING,,
+road_trips_m0.csv,CSV,基线去返程、共享路程、车次事件及证据,,MISSING,,
+fuel_costs.csv,CSV,燃油价格和非燃油成本数据源,,MISSING,,

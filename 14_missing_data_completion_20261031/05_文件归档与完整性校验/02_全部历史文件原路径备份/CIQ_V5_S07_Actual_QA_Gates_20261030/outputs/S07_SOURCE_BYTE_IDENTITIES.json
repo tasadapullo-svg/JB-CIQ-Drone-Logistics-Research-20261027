@@ -1,0 +1,86 @@
+[
+  {
+    "name": "JB_SG_Weather_2026_05.xlsx",
+    "status": "HOLD_NOT_LOCAL",
+    "verified": false,
+    "reason": "FULL_BYTES_NOT_PRESENT"
+  },
+  {
+    "name": "JB_SG_Weather_2026_06.xlsx",
+    "status": "HOLD_NOT_LOCAL",
+    "verified": false,
+    "reason": "FULL_BYTES_NOT_PRESENT"
+  },
+  {
+    "name": "JB_SG_Weather_2026_07.xlsx",
+    "status": "HOLD_NOT_LOCAL",
+    "verified": false,
+    "reason": "FULL_BYTES_NOT_PRESENT"
+  },
+  {
+    "name": "JB_SG_Weather_2026_08.xlsx",
+    "status": "HOLD_NOT_LOCAL",
+    "verified": false,
+    "reason": "FULL_BYTES_NOT_PRESENT"
+  },
+  {
+    "name": "JB_SG_Weather_2026_09.xlsx",
+    "status": "HOLD_NOT_LOCAL",
+    "verified": false,
+    "reason": "FULL_BYTES_NOT_PRESENT"
+  },
+  {
+    "name": "E02_A_directed_edges_OSM.csv",
+    "status": "HOLD_NOT_LOCAL",
+    "verified": false,
+    "reason": "FULL_BYTES_NOT_PRESENT"
+  },
+  {
+    "name": "E02_B_directed_edges_OSM.csv",
+    "status": "HOLD_NOT_LOCAL",
+    "verified": false,
+    "reason": "FULL_BYTES_NOT_PRESENT"
+  },
+  {
+    "name": "E02_A_road_graph_nodes.csv",
+    "status": "HOLD_NOT_LOCAL",
+    "verified": false,
+    "reason": "FULL_BYTES_NOT_PRESENT"
+  },
+  {
+    "name": "E02_B_road_graph_nodes.csv",
+    "status": "HOLD_NOT_LOCAL",
+    "verified": false,
+    "reason": "FULL_BYTES_NOT_PRESENT"
+  },
+  {
+    "name": "stage6_order_level.csv.gz",
+    "status": "HOLD_NOT_LOCAL",
+    "verified": false,
+    "reason": "FULL_BYTES_NOT_PRESENT"
+  },
+  {
+    "name": "E03_ERA5_JB_TWO_CIQ_WEATHER_HOURLY.csv",
+    "status": "HOLD_NOT_LOCAL",
+    "verified": false,
+    "reason": "FULL_BYTES_NOT_PRESENT"
+  },
+  {
+    "name": "JB_CIQ_E01_corrected_five_month_traffic_data_345nodes_2026-05_09.csv.gz",
+    "status": "HOLD_NOT_LOCAL",
+    "verified": false,
+    "reason": "FULL_BYTES_NOT_PRESENT"
+  },
+  {
+    "name": "JB_FCD_345nodes_G1-G5_Grouped_2026-05_09.zip",
+    "status": "HOLD_NOT_LOCAL",
+    "verified": false,
+    "reason": "FULL_BYTES_NOT_PRESENT"
+  },
+  {
+    "name": "JB_FCD_345nodes_G1-G5_grouped_statistics_and_node_master.xlsx",
+    "status": "HOLD_NOT_LOCAL",
+    "verified": false,
+    "reason": "FULL_BYTES_NOT_PRESENT"
+  }
+]

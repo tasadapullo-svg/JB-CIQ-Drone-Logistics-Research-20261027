@@ -1,0 +1,14 @@
+﻿mode,historical_feature,decision,justification
+M0,old Stage6 electric-van 0.23kWh/km; not ICE fuel baseline,MUST_REPLACE,No direct petrol/diesel CO2 conversion
+M0,old road reverse = twice forward when missing,MUST_REPLACE,Directed road path or unresolved; no silent mirror
+M0,old CIQ wait omitted,BLOCK_CROSS_BORDER,Separate waiting/queue where crossing; not zero
+M1/M2,old generic UAV 470W empty + 120W/kg etc,MUST_REPLACE,Not DJI or Wingcopter measured power
+M1/M2,old rain 0.1mm/h and gust 10m/s,MUST_REPLACE,Not manufacturer-specific weather envelope
+M1/M2,old 4 km per leg battery 0.70kWh,MUST_REPLACE,Not matched to actual FC30/W198 cargo
+M1/M2,old release-hour wind to time/energy,MUST_REPLACE,Use proposed launch and return times; hourly caveat
+ALL,"same 29,842 synthetic tasks as local historic reference",READ_ONLY_BASELINE,"Keep historic performance, remap only on approved new population"
+ALL,Stage2 918000 engineering resamples,DO_NOT_COMBINE,Not 918000 independent empirical shipments
+ALL,old 19 reference anchors and straight lines,DO_NOT_PROMOTE,Not validated new QGIS stations or permitted UAV routes
+ACCOUNTING,old 0.740 grid factor applied to all vehicle & drone electricity,CONDITIONAL,2024 MY provisional reference; country and gas mismatch when SG added
+ACCOUNTING,old cost and embodied per-day guesses,MUST_REPLACE,No real-world cost or life cycle claims
+ACCOUNTING,shared M2 road trip allocation,RETAIN_LOGIC_VALIDATE,"Count shared movement exactly once, record per-task allocations"

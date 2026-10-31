@@ -1,0 +1,14 @@
+﻿source_id,title,url,source_class,audit_note,checked_date
+SRC01,DJI official specs,https://www.dji.com/flycart-30/specs,manufacturer,Spec page observed 2026-10-30; test-condition limited,2026-10-30
+SRC02,Wingcopter Cargo specs,https://wsd.wingcopter.com/w198-cargo,manufacturer,Cargo-specific 92 km maximum; not generic W198 94 km,2026-10-30
+SRC03,IPCC 2006 mobile combustion,https://www.ipcc-nggip.iges.or.jp/public/2006gl/vol2.html,methodology,"Vol.2 Ch.3 tables, kgCO2/TJ fuel energy",2026-10-30
+SRC04,Malaysia EC grid GEF 2022-2024 provisional,https://myenergystats.st.gov.my/documents/d/guest/grid-emission-factor-gef-in-malaysia-2022-2024-provisional-,government,Peninsular 2024 provisional 0.740 kgCO2e/kWh; generation average,2026-10-30
+SRC05,Singapore NCCS Power / EMA,https://www.nccs.gov.sg/singapores-climate-action/mitigation-efforts/power/,government,Singapore grid 2024 0.402 kgCO2/kWh; CO2 not full CO2e,2026-10-30
+SRC06,Singapore EMA GEF definition,https://www.ema.gov.sg/resources/faqs/statistics/carbon-emissions/what-is-grid-emission-factor-gef,government,Location-based grid calculation,2026-10-30
+SRC07,GHG Protocol scope definitions,https://ghgptechassistance.zendesk.com/hc/en-us/articles/27680240285460-How-does-the-GHG-Protocol-define-and-categorize-emissions,standard-guidance,Mobile combustion Scope 1; acquired electricity Scope 2,2026-10-30
+SRC08,CAAM UAS operations,https://www.caam.gov.my/public/unmanned-aircraft-system-uas/,regulator,SUP/ATF documentation; not authorization for project,2026-10-30
+SRC09,CAAS UA cross border framework,https://www.caas.gov.sg/resources/media-and-publication/newsroom/cross-border-unmanned-aircraft-flights-are-prohibited-without-a-cross-border-per/,regulator,Cross-border permit requirements effective 2023-11-21,2026-10-30
+SRC10,CAAS current permit rules,https://www.caas.gov.sg/unmanned-aircraft/operator-and-activity-permits/,regulator,Operator/activity permits may apply; no project license,2026-10-30
+HIST01,Stage 6 legacy script,https://github.com/tasadapullo-svg/JB-CIQ-Drone-Logistics-Research-20261027/blob/4569817b8145efe2ae06f4b21addc1986f971c12/10_experiment_results/stage6_dual_region_multilevel_feeder/run_stage6.py,history,Blob SHA 1bbf7864ee9546b781f048d515c5d756da8752,2026-10-30
+HIST02,Stage 8 F0/F1 review,https://github.com/tasadapullo-svg/JB-CIQ-Drone-Logistics-Research-20261027/blob/4569817b8145efe2ae06f4b21addc1986f971c12/10_experiment_results/stage8_f0_f1_airspace_and_energy_evidence/reports/CIQ_Stage8_F0_F1_formal_experiment_audit_report_20261028.md,history,Blob SHA d333b04bcc9e231064105c10dcab2e28bbb8974b,2026-10-30
+HIST03,Stage 2 validation,https://github.com/tasadapullo-svg/JB-CIQ-Drone-Logistics-Research-20261027/blob/4569817b8145efe2ae06f4b21addc1986f971c12/outputs/stage2_20261027/stage2_gates.json,history,Original cross-border_route=False for all 128 old OD,2026-10-30

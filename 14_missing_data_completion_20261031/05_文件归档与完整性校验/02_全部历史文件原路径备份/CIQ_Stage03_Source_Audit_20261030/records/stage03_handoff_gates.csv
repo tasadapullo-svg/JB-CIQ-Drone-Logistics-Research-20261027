@@ -1,0 +1,13 @@
+gate,criterion,observed_status,release,required_closure
+S02-INPUT,QGIS A/B/C real spatial geometry with version signatures,MISSING,HOLD,Original QGIS project plus layers hashes and signed crosswalk
+S03-WX-FILES,Five monthly weather source originals with hashes,REPORT_ONLY,HOLD,Verify local raw files and summarized workbook hashes
+S03-WX-NEA,NEA station-month evidence May-Sep,PARTIAL_NOT_REQUESTED,HOLD,Official station provenance and coverage assessment
+S03-WX-RAIN,ERA5/NASA rainfall agreement review,REVIEW_REQUIRED,HOLD,Verify temporal and spatial comparison methodology
+S03-WX-PLACE,Weather per new candidate corridor/region,NOT_STARTED,HOLD,New GIS point and weather grid mapping
+S03-WX-TIME,Weather at task takeoff and return,NOT_STARTED,HOLD,New operational schedule and validity model
+S04-ROAD-NEW,New directed OD from newest QGIS,NOT_STARTED,HOLD,Rebuilt routable directed ODs and status
+S04-FCD-TIME,Hour-level road proxy validation,NOT_STARTED,HOLD,Time dependent road travel time and external validation
+S05-FUEL,Ground fuel and fleet emission accounting,NOT_STARTED,HOLD,Source-backed fuel quantities and emission factors
+S05-UAV-ENERGY,Selected two-aircraft mission energy,NOT_STARTED,HOLD,Energy model bounds and sensitivity
+S05-MATCHED,Same tasks and service cohort M0/M1/M2,NOT_STARTED,HOLD,Task schema and end-to-end code review
+SCI-CLAIMS,Do not claim actual net CO2e or deployment,RESTRICTED,HOLD,Reviewed experiment conclusions

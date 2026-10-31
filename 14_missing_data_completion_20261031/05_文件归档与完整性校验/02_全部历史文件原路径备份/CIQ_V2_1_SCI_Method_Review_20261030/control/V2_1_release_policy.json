@@ -1,0 +1,20 @@
+{
+  "status": "V2.1_PLANNED_HOLD",
+  "no_numeric_results_until": [
+    "V2_S06_SPATIAL_FROZEN",
+    "V2_S07_TASK_AND_EXPOSURE_FROZEN",
+    "V2_S08_PETROL_MODEL_EVIDENCED",
+    "V2_S09_UAV_MODEL_BOUNDED",
+    "V2_S10_ENGINE_REAL_INTEGRATION_QA"
+  ],
+  "scientific_truth_rules": {
+    "net_reduction_requires": "Comparable documented operational energy-boundary WTW CO2e OR explicitly conditional transparent source-specific accounting, not claimed actual net reduction",
+    "time_and_service": "same all-task denominator for completion/ontime; matched time paired with full denominator status",
+    "mode": "only 5 primary modes; EXP05~10 diagnostics and scenarios",
+    "sample": "distinct seed uncertainty and independent day/weather blocks",
+    "airspace": "simulation conditional screening != regulatory flight authorisation",
+    "data": "raw source provenance and hashes; never invent GIS, orders, fuel, wind, grid EF"
+  },
+  "required_packages": "one independent ZIP per V2-S06 through S12 containing source/inputs/code/results/tests/hashes/README; nonexisting real inputs reported HOLD",
+  "manual_approval_required": true
+}

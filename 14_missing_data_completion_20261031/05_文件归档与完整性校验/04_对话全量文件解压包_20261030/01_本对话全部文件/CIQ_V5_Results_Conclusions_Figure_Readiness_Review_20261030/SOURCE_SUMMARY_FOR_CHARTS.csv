@@ -1,0 +1,9 @@
+﻿screen,group,count,denominator,percent,evidence_level
+geometry,Directed candidate,11060,82620,13.38659,V5_SOURCE_AND_S09_GZ_ACTUAL_QA
+geometry,Reverse-only candidate,17417,82620,21.08085,V5_SOURCE_AND_S09_GZ_ACTUAL_QA
+geometry,No direct candidate,54143,82620,65.53256,V5_SOURCE_AND_S09_GZ_ACTUAL_QA
+payload_and_direct,DJI FlyCart 30,11060,82620,13.38659,STATIC_PREFLIGHT_ONLY
+payload_and_direct,Wingcopter 198 Cargo,7377,82620,8.92883,STATIC_PREFLIGHT_ONLY
+grid_farther_10km,A,0,29,0.00000,SPATIAL_QA_ONLY
+grid_farther_10km,B,10,10,100.00000,SPATIAL_QA_ONLY
+grid_farther_10km,C,21,29,72.41379,SPATIAL_QA_ONLY

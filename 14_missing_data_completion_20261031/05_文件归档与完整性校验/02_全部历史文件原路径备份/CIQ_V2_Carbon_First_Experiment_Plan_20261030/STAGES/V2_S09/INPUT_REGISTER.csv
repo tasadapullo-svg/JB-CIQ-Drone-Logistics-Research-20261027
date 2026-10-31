@@ -1,0 +1,5 @@
+﻿filename,format,purpose,sha256,status,provenance_url,reviewer
+uav_models.csv,CSV,型号、官方规格、证据与适用工况,,MISSING,,
+uav_energy_parameters.csv,CSV,功耗/能量/储备/充电参数和区间来源,,MISSING,,
+uav_candidate_missions.csv,CSV,载荷/路径/航时/天气与空间筛查,,MISSING,,
+regulatory_scenarios.csv,CSV,批准/禁飞/待审批/仅模拟四类情景,,MISSING,,

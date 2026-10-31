@@ -1,0 +1,24 @@
+
+test_10_crosses_two_hours (test_s09.TestS09.test_10_crosses_two_hours) ... ok
+test_11_gaps_hold (test_s09.TestS09.test_11_gaps_hold) ... ok
+test_12_source_hold (test_s09.TestS09.test_12_source_hold) ... ok
+test_13_overlaps_hold (test_s09.TestS09.test_13_overlaps_hold) ... ok
+test_14_v5_population (test_s09.TestS09.test_14_v5_population) ... ok
+test_15_v5_oem_bounds (test_s09.TestS09.test_15_v5_oem_bounds) ... ok
+test_16_screen_rows (test_s09.TestS09.test_16_screen_rows) ... ok
+test_17_only_true_v5_edges (test_s09.TestS09.test_17_only_true_v5_edges) ... ok
+test_18_all_no_carbon (test_s09.TestS09.test_18_all_no_carbon) ... ok
+test_1_hypothetical_scenario (test_s09.TestS09.test_1_hypothetical_scenario) ... ok
+test_2_missing_weather_rejected (test_s09.TestS09.test_2_missing_weather_rejected) ... ok
+test_3_payload_rejected (test_s09.TestS09.test_3_payload_rejected) ... ok
+test_4_headwind_stall (test_s09.TestS09.test_4_headwind_stall) ... ok
+test_5_energy_budget_can_fail (test_s09.TestS09.test_5_energy_budget_can_fail) ... ok
+test_6_battery_uncertainty_explicit (test_s09.TestS09.test_6_battery_uncertainty_explicit) ... ok
+test_7_no_operational_claim (test_s09.TestS09.test_7_no_operational_claim) ... ok
+test_8_wind_projection (test_s09.TestS09.test_8_wind_projection) ... ok
+test_9_single_hour_interval (test_s09.TestS09.test_9_single_hour_interval) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.612s
+
+OK

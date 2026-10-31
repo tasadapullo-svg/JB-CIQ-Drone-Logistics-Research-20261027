@@ -1,0 +1,8 @@
+﻿figure,intended_content,readiness,actual_evidence,strict_claim_limit
+Fig. 1,"V5 spatial overview, A/B/C and CIQ",CAN_PREPARE_MAP__FINAL_CARTOGRAPHIC_QA_PENDING,"V5 original QGIS GeoPackage; review basemap license, road/country border georeference, scale and attribution",No operational claim
+Fig. 2,Study workflow and five-mode carbon comparison,CAN_DRAW_METHOD_DIAGRAM,Frozen protocol and model interfaces,A methodology diagram is not a simulation result
+Fig. 3,"Reference UAV aircraft, routes and spatial assumptions",CAN_PREPARE_STATIC_CONDITIONAL,"V5 68 nodes, 116 candidate geometries, UAV OEM specs",Do not infer approved flight routes or real aircraft mission kWh
+Fig. 4,May-Sep historical weather / FCD / go-no-go,NOT_READY_FOR_FINAL,Historical metadata and coarse-grid QA exist; raw hourly weather/FCD QA pending,No actual go/no-go hourly time series verified
+Fig. 5,"Dispatch, weather cancellation, task on-time rate",STATIC_PREFLIGHT_ONLY__FINAL_NOT_READY,S09 static 165240 model/task records; no weather-driven dispatch,"11,060/7,377 are candidate counts, not delivered orders"
+Fig. 6,"M0 vs M1/M2 time, cost, operational CO2e",NOT_READY_FOR_FINAL,M0 has zero validated trip legs; M1/M2 actual records all HOLD,No measured or validated mode-level carbon savings
+Fig. 7,Pareto frontier and carbon break-even thresholds,NOT_READY_FOR_FINAL,"No validated S10 comparison, S11 not run",Do not generate fake Pareto or confidence intervals

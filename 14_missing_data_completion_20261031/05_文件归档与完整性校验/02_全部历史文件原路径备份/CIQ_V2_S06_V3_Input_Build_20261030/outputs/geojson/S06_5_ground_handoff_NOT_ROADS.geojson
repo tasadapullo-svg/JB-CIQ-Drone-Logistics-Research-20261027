@@ -1,0 +1,211 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.78232,
+            1.46958
+          ],
+          [
+            103.78491,
+            1.47028
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "GROUND_RELATION_NOT_ROAD_ROUTE",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.036,
+        "edge_id": "P06_A_P01_T_STULANG",
+        "endpoint_pad_approval": "HOLD",
+        "from_id": "A_P01",
+        "from_zone": "PORT_A",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "line_distance_geodesic_km": 0.298436,
+        "line_mode": "GROUND_HANDOFF_STRAIGHT_REFERENCE",
+        "original_dji_flag_must_be_ignored": "1",
+        "original_wing_flag_must_be_ignored": "1",
+        "road_directed_route_id": "",
+        "road_distance_km": "",
+        "road_route_validation": "HOLD_NO_OSM_ROAD_GRAPH",
+        "road_simulation_released": "NO",
+        "road_travel_time_min": "",
+        "source_distance_km": 0.2984,
+        "source_series": "V8_10",
+        "to_id": "T_STULANG",
+        "to_zone": "A"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.78232,
+            1.46958
+          ],
+          [
+            103.78294,
+            1.47156
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "GROUND_RELATION_NOT_ROAD_ROUTE",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.047,
+        "edge_id": "P07_A_P01_A_P02",
+        "endpoint_pad_approval": "HOLD",
+        "from_id": "A_P01",
+        "from_zone": "PORT_A",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "line_distance_geodesic_km": 0.229553,
+        "line_mode": "GROUND_HANDOFF_STRAIGHT_REFERENCE",
+        "original_dji_flag_must_be_ignored": "1",
+        "original_wing_flag_must_be_ignored": "1",
+        "road_directed_route_id": "",
+        "road_distance_km": "",
+        "road_route_validation": "HOLD_NO_OSM_ROAD_GRAPH",
+        "road_simulation_released": "NO",
+        "road_travel_time_min": "",
+        "source_distance_km": 0.2296,
+        "source_series": "V8_10",
+        "to_id": "A_P02",
+        "to_zone": "PORT_A"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.78232,
+            1.46958
+          ],
+          [
+            103.78129,
+            1.46979
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "GROUND_RELATION_NOT_ROAD_ROUTE",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.05,
+        "edge_id": "P08_A_P01_A_P03",
+        "endpoint_pad_approval": "HOLD",
+        "from_id": "A_P01",
+        "from_zone": "PORT_A",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "line_distance_geodesic_km": 0.11695,
+        "line_mode": "GROUND_HANDOFF_STRAIGHT_REFERENCE",
+        "original_dji_flag_must_be_ignored": "1",
+        "original_wing_flag_must_be_ignored": "1",
+        "road_directed_route_id": "",
+        "road_distance_km": "",
+        "road_route_validation": "HOLD_NO_OSM_ROAD_GRAPH",
+        "road_simulation_released": "NO",
+        "road_travel_time_min": "",
+        "source_distance_km": 0.117,
+        "source_series": "V8_10",
+        "to_id": "A_P03",
+        "to_zone": "PORT_A"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.78232,
+            1.46958
+          ],
+          [
+            103.78456,
+            1.47088
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "GROUND_RELATION_NOT_ROAD_ROUTE",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.048,
+        "edge_id": "P09_A_P01_A_P06",
+        "endpoint_pad_approval": "HOLD",
+        "from_id": "A_P01",
+        "from_zone": "PORT_A",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "line_distance_geodesic_km": 0.287752,
+        "line_mode": "GROUND_HANDOFF_STRAIGHT_REFERENCE",
+        "original_dji_flag_must_be_ignored": "1",
+        "original_wing_flag_must_be_ignored": "1",
+        "road_directed_route_id": "",
+        "road_distance_km": "",
+        "road_route_validation": "HOLD_NO_OSM_ROAD_GRAPH",
+        "road_simulation_released": "NO",
+        "road_travel_time_min": "",
+        "source_distance_km": 0.2878,
+        "source_series": "V8_10",
+        "to_id": "A_P06",
+        "to_zone": "PORT_A"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            103.76663,
+            1.46502
+          ],
+          [
+            103.78232,
+            1.46958
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "classification": "GROUND_RELATION_NOT_ROAD_ROUTE",
+        "computational_release": "DENY_NOT_A_ROUTED_OR_APPROVED_OPERATION",
+        "current_legal_airspace": "HOLD",
+        "distance_attribute_delta_m": 0.019,
+        "edge_id": "P10_G_CIQ_A_P01",
+        "endpoint_pad_approval": "HOLD",
+        "from_id": "G_CIQ",
+        "from_zone": "GATEWAY",
+        "geometry_type": "STRAIGHT_GEOMETRIC_REFERENCE_NOT_APPROVED_ROUTE",
+        "ground_access": "HOLD",
+        "line_distance_geodesic_km": 1.817381,
+        "line_mode": "GROUND_HANDOFF_STRAIGHT_REFERENCE",
+        "original_dji_flag_must_be_ignored": "1",
+        "original_wing_flag_must_be_ignored": "1",
+        "road_directed_route_id": "",
+        "road_distance_km": "",
+        "road_route_validation": "HOLD_NO_OSM_ROAD_GRAPH",
+        "road_simulation_released": "NO",
+        "road_travel_time_min": "",
+        "source_distance_km": 1.8174,
+        "source_series": "V8_10",
+        "to_id": "A_P01",
+        "to_zone": "PORT_A"
+      },
+      "type": "Feature"
+    }
+  ],
+  "name": "S06_5_ground_handoff_NOT_ROADS",
+  "type": "FeatureCollection"
+}

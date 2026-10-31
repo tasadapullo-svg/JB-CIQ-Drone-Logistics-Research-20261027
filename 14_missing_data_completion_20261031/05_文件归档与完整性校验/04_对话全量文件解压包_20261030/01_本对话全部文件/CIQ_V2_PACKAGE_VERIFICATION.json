@@ -1,0 +1,56 @@
+{
+  "package_version": "V2_20261030",
+  "status": "PLANNING_HOLD",
+  "historical_git_commit": "4569817b8145efe2ae06f4b21addc1986f971c12",
+  "stage_count": 7,
+  "primary_modes": 5,
+  "planned_experiment_variations": 11,
+  "validation": "7 isolated synthetic technical tests PASS; 7 real stage gates HOLD due to absent real inputs",
+  "sha256_rows_verified": 85,
+  "stage_packages": [
+    [
+      "V2_S06",
+      "/mnt/data/CIQ_V2_V2_S06_Step_by_Step_20261030.zip",
+      35,
+      54163
+    ],
+    [
+      "V2_S07",
+      "/mnt/data/CIQ_V2_V2_S07_Step_by_Step_20261030.zip",
+      35,
+      54372
+    ],
+    [
+      "V2_S08",
+      "/mnt/data/CIQ_V2_V2_S08_Step_by_Step_20261030.zip",
+      35,
+      54298
+    ],
+    [
+      "V2_S09",
+      "/mnt/data/CIQ_V2_V2_S09_Step_by_Step_20261030.zip",
+      35,
+      54571
+    ],
+    [
+      "V2_S10",
+      "/mnt/data/CIQ_V2_V2_S10_Step_by_Step_20261030.zip",
+      35,
+      54779
+    ],
+    [
+      "V2_S11",
+      "/mnt/data/CIQ_V2_V2_S11_Step_by_Step_20261030.zip",
+      36,
+      55210
+    ],
+    [
+      "V2_S12",
+      "/mnt/data/CIQ_V2_V2_S12_Step_by_Step_20261030.zip",
+      35,
+      54481
+    ]
+  ],
+  "master_zip": "/mnt/data/CIQ_V2_Carbon_First_Experiments_Full_Roadmap_20261030.zip",
+  "master_zip_bytes": 140792
+}

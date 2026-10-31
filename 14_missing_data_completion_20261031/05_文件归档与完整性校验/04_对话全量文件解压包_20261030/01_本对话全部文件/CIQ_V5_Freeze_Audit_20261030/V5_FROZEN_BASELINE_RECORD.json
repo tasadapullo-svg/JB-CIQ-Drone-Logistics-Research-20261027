@@ -1,0 +1,29 @@
+{
+  "frozen_baseline_id": "CIQ_ABC_QGIS322_V5_ONE_WMP228_68_NODES_20261030",
+  "frozen_source_zip_filename": "CIQ_ABC_QGIS322_V5_ONE_WMP228_68_NODES_FULL_PROJECT(1).zip",
+  "frozen_source_zip_sha256": "0d19633630b6f12525ad9bd776bbf966ec1e8a46520bd8bc3d904013b02dce74",
+  "frozen_active_geopackage_filename": "data/CIQ_ABC_V5_ACTIVE.gpkg",
+  "frozen_active_geopackage_sha256": "1edbeeba32257f35dfbb90bf36c0e86474a032038d1783fcfc85bb34ab94311b",
+  "archived_v4_geopackage_sha256": "3ee7d3fe56e50ed0f2292e0ce7581a25f76954481f3c4f2d0f163178414b56e3",
+  "active_nodes": 68,
+  "source_qa_IDs_match": true,
+  "zones": {
+    "A": 29,
+    "B": 10,
+    "C": 29
+  },
+  "candidate_UAV_geometric_links": 116,
+  "ground_straight_reference_links": 5,
+  "additional_ground_HOLD_lines": 4,
+  "WMP228_reference_circles": 1,
+  "coordinate_edits": "NONE",
+  "source_changes": "NONE",
+  "CAVEAT_A09_A10": "A09 and A10 have zone=C in source; do not infer zone from ID prefix",
+  "CAVEAT_ARCHIVED_68_ROW_CSV": "archive/ALL_68_STUDY_NODES_LONG_LAT.csv contains A_N10 and omits G_CIQ; use active GPKG",
+  "scope": "CONDITIONAL_SCI_GEOGRAPHIC_REFERENCE_NOT_AUTHORIZED_FLIGHTS",
+  "S06_state": "STATIC_GIS_PASS_REBASELINE_REQUIRED",
+  "S07_state": "HOLD_UNTIL_FIVE_MONTH_WEATHER_ROADS_AND_FROZEN_ORDERS_VERIFIED",
+  "historical_repo": "https://github.com/tasadapullo-svg/JB-CIQ-Drone-Logistics-Research-20261027",
+  "historical_repo_commit_reviewed": "4569817b8145efe2ae06f4b21addc1986f971c12",
+  "freeze_instruction": "Do not modify V5 archive or coordinates. Build derived versioned S06/S07 inputs and report discrepancies separately."
+}

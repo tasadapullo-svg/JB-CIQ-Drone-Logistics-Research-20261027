@@ -1,0 +1,32 @@
+{
+  "checked_date":"2026-10-30",
+  "purpose":"OFFICIAL_SPECS_NOT_TASK_ENERGY_CALIBRATION",
+  "aircraft":{
+    "DJI_FLYCART_30_DUAL":{
+      "source_url":"https://www.dji.com/flycart-30/specs",
+      "payload_capacity_kg":30.0,
+      "nominal_battery_count":2,
+      "single_battery_nominal_Wh":1984.4,
+      "combined_nominal_battery_kWh":3.9688,
+      "test_max_range_loaded_km":16,
+      "test_max_range_empty_km":28,
+      "test_hover_loaded_min":18,
+      "test_hover_empty_min":29,
+      "max_wind_resistance_mps":12,
+      "notes":"Windless controlled tests; battery energy is NOMINAL not usable energy; these ranges are not certification for each route, and hover derived power is not cruise power."
+    },
+    "WINGCOPTER_198_CARGO":{
+      "source_url":"https://wsd.wingcopter.com/w198-cargo",
+      "payload_capacity_kg":4.7,
+      "published_range_upper_bound_km":92,
+      "published_wind_resistance_upper_mps":18,
+      "battery_usable_kWh":null,
+      "loaded_range_for_4_7kg_km":null,
+      "mission_power_kW":null,
+      "notes":"Marketing maximum range not confirmed at 4.7kg load; Cargo-specific official data sheet and energy validation absent."
+    }
+  },
+  "flight_permission":"NOT_EVIDENCED_FOR_ANY_V5_CANDIDATE",
+  "route_geometry":"ONLY_V5_116_CANDIDATE_GEOMETRIES_NOT_AUTHORIZED_AIRWAYS",
+  "energy_model":"CONDITIONAL_INPUT_ONLY_NO_VALIDATED_MISSION_KWH"
+}

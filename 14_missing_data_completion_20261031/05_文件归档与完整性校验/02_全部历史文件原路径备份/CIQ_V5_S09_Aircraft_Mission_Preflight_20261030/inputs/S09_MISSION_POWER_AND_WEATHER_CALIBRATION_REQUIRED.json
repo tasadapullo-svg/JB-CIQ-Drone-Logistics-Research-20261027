@@ -1,0 +1,11 @@
+{
+  "status":"HOLD_AWAITING_AIRCRAFT_MISSION_ENERGY_CALIBRATION",
+  "notice":"Do NOT insert a guessed FC30 or Wingcopter198 cruise power into a paper as measured evidence.",
+  "models":{
+    "DJI_FLYCART_30_DUAL":{"nominal_battery_kwh_official":3.9688,"usable_battery_fraction":null,"reserve_fraction":null,"cruise_power_kw_loaded":null,"cruise_power_kw_empty":null,"takeoff_landing_kwh":null,"charging_efficiency":null,"mission_altitude_m":null,"cargo_kit_weight_kg":null},
+    "WINGCOPTER_198_CARGO":{"nominal_battery_kwh":null,"usable_battery_fraction":null,"reserve_fraction":null,"cruise_power_kw_loaded":null,"cruise_power_kw_empty":null,"takeoff_landing_kwh":null,"charging_efficiency":null,"mission_altitude_m":null,"cargo_kit_weight_kg":null}
+  },
+  "meteorological_data":{"verified_hourly_wind_spatial_grid":null,"verified_hourly_precipitation_intervals":null,"verified_hourly_wind_gust":null,"wind_at_flight_altitude_method":null},
+  "operations":{"authorized_flight_corridors":null,"valid_launch_landsites":null,"real_departure_time_from_S10":null,"vehicle_rendezvous_schedule":null},
+  "claim_status":"DO_NOT_COMPUTE_VALIDATED_MISSION_CO2_OR_CARBON_SAVINGS"
+}

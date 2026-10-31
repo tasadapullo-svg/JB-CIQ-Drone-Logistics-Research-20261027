@@ -1,0 +1,27 @@
+[
+  {
+    "file": "JB_SG_Weather_2026_05.xlsx",
+    "status": "HOLD_FILE_MISSING",
+    "expected_bytes": 13001616
+  },
+  {
+    "file": "JB_SG_Weather_2026_06.xlsx",
+    "status": "HOLD_FILE_MISSING",
+    "expected_bytes": 13001925
+  },
+  {
+    "file": "JB_SG_Weather_2026_07.xlsx",
+    "status": "HOLD_FILE_MISSING",
+    "expected_bytes": 13752431
+  },
+  {
+    "file": "JB_SG_Weather_2026_08.xlsx",
+    "status": "HOLD_FILE_MISSING",
+    "expected_bytes": 14124507
+  },
+  {
+    "file": "JB_SG_Weather_2026_09.xlsx",
+    "status": "HOLD_FILE_MISSING",
+    "expected_bytes": 14148344
+  }
+]

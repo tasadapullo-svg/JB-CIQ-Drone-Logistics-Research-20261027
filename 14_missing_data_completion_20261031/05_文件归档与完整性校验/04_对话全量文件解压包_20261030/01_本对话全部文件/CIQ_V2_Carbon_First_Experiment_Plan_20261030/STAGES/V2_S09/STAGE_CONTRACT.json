@@ -1,0 +1,56 @@
+{
+  "stage": "V2_S09",
+  "stage_name_cn": "双无人机能耗—天气—航路审计",
+  "purpose_en": "DJI and Wingcopter energy & eligibility",
+  "research_questions": "RQ1,RQ2,RQ3",
+  "inputs": [
+    {
+      "filename": "uav_models.csv",
+      "type": "CSV",
+      "purpose": "型号、官方规格、证据与适用工况"
+    },
+    {
+      "filename": "uav_energy_parameters.csv",
+      "type": "CSV",
+      "purpose": "功耗/能量/储备/充电参数和区间来源"
+    },
+    {
+      "filename": "uav_candidate_missions.csv",
+      "type": "CSV",
+      "purpose": "载荷/路径/航时/天气与空间筛查"
+    },
+    {
+      "filename": "regulatory_scenarios.csv",
+      "type": "CSV",
+      "purpose": "批准/禁飞/待审批/仅模拟四类情景"
+    }
+  ],
+  "outputs": [
+    {
+      "filename": "uav_mission_energy.csv",
+      "purpose": "两机型逐航次电耗范围"
+    },
+    {
+      "filename": "uav_weather_restrictions.csv",
+      "purpose": "可飞性和天气回退原因"
+    },
+    {
+      "filename": "airspace_scenario_QA.csv",
+      "purpose": "限制与科研情景分开"
+    },
+    {
+      "filename": "uav_energy_freeze.json",
+      "purpose": "任务模型与假设的版本锁定"
+    }
+  ],
+  "release_gates": [
+    "两机型分别识别且不能用470 W旧泛化模型",
+    "任务能耗包含带载/空载/起降/返航/充电损失",
+    "每条任务天气基于实际起飞/返航时刻",
+    "空域状态明确标记、未授权不能称可部署",
+    "能耗缺口未闭合则阻止定量减排排序"
+  ],
+  "expected_status": "BLOCKED_UNTIL_REAL_INPUTS_ACCEPTED",
+  "historical_git_commit": "4569817b8145efe2ae06f4b21addc1986f971c12",
+  "review_rule": "Automatic schema gate is not scientific approval; release requires human evidence review plus frozen source hashes."
+}

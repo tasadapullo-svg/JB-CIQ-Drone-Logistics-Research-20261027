@@ -1,0 +1,20 @@
+test_blob_sha1_git_formula (test_s07_recovery.S07RecoveryTests.test_blob_sha1_git_formula) ... ok
+test_corrupted_source_blocks (test_s07_recovery.S07RecoveryTests.test_corrupted_source_blocks) ... ok
+test_csv_missing_blocks (test_s07_recovery.S07RecoveryTests.test_csv_missing_blocks) ... ok
+test_minimal_xlsx_raw_sheet (test_s07_recovery.S07RecoveryTests.test_minimal_xlsx_raw_sheet) ... ok
+test_missing_file_fails_closed (test_s07_recovery.S07RecoveryTests.test_missing_file_fails_closed) ... ok
+test_no_fabricated_emissions (test_s07_recovery.S07RecoveryTests.test_no_fabricated_emissions) ... ok
+test_road_rows_a_gate (test_s07_recovery.S07RecoveryTests.test_road_rows_a_gate) ... ok
+test_scenarios_4590 (test_s07_recovery.S07RecoveryTests.test_scenarios_4590) ... ok
+test_source_bytes_pass (test_s07_recovery.S07RecoveryTests.test_source_bytes_pass) ... ok
+test_source_count (test_s07_recovery.S07RecoveryTests.test_source_count) ... ok
+test_source_holds_are_not_missing_orders (test_s07_recovery.S07RecoveryTests.test_source_holds_are_not_missing_orders) ... ok
+test_tasks_unchanged_structure (test_s07_recovery.S07RecoveryTests.test_tasks_unchanged_structure) ... ok
+test_unique_source_paths (test_s07_recovery.S07RecoveryTests.test_unique_source_paths) ... ok
+test_v5_node_count (test_s07_recovery.S07RecoveryTests.test_v5_node_count) ... ok
+test_weather_missing_blocks (test_s07_recovery.S07RecoveryTests.test_weather_missing_blocks) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.472s
+
+OK

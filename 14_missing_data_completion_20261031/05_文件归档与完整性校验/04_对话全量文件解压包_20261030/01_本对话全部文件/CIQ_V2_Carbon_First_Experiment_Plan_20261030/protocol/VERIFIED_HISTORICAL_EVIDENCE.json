@@ -1,0 +1,23 @@
+{
+  "github_repo": "https://github.com/tasadapullo-svg/JB-CIQ-Drone-Logistics-Research-20261027",
+  "commit": "4569817b8145efe2ae06f4b21addc1986f971c12",
+  "readme_gitblob": "42ac492b46b837e53a54490ed6637121f39ff687",
+  "stage6_readme_gitblob": "924698cbda91196f08f8fa543d8128fe657756e6",
+  "stage6_run_py_gitblob": "1bbf7864ee9546b781f048d515c5d756da8752",
+  "stage8_f0_f1_report_gitblob": "d333b04bcc9e231064105c10dcab2e28bbb8974b",
+  "historical_stage6": {
+    "synthetic_orders": 29842,
+    "modes": 3,
+    "rows": 89526,
+    "seeds": 30,
+    "dates_per_seed": 5
+  },
+  "historical_stage2": {
+    "resampled_fixture_rows": 918000,
+    "known_road_OD": 128,
+    "road_model_paths": 91,
+    "exceptions_unapproved": 37
+  },
+  "reason_no_old_carbon": "Stage6 electric van 0.23kWh/km and generic UAV 470W plus hypothetical asset parameters are not gasoline car or real FlyCart/Wingcopter mission calibration.",
+  "purpose": "historical evidence freeze only, not V2 input confirmation"
+}

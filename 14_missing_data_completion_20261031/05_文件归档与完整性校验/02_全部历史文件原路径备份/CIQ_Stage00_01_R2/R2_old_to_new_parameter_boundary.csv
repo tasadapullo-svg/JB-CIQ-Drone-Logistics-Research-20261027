@@ -1,0 +1,11 @@
+﻿domain,legacy_value_or_claim,verified_reference,new_version_requirement,rule
+Space,old A/B 19 reference sites,Stage8 F0/F1 report,latest 3-zone QGIS canonical nodes; role/coordinate/zone and restrictions,DISALLOW_IMPORT
+Space,Stage8 76 old geometric candidate links,Stage8 F0/F1 report,new QGIS lines and approved-vs-screening classification,DISALLOW_IMPORT
+Orders,"Stage2 918,000 resampled fixture records",outputs/next_stage/validation_report.json,single documented synthesized and matched task dataset,DISALLOW_MERGE
+Orders,"Stage6 29,842 synthetic tasks; 89,526 mode records",README_STAGE6_CN.md,"new matched-task denominators, unique order_id",HISTORICAL_ONLY
+Drone,"generic UAV 470 W empty power, 0.70 kWh battery, 4 km leg",run_stage6.py,"DJI FlyCart 30, Wingcopter 198 Cargo task-specific energy interval",DISALLOW_PARAMETER_COPY
+Vehicle,0.23 kWh/km electric van,run_stage6.py,"separate ICE fuel and EV energy scenarios, vehicle return trips",DISALLOW_AS_FUEL_BASELINE
+Carbon,0.740 kgCO2e/kWh historical grid factor,run_stage6.py,explicit source/date/grid/power/fuel emissions boundaries,REVERIFY_SOURCE_AND_YEAR
+Weather,release-hour ERA5 / generic <0.1mm/h and <10m/s,run_stage6.py,launch-hour matching; aircraft-specific safe conditions,DISALLOW_PARAMETER_COPY
+Road,91/128 ODs with modeled paths; 37 not routable,outputs/next_stage/validation_report.json,"new points/OD, turn restrictions, border/CIQ processing",REBUILD
+Aviation,"19/19 search zones, no approved pads or corridors",Stage8 F0/F1 report,official effective-date airspace/approval classifications,NOT_AUTHORIZED

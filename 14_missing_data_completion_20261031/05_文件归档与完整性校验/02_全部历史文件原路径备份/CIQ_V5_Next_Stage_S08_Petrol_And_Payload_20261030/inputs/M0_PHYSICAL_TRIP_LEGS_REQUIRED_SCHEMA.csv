@@ -1,0 +1,1 @@
+leg_id,trip_id,vehicle_id,scenario_seed,service_date_local,mode,departure_utc,road_distance_km,driving_minutes,stationary_minutes,road_evidence_status,road_graph_sha256,road_route_sequence_hash,served_task_ids,source_calibration_id

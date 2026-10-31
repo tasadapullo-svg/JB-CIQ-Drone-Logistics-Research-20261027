@@ -1,0 +1,15 @@
+{
+  "V5_SPATIAL": "PASS",
+  "HISTORICAL_PINNED_BYTES": {
+    "HOLD_MISSING_BYTES": 11
+  },
+  "HISTORICAL_MONTHLY_WEATHER_XLSX": {
+    "verified_files": 0,
+    "expected_files": 5
+  },
+  "V5_SOURCE_ABC_ROAD": "HOLD_NEW_C_ROAD_AND_SITE_ACCESS_UNVERIFIED",
+  "WEATHER_NUMERIC_V5_INTEGRATION": "HOLD_UNTIL_SHEET_UNITS_INTERVALS_COVERAGE_VALIDATED",
+  "V5_SYNTHETIC_TASKS": "CONDITIONAL_SCENARIO_DESIGN_NOT_EMPIRICAL",
+  "OPERATIONAL_PETROL_UAV_COMPARISON": "NOT_RELEASED",
+  "why": "Road, weather, service, and carbon effects cannot be inferred from spatial and task fixtures alone."
+}

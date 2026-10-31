@@ -1,0 +1,5 @@
+﻿filename,format,purpose,sha256,status,provenance_url,reviewer
+dispatch_config.json,JSON,车辆/无人机/服务资源及策略,,MISSING,,
+paired_tasks.csv,CSV,完全相同的任务输入和样本标识,,MISSING,,
+road_trip_library.csv,CSV,可用道路行程与小时条件,,MISSING,,
+uav_mission_library.csv,CSV,可用航次与机型能耗证据,,MISSING,,

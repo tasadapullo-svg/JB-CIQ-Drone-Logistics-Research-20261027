@@ -1,0 +1,18 @@
+{
+  "source_type": "read_only_GitHub_connector_selective_access",
+  "repository": "tasadapullo-svg/JB-CIQ-Drone-Logistics-Research-20261027",
+  "default_branch": "main",
+  "last_confirmed_commit": "4569817b8145efe2ae06f4b21addc1986f971c12",
+  "last_confirmed_commit_utc": "2026-10-28T06:55:08Z",
+  "verified_remote_files": [
+    {"path":"10_experiment_results/stage6_dual_region_multilevel_feeder/README_STAGE6_CN.md","git_blob_sha":"924698cbda91196f08f8fa543d8128fe657756e6","content":"text_retrieved"},
+    {"path":"10_experiment_results/stage6_dual_region_multilevel_feeder/run_stage6.py","git_blob_sha":"1bbf7864ee9546b781f048d515c5c5d756da8752","content":"text_retrieved"},
+    {"path":"10_experiment_results/stage6_dual_region_multilevel_feeder/stage6_order_level.csv.gz","git_blob_sha":"5e68fb71c0b0737ed1846f680c85f82a4d04ce06","content":"file_reference_only_not_binary_decoded"},
+    {"path":"data/weather_2026/processed/final_verification_summary.json","git_blob_sha":"85845782a5f5cdbb4fa49737bb6e63aaa6dc06c7","content":"text_retrieved"},
+    {"path":"outputs/stage2_20261027/od_connectivity_diagnostics.csv","git_blob_sha":"c144da04db6fed8df228accb776b07d5493972d9","content":"text_retrieved"},
+    {"path":"outputs/stage2_20261027/od_route_repair_log.csv","git_blob_sha":"6f1cee1b994959e327eaeecf1708fb7efada1b0d","content":"text_retrieved"},
+    {"path":"tools/reassemble_large_files.py","git_blob_sha":"df0ad7e2828a9ccab0e4c77a3e10dcb92ad8ead0","content":"text_retrieved"}
+  ],
+  "unresolved_checked_exact_path": "10_experiment_results/stage6_dual_region_multilevel_feeder/run_stage4_dispatch.py",
+  "important_note": "Git blob SHA uses Git object hashing; it is not raw-file SHA256. All-repo files not downloaded; no assertion about any unexamined alternative path or archive."
+}

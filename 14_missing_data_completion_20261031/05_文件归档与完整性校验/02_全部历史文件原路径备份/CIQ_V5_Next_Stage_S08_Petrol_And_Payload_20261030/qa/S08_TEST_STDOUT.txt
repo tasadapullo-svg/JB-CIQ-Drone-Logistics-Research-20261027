@@ -1,0 +1,24 @@
+test_duplicate_physical_leg_rejected (test_petrol_and_payload.PetrolLedgerMethodTests.test_duplicate_physical_leg_rejected) ... ok
+test_empty_ledger_hold (test_petrol_and_payload.PetrolLedgerMethodTests.test_empty_ledger_hold) ... ok
+test_fuel_100km (test_petrol_and_payload.PetrolLedgerMethodTests.test_fuel_100km) ... ok
+test_geodesic_proxy_zero_only_for_same_point (test_petrol_and_payload.PetrolLedgerMethodTests.test_geodesic_proxy_zero_only_for_same_point) ... ok
+test_negative_road_length_rejected (test_petrol_and_payload.PetrolLedgerMethodTests.test_negative_road_length_rejected) ... ok
+test_no_double_counting_idling (test_petrol_and_payload.PetrolLedgerMethodTests.test_no_double_counting_idling) ... ok
+test_no_emission_if_missing_fuel_consumption (test_petrol_and_payload.PetrolLedgerMethodTests.test_no_emission_if_missing_fuel_consumption) ... ok
+test_no_emission_if_missing_fuel_density (test_petrol_and_payload.PetrolLedgerMethodTests.test_no_emission_if_missing_fuel_density) ... ok
+test_no_emission_if_missing_fuel_price (test_petrol_and_payload.PetrolLedgerMethodTests.test_no_emission_if_missing_fuel_price) ... ok
+test_return_leg_counts_once (test_petrol_and_payload.PetrolLedgerMethodTests.test_return_leg_counts_once) ... ok
+test_shared_ride_one_physical_leg (test_petrol_and_payload.PetrolLedgerMethodTests.test_shared_ride_one_physical_leg) ... ok
+test_standstill_separate_idling_case (test_petrol_and_payload.PetrolLedgerMethodTests.test_standstill_separate_idling_case) ... ok
+test_unit_conversion_co2 (test_petrol_and_payload.PetrolLedgerMethodTests.test_unit_conversion_co2) ... ok
+test_unverified_route_rejected (test_petrol_and_payload.PetrolLedgerMethodTests.test_unverified_route_rejected) ... ok
+test_zero_travel_positive_distance_rejected (test_petrol_and_payload.PetrolLedgerMethodTests.test_zero_travel_positive_distance_rejected) ... ok
+test_capacity_overweight_not_deletion (test_petrol_and_payload.PickupDeliveryHeuristicTests.test_capacity_overweight_not_deletion) ... ok
+test_missing_directed_metric_hard_blocks_not_unsatisfied (test_petrol_and_payload.PickupDeliveryHeuristicTests.test_missing_directed_metric_hard_blocks_not_unsatisfied) ... ok
+test_strict_deadline_rejected_not_deleted (test_petrol_and_payload.PickupDeliveryHeuristicTests.test_strict_deadline_rejected_not_deleted) ... ok
+test_two_orders_one_vehicle_route (test_petrol_and_payload.PickupDeliveryHeuristicTests.test_two_orders_one_vehicle_route) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.001s
+
+OK

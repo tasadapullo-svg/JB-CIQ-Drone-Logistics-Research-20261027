@@ -1,0 +1,48 @@
+{
+  "stage": "V2_S07",
+  "status": "HOLD",
+  "input_checks": [
+    {
+      "file": "frozen_tasks.csv",
+      "exists": false,
+      "size_bytes": null,
+      "sha256": null,
+      "schema_valid": null,
+      "source_recorded": false
+    },
+    {
+      "file": "road_od_hourly.csv",
+      "exists": false,
+      "size_bytes": null,
+      "sha256": null,
+      "schema_valid": null,
+      "source_recorded": false
+    },
+    {
+      "file": "weather_hourly.csv",
+      "exists": false,
+      "size_bytes": null,
+      "sha256": null,
+      "schema_valid": null,
+      "source_recorded": false
+    },
+    {
+      "file": "cross_border_wait.csv",
+      "exists": false,
+      "size_bytes": null,
+      "sha256": null,
+      "schema_valid": null,
+      "source_recorded": false
+    }
+  ],
+  "blockers": [
+    "MISSING_INPUT:cross_border_wait.csv",
+    "MISSING_INPUT:frozen_tasks.csv",
+    "MISSING_INPUT:road_od_hourly.csv",
+    "MISSING_INPUT:weather_hourly.csv",
+    "QA_GATES_NOT_ALL_PASS",
+    "SCIENTIFIC_APPROVAL_MISSING",
+    "UPSTREAM_NOT_APPROVED:V2_S06"
+  ],
+  "scientific_note": "This tool does not certify airspace authorization, real deployment, or numerical accuracy."
+}

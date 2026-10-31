@@ -1,0 +1,13 @@
+{
+ "source_repo":"tasadapullo-svg/JB-CIQ-Drone-Logistics-Research-20261027",
+ "commit":"4569817b8145efe2ae06f4b21addc1986f971c12",
+ "source_directory":"data/weather_2026/processed",
+ "fetched_via":"GitHub connected repository directory listing and final_verification_summary.json",
+ "files":[
+  {"month":"2026-05","github_size":13001616,"historic_verified_size":1506818,"historic_sha256":"bc0b411cf2b79c0c9631c216c34bccd9a8130979976b546cd6049947f5724091","github_git_blob_sha1":"4ae1a0f8f9462a66fda3f2cd24965604d1afb081"},
+  {"month":"2026-06","github_size":13001925,"historic_verified_size":1025243,"historic_sha256":"1fbdbd4094f97737f7c71c0b7f5ab0de8c3827aa2bf0b6ede553b31b752125d7","github_git_blob_sha1":"b773932d1249c32a6788149bc6f8f8c7f08fb847"},
+  {"month":"2026-07","github_size":13752431,"historic_verified_size":1060449,"historic_sha256":"54249b05c44dda5f72db4f48378ff515a706a5a26f81cf26f2ed3d82172128c2","github_git_blob_sha1":"a554f49d64500bd1d9df4b23b40a1da174f4eca0"},
+  {"month":"2026-08","github_size":14124507,"historic_verified_size":1060496,"historic_sha256":"2fca7424cb8123ab0973b766727bdf6bae25383274316abaf77cd4f964caa8c9","github_git_blob_sha1":"a1ad400f2e0897dce3e775a63e8f20a64bc2d86f"},
+  {"month":"2026-09","github_size":14148344,"historic_verified_size":1029483,"historic_sha256":"ff2a013729846ddaa9e79959726f9ab04f44584e23eadaa8407d64f1a255896f","github_git_blob_sha1":"ba4fbefe437989ae7103b4895fcaf06b32c92b9e"}
+ ]
+}

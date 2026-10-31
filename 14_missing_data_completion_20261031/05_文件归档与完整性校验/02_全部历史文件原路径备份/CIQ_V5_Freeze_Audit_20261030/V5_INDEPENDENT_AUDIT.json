@@ -1,0 +1,148 @@
+{
+  "source_zip_name": "CIQ_ABC_QGIS322_V5_ONE_WMP228_68_NODES_FULL_PROJECT(1).zip",
+  "source_zip_sha256": "0d19633630b6f12525ad9bd776bbf966ec1e8a46520bd8bc3d904013b02dce74",
+  "source_gpkg_sha256": "1edbeeba32257f35dfbb90bf36c0e86474a032038d1783fcfc85bb34ab94311b",
+  "source_gpkg_v4_sha256": "3ee7d3fe56e50ed0f2292e0ce7581a25f76954481f3c4f2d0f163178414b56e3",
+  "nodes": 68,
+  "zones": {
+    "A": 29,
+    "B": 10,
+    "C": 29
+  },
+  "uav_geometry_links": 116,
+  "ground_reference_links": 5,
+  "extra_ground_hold_links": 4,
+  "active_candidate_links": 121,
+  "wmp_reference_circles": 1,
+  "unconnected_to_uav_count": 12,
+  "missing_endpoints": [],
+  "geometry_errors": [],
+  "max_length_discrepancy_metres": 0.49995821193871137,
+  "frozen_space_status": "PASS_REFERENCE_ONLY",
+  "operational_network_status": "HOLD",
+  "remaining_primary_experiment_stages": 6,
+  "S06_migration_preflight_required": true,
+  "total_remaining_task_blocks_including_migration": 31,
+  "independent_checks": [
+    {
+      "name": "V5 archival SHA256 manifest",
+      "status": "PASS",
+      "detail": "28/28"
+    },
+    {
+      "name": "V5 GPKG SQLite integrity",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "V4 archive GPKG integrity",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "QGS = QGZ embedded XML",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "20 project map layers with valid refs",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "V5 68 unique nonempty nodes",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "V5 coordinates = stored attributes",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "V5 V4 unchanged coordinates and sole deletion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "V5 QA 68-ID CSV matches active GPKG",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Legacy archive CSV intentionally excluded",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "121 candidate links = 116 UAV+5 ground",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "4 extra ground HOLD lines",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "All link endpoints match 68 nodes",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "All 121 V4 links geometry unchanged",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Geodesic length within 1m source rounding",
+      "status": "PASS",
+      "detail": "0.500 m max"
+    },
+    {
+      "name": "No geometric intersection with single WMP reference",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "12 nodes without UAV geometry (preserved)",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "A_AREA_OUTLINE polygon valid and clear of 2026 WMP proxy",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "B_AREA_OUTLINE polygon valid and clear of 2026 WMP proxy",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C_AREA_OUTLINE polygon valid and clear of 2026 WMP proxy",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Single CAAS_2026 WMP228 reference layer",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "No verified UAV operating sites in the 3 main zone layers",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "No verified road entry on 61 principal nodes",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "All independent static tests pass",
+      "status": "PASS",
+      "detail": ""
+    }
+  ]
+}

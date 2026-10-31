@@ -1,0 +1,22 @@
+{
+  "frozen_v5_zip_sha256": "0d19633630b6f12525ad9bd776bbf966ec1e8a46520bd8bc3d904013b02dce74",
+  "locked_github_commit": "4569817b8145efe2ae06f4b21addc1986f971c12",
+  "actual_s07_weather_xlsx_files_present_locally": [],
+  "actual_legacy_directed_osm_edge_csv_present_locally": [],
+  "new_ABC_road_network_pass": "HOLD",
+  "actual_full_order_weather_road_join_pass": "HOLD",
+  "actual_petrol_CO2_M0": "HOLD",
+  "actual_M1_M2_carbons": "HOLD",
+  "stage_facts": {
+    "S07": "PARTIAL",
+    "S08": "PAYLOAD_AUDIT_AND_CODE_ONLY",
+    "S09": "PENDING",
+    "S10": "PENDING",
+    "S11": "PENDING",
+    "S12": "PENDING"
+  },
+  "reason": "No evidence-calibrated V5 ABC directed driving matrix, 2026 May-Sep weather numerics, or local petrol and UAV mission energy parameters in runtime. Hashes in manifests are not the full raw bytes.",
+  "network_probe": "HTTPS raw.githubusercontent.com and Overpass requests failed with DNS NameResolutionError in this container; source repository metadata readable by connected GitHub plugin.",
+  "frozen_orders_unchanged": true,
+  "user_basis_V5_not_V3": true
+}

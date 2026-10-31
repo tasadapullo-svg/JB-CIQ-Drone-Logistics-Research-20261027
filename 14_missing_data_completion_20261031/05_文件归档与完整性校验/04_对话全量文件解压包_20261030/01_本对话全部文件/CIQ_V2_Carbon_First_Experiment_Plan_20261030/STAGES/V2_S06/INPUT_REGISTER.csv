@@ -1,0 +1,6 @@
+﻿filename,format,purpose,sha256,status,provenance_url,reviewer
+qgis_project_bundle.zip,ZIP,最新 QGIS QGZ/QGS 与全部本地依赖；不得只提交地图图片,,MISSING,,
+nodes.csv,CSV,完整新版节点清单,,MISSING,,
+edges.csv,CSV,完整新版候选连接与类别,,MISSING,,
+spatial_screen.csv,CSV,道路接入及空域/场地证据分类,,MISSING,,
+legacy_crosswalk.csv,CSV,历史节点与新版节点关系,,MISSING,,

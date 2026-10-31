@@ -1,0 +1,6 @@
+﻿month,status,expected_rows,actual_rows,era5_sheet_rows,duplicate_keys,unparseable_keys,outside_month,point_counts,fields,numeric_availability
+5,HOLD_MISSING_BYTES,2976,,,,,,null,null,null
+6,HOLD_MISSING_BYTES,2880,,,,,,null,null,null
+7,HOLD_MISSING_BYTES,2976,,,,,,null,null,null
+8,HOLD_MISSING_BYTES,2976,,,,,,null,null,null
+9,HOLD_MISSING_BYTES,2880,,,,,,null,null,null

@@ -1,0 +1,20 @@
+﻿qgs_layer,data_source,provider,is_relative,file_exists,table_exists,gpkg_table,geometry_type,labels_enabled_attr,labels_enabled_property,label_expression,labels_display_all
+A/C/B 62 study reference nodes,./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=V7_ALL_62_RETAINED_ROLES,ogr,True,True,True,V7_ALL_62_RETAINED_ROLES,POINT,1,true,"concat(""id"", ' | ', ""name"")",true
+CIQ port 6 evidence nodes,./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=V8_CIQ_PORT_6_EVIDENCE_POINTS,ogr,True,True,True,V8_CIQ_PORT_6_EVIDENCE_POINTS,POINT,1,true,"concat(""node_id"", ' | ', ""name"")",true
+Ground CIQ gateway (1),./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=G_CIQ_ground_gateway,ogr,True,True,True,G_CIQ_ground_gateway,POINT,1,true,"concat(""id"", ' | ', ""name"")",true
+111 V7 geometric candidates,./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=V7_ALL_111_GEOMETRY_ONLY,ogr,True,True,True,V7_ALL_111_GEOMETRY_ONLY,LINESTRING,0,,,
+10 V8 geometric links,./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=V8_CIQ_PORT_10_GROUND_AND_UAV_GEOMETRY,ogr,True,True,True,V8_CIQ_PORT_10_GROUND_AND_UAV_GEOMETRY,LINESTRING,0,,,
+Ground only harbour beelines,./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=HOLD_ground_only_harbours,ogr,True,True,True,HOLD_ground_only_harbours,LINESTRING,0,,,
+WMP228 historic full reference discs,./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=WMP228_history_two_discs,ogr,True,True,True,WMP228_history_two_discs,POLYGON,0,,,
+Senai proximity advisory,./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=Senai_5NM_aerodrome_ADVISORY,ogr,True,True,True,Senai_5NM_aerodrome_ADVISORY,POLYGON,0,,,
+A/C approximate study bounds,./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=AC_study_corridors_APPROX,ogr,True,True,True,AC_study_corridors_APPROX,POLYGON,0,,,
+B convex hull display boundary,./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=B_geometric_display_envelope,ogr,True,True,True,B_geometric_display_envelope,POLYGON,0,,,
+DJI/Wing nominal example reaches,./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=UAV_4_SITE_SEARCH_REACH_2_MODELS,ogr,True,True,True,UAV_4_SITE_SEARCH_REACH_2_MODELS,POLYGON,0,,,
+V8 DJI nominal range,./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=V8_DJI_GEOMETRIC_REACH_ONLY,ogr,True,True,True,V8_DJI_GEOMETRIC_REACH_ONLY,POLYGON,0,,,
+B ten original nodes,./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=B_10_FROZEN_NOT_PADS,ogr,True,True,True,B_10_FROZEN_NOT_PADS,POINT,0,,,
+B 33 original links,./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=B_33_FROZEN_reaudited,ogr,True,True,True,B_33_FROZEN_reaudited,LINESTRING,0,,,
+A/C 52 original nodes,./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=AC_52_nodes_NOT_PADS,ogr,True,True,True,AC_52_nodes_NOT_PADS,POINT,0,,,
+A/C 78 original edges,./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=AC_78_geometric_links,ogr,True,True,True,AC_78_geometric_links,LINESTRING,0,,,
+12 priority site search candidates,./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=V7_12_SEARCH_ONLY_SITE_PRIORITIES,ogr,True,True,True,V7_12_SEARCH_ONLY_SITE_PRIORITIES,POINT,0,,,
+Senibong OSM conflict reference,./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=Senibong_OSM_conflict_point,ogr,True,True,True,Senibong_OSM_conflict_point,POINT,0,,,
+V8 circles backup (off),./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=V8_WMP228_TWO_REFERENCE_DISCS,ogr,True,True,True,V8_WMP228_TWO_REFERENCE_DISCS,POLYGON,0,,,

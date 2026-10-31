@@ -1,0 +1,251 @@
+{
+  "audit_kind": "LOCAL_FILE_AND_GATE_READINESS_NOT_NUMERIC_SIMULATION",
+  "version": "2026-10-30",
+  "zip_packages": [
+    {
+      "filename": "CIQ_V2_Carbon_First_Experiments_Full_Roadmap_20261030.zip",
+      "present": true,
+      "size_bytes": 140792,
+      "sha256": "0fa78f16ec00cafa71e22e8c4120bec0ace2acd47ab3832cbc06405b9ee4fa6b",
+      "zip_crc": "PASS",
+      "bad_member": null,
+      "member_files": 117,
+      "member_uncompressed_bytes": 209211,
+      "gis_member_files": [],
+      "source_data_member_files": 0
+    },
+    {
+      "filename": "CIQ_V2_1_SCI_Method_Review_and_Work_Handoff_20261030.zip",
+      "present": true,
+      "size_bytes": 25256,
+      "sha256": "d2941285c8f1d4cb51320d7475358db9998673a7e9775843fa94e3c0f1362a98",
+      "zip_crc": "PASS",
+      "bad_member": null,
+      "member_files": 14,
+      "member_uncompressed_bytes": 37894,
+      "gis_member_files": [],
+      "source_data_member_files": 0
+    },
+    {
+      "filename": "CIQ_V2_V2_S06_Step_by_Step_20261030.zip",
+      "present": true,
+      "size_bytes": 54163,
+      "sha256": "9dc91818641996b263379f3912226fe84b378b014bddd9071857860e238604d1",
+      "zip_crc": "PASS",
+      "bad_member": null,
+      "member_files": 35,
+      "member_uncompressed_bytes": 109710,
+      "gis_member_files": [],
+      "source_data_member_files": 0
+    },
+    {
+      "filename": "CIQ_V2_V2_S07_Step_by_Step_20261030.zip",
+      "present": true,
+      "size_bytes": 54372,
+      "sha256": "b4ae178c0fbfa0cb5db03948c306d9cadcde5f876ee2f7048c33ce61a6ab7f13",
+      "zip_crc": "PASS",
+      "bad_member": null,
+      "member_files": 35,
+      "member_uncompressed_bytes": 109740,
+      "gis_member_files": [],
+      "source_data_member_files": 0
+    },
+    {
+      "filename": "CIQ_V2_V2_S08_Step_by_Step_20261030.zip",
+      "present": true,
+      "size_bytes": 54298,
+      "sha256": "1ef2e8624d87e9d33f9dd5b1a397c05d0a75ab3eaeea161d0e746d07f8bbc516",
+      "zip_crc": "PASS",
+      "bad_member": null,
+      "member_files": 35,
+      "member_uncompressed_bytes": 109645,
+      "gis_member_files": [],
+      "source_data_member_files": 0
+    },
+    {
+      "filename": "CIQ_V2_V2_S09_Step_by_Step_20261030.zip",
+      "present": true,
+      "size_bytes": 54571,
+      "sha256": "09dfd6e482a52cc8702697c57670c234c83453929931038325c46543b2c8802a",
+      "zip_crc": "PASS",
+      "bad_member": null,
+      "member_files": 35,
+      "member_uncompressed_bytes": 110038,
+      "gis_member_files": [],
+      "source_data_member_files": 0
+    },
+    {
+      "filename": "CIQ_V2_V2_S10_Step_by_Step_20261030.zip",
+      "present": true,
+      "size_bytes": 54779,
+      "sha256": "020404f9670fbe5d4adfa75e6492a3c614dcc822343c0b0224e7486fbb113a3e",
+      "zip_crc": "PASS",
+      "bad_member": null,
+      "member_files": 35,
+      "member_uncompressed_bytes": 110385,
+      "gis_member_files": [],
+      "source_data_member_files": 0
+    },
+    {
+      "filename": "CIQ_V2_V2_S11_Step_by_Step_20261030.zip",
+      "present": true,
+      "size_bytes": 55210,
+      "sha256": "bb525830814c127414bf63d8524f6e692ef822d9d623d6f4cde8242c7fcfdbca",
+      "zip_crc": "PASS",
+      "bad_member": null,
+      "member_files": 36,
+      "member_uncompressed_bytes": 111086,
+      "gis_member_files": [],
+      "source_data_member_files": 0
+    },
+    {
+      "filename": "CIQ_V2_V2_S12_Step_by_Step_20261030.zip",
+      "present": true,
+      "size_bytes": 54481,
+      "sha256": "422eafdac44d1e7de6321f9ba2c663d8180ad39bb7bd77d14d6b25b2112fcb77",
+      "zip_crc": "PASS",
+      "bad_member": null,
+      "member_files": 35,
+      "member_uncompressed_bytes": 109875,
+      "gis_member_files": [],
+      "source_data_member_files": 0
+    }
+  ],
+  "gis_files_found": [],
+  "stage_inputs": [
+    {
+      "stage": "V2-S06",
+      "contract_present": true,
+      "mandatory_input_count": 5,
+      "local_input_present": [],
+      "missing_input": [
+        "qgis_project_bundle.zip",
+        "nodes.csv",
+        "edges.csv",
+        "spatial_screen.csv",
+        "legacy_crosswalk.csv"
+      ],
+      "all_inputs_version_frozen": false,
+      "local_preflight": "HOLD"
+    },
+    {
+      "stage": "V2-S07",
+      "contract_present": true,
+      "mandatory_input_count": 4,
+      "local_input_present": [],
+      "missing_input": [
+        "frozen_tasks.csv",
+        "road_od_hourly.csv",
+        "weather_hourly.csv",
+        "cross_border_wait.csv"
+      ],
+      "all_inputs_version_frozen": false,
+      "local_preflight": "HOLD"
+    },
+    {
+      "stage": "V2-S08",
+      "contract_present": true,
+      "mandatory_input_count": 4,
+      "local_input_present": [],
+      "missing_input": [
+        "vehicle_registry.csv",
+        "fuel_parameters.csv",
+        "road_trips_m0.csv",
+        "fuel_costs.csv"
+      ],
+      "all_inputs_version_frozen": false,
+      "local_preflight": "HOLD"
+    },
+    {
+      "stage": "V2-S09",
+      "contract_present": true,
+      "mandatory_input_count": 4,
+      "local_input_present": [],
+      "missing_input": [
+        "uav_models.csv",
+        "uav_energy_parameters.csv",
+        "uav_candidate_missions.csv",
+        "regulatory_scenarios.csv"
+      ],
+      "all_inputs_version_frozen": false,
+      "local_preflight": "HOLD"
+    },
+    {
+      "stage": "V2-S10",
+      "contract_present": true,
+      "mandatory_input_count": 4,
+      "local_input_present": [],
+      "missing_input": [
+        "dispatch_config.json",
+        "paired_tasks.csv",
+        "road_trip_library.csv",
+        "uav_mission_library.csv"
+      ],
+      "all_inputs_version_frozen": false,
+      "local_preflight": "HOLD"
+    },
+    {
+      "stage": "V2-S11",
+      "contract_present": true,
+      "mandatory_input_count": 5,
+      "local_input_present": [],
+      "missing_input": [
+        "trip_ledger.csv",
+        "order_mode_results.csv",
+        "emission_factor_register.csv",
+        "cost_parameter_register.csv",
+        "optimization_constraints.json"
+      ],
+      "all_inputs_version_frozen": false,
+      "local_preflight": "HOLD"
+    },
+    {
+      "stage": "V2-S12",
+      "contract_present": true,
+      "mandatory_input_count": 4,
+      "local_input_present": [],
+      "missing_input": [
+        "paired_run_results.csv",
+        "uncertainty_draws.csv",
+        "release_qa.json",
+        "figure_data.csv"
+      ],
+      "all_inputs_version_frozen": false,
+      "local_preflight": "HOLD"
+    }
+  ],
+  "v2_manifest": {
+    "present": true,
+    "checked_entries": 116,
+    "mismatches": [],
+    "status": "PASS"
+  },
+  "v2_1_manifest": {
+    "present": true,
+    "checked_entries": 13,
+    "mismatches": [],
+    "status": "PASS"
+  },
+  "tests": {
+    "status": "PASS",
+    "exit_code": 0,
+    "stdout": "PASS: 7 technical tests (synthetic fixture only; no real emissions model run)",
+    "stderr": "",
+    "note": "synthetic fixtures only; no real simulation"
+  },
+  "strict_stage_gate": {
+    "exit_code": 2,
+    "strict_hold_observed": true,
+    "stdout": "V2_S06: HOLD | 7 blockers\n  - MISSING_INPUT:edges.csv\n  - MISSING_INPUT:legacy_crosswalk.csv\n  - MISSING_INPUT:nodes.csv\n  - MISSING_INPUT:qgis_project_bundle.zip\n  - MISSING_INPUT:spatial_screen.csv\n  - QA_GATES_NOT_ALL_PASS\n  - SCIENTIFIC_APPROVAL_MISSING\nV2_S07: HOLD | 7 blockers\n  - MISSING_INPUT:cross_border_wait.csv\n  - MISSING_INPUT:frozen_tasks.csv\n  - MISSING_INPUT:road_od_hourly.csv\n  - MISSING_INPUT:weather_hourly.csv\n  - QA_GATES_NOT_ALL_PASS\n  - SCIENTIFIC_APPROVAL_MISSING\n  - UPSTREAM_NOT_APPROVED:V2_S06\nV2_S08: HOLD | 7 blockers\n  - MISSING_INPUT:fuel_costs.csv\n  - MISSING_INPUT:fuel_parameters.csv\n  - MISSING_INPUT:road_trips_m0.csv\n  - MISSING_INPUT:vehicle_registry.csv\n  - QA_GATES_NOT_ALL_PASS\n  - SCIENTIFIC_APPROVAL_MISSING\n  - UPSTREAM_NOT_APPROVED:V2_S07\nV2_S09: HOLD | 7 blockers\n  - MISSING_INPUT:regulatory_scenarios.csv\n  - MISSING_INPUT:uav_candidate_missions.csv\n  - MISSING_INPUT:uav_energy_parameters.csv\n  - MISSING_INPUT:uav_models.csv\n  - QA_GATES_NOT_ALL_PASS\n  - SCIENTIFIC_APPROVAL_MISSING\n  - UPSTREAM_NOT_APPROVED:V2_S07\nV2_S10: HOLD | 8 blockers\n  - MISSING_INPUT:dispatch_config.json\n  - MISSING_INPUT:paired_tasks.csv\n  - MISSING_INPUT:road_trip_library.csv\n  - MISSING_INPUT:uav_mission_library.csv\n  - QA_GATES_NOT_ALL_PASS\n  - SCIENTIFIC_APPROVAL_MISSING\n  - UPSTREAM_NOT_APPROVED:V2_S08\n  - UPSTREAM_NOT_APPROVED:V2_S09\nV2_S11: HOLD | 8 blockers\n  - MISSING_INPUT:cost_parameter_register.csv\n  - MISSING_INPUT:emission_factor_register.csv\n  - MISSING_INPUT:optimization_constraints.json\n  - MISSING_INPUT:order_mode_results.csv\n  - MISSING_INPUT:trip_ledger.csv\n  - QA_GATES_NOT_ALL_PASS\n  - SCIENTIFIC_APPROVAL_MISSING\n  - UPSTREAM_NOT_APPROVED:V2_S10\nV2_S12: HOLD | 7 blockers\n  - MISSING_INPUT:figure_data.csv\n  - MISSING_INPUT:paired_run_results.csv\n  - MISSING_INPUT:release_qa.json\n  - MISSING_INPUT:uncertainty_draws.csv\n  - QA_GATES_NOT_ALL_PASS\n  - SCIENTIFIC_APPROVAL_MISSING\n  - UPSTREAM_NOT_APPROVED:V2_S11",
+    "stderr": "",
+    "note": "run on temporary copy of prior project; does not touch original data"
+  },
+  "summary": {
+    "planning_packages_integrity": "PASS",
+    "expected_stage_inputs": 30,
+    "actual_stage_input_files_present": 0,
+    "real_qgis_source_present": false,
+    "research_implementation": "MISSING_OR_NOT_VALIDATED",
+    "release_decision": "CONDITIONAL_GO_ENGINEERING_ONLY__HOLD_FORMAL_EXPERIMENT"
+  }
+}

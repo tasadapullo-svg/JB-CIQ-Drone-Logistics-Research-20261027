@@ -1,0 +1,70 @@
+﻿node_id,full_name,name,zone_source,zone_gpkg,longitude_E,latitude_N,longitude,latitude,_merge,coords_equal,names_equal,label_has_name,label_has_id
+A01,Swift Tebrau II,Swift Tebrau II,A,A,103.7743763,1.5311284,103.7743763,1.5311284,both,True,True,True,True
+A02,Tebrau II,Tebrau II,A,A,103.77658,1.53356,103.77658,1.53356,both,True,True,True,True
+A03,Bakar Batu,Bakar Batu,A,A,103.783,1.4985,103.783,1.4985,both,True,True,True,True
+A04,Mid Valley Southkey,Mid Valley Southkey,A,A,103.777987,1.500802,103.777987,1.500802,both,True,True,True,True
+A05,Taman Molek,Taman Molek,A,A,103.7842881,1.5204315,103.7842881,1.5204315,both,True,True,True,True
+A06,Permas Jaya,Permas Jaya,A,A,103.81647,1.49596,103.81647,1.49596,both,True,True,True,True
+A07,Kampung Tengah,Kampung Tengah,A,A,103.7997,1.5013,103.7997,1.5013,both,True,True,True,True
+A08,Pandan wholesale market,Pandan wholesale market,A,A,103.76439,1.5263,103.76439,1.5263,both,True,True,True,True
+A09,Bukit Indah industrial reference,Bukit Indah industrial reference,C,C,103.65939,1.49927,103.65939,1.49927,both,True,True,True,True
+A10,Bukit Indah courier reference,Bukit Indah courier reference,C,C,103.6633132,1.4868072,103.6633132,1.4868072,both,True,True,True,True
+A_C01,Taman Sri Stulang,Taman Sri Stulang,A,A,103.78839,1.49531,103.78839,1.49531,both,True,True,True,True
+A_C02,Taman Sentosa,Taman Sentosa,A,A,103.77529,1.49352,103.77529,1.49352,both,True,True,True,True
+A_C03,Kampung Senibong,Kampung Senibong,A,A,103.8172,1.4883,103.8172,1.4883,both,True,True,True,True
+A_C04,Kampung Setulang Laut,Kampung Setulang Laut,A,A,103.778,1.4706,103.778,1.4706,both,True,True,True,True
+A_N01,Taman Bayu Puteri,Taman Bayu Puteri,A,A,103.7904,1.50059,103.7904,1.50059,both,True,True,True,True
+A_N02,AEON Permas Jaya,AEON Permas Jaya,A,A,103.81838,1.4961,103.81838,1.4961,both,True,True,True,True
+A_N03,Senibong Cove,Senibong Cove,A,A,103.83147,1.48613,103.83147,1.48613,both,True,True,True,True
+A_N04,Giant Hypermarket Plentong,Giant Hypermarket Plentong,A,A,103.81482,1.52818,103.81482,1.52818,both,True,True,True,True
+A_N05,Taman Perindustrian Plentong,Taman Perindustrian Plentong,A,A,103.81719,1.52906,103.81719,1.52906,both,True,True,True,True
+A_N06,Taman Johor Jaya,Taman Johor Jaya,A,A,103.8024,1.5428,103.8024,1.5428,both,True,True,True,True
+A_N07,Kawasan Perindustrian Sri Pelentong,Kawasan Perindustrian Sri Pelentong,A,A,103.8327,1.5167,103.8327,1.5167,both,True,True,True,True
+A_N08,Taman Plentong Utama,Taman Plentong Utama,A,A,103.82572,1.52331,103.82572,1.52331,both,True,True,True,True
+A_N09,Taman Pelangi,Taman Pelangi,A,A,103.77535,1.47607,103.77535,1.47607,both,True,True,True,True
+A_N10,KSL City Mall,KSL City Mall,A,A,103.76228,1.48537,103.76228,1.48537,both,True,True,True,True
+A_P01,Berjaya Waterfront surface parking,Berjaya Waterfront surface parking,A_PORT,PORT,103.78232,1.46958,103.78232,1.46958,both,True,True,True,True
+A_P02,The Zon Duty Free,The Zon Duty Free,A_PORT,PORT,103.78294,1.47156,103.78294,1.47156,both,True,True,True,True
+A_P03,De Stulang commercial precinct,De Stulang commercial precinct,A_PORT,PORT,103.78129,1.46979,103.78129,1.46979,both,True,True,True,True
+A_P04,Stulang Residents bus stop,Stulang Residents bus stop,A_PORT,PORT,103.7811,1.47115,103.7811,1.47115,both,True,True,True,True
+A_P05,Berjaya Waterfront Food Truck Park,Berjaya Waterfront Food Truck Park,A_PORT,PORT,103.78196,1.46912,103.78196,1.46912,both,True,True,True,True
+A_P06,Johor Bahru International Ferry Terminal building,Johor Bahru International Ferry Terminal building,A_PORT,PORT,103.78456,1.47088,103.78456,1.47088,both,True,True,True,True
+B00,Sultan Abu Bakar CIQ / Second Link,Sultan Abu Bakar CIQ / Second Link,B,B,103.59894,1.37765,103.59894,1.37765,both,True,True,True,True
+B01,Truck transfer search zone west (B-T1),Truck transfer search zone west (B-T1),B,B,103.598,1.392,103.598,1.392,both,True,True,True,True
+B02,Truck transfer search zone east (B-T2),Truck transfer search zone east (B-T2),B,B,103.62,1.39,103.62,1.39,both,True,True,True,True
+B03,Kampung Ladang,Kampung Ladang,B,B,103.61988,1.36614,103.61988,1.36614,both,True,True,True,True
+B04,Kampung Tanjung Kupang,Kampung Tanjung Kupang,B,B,103.60302,1.35327,103.60302,1.35327,both,True,True,True,True
+B05,Kampung Pendas Baru,Kampung Pendas Baru,B,B,103.63508,1.37613,103.63508,1.37613,both,True,True,True,True
+B06,Medini township,Medini township,B,B,103.62725,1.41221,103.62725,1.41221,both,True,True,True,True
+B07,Eco Botanic retail precinct,Eco Botanic retail precinct,B,B,103.6205,1.4487,103.6205,1.4487,both,True,True,True,True
+B08,Port of Tanjung Pelepas,Port of Tanjung Pelepas,B,B,103.5468,1.358,103.5468,1.358,both,True,True,True,True
+B09,Forest City Golf Hotel area,Forest City Golf Hotel area,B,B,103.5528,1.41112,103.5528,1.41112,both,True,True,True,True
+C01,AEON Bukit Indah,AEON Bukit Indah,C,C,103.65556,1.48044,103.65556,1.48044,both,True,True,True,True
+C02,J&T Bukit Indah (JHR479),J&T Bukit Indah (JHR479),C,C,103.6505056,1.4771782,103.6505056,1.4771782,both,True,True,True,True
+C03,Horizon Hills,Horizon Hills,C,C,103.64555,1.4576,103.64555,1.4576,both,True,True,True,True
+C04,J&T Nusa Sentral (JHR408),J&T Nusa Sentral (JHR408),C,C,103.6245841,1.4688333,103.6245841,1.4688333,both,True,True,True,True
+C05,Eco Galleria,Eco Galleria,C,C,103.61631,1.44104,103.61631,1.44104,both,True,True,True,True
+C06,MBE Eco Botanic (reference),MBE Eco Botanic (reference),C,C,103.6181463,1.4407571,103.6181463,1.4407571,both,True,True,True,True
+C07,Sunway Big Box Retail Park,Sunway Big Box Retail Park,C,C,103.62855,1.39669,103.62855,1.39669,both,True,True,True,True
+C08,Sutera Mall precinct,Sutera Mall precinct,C,C,103.67148,1.51709,103.67148,1.51709,both,True,True,True,True
+C09,Paradigm Mall Johor Bahru,Paradigm Mall Johor Bahru,C,C,103.68541,1.5159,103.68541,1.5159,both,True,True,True,True
+C10,Kempas,Kempas,C,C,103.7051,1.5288,103.7051,1.5288,both,True,True,True,True
+C11,Setia Tropika,Setia Tropika,C,C,103.7184,1.5462,103.7184,1.5462,both,True,True,True,True
+C12,Tebing @ Bandar Dato Onn,Tebing @ Bandar Dato Onn,C,C,103.73679,1.5521,103.73679,1.5521,both,True,True,True,True
+C13,Kangkar Tebrau,Kangkar Tebrau,C,C,103.75577,1.5312,103.75577,1.5312,both,True,True,True,True
+C14,Taman Nusa Bestari 2,Taman Nusa Bestari 2,C,C,103.6533,1.49385,103.6533,1.49385,both,True,True,True,True
+C15,Taman Nusa Idaman,Taman Nusa Idaman,C,C,103.63836,1.47271,103.63836,1.47271,both,True,True,True,True
+C16,Taman Nusa Indah,Taman Nusa Indah,C,C,103.63147,1.4774,103.63147,1.4774,both,True,True,True,True
+C17,Mutiara Rini,Mutiara Rini,C,C,103.63221,1.51383,103.63221,1.51383,both,True,True,True,True
+C18,Taman Ungku Tun Aminah,Taman Ungku Tun Aminah,C,C,103.66164,1.52056,103.66164,1.52056,both,True,True,True,True
+C19,Lima Kedai,Lima Kedai,C,C,103.61698,1.50231,103.61698,1.50231,both,True,True,True,True
+C20,Taman Nusa Bayu,Taman Nusa Bayu,C,C,103.60088,1.48009,103.60088,1.48009,both,True,True,True,True
+C21,Southern Industrial and Logistics Clusters,Southern Industrial and Logistics Clusters,C,C,103.59728,1.46662,103.59728,1.46662,both,True,True,True,True
+C22,EduCity Iskandar Malaysia,EduCity Iskandar Malaysia,C,C,103.61348,1.43277,103.61348,1.43277,both,True,True,True,True
+C23,Puteri Harbour,Puteri Harbour,C,C,103.65815,1.41706,103.65815,1.41706,both,True,True,True,True
+C24,Taman Mutiara Utama,Taman Mutiara Utama,C,C,103.62071,1.48934,103.62071,1.48934,both,True,True,True,True
+C25,Taman Anggerik,Taman Anggerik,C,C,103.69155,1.53445,103.69155,1.53445,both,True,True,True,True
+C26,Taman Universiti,Taman Universiti,C,C,103.62863,1.53769,103.62863,1.53769,both,True,True,True,True
+C27,Taman Nusantara Prima,Taman Nusantara Prima,C,C,103.58949,1.47979,103.58949,1.47979,both,True,True,True,True
+G_CIQ,Sultan Iskandar CIQ / Causeway,Sultan Iskandar CIQ / Causeway,CIQ_GROUND,GATEWAY,103.76663,1.46502,103.76663,1.46502,both,True,True,True,True
+T_STULANG,Berjaya Waterfront Ferry Terminal,Berjaya Waterfront Ferry Terminal,A,A,103.78491,1.47028,103.78491,1.47028,both,True,True,True,True

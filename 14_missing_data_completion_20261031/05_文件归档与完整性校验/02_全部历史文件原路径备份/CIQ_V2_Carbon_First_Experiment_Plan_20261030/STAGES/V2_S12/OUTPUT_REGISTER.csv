@@ -1,0 +1,5 @@
+﻿filename,definition,status,sha256
+rq1_rq2_rq3_summary.csv,论文三问逐条量化结果,NOT_PRODUCED,
+sensitivity_summary.csv,风雨/拥堵/油耗/能耗/成本边界,NOT_PRODUCED,
+figures/,Fig.3–Fig.7正式科研图,NOT_PRODUCED,
+replication_report.md,可重复执行日志和引用/限制,NOT_PRODUCED,

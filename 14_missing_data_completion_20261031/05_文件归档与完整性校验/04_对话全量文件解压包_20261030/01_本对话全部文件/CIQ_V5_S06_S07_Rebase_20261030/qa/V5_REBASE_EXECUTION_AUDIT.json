@@ -1,0 +1,50 @@
+{
+  "status": "S06_V5_SPATIAL_PASS__S07_SYNTHETIC_CONDITIONAL__ROAD_WEATHER_HOLD",
+  "v5_zip_sha256": "0d19633630b6f12525ad9bd776bbf966ec1e8a46520bd8bc3d904013b02dce74",
+  "v5_active_gpkg_sha256": "1edbeeba32257f35dfbb90bf36c0e86474a032038d1783fcfc85bb34ab94311b",
+  "nodes": 68,
+  "zones": {
+    "A": 29,
+    "B": 10,
+    "C": 29
+  },
+  "lines_by_type": {
+    "GROUND_HANDOFF_STRAIGHT_REFERENCE": 5,
+    "GROUND_ONLY_HOLD_EXTRA": 4,
+    "UAV_GEOMETRY_CANDIDATE_ONLY": 116
+  },
+  "legacy19_crosswalk_categories": {
+    "OLD_ID_ABSENT_NEAREST_COORDINATE_CANDIDATE": 1,
+    "ID_COLLISION_DIFFERENT_GEO_HARD_BLOCK": 8,
+    "SAME_COORDINATES_ID_NOT_AUTO_APPROVED": 10
+  },
+  "old_order_migrations_approved": 0,
+  "old37_od_repair_applied": 0,
+  "weather_hourly_index": 3672,
+  "historical_era5_grid_unique": 2,
+  "grids_over_10km": 31,
+  "synthetic_tasks_total": 82620,
+  "synthetic_seed_count": 30,
+  "synthetic_orders_per_day_per_zone": 6,
+  "tasks_by_origin_zone": {
+    "A": 27540,
+    "B": 27540,
+    "C": 27540
+  },
+  "tasks_per_month": {
+    "2026-05": 16740,
+    "2026-06": 16200,
+    "2026-07": 16740,
+    "2026-08": 16740,
+    "2026-09": 16200
+  },
+  "cross_zone_stress_count": 13770,
+  "release_hour_coverage": 24,
+  "destinations_with_orders": 58,
+  "same_task_id_for_five_modes": "TO_BE_USED_BY_S10_SHARED_LEDGER_NOT_YET_SIMULATED",
+  "actual_fuel_CO2_calculated": false,
+  "actual_weather_values_read": false,
+  "directed_road_routes_computed": false,
+  "simulation_status": "HOLD_MISSING_REAL_WEATHER_NUMERICS_ABC_DIRECTIONAL_ROAD_GRAPH_AND_ENERGY_EVIDENCE",
+  "interpretation": "Synthetic tasks are an explicit scenario design, NOT observed orders nor empirically calibrated market demand."
+}

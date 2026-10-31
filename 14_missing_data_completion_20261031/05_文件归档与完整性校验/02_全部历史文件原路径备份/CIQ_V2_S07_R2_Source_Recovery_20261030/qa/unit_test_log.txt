@@ -1,0 +1,21 @@
+test_bad_version_rejected (test_sources_pipeline.TestPipeline.test_bad_version_rejected) ... ok
+test_blob_hash_reproducible (test_sources_pipeline.TestPipeline.test_blob_hash_reproducible) ... ok
+test_directed_road_graph_read_not_approval (test_sources_pipeline.TestPipeline.test_directed_road_graph_read_not_approval) ... ok
+test_missing_sources_not_pass (test_sources_pipeline.TestPipeline.test_missing_sources_not_pass) ... ok
+test_missing_weather_holds (test_sources_pipeline.TestPipeline.test_missing_weather_holds) ... ok
+test_raw_workbook_reading (test_sources_pipeline.TestPipeline.test_raw_workbook_reading) ... ok
+test_real_pinned_index (test_sources_pipeline.TestPipeline.test_real_pinned_index) ... ok
+test_road_coverage_all_zones_on_missing (test_sources_pipeline.TestPipeline.test_road_coverage_all_zones_on_missing) ... ok
+test_absent_era5_does_not_generate_rows (test_sources_pipeline.TestWeatherJoin.test_absent_era5_does_not_generate_rows) ... ok
+test_real_join_logic_synthetic_fixture_only (test_sources_pipeline.TestWeatherJoin.test_real_join_logic_synthetic_fixture_only) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.008s
+
+OK
+{"source_total": 1, "counts": {"FAIL_VERSION_OR_INTEGRITY": 1}}
+{"graphs": [{"area": "A", "status": "HISTORIC_GRAPH_TOPOLOGY_READ_NOT_OPERATIONAL_RELEASE", "nodes_in_arcs": 2, "arcs": 1, "malformed_rows": 0, "nodes_checked": 1, "edge_direction_retained": true}, {"area": "B", "status": "HOLD_OSM_FILES_MISSING", "nodes": 0, "arcs": 0}], "site_rows": 1, "release": "HOLD"}
+{"source_total": 11, "counts": {"HOLD_MISSING_BYTES": 11}}
+{"graphs": [{"area": "A", "status": "HOLD_OSM_FILES_MISSING", "nodes": 0, "arcs": 0}, {"area": "B", "status": "HOLD_OSM_FILES_MISSING", "nodes": 0, "arcs": 0}], "site_rows": 5, "release": "HOLD"}
+{"status": "HOLD", "input_era5": "/tmp/tmpawgn9c2s/bad.csv", "input_assignment": "/tmp/tmpawgn9c2s/a.csv", "reason": "HOLD_ERA5_CSV_NOT_PRESENT"}
+{"status": "GENERATED_SPATIAL_PROXY_ONLY", "input_era5": "/tmp/tmpexb_ujg4/a.csv", "input_assignment": "/tmp/tmpexb_ujg4/ass.csv", "detected_columns": {"point_id": "point_id", "hour": "timestamp_hour_start_sgt", "wind_speed_ms": "ERA5_wind_10m_ms", "wind_direction_deg": "ERA5_wind_direction_10m_deg", "rainfall_mm_h": "ERA5_precipitation_mm_h", "gust_ms": null}, "row_count": 2, "source_reference_count": 2, "used_cells": 2, "rain_unit_release": "HOLD_CONFIRM_SOURCE_TIME_INTERVAL_AND_UNITS", "flight_weather_release": "HOLD_REAL_TAKEOFF_INTERVAL_NOT_EVALUATED", "output": "/tmp/tmpexb_ujg4/out/S07_ERA5_69node_3672hour_spatial_proxy_NOT_OPERATIONAL_RELEASE.csv"}

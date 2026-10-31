@@ -1,0 +1,31 @@
+{
+  "audit_id": "CIQ_S04_20261030",
+  "status": "HOLD_RECALC_BLOCKED",
+  "recalculation_authorized": false,
+  "source_files": {
+    "od": {
+      "path": null,
+      "status": "NOT_PROVIDED_OR_MISSING"
+    },
+    "repair_log": {
+      "path": null,
+      "status": "NOT_PROVIDED_OR_MISSING"
+    },
+    "weather_qc": {
+      "path": null,
+      "status": "NOT_PROVIDED_OR_MISSING"
+    },
+    "stage02_gate": {
+      "path": null,
+      "status": "NOT_PROVIDED_OR_MISSING"
+    }
+  },
+  "checks": {},
+  "blocking_reasons": [
+    "MISSING_OD",
+    "MISSING_REPAIR_LOG",
+    "MISSING_STAGE02_GATE",
+    "MISSING_WEATHER_QC"
+  ],
+  "notice": "Read-only audit, never authorizes traffic, weather, dispatch or emissions recalculation"
+}

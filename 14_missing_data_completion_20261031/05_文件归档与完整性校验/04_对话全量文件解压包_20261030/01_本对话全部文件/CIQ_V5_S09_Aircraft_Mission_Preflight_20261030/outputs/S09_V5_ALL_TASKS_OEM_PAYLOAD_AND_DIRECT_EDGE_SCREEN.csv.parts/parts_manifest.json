@@ -1,0 +1,9 @@
+{
+  "target_filename": "S09_V5_ALL_TASKS_OEM_PAYLOAD_AND_DIRECT_EDGE_SCREEN.csv",
+  "original_size_bytes": 31328880,
+  "sha256": "1ef4db41c6973e79aa5d0b6f618c3c67fbb05e49763d96c68ea3739b023a7b21",
+  "parts": [
+    "part_001.bin",
+    "part_002.bin"
+  ]
+}

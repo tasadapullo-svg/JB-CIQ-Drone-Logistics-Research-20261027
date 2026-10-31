@@ -1,0 +1,6 @@
+﻿filename,format,purpose,sha256,status,provenance_url,reviewer
+trip_ledger.csv,CSV,唯一燃油车/无人机/充电车次原始活动量,,MISSING,,
+order_mode_results.csv,CSV,可评价的同订单模式结果,,MISSING,,
+emission_factor_register.csv,CSV,燃料及电力因子、气体、国家、年份和不确定性,,MISSING,,
+cost_parameter_register.csv,CSV,成本参数 MYR、证据和区间,,MISSING,,
+optimization_constraints.json,JSON,服务/准时/成本约束和情景,,MISSING,,

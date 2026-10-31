@@ -1,0 +1,66 @@
+{
+  "output_dir": "/mnt/data/CIQ_V5_ALL_STAGES_SOURCE_DATA_AUDIT_20261030",
+  "files": 63,
+  "stage_zip_files": 6,
+  "historical_zip_files": 22,
+  "raw_main_rows": {
+    "node_count": 68,
+    "node_ids_unique": 68,
+    "zone_counts": {
+      "A": 29,
+      "B": 10,
+      "C": 29
+    },
+    "task_count": 82620,
+    "task_ids_unique": 82620,
+    "unmapped_tasks": 0,
+    "seed_count": 30,
+    "date_count": 153,
+    "seed_day_scenarios": 4590,
+    "all_runs_18_tasks": true,
+    "five_mode_run_keys": 22950,
+    "per_run_five_modes_and_one_hash": 4590,
+    "task_screen_rows": 82620,
+    "task_screen_unique": 82620,
+    "direct_edge_classes": {
+      "DIRECTED_CANDIDATE_MATCH_NOT_AIR_ROUTE": 11060,
+      "NO_DIRECT_CANDIDATE_GEOMETRY": 54143,
+      "REVERSE_CANDIDATE_ONLY_DIRECTION_UNVERIFIED": 17417
+    },
+    "all_s09_energy_empty": true,
+    "all_s07_no_operational_result": true,
+    "all_s10_no_operational_result": true,
+    "V5_archive_zip_sha256": "0d19633630b6f12525ad9bd776bbf966ec1e8a46520bd8bc3d904013b02dce74",
+    "GitHub_binary_source_files_in_index": 14,
+    "locally_available_verified_GitHub_binary_sources": 0,
+    "reexecuted_tests_total": 78,
+    "reexecuted_suites_all_pass": true
+  },
+  "tests": [
+    {
+      "test_suite": "S07_time_weather",
+      "test_count": 30,
+      "returncode": 0,
+      "result": "PASS"
+    },
+    {
+      "test_suite": "S07_pairing",
+      "test_count": 11,
+      "returncode": 0,
+      "result": "PASS"
+    },
+    {
+      "test_suite": "S08_petrol",
+      "test_count": 19,
+      "returncode": 0,
+      "result": "PASS"
+    },
+    {
+      "test_suite": "S09_drone",
+      "test_count": 18,
+      "returncode": 0,
+      "result": "PASS"
+    }
+  ],
+  "original_v5_sha256": "0d19633630b6f12525ad9bd776bbf966ec1e8a46520bd8bc3d904013b02dce74"
+}

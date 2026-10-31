@@ -1,0 +1,20 @@
+﻿legacy_id,legacy_name,legacy_zone,legacy_lon,legacy_lat,v5_same_id_name,v5_same_id_zone,same_id_distance_m,nearest_v5_id,nearest_v5_name,nearest_v5_distance_m,nearest_name_similarity,mapping_gate,orders_migration_authorized,geographic_semantics_review_required
+A00,Sultan Iskandar CIQ / Causeway,A,103.76663,1.46502,,,,G_CIQ,Sultan Iskandar CIQ / Causeway,0.0,1.0,OLD_ID_ABSENT_NEAREST_COORDINATE_CANDIDATE,NO,YES
+A01,Johor Bahru City Square,A,103.764194,1.461194,Swift Tebrau II,A,7858.3,G_CIQ,Sultan Iskandar CIQ / Causeway,504.3,0.189,ID_COLLISION_DIFFERENT_GEO_HARD_BLOCK,NO,YES
+A02,KOMTAR JBCC,A,103.76278,1.46369,Tebrau II,A,7919.19,G_CIQ,Sultan Iskandar CIQ / Causeway,452.79,0.293,ID_COLLISION_DIFFERENT_GEO_HARD_BLOCK,NO,YES
+A03,KSL City,A,103.76228,1.48537,Bakar Batu,A,2726.94,A_C02,Taman Sentosa,1706.65,0.19,ID_COLLISION_DIFFERENT_GEO_HARD_BLOCK,NO,YES
+A04,Pelangi Plaza,A,103.76515,1.48012,Mid Valley Southkey,A,2706.46,A_N09,Taman Pelangi,1219.97,0.538,ID_COLLISION_DIFFERENT_GEO_HARD_BLOCK,NO,YES
+A05,Larkin Sentral,A,103.74256,1.49571,Taman Molek,A,5391.74,A_C02,Taman Sentosa,3646.32,0.593,ID_COLLISION_DIFFERENT_GEO_HARD_BLOCK,NO,YES
+A06,R&F Princess Cove residential,A,103.76929,1.45963,Permas Jaya,A,6619.93,G_CIQ,Sultan Iskandar CIQ / Causeway,668.31,0.169,ID_COLLISION_DIFFERENT_GEO_HARD_BLOCK,NO,YES
+A07,Kampung Nong Chik,A,103.74062,1.46731,Kampung Tengah,A,7577.13,G_CIQ,Sultan Iskandar CIQ / Causeway,2902.43,0.255,ID_COLLISION_DIFFERENT_GEO_HARD_BLOCK,NO,YES
+A08,JB Sentral,A,103.76463,1.46297,Pandan wholesale market,A,7042.03,G_CIQ,Sultan Iskandar CIQ / Causeway,318.41,0.2,ID_COLLISION_DIFFERENT_GEO_HARD_BLOCK,NO,YES
+B00,Sultan Abu Bakar CIQ / Second Link,B,103.59894,1.37765,Sultan Abu Bakar CIQ / Second Link,B,0.0,B00,Sultan Abu Bakar CIQ / Second Link,0.0,1.0,SAME_COORDINATES_ID_NOT_AUTO_APPROVED,NO,YES
+B01,Truck transfer search zone west (B-T1),B,103.598,1.392,Truck transfer search zone west (B-T1),B,0.0,B01,Truck transfer search zone west (B-T1),0.0,1.0,SAME_COORDINATES_ID_NOT_AUTO_APPROVED,NO,YES
+B02,Truck transfer search zone east (B-T2),B,103.62,1.39,Truck transfer search zone east (B-T2),B,0.0,B02,Truck transfer search zone east (B-T2),0.0,1.0,SAME_COORDINATES_ID_NOT_AUTO_APPROVED,NO,YES
+B03,Kampung Ladang,B,103.61988,1.36614,Kampung Ladang,B,0.0,B03,Kampung Ladang,0.0,1.0,SAME_COORDINATES_ID_NOT_AUTO_APPROVED,NO,YES
+B04,Kampung Tanjung Kupang,B,103.60302,1.35327,Kampung Tanjung Kupang,B,0.0,B04,Kampung Tanjung Kupang,0.0,1.0,SAME_COORDINATES_ID_NOT_AUTO_APPROVED,NO,YES
+B05,Kampung Pendas Baru,B,103.63508,1.37613,Kampung Pendas Baru,B,0.0,B05,Kampung Pendas Baru,0.0,1.0,SAME_COORDINATES_ID_NOT_AUTO_APPROVED,NO,YES
+B06,Medini township,B,103.62725,1.41221,Medini township,B,0.0,B06,Medini township,0.0,1.0,SAME_COORDINATES_ID_NOT_AUTO_APPROVED,NO,YES
+B07,Eco Botanic retail precinct,B,103.6205,1.4487,Eco Botanic retail precinct,B,0.0,B07,Eco Botanic retail precinct,0.0,1.0,SAME_COORDINATES_ID_NOT_AUTO_APPROVED,NO,YES
+B08,Port of Tanjung Pelepas,B,103.5468,1.358,Port of Tanjung Pelepas,B,0.0,B08,Port of Tanjung Pelepas,0.0,1.0,SAME_COORDINATES_ID_NOT_AUTO_APPROVED,NO,YES
+B09,Forest City Golf Hotel area,B,103.5528,1.41112,Forest City Golf Hotel area,B,0.0,B09,Forest City Golf Hotel area,0.0,1.0,SAME_COORDINATES_ID_NOT_AUTO_APPROVED,NO,YES

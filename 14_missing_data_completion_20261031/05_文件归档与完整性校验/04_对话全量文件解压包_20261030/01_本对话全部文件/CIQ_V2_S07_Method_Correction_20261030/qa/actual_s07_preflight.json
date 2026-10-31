@@ -1,0 +1,177 @@
+{
+  "protocol": "V2-S07-CORRECTION-v1",
+  "audit_type": "ACTUAL_S06_PRECHECK_NO_NUMERIC_SIMULATION",
+  "source_paths": {
+    "nodes": {
+      "path": "/mnt/data/CIQ_V2_S06_V3_Input_Build_20261030/outputs/data/S06_69_node_master.csv",
+      "exists": true,
+      "sha256": "a291de6b3dc04850007b9c7b1d8907bbcf139bb81792492eecee2c8b4b339a5a"
+    },
+    "uav": {
+      "path": "/mnt/data/CIQ_V2_S06_V3_Input_Build_20261030/outputs/data/S06_116_uav_geometry_candidates_ONLY.csv",
+      "exists": true,
+      "sha256": "20e7a7f60bf69a5193a702291fa7ad1a56879570abc29c5795dea0ac4d54cbff"
+    },
+    "ground": {
+      "path": "/mnt/data/CIQ_V2_S06_V3_Input_Build_20261030/outputs/data/S06_5_ground_handoff_straight_references_NOT_ROUTES.csv",
+      "exists": true,
+      "sha256": "8a2ce87cc8929359978cbcd419dbdb1ca8f81591751110b11fe3bb9e3209e113"
+    },
+    "road": {
+      "path": "/mnt/data/CIQ_V2_S06_V3_Input_Build_20261030/outputs/data/S06_69_road_access_evidence_HOLD.csv",
+      "exists": true,
+      "sha256": "adf920a368e7c2f9ee5763c8b81e9b67a4f974c27d177ba0edd9f59a9420e641"
+    },
+    "airspace": {
+      "path": "/mnt/data/CIQ_V2_S06_V3_Input_Build_20261030/outputs/data/S06_69_airspace_and_site_evidence_HOLD.csv",
+      "exists": true,
+      "sha256": "6e620189f044127c0b5a184c33bec42a4eef9bda0129bcbd59966ec0641ce0ca"
+    },
+    "crosswalk": {
+      "path": "/mnt/data/CIQ_V2_S06_V3_Input_Build_20261030/outputs/data/S06_crosswalk_legacy19_vs_V3_69_NOT_VERIFIED.csv",
+      "exists": true,
+      "sha256": "40df0cf4d8f8001db6321a8323dda07d8eaaba69ba062e8a5e66899265c457e4"
+    },
+    "exceptions": {
+      "path": "/mnt/data/CIQ_V2_S06_V3_Input_Build_20261030/outputs/data/S06_legacy37_road_OD_exceptions_NOT_REPAIRED.csv",
+      "exists": true,
+      "sha256": "a3d3617b008911c4e9991db223b8a4ba0727b64706c70076ad5ad30a1724c7b9"
+    }
+  },
+  "facts": {
+    "node_rows": 69,
+    "zone_counts": {
+      "A": 23,
+      "C": 29,
+      "B": 10,
+      "PORT_A": 6,
+      "GATEWAY": 1
+    },
+    "uav_candidate_edges": 116,
+    "ground_reference_edges": 5,
+    "uav_zero_degree_node_count": 13,
+    "uav_zero_degree_node_ids": [
+      "A_C02",
+      "T_STULANG",
+      "A_C04",
+      "A_N09",
+      "A_N10",
+      "C23",
+      "B00",
+      "A_P02",
+      "A_P03",
+      "A_P04",
+      "A_P05",
+      "A_P06",
+      "G_CIQ"
+    ],
+    "legacy37_exception_rows": 37,
+    "ground_route_distance_populated_count": 0,
+    "verified_road_access_node_count": 0,
+    "actual_takeoff_approval_node_count": 0,
+    "legacy_crosswalk_coordinate_verified_count": 0,
+    "node_roles_by_zone_type": {
+      "A/LOGISTICS_FACILITY_SEARCH": 1,
+      "A/INDUSTRIAL_PARCEL_SEARCH": 3,
+      "A/SMALL_GROUND_FEEDER_SEARCH": 1,
+      "A/DEMAND_OR_REFERENCE": 5,
+      "C/INDUSTRIAL_PARCEL_SEARCH": 2,
+      "C/DEMAND_OR_REFERENCE": 1,
+      "A/COASTAL_NEIGHBORHOOD_REFERENCE": 1,
+      "A/MARGIN_CAUTION_DEMAND": 1,
+      "A/RESIDENTIAL_REFERENCE": 4,
+      "A/CONTROLLED_SEAPORT_GROUND_ONLY": 1,
+      "A/COASTAL_DEMAND_ONLY": 1,
+      "A/RETAIL_REFERENCE": 2,
+      "A/COASTAL_RESIDENTIAL_REFERENCE": 1,
+      "A/WMP_MARGIN_DEMAND_ONLY": 2,
+      "C/RETAIL_DEMAND": 4,
+      "C/COURIER_COUNTER": 3,
+      "C/RESIDENTIAL_REFERENCE": 12,
+      "C/RETAIL_AND_GROUND_HUB": 1,
+      "C/MIXED_USE_PLACE_REFERENCE": 1,
+      "C/COMMERCIAL_LANDUSE": 1,
+      "C/NEIGHBOURHOOD_REFERENCE": 1,
+      "C/TOWNSHIP_REFERENCE": 1,
+      "C/COMMERCIAL_EDUCATION_REFERENCE": 1,
+      "C/CONTROLLED_WATERFRONT_GROUND_ONLY": 1,
+      "B/B_FROZEN_REFERENCE": 10,
+      "PORT_A/UAV_PARCEL_SEARCH_ONLY": 1,
+      "PORT_A/COMMERCIAL_DEMAND_GROUND_ONLY": 1,
+      "PORT_A/COMMERCIAL_GROUND_EXCHANGE_ONLY": 1,
+      "PORT_A/GROUND_TRANSFER_REFERENCE": 1,
+      "PORT_A/LOCAL_RETAIL_DEMAND_ONLY": 1,
+      "PORT_A/PORT_STRUCTURE_GROUND_TERMINAL": 1,
+      "GATEWAY/GROUND_GATEWAY_ONLY": 1
+    }
+  },
+  "gates": {
+    "s06_integrity": {
+      "status": "PASS",
+      "reason": "expected 69 unique nodes/116 UAV/5 ground/37 historical exceptions with valid endpoints"
+    },
+    "mode_isolation": {
+      "status": "PASS",
+      "reason": "UAV and ground geometry classified distinctly"
+    },
+    "verified_road_graph": {
+      "status": "HOLD",
+      "reason": "no independently validated directed OSM road graph, entrance snaps, turns, and directed OD routes supplied"
+    },
+    "old_to_new_task_coordinates": {
+      "status": "HOLD",
+      "reason": "legacy original 19-point source coordinates and order remapping not verified"
+    },
+    "uav_operational_geometry": {
+      "status": "HOLD",
+      "reason": "unapproved straight geometry; not flight routes; nodes with zero degree exist"
+    },
+    "legal_airspace_site": {
+      "status": "HOLD",
+      "reason": "no date-valid machine-readable CAAM/CAAS boundaries, pad permission/ground-risk evidence; scenario-only analysis possible"
+    },
+    "source_weather_hourly_normalized.csv": {
+      "status": "HOLD",
+      "reason": "missing actual hourly meteorology with interval semantics, source, grid and QC"
+    },
+    "source_weather_node_grid_join.csv": {
+      "status": "HOLD",
+      "reason": "missing 69 nodes matched to actual weather grid cells with resolution/error"
+    },
+    "source_directed_osm_road_network.gpkg": {
+      "status": "HOLD",
+      "reason": "missing routable OSM source geometry with one-way/restrictions and snapshot hash"
+    },
+    "source_road_node_access.csv": {
+      "status": "HOLD",
+      "reason": "missing verified node-to-road vehicle entry, direction and component"
+    },
+    "source_road_od_hourly.csv": {
+      "status": "HOLD",
+      "reason": "missing directed road routes + time-varying speeds + source/evidence; never straight lines"
+    },
+    "source_frozen_tasks.csv": {
+      "status": "HOLD",
+      "reason": "missing one frozen and sourced task population with new-space assignment"
+    },
+    "source_task_population_manifest.json": {
+      "status": "HOLD",
+      "reason": "missing generation/provenance/seed selection, dates and immutable cohort digest"
+    },
+    "real_numeric_modes": {
+      "status": "HOLD",
+      "reason": "S07 does not certify M0/M1/M2 routing, UAV energy, emissions or real flight permission"
+    }
+  },
+  "missing_inputs": [
+    "weather_hourly_normalized.csv",
+    "weather_node_grid_join.csv",
+    "directed_osm_road_network.gpkg",
+    "road_node_access.csv",
+    "road_od_hourly.csv",
+    "frozen_tasks.csv",
+    "task_population_manifest.json"
+  ],
+  "warnings": [],
+  "overall": "HOLD_NOT_RELEASED_TO_FORMAL_M0_M1_M2"
+}

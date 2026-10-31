@@ -1,0 +1,68 @@
+{
+  "format": "CIQ_STAGE05_STRICT_RELEASE_GATE_V1",
+  "hard_requirements": [
+    {
+      "id": "S02_SPATIAL",
+      "status": "BLOCKED",
+      "evidence_path": null,
+      "sha256": null
+    },
+    {
+      "id": "ORDER_POPULATION",
+      "status": "BLOCKED",
+      "evidence_path": null,
+      "sha256": null
+    },
+    {
+      "id": "WEATHER_HOURLY",
+      "status": "BLOCKED",
+      "evidence_path": null,
+      "sha256": null
+    },
+    {
+      "id": "ROAD_OD_NEW",
+      "status": "BLOCKED",
+      "evidence_path": null,
+      "sha256": null
+    },
+    {
+      "id": "FUEL_CONSUMPTION_AND_CARBON",
+      "status": "BLOCKED",
+      "evidence_path": null,
+      "sha256": null
+    },
+    {
+      "id": "DJI_TASK_ENERGY",
+      "status": "BLOCKED",
+      "evidence_path": null,
+      "sha256": null
+    },
+    {
+      "id": "W198_CARGO_TASK_ENERGY",
+      "status": "BLOCKED",
+      "evidence_path": null,
+      "sha256": null
+    },
+    {
+      "id": "COUNTRY_GRID_GAS_HARMONIZED",
+      "status": "BLOCKED",
+      "evidence_path": null,
+      "sha256": null
+    },
+    {
+      "id": "CROSS_BORDER_SCENARIO_STATUS",
+      "status": "BLOCKED",
+      "evidence_path": null,
+      "sha256": null
+    },
+    {
+      "id": "MATCHED_TASK_SMOKE_TEST",
+      "status": "BLOCKED",
+      "evidence_path": null,
+      "sha256": null
+    }
+  ],
+  "approval": "DENY_ALL",
+  "auto_run": false,
+  "warning": "All hard requirements must have status PASS with an existing readable evidence file whose SHA256 equals the recorded hash. This only reports readiness; it NEVER executes simulations."
+}

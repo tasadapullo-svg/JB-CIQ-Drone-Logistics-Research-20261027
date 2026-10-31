@@ -1,0 +1,20 @@
+{
+ "source_repo":"tasadapullo-svg/JB-CIQ-Drone-Logistics-Research-20261027",
+ "source_commit":"4569817b8145efe2ae06f4b21addc1986f971c12",
+ "source_path":"data/weather_2026/processed/final_verification_summary.json",
+ "source_git_blob_sha1":"85845782a5f5cdbb4fa49737bb6e63aaa6dc06c7",
+ "summary_is_not_raw_weather":true,
+ "monthly": [
+  {"month":"2026-05","hourly_four_ref_rows":2976,"era5_rows":2980,"nasa_rows":2976,"rain_corr":0.0277,"wind_corr":0.2819,"nea_sg_rain_coverage_pct":3.16,"nea_sg_wind_speed_coverage_pct":1.81,"nea_sg_wind_direction_coverage_pct":0.07,"nea_status":"PARTIAL"},
+  {"month":"2026-06","hourly_four_ref_rows":2880,"era5_rows":2884,"nasa_rows":2880,"rain_corr":0.0319,"wind_corr":0.5402,"nea_sg_rain_coverage_pct":0,"nea_sg_wind_speed_coverage_pct":0,"nea_sg_wind_direction_coverage_pct":0,"nea_status":"NOT_REQUESTED"},
+  {"month":"2026-07","hourly_four_ref_rows":2976,"era5_rows":2980,"nasa_rows":2976,"rain_corr":0.0256,"wind_corr":0.6823,"nea_sg_rain_coverage_pct":0,"nea_sg_wind_speed_coverage_pct":0,"nea_sg_wind_direction_coverage_pct":0,"nea_status":"NOT_REQUESTED"},
+  {"month":"2026-08","hourly_four_ref_rows":2976,"era5_rows":2980,"nasa_rows":2976,"rain_corr":0.0875,"wind_corr":0.7674,"nea_sg_rain_coverage_pct":0,"nea_sg_wind_speed_coverage_pct":0,"nea_sg_wind_direction_coverage_pct":0,"nea_status":"NOT_REQUESTED"},
+  {"month":"2026-09","hourly_four_ref_rows":2880,"era5_rows":2884,"nasa_rows":2880,"rain_corr":0.1324,"wind_corr":0.673,"nea_sg_rain_coverage_pct":0,"nea_sg_wind_speed_coverage_pct":0,"nea_sg_wind_direction_coverage_pct":0,"nea_status":"NOT_REQUESTED"}
+ ],
+ "return_grids":[
+  {"point_id":"CW_MY","lat":1.5,"lon":103.75,"nasa_lat":1.465,"nasa_lon":103.767},
+  {"point_id":"CW_SG","lat":1.5,"lon":103.75,"nasa_lat":1.447,"nasa_lon":103.769},
+  {"point_id":"SL_MY","lat":1.5,"lon":103.5,"nasa_lat":1.378,"nasa_lon":103.599},
+  {"point_id":"SL_SG","lat":1.5,"lon":103.75,"nasa_lat":1.348,"nasa_lon":103.636}
+ ]
+}

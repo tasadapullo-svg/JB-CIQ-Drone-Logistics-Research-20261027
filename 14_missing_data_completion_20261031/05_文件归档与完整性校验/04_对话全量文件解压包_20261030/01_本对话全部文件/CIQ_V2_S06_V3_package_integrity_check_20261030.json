@@ -1,0 +1,10 @@
+{
+  "zip_name": "CIQ_V2_S06_V3_Frozen_Reference_Inputs_and_Audit_20261030.zip",
+  "zip_size_bytes": 2017298,
+  "zip_sha256": "7620230174b9490f9e344a530e9a48f3a09a753597436374f0110e205d59582d",
+  "zip_file_count": 28,
+  "manifest_hash_matches": 27,
+  "zip_crc": "PASS",
+  "all_sha256": "PASS",
+  "contains_original_uploaded_V3": true
+}

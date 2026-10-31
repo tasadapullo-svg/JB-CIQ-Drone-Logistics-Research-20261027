@@ -1,0 +1,14 @@
+﻿gate_id,criterion,status,observed_evidence,closure_evidence
+S02-01,Latest QGIS .qgs/.qgz frozen & SHA256,BLOCKED,No current QGIS project,Project file and project/version provenance
+S02-02,Local source completeness (GPKG/SHP/GeoJSON and sidecars),BLOCKED,Not accessible,"Referenced files and hashes, excludes online basemap from numeric inputs"
+S02-03,"CRS, WGS84 transformation and reasonable spatial extents",BLOCKED,Not accessible,Per-feature coordinates and exceptions
+S02-04,Zones A B C and all point IDs unique,BLOCKED,Not accessible,Complete nodes candidate registry + role review
+S02-05,Every node has a visible label/name,BLOCKED,Not accessible,QGIS label state + exported coverage + visual map review
+S02-06,"Edge endpoints, topology and geometry",BLOCKED,Not accessible,Directed endpoints and geometry gap checks
+S02-07,Legacy 19-site crosswalk / new site provenance,BLOCKED,Historical Stage8 report describes 19 references but no CSV localized,KEEP/MOVED/RENAMED/ADDED/REMOVED signed rows
+S02-08,A_N05 A_N07 C21 A_C03 search-zone review,BLOCKED,No current site geometries,"Coordinate, zone, site status, existence and location"
+S02-09,Airspace / WMP228 / CTR / Malaysia-Singapore evidence,BLOCKED,Historic F0/F1 no approval,Effective dated CAAM/CAAS authoritative geometry and caveat classification
+S02-10,Old-stage 3–8 path & code dependency reproducibility,BLOCKED,run_stage4_dispatch.py remains unlocated at documented path,"Locate member, pinned hashes, replay or explicit nonreproducible label"
+S02-11,Matched experiment tasks & vehicle type boundary,BLOCKED,"Stage 6 old 29,842 vs Stage2 918,000 not interchangeable",New seeds/dates/OD/road-only matched task protocol
+S02-12,Versioned input freeze and human signoff,BLOCKED,No complete hash register,Active-input allowlist + approval; DENY_ALL before signoff
+S02-13,Release weather/road/carbon computations,NOT_STARTED,S02-01…S02-12 must close,Separate release certificate for numerical run

@@ -1,0 +1,31 @@
+{
+  "status": "HOLD_NO_TASK_POPULATION",
+  "legacy_stage6": {
+    "task_count": 29842,
+    "regions": "OLD_A_B_ONLY",
+    "source": "historic Stage 6 README and gz file in GitHub",
+    "not_independently_loaded": true,
+    "can_migrate_by_same_id": false
+  },
+  "legacy_v56": {
+    "rows": 918000,
+    "resampled_engineering_fixture": true,
+    "generator_missing": true,
+    "must_not_combine_with_stage6": true
+  },
+  "new_ABC": {
+    "task_count": null,
+    "generator_code": null,
+    "frozen_manifest": null,
+    "state": "NOT_STARTED"
+  },
+  "comparison_modes": [
+    "M0_PETROL",
+    "M1_DJI",
+    "M1_WING",
+    "M2_DJI",
+    "M2_WING"
+  ],
+  "joint_order_count": null,
+  "carbon_results_allowed": false
+}

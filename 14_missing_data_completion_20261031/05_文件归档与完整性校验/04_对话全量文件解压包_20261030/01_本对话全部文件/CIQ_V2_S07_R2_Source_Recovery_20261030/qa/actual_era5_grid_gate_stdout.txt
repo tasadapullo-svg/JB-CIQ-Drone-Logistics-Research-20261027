@@ -1,0 +1,1 @@
+{"status": "HOLD", "input_era5": "/mnt/data/CIQ_V2_S07_R2_Source_Recovery_20261030/recovered_sources/E03_ERA5_JB_TWO_CIQ_WEATHER_HOURLY.csv", "input_assignment": "/mnt/data/CIQ_V2_S07_Partial_Execution_20261030/outputs/S07_05_node_to_weather_grid_69_CANDIDATES_ONLY.csv", "reason": "HOLD_ERA5_CSV_NOT_PRESENT"}

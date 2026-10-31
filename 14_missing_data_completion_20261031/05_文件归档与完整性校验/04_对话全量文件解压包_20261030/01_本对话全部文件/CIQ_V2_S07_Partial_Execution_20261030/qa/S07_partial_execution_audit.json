@@ -1,0 +1,50 @@
+{
+  "source_commit": "4569817b8145efe2ae06f4b21addc1986f971c12",
+  "stage": "V2-S07",
+  "status": "PARTIAL_EXECUTION_HOLD_MAIN_EXPERIMENT",
+  "passed": {
+    "S06_node_identity": true,
+    "S06_edge_modes": true,
+    "S07_roles_index": true,
+    "S07_historical_ID_collision_screen": true,
+    "S07_153day_hourly_axis": true,
+    "S07_historic_weather_QC_metadata": true,
+    "S07_grid_candidate_metadata": true
+  },
+  "blocked": {
+    "WEATHER_HOURLY_REAL_VALUES": "HOLD_NO_ORIGINAL_XLSX_OR_CSV_BYTES_AND_5_VERSION_SIZE_DISCREPANCIES",
+    "DIRECTED_OSM_NEW_ABC": "HOLD_NO_ACCESSIBLE_NEW_GRAPH",
+    "OLD_TO_NEW_ORDER_MIGRATION": "HOLD_ID_COLLISION_A",
+    "FROZEN_TASK_POPULATION": "HOLD_OLD_ORDER_BINARY_AND_NEW_GENERATOR",
+    "ACTUAL_FLIGHT_TIME_WEATHER": "HOLD_DISPATCH_NOT_RUN",
+    "CURRENT_AIRSPACE_AND_LAND_ACCESS": "HOLD",
+    "M0_M1_M2_RESULTS": "NOT_STARTED"
+  },
+  "real_data_metrics": {
+    "weather_nodes_gt_10km_from_nearest_historic_ERA5_cell": 31,
+    "weather_workbook_size_mismatch_months": 5,
+    "nodes": 69,
+    "node_zone_counts": {
+      "A": 23,
+      "B": 10,
+      "C": 29,
+      "PORT_A": 6,
+      "GATEWAY": 1
+    },
+    "uav_reference_edges": 116,
+    "ground_reference_edges": 5,
+    "uav_zero_degree_nodes": 13,
+    "historic_legacy_ids": 19,
+    "historic_road_OD_anomalies_preserved": 37,
+    "legacy_same_id_collisions": 8,
+    "legacy_same_id_coordinate_matches": 10,
+    "hours": 3672,
+    "days": 153,
+    "ERA5_distinct_historic_returned_cells": 2,
+    "missing_hourly_values": 7344
+  },
+  "no_fake_data": true,
+  "release_for": "METADATA_AND_TIME_AXES_ONLY",
+  "operational_simulation_released": false,
+  "carbon_savings_released": false
+}

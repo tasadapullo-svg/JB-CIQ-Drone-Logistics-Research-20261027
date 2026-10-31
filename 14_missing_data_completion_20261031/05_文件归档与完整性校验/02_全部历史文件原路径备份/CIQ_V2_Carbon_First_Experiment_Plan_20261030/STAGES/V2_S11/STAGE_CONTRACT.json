@@ -1,0 +1,61 @@
+{
+  "stage": "V2_S11",
+  "stage_name_cn": "运营碳排放—成本与最小碳优化",
+  "purpose_en": "Carbon-cost-service optimization",
+  "research_questions": "RQ3",
+  "inputs": [
+    {
+      "filename": "trip_ledger.csv",
+      "type": "CSV",
+      "purpose": "唯一燃油车/无人机/充电车次原始活动量"
+    },
+    {
+      "filename": "order_mode_results.csv",
+      "type": "CSV",
+      "purpose": "可评价的同订单模式结果"
+    },
+    {
+      "filename": "emission_factor_register.csv",
+      "type": "CSV",
+      "purpose": "燃料及电力因子、气体、国家、年份和不确定性"
+    },
+    {
+      "filename": "cost_parameter_register.csv",
+      "type": "CSV",
+      "purpose": "成本参数 MYR、证据和区间"
+    },
+    {
+      "filename": "optimization_constraints.json",
+      "type": "JSON",
+      "purpose": "服务/准时/成本约束和情景"
+    }
+  ],
+  "outputs": [
+    {
+      "filename": "operational_carbon_ledger.csv",
+      "purpose": "燃油与电力独立碳账本"
+    },
+    {
+      "filename": "matched_comparison.csv",
+      "purpose": "服务匹配时间/成本/碳变化"
+    },
+    {
+      "filename": "pareto_feasible.csv",
+      "purpose": "可行 Pareto 情景/不可行原因"
+    },
+    {
+      "filename": "emission_QA.json",
+      "purpose": "单位和跨模式共享车次复算"
+    }
+  ],
+  "release_gates": [
+    "CO2 与 CO2e 口径不可混用",
+    "MY/SG 供电按真实地点分账",
+    "排放相同物理车次不重复计",
+    "低碳结论必须满足已冻结的服务与成本约束",
+    "成本/能耗/排放因子缺失禁止输出净减排"
+  ],
+  "expected_status": "BLOCKED_UNTIL_REAL_INPUTS_ACCEPTED",
+  "historical_git_commit": "4569817b8145efe2ae06f4b21addc1986f971c12",
+  "review_rule": "Automatic schema gate is not scientific approval; release requires human evidence review plus frozen source hashes."
+}

@@ -1,0 +1,14 @@
+{
+  "status": "PRE_REGISTER_BEFORE_MAIN_RUN",
+  "service_min_relative_to_M0": null,
+  "on_time_min_relative_to_M0": null,
+  "max_cost_ratio": null,
+  "cost_ratio_sensitivity_proposals": [
+    1.0,
+    1.05,
+    1.1,
+    1.2
+  ],
+  "grid_country_split_required": true,
+  "if_no_feasible_solution": "REPORT_INFEASIBLE_NO_OPTIMALITY_CLAIM"
+}

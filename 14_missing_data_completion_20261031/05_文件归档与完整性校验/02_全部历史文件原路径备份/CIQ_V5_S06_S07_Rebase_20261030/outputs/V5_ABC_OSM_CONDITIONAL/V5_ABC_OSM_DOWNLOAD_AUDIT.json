@@ -1,0 +1,16 @@
+{
+  "status": "HOLD_NOT_DOWNLOADED",
+  "source": "OSM Overpass via OSMnx",
+  "bbox_epsg4326_left_bottom_right_top": [
+    103.5218,
+    1.32827,
+    103.85770000000001,
+    1.5771
+  ],
+  "num_v5_nodes": 68,
+  "snapshot": "CURRENT_OSM_AT_EXECUTION_NOT_HISTORICAL_2026_MAY_TO_SEPT",
+  "scope_warning": "bbox includes locations possibly across MY/SG; cross-border access and wait times are NOT inferred",
+  "legal_access_warning": "node snap is not proof of vehicle entrance, turn access, legal crossing, road passage or route validation",
+  "source_v5_nodes_sha256": "6d10ce88b5d7770fa1a776bffb5c386655d9ccab18064138c06ce11ea9d756a9",
+  "blocker": "RUN_WITH_--download_ONLY_ON_ONLINE_PC"
+}

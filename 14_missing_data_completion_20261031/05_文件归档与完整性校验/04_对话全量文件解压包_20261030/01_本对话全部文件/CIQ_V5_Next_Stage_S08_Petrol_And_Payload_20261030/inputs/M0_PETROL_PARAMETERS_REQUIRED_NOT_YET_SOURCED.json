@@ -1,0 +1,15 @@
+{
+  "status": "HOLD_UNTIL_SOURCED",
+  "vehicle_definition": null,
+  "litres_per_100km": null,
+  "density_kg_per_litre": null,
+  "net_calorific_value_MJ_per_kg": null,
+  "ttw_co2_kg_per_TJ": 69300,
+  "ttw_source": "IPCC Tier-1 fallback as Stage05 provisional method, not local measured fuel chemistry",
+  "petrol_MYR_per_litre": null,
+  "driver_MYR_per_hour": null,
+  "idling_litres_per_hour": null,
+  "cruising_rate_includes_idling": null,
+  "wtt_kgco2e_per_litre": null,
+  "remarks": "No default observed local consumption or price. Do not populate unknowns with zero. TTW CO2 plus electricity indirect emissions must be reported with scope caveat; harmonized WTW sensitivity only if factors support."
+}

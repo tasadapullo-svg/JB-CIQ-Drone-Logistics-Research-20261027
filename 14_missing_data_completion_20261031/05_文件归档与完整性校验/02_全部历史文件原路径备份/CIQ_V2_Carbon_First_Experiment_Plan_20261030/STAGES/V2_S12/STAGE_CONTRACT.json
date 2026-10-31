@@ -1,0 +1,56 @@
+{
+  "stage": "V2_S12",
+  "stage_name_cn": "统计、敏感性与 SCI 图表定稿",
+  "purpose_en": "Uncertainty, figures & independent replication",
+  "research_questions": "RQ1,RQ2,RQ3",
+  "inputs": [
+    {
+      "filename": "paired_run_results.csv",
+      "type": "CSV",
+      "purpose": "按seed/date/zone/vehicle/uav/mode的完整账本汇总"
+    },
+    {
+      "filename": "uncertainty_draws.csv",
+      "type": "CSV",
+      "purpose": "有来源的联合参数不确定性抽样"
+    },
+    {
+      "filename": "release_qa.json",
+      "type": "JSON",
+      "purpose": "所有前序阶段签核和版本"
+    },
+    {
+      "filename": "figure_data.csv",
+      "type": "CSV",
+      "purpose": "每个子图真实数据源表"
+    }
+  ],
+  "outputs": [
+    {
+      "filename": "rq1_rq2_rq3_summary.csv",
+      "purpose": "论文三问逐条量化结果"
+    },
+    {
+      "filename": "sensitivity_summary.csv",
+      "purpose": "风雨/拥堵/油耗/能耗/成本边界"
+    },
+    {
+      "filename": "figures/",
+      "purpose": "Fig.3–Fig.7正式科研图"
+    },
+    {
+      "filename": "replication_report.md",
+      "purpose": "可重复执行日志和引用/限制"
+    }
+  ],
+  "release_gates": [
+    "不将订单行数当独立样本数",
+    "不发表未授权飞行/实际净减排的断言",
+    "所有图表数值与输出CSV一致",
+    "最后一个seed每项计算可重放",
+    "公开汇总无密钥、无隐私、来源许可检查通过"
+  ],
+  "expected_status": "BLOCKED_UNTIL_REAL_INPUTS_ACCEPTED",
+  "historical_git_commit": "4569817b8145efe2ae06f4b21addc1986f971c12",
+  "review_rule": "Automatic schema gate is not scientific approval; release requires human evidence review plus frozen source hashes."
+}

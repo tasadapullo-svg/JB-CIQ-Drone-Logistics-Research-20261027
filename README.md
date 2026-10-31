@@ -16,12 +16,14 @@ The 2026-10-30 release is based on a redesigned flight-study area, revised study
 | Formal experiment results from 2026-10-30 | `11_formal_results_20261030/` | Current QGIS definition and formal S07–S11 experiment chain; this is the primary source for current results and conclusions. |
 | Manuscript and theory closure dated 2026-10-31 | `12_manuscript_and_theory_20261031/` | Current writing control draft, theory-source starter, figure/table evidence index, and closure package. These are research and writing materials, not a completed submitted manuscript. |
 | Version and release documentation | `13_release_documentation_20261031/` | Rules for interpreting the old and current versions. |
+| Full missing-data completion | `14_missing_data_completion_20261031/` | Files whose SHA-256 content was not represented by the legacy package or directories `11`–`13`; original relative paths are retained beneath this directory. |
 
 Start with:
 
 - `11_formal_results_20261030/README_最终版实验结果_先读.md`
 - `12_manuscript_and_theory_20261031/README_正式论文与理论材料_先读.md`
 - `13_release_documentation_20261031/README_项目总览与版本规则_20261031.md`
+- `13_release_documentation_20261031/FULL_UPLOAD_AUDIT_20261031.md`
 
 ## 中文版本说明（先读）
 
@@ -31,8 +33,11 @@ Start with:
 - `11_formal_results_20261030` 保存10月30日重新设计飞行区域、研究点位、明确禁飞区并重建 QGIS 后重新完成的正式实验结果，是当前论文结果与结论的主要依据。
 - `12_manuscript_and_theory_20261031` 保存10月31日新增的全文收口总控稿、图表证据索引、理论来源起始表和收口材料包。这些文件属于10月30日正式研究路线的写作与证据整理成果，不是已经完成的投稿稿件。
 - `13_release_documentation_20261031` 保存版本关系和文件使用顺序说明。
+- `14_missing_data_completion_20261031` 补齐第一次更新后哈希审计发现的全部非敏感缺失数据，并保留源目录相对路径。
 
 如果历史文件与当前正式结果存在差异，以 `11_formal_results_20261030` 及其10月31日闭环验证为准。历史文件仍保留，用于证明研究基础、解释版本变化和支持可追溯性。
+
+最终逐文件审计覆盖22,896个当前源文件：22,740个研究文件已上传或由仓库中相同SHA-256内容代表，缺失为0；2个真实API密钥和154个 `__pycache__`、`.pyc`、临时文件因安全或可再生性质明确排除。完整明细见 `13_release_documentation_20261031/SOURCE_COVERAGE_MANIFEST_20261031.csv`。
 
 ## Project overview
 
@@ -66,7 +71,7 @@ Legacy package validation date: **2026-10-28**. Formal-results update date: **20
 
 For the legacy `00`–`10`, `data`, and `outputs` package, every source file is accounted for in `github_upload_manifest.csv`. The two excluded files contain real API credentials and remain outside this public package. They are not required for reviewing the already downloaded data.
 
-The formal update adds 997 tracked files across `11`–`13`. Eight formal-result files larger than 20 MiB are represented by verified `.parts` directories with `parts_manifest.json`, original byte size, and SHA-256. Run `python tools/reassemble_large_files.py --verify-only` to verify both historical and current split assets.
+The formal update first added 997 tracked files across `11`–`13`, then added the hash-audited completion set in `14`. Files larger than 20 MiB are represented by verified `.parts` directories with `parts_manifest.json`, original byte size, and SHA-256. Run `python tools/reassemble_large_files.py --verify-only` to verify historical and current split assets.
 
 ## Research data and evidence classes
 
@@ -144,6 +149,7 @@ Stage 8 adds traceable aircraft-specification and spatial screening evidence. It
 ├── 11_formal_results_20261030/         # Formal QGIS and rerun S07–S11 results
 ├── 12_manuscript_and_theory_20261031/  # Current manuscript closure and theory/evidence indexes
 ├── 13_release_documentation_20261031/  # Old-versus-current version rules
+├── 14_missing_data_completion_20261031/ # Hash-audited completion of previously missing data
 ├── data/weather_2026/                 # Raw API responses, logs, QC, and workbooks
 ├── outputs/                           # Engineering audits and intermediate outputs
 ├── tools/reassemble_large_files.py    # Large-file verification and reconstruction

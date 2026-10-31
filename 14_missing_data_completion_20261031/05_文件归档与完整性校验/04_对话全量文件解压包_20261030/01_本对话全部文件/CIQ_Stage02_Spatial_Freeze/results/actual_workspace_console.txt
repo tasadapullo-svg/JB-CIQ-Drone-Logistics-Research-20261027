@@ -1,0 +1,10 @@
+{
+  "qgis_project": null,
+  "qgis_project_candidate_count": 0,
+  "declared_layer_count": 0,
+  "local_sources_missing": 0,
+  "result": "HOLD",
+  "blockers": [
+    "PROJECT_NOT_EXPLICITLY_SELECTED"
+  ]
+}

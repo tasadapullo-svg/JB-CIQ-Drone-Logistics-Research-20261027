@@ -1,0 +1,6 @@
+﻿gate_id,acceptance_criterion,status,evidence_path,reviewer
+V2_S08-G01,以汽油车为 M0 且车辆类型明确,BLOCKED,,
+V2_S08-G02,油耗、怠速、燃油 CO2 因子具有出处/不确定性,BLOCKED,,
+V2_S08-G03,所有去返程和共享路程不重复计数,BLOCKED,,
+V2_S08-G04,M0 与后续 M1/M2 使用同一任务与车队公平性协议,BLOCKED,,
+V2_S08-G05,不能把旧电动车 kgCO2e 当汽油 CO2,BLOCKED,,

@@ -1,0 +1,5 @@
+﻿filename,definition,status,sha256
+uav_mission_energy.csv,两机型逐航次电耗范围,NOT_PRODUCED,
+uav_weather_restrictions.csv,可飞性和天气回退原因,NOT_PRODUCED,
+airspace_scenario_QA.csv,限制与科研情景分开,NOT_PRODUCED,
+uav_energy_freeze.json,任务模型与假设的版本锁定,NOT_PRODUCED,

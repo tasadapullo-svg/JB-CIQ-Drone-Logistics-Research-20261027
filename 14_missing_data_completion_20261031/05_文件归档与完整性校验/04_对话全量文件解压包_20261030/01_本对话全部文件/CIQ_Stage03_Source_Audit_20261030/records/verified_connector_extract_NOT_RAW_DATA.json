@@ -1,0 +1,29 @@
+{
+  "status": "METADATA_EXTRACT_FROM_REMOTE_REPOSITORY_NOT_RAW_HOURLY_RECALCULATION",
+  "observation_date": "2026-10-30",
+  "repo": "https://github.com/tasadapullo-svg/JB-CIQ-Drone-Logistics-Research-20261027",
+  "historical_commit": "4569817b8145efe2ae06f4b21addc1986f971c12",
+  "historical_weather_json": {
+    "path": "data/weather_2026/processed/final_verification_summary.json",
+    "observed_git_blob_sha1": "85845782a5f5cdbb4fa49737bb6e63aaa6dc06c7",
+    "data_class": "processed_quality_control_summary",
+    "note": "Parsed fields from the GitHub-connected file. Raw API files and original XLSX were not re-downloaded or independently recomputed in this task."
+  },
+  "historical_stage6_code": {
+    "path": "10_experiment_results/stage6_dual_region_multilevel_feeder/run_stage6.py",
+    "observed_git_blob_sha1": "1bbf7864ee9546b781f048d515c5c5d756da8752",
+    "data_class": "historical_simulation_source_code"
+  },
+  "monthly_fields": [
+    {"month":"2026-05","main_hourly_rows":2976,"era5_rows":2980,"nasa_rows":2976,"rain_corr":0.0277,"wind_corr":0.2819,"nea_rainfall_coverage_pct":3.16,"nea_wind_speed_coverage_pct":1.81,"nea_wind_direction_coverage_pct":0.07,"nea_core_status":"PARTIAL","anomaly_total":0,"manifest_sha_match":true},
+    {"month":"2026-06","main_hourly_rows":2880,"era5_rows":2884,"nasa_rows":2880,"rain_corr":0.0319,"wind_corr":0.5402,"nea_core_status":"NOT_REQUESTED","anomaly_total":0,"manifest_sha_match":true},
+    {"month":"2026-07","main_hourly_rows":2976,"era5_rows":2980,"nasa_rows":2976,"rain_corr":0.0256,"wind_corr":0.6823,"nea_core_status":"NOT_REQUESTED","anomaly_total":0,"manifest_sha_match":true},
+    {"month":"2026-08","main_hourly_rows":2976,"era5_rows":2980,"nasa_rows":2976,"rain_corr":0.0875,"wind_corr":0.7674,"nea_core_status":"NOT_REQUESTED","anomaly_total":0,"manifest_sha_match":true},
+    {"month":"2026-09","main_hourly_rows":2880,"era5_rows":2884,"nasa_rows":2880,"rain_corr":0.1324,"wind_corr":0.6730,"nea_core_status":"NOT_REQUESTED","anomaly_total":0,"manifest_sha_match":true}
+  ],
+  "derived_from_reported_rows": {
+    "four_site_main_table_total":14688,
+    "study_hours_per_point":3672,
+    "reported_station_source_coverage_reinterpretation":"May NEA station records are partial; June-Sept core NEA variables marked NOT_REQUESTED in source summary."
+  }
+}

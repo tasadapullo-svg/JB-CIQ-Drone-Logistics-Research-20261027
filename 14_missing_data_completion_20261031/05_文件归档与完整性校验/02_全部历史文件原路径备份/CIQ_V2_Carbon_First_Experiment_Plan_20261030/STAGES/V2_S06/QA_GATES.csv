@@ -1,0 +1,6 @@
+﻿gate_id,acceptance_criterion,status,evidence_path,reviewer
+V2_S06-G01,每条 node_id 唯一且坐标有效,BLOCKED,,
+V2_S06-G02,每条 edge 的起终点存在,BLOCKED,,
+V2_S06-G03,CRS 与跨国边界口径明确,BLOCKED,,
+V2_S06-G04,所有未知审批保留 UNKNOWN，不自动通过,BLOCKED,,
+V2_S06-G05,空间输入哈希+版本冻结、人工认可,BLOCKED,,

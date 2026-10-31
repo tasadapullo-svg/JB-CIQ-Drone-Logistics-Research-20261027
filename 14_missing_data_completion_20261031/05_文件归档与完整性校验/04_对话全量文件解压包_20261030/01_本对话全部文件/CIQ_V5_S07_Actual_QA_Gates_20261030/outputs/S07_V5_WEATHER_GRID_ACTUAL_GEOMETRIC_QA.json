@@ -1,0 +1,52 @@
+{
+  "input": "V5_68_NODES_AND_FROZEN_82620_TASKS",
+  "source_type": "SPATIAL_DISTANCE_PROXY_ONLY_NOT_HOURLY_WEATHER",
+  "node_total": 68,
+  "zone_node_audit": {
+    "A": {
+      "nodes": 29,
+      "far_gt10km": 0,
+      "max_km": 9.378,
+      "mean_km": 5.569
+    },
+    "B": {
+      "nodes": 10,
+      "far_gt10km": 10,
+      "max_km": 19.978,
+      "mean_km": 16.996
+    },
+    "C": {
+      "nodes": 29,
+      "far_gt10km": 21,
+      "max_km": 17.726,
+      "mean_km": 11.153
+    }
+  },
+  "task_total": 82620,
+  "task_origin_weather_grid_distance_counts": {
+    "origin_far_gt10km": 55080,
+    "destination_far_gt10km": 47184,
+    "both_far_gt10km": 43283,
+    "relation_RECORDED_DIRECT_GEOMETRY": 11060,
+    "relation_NO_DIRECT_GEOMETRY": 54143,
+    "relation_REVERSE_ONLY_NOT_ASSUMED_VALID": 17417
+  },
+  "origin_zone_task_counts": {
+    "A": {
+      "total": 27540,
+      "origin_far_gt10km": 0
+    },
+    "B": {
+      "total": 27540,
+      "origin_far_gt10km": 27540
+    },
+    "C": {
+      "total": 27540,
+      "origin_far_gt10km": 27540
+    }
+  },
+  "node_ID_join_failures": 0,
+  "precomputed_10km_flags_discrepancies": 0,
+  "actual_hourly_weather_values_verified": false,
+  "V5_weather_operational_release": "HOLD"
+}

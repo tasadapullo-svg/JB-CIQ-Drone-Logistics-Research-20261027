@@ -1,0 +1,4 @@
+﻿zone,node_count,nodes_farther_10km,mean_distance_km,max_distance_km,task_origins,task_origins_farther_10km
+A,29,0,5.569,9.378,27540,0
+B,10,10,16.996,19.978,27540,27540
+C,29,21,11.153,17.726,27540,27540

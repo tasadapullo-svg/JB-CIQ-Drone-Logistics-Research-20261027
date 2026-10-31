@@ -1,0 +1,132 @@
+{
+  "version": "V2.1_REVIEW_20261030",
+  "status": "SCIENTIFIC_METHOD_AMENDMENT_NOT_EXECUTED",
+  "items": [
+    {
+      "id": "P0-01",
+      "priority": "P0",
+      "stage": "V2_S06",
+      "issue": "最新三分区GIS原件真实性、节点与空域",
+      "required_artifacts": "QGZ/QGS+全部本地依赖，实际层ID、CRS、图层哈希、19旧点映射、A/B/C点线索引",
+      "acceptance": "逐层source存在；有向连线端点匹配；显式未知/受限；坐标不擅自移动",
+      "current_status": "HOLD_EXTERNAL"
+    },
+    {
+      "id": "P0-02",
+      "priority": "P0",
+      "stage": "V2_S07",
+      "issue": "五个月联合天气交通暴露与代表性时段",
+      "required_artifacts": "153天日历 × 原始可用小时grid/FCD × strata × 来源/日期哈希；不以缺测填0",
+      "acceptance": "按日期/月/小时检测missing; 原ERA5两格点去伪独立; 原数据单位/时间戳换算正确",
+      "current_status": "HOLD_SOURCE"
+    },
+    {
+      "id": "P0-03",
+      "priority": "P0",
+      "stage": "V2_S07",
+      "issue": "同订单样本与需求生成器",
+      "required_artifacts": "按国家/走廊/日期/seed冻结唯一任务集合，需求假设文献和ID签名",
+      "acceptance": "所有模式含相同task_id；不得合并918000和29842；新增分层任务不可伪称真实",
+      "current_status": "HOLD_SOURCE"
+    },
+    {
+      "id": "P0-04",
+      "priority": "P0",
+      "stage": "V2_S08",
+      "issue": "强汽油车基线和可解释的燃油车参数",
+      "required_artifacts": "汽油多站点路径、转弯、服务窗、资源/车载重量、怠速和车辆负荷区间",
+      "acceptance": "与M1/M2调度质量和资源相当，整日车辆trip一次计账",
+      "current_status": "HOLD_CALIBRATION"
+    },
+    {
+      "id": "P0-05",
+      "priority": "P0",
+      "stage": "V2_S09",
+      "issue": "两机型分级证据能耗区间和天气时刻",
+      "required_artifacts": "E1/E2/E3证据等级、起降航段、可用SOC、风场、充电/备用、航路绕飞",
+      "acceptance": "如无实测只出条件性区间及阈值；不许由名义航程推每公里kWh",
+      "current_status": "HOLD_CALIBRATION"
+    },
+    {
+      "id": "P0-06",
+      "priority": "P0",
+      "stage": "V2_S11",
+      "issue": "统一能源排放边界 TTW+grid/WTT/WTW",
+      "required_artifacts": "燃油 TTW & WTT 和供电电力完整范围、MY/SG、气体和年份分账",
+      "acceptance": "相同边界WTW能比较方可宣称净减排；不齐只报细账和假设情景",
+      "current_status": "HOLD_EF"
+    },
+    {
+      "id": "P0-07",
+      "priority": "P0",
+      "stage": "V2_S10",
+      "issue": "事件驱动调度、车次账本和回退",
+      "required_artifacts": "物理 vehicle_trip_id / drone_sortie_id / task_id 映射，容量资源、装卸等待、充电、无效发飞、回退",
+      "acceptance": "有真实数值求解器与端到端集成测试；每订单唯一结局；每物理车次只计一次",
+      "current_status": "HOLD_IMPLEMENTATION"
+    },
+    {
+      "id": "P0-08",
+      "priority": "P0",
+      "stage": "V2_S10",
+      "issue": "双边研究范围与跨境样本隔离",
+      "required_artifacts": "MY国内、SG国内、CROSS_BORDER 3类任务；真实/条件性交通及监管数据分别标注",
+      "acceptance": "历史全部非跨境OD不能导出跨境证据；没有数据只报告空间情景",
+      "current_status": "HOLD_EXTERNAL"
+    },
+    {
+      "id": "P1-01",
+      "priority": "P1",
+      "stage": "V2_S11",
+      "issue": "减排临界面BE-01",
+      "required_artifacts": "汽油总里程节约、额外接驳/怠速、两机型墙端充电电量分项",
+      "acceptance": "同边界0差值曲线及低中高参数区间；关键阈值可复算",
+      "current_status": "PLANNED"
+    },
+    {
+      "id": "P1-02",
+      "priority": "P1",
+      "stage": "V2_S10",
+      "issue": "强M0竞争基线BAS-01",
+      "required_artifacts": "匹配车辆调度预算和车队，优化M0路线",
+      "acceptance": "混合方案对M0公平基线及更强M0对照均报告",
+      "current_status": "PLANNED"
+    },
+    {
+      "id": "P1-03",
+      "priority": "P1",
+      "stage": "V2_S11",
+      "issue": "优化决策变量与不可行证据",
+      "required_artifacts": "模式/机型/站点/任务/车资源/会合时刻、成本、服务、准时约束",
+      "acceptance": "标清启发式/最优界，返回Pareto含INFEASIBLE原因",
+      "current_status": "PLANNED"
+    },
+    {
+      "id": "P1-04",
+      "priority": "P1",
+      "stage": "V2_S12",
+      "issue": "种子与日期双层不确定性",
+      "required_artifacts": "30seed需求随机性+独立日期块+车型/UAV参数区间",
+      "acceptance": "不能把5天*30seed当150独立天气日；置信区间分不同不确定源",
+      "current_status": "PLANNED"
+    },
+    {
+      "id": "P1-05",
+      "priority": "P1",
+      "stage": "V2_S12",
+      "issue": "科学验证VAL-01",
+      "required_artifacts": "物理守恒/恶劣条件/服务反例/跨境等待开关/单位换算",
+      "acceptance": "真运行和逐事件QA，而非只有表头/哈希脚本",
+      "current_status": "PLANNED"
+    },
+    {
+      "id": "P2-01",
+      "priority": "P2",
+      "stage": "V2_S12",
+      "issue": "SCI图形证据映射及声明质量",
+      "required_artifacts": "Figure2流程、Figure4月日小时天气路网、Figure6临界面、Figure7可行Pareto",
+      "acceptance": "所有图从冻结输出生成，字数与气体口径一致，失败和HOLD可见",
+      "current_status": "PLANNED"
+    }
+  ]
+}

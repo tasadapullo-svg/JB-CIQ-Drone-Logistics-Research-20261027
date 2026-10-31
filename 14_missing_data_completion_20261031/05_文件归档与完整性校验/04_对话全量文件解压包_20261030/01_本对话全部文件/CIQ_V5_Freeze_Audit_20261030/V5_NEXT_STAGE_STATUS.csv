@@ -1,0 +1,8 @@
+﻿order,stage,tasks,state,deliverable
+0,S06-V5 migration,3,GO,V5 hash/pinned spatial tables; migrate 69→68; isolate 116/5/4 without editing source
+1,V2-S07 source data integration,7,PARTIAL / HOLD,"153d/3672h weather, A/B/C directed OSM road, OD repair and frozen synthetic task population"
+2,V2-S08 petrol baseline M0,4,CODE GO / MAIN RUN HOLD,"optimized multi-stop petrol routing, fuel consumption, idle/empty runs and costs"
+3,V2-S09 UAV aircraft energy,4,CODE GO / CALIBRATION HOLD,"DJI FC30 and Wingcopter198 load, wind, return, reserves, charging audit"
+4,V2-S10 paired M0/M1/M2 simulation,5,HOLD,"same tasks, dispatch/queue/rendezvous/return/fallback and full event logs"
+5,V2-S11 carbon and optimization,4,HOLD,"consistent operational WTW/TTW accounting, delta-carbon, feasibility and Pareto"
+6,V2-S12 robustness and manuscript figures,4,HOLD,"uncertainty by day/seed, strong baseline, break-even tests, SCI figure source tables and audit"

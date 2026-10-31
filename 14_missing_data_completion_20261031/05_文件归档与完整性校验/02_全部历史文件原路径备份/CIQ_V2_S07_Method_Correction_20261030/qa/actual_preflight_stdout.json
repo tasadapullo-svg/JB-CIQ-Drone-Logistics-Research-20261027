@@ -1,0 +1,38 @@
+{
+  "overall": "HOLD_NOT_RELEASED_TO_FORMAL_M0_M1_M2",
+  "facts": {
+    "node_rows": 69,
+    "zone_counts": {
+      "A": 23,
+      "C": 29,
+      "B": 10,
+      "PORT_A": 6,
+      "GATEWAY": 1
+    },
+    "uav_candidate_edges": 116,
+    "ground_reference_edges": 5,
+    "uav_zero_degree_node_count": 13,
+    "uav_zero_degree_node_ids": [
+      "A_C02",
+      "T_STULANG",
+      "A_C04",
+      "A_N09",
+      "A_N10",
+      "C23",
+      "B00",
+      "A_P02",
+      "A_P03",
+      "A_P04",
+      "A_P05",
+      "A_P06",
+      "G_CIQ"
+    ],
+    "legacy37_exception_rows": 37,
+    "ground_route_distance_populated_count": 0,
+    "verified_road_access_node_count": 0,
+    "actual_takeoff_approval_node_count": 0,
+    "legacy_crosswalk_coordinate_verified_count": 0
+  },
+  "gates_pass": 2,
+  "gates_total": 14
+}

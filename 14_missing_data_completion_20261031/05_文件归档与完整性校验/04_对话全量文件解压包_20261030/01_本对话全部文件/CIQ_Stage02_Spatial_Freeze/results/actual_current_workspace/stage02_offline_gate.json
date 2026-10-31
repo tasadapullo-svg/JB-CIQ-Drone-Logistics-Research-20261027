@@ -1,0 +1,19 @@
+{
+  "audit": "STAGE02_OFFLINE_PREFLIGHT",
+  "timestamp_utc": "2026-10-29T23:55:37.367740+00:00",
+  "qgis_project": null,
+  "qgis_project_sha256": null,
+  "project_crs": "",
+  "qgis_project_candidate_count": 0,
+  "declared_layer_count": 0,
+  "source_rows_including_shapefile_components": 0,
+  "local_sources_missing": 0,
+  "blockers": [
+    "PROJECT_NOT_EXPLICITLY_SELECTED"
+  ],
+  "notes": [],
+  "result": "HOLD",
+  "scientific_release_allowed": false,
+  "weather_road_carbon_recalculation_allowed": false,
+  "reason": "File-level source checks alone never constitute 3-zone geometry, legal airspace, or stage reproducibility approval."
+}

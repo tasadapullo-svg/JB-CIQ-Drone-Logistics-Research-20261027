@@ -1,0 +1,5 @@
+﻿filename,definition,status,sha256
+m0_trip_ledger.csv,车次级油耗及 TTW CO2 台账,NOT_PRODUCED,
+m0_order_results.csv,逐任务时间/完成/按时/费用与分摊,NOT_PRODUCED,
+m0_QA.json,单位、路程、队列和误差检查,NOT_PRODUCED,
+m0_baseline_freeze.json,M0 定义及哈希,NOT_PRODUCED,

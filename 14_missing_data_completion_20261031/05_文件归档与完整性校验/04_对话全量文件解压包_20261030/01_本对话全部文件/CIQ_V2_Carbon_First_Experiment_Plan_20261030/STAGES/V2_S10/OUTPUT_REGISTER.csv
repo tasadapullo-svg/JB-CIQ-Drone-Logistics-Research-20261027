@@ -1,0 +1,5 @@
+﻿filename,definition,status,sha256
+event_log.csv,逐事件日志：等待、装卸、起飞、回收、兜底,NOT_PRODUCED,
+trip_ledger.csv,唯一物理车辆/航次/共享干线行程,NOT_PRODUCED,
+order_mode_results.csv,M0/M1/M2逐任务完成、按时、费用分项,NOT_PRODUCED,
+dispatch_QA.json,同订单/容量/时间/服务公平性检查,NOT_PRODUCED,

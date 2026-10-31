@@ -1,0 +1,5 @@
+﻿filename,format,purpose,sha256,status,provenance_url,reviewer
+frozen_tasks.csv,CSV,不可变任务样本与任务总体ID,,MISSING,,
+road_od_hourly.csv,CSV,方向级道路 OD/小时代理与证据状态,,MISSING,,
+weather_hourly.csv,CSV,降雨、风向/风速、时区、站点或网格来源,,MISSING,,
+cross_border_wait.csv,CSV,国境等候实测/情景分离,,MISSING,,

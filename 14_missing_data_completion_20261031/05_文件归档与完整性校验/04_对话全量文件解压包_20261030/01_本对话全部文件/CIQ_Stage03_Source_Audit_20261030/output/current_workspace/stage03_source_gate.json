@@ -1,0 +1,40 @@
+{
+  "schema_version": "ciq-stage03-source-audit-v1",
+  "audit_utc": "2026-10-30T00:21:22.904289+00:00",
+  "historical_commit": "4569817b8145efe2ae06f4b21addc1986f971c12",
+  "evidence_scope": "Historical summary and source code verification, not raw hourly measurements",
+  "source_checks": {
+    "weather_summary": {
+      "status": "MISSING",
+      "path": null,
+      "expected_git_blob_sha1": "85845782a5f5cdbb4fa49737bb6e63aaa6dc06c7",
+      "git_blob_sha1": null,
+      "sha256": null
+    },
+    "legacy_stage6": {
+      "status": "MISSING",
+      "path": null,
+      "expected_git_blob_sha1": "1bbf7864ee9546b781f048d515c5c5d756da8752",
+      "git_blob_sha1": null,
+      "sha256": null
+    }
+  },
+  "weather_checks": [],
+  "monthly_metadata": [],
+  "code_patterns": [],
+  "spatial_gate": {
+    "status": "HOLD",
+    "explanation": "Stage02 real spatial audit JSON not supplied"
+  },
+  "blocking_codes": [
+    "HISTORICAL_WEATHER_SUMMARY_BLOB_NOT_VERIFIED",
+    "HISTORICAL_STAGE6_BLOB_NOT_VERIFIED",
+    "LATEST_QGIS_SPATIAL_GATE_NOT_SIGNED",
+    "NEW_WEATHER_POINT_TAKEOFF_TIME_MAPPING_NOT_VALIDATED",
+    "NEW_ROAD_OD_AND_CIQ_BOUNDARY_NOT_VALIDATED",
+    "NEW_FUEL_AND_AIRCRAFT_ENERGY_CALIBRATION_NOT_VALIDATED",
+    "RESEARCHER_SCI_RUN_PROTOCOL_NOT_SIGNED"
+  ],
+  "stage03_status": "HOLD_RECALC_BLOCKED",
+  "numerical_recalculation_released": false
+}

@@ -1,0 +1,70 @@
+﻿node_id,zone,name,longitude,latitude,source_layer,operational_status,source_url,has_source_url
+A01,A,Swift Tebrau II,103.7743763,1.5311284,62_STUDY,NO,https://swiftlogistics.com.my/our-locations/ ; https://swiftlogistics.com.my/wp-content/uploads/2022/02/30-Nov_3-merged.pdf,True
+A02,A,Tebrau II,103.77658,1.53356,62_STUDY,NO,https://mapcarta.com/W408489965,True
+A03,A,Bakar Batu,103.783,1.4985,62_STUDY,NO,https://www.geonames.org/search.html?country=MY&q=Johore+Baharu,True
+A04,A,Mid Valley Southkey,103.777987,1.500802,62_STUDY,NO,https://www.midvalleysouthkey.com/locate/by-car/,True
+A05,A,Taman Molek,103.7842881,1.5204315,62_STUDY,NO,https://www.courierslist.com/category/malaysia/johor-bahru/freight-forward?pid=1,True
+A06,A,Permas Jaya,103.81647,1.49596,62_STUDY,NO,https://mapcarta.com/N4705191072,True
+A07,A,Kampung Tengah,103.7997,1.5013,62_STUDY,NO,https://www.geonames.org/search.html?country=MY&q=Johore+Baharu,True
+A08,A,Pandan wholesale market,103.76439,1.5263,62_STUDY,NO,https://mapcarta.com/W176304879,True
+A09,C,Bukit Indah industrial reference,103.65939,1.49927,62_STUDY,NO,https://mapcarta.com/W1058766382,True
+A10,C,Bukit Indah courier reference,103.6633132,1.4868072,62_STUDY,NO,https://www.courierslist.com/detail/malaysia/iskandar-puteri/courier-service/675277/dhl-express-service-point-bukit-indah,True
+A_C01,A,Taman Sri Stulang,103.78839,1.49531,62_STUDY,NO,https://mapcarta.com/N3744962123,True
+A_C02,A,Taman Sentosa,103.77529,1.49352,62_STUDY,NO,https://mapcarta.com/27585018,True
+A_C03,A,Kampung Senibong,103.8172,1.4883,62_STUDY,NO,https://www.geonames.org/advanced-search.html?country=MY&q=Johore+Baharu&startRow=100,True
+T_STULANG,A,Berjaya Waterfront Ferry Terminal,103.78491,1.47028,62_STUDY,NO,https://my.geoview.info/terminal_feri_berjaya_waterfront_johor_bahru%2C7697441892n,True
+A_C04,A,Kampung Setulang Laut,103.778,1.4706,62_STUDY,NO,https://mapcarta.com/15874496,True
+A_N01,A,Taman Bayu Puteri,103.7904,1.50059,62_STUDY,NO,https://mapcarta.com/W1254926008,True
+A_N02,A,AEON Permas Jaya,103.81838,1.4961,62_STUDY,NO,https://mapcarta.com/W214820115,True
+A_N03,A,Senibong Cove,103.83147,1.48613,62_STUDY,NO,https://mapcarta.com/N4474004015,True
+A_N04,A,Giant Hypermarket Plentong,103.81482,1.52818,62_STUDY,NO,https://mapcarta.com/W250704761,True
+A_N05,A,Taman Perindustrian Plentong,103.81719,1.52906,62_STUDY,NO,https://mapcarta.com/N11647046232,True
+A_N06,A,Taman Johor Jaya,103.8024,1.5428,62_STUDY,NO,https://mapcarta.com/27585086,True
+A_N07,A,Kawasan Perindustrian Sri Pelentong,103.8327,1.5167,62_STUDY,NO,https://mapcarta.com/27585154,True
+A_N08,A,Taman Plentong Utama,103.82572,1.52331,62_STUDY,NO,https://mapcarta.com/N2398963165,True
+A_N09,A,Taman Pelangi,103.77535,1.47607,62_STUDY,NO,https://mapcarta.com/N5469746210,True
+A_N10,A,KSL City Mall,103.76228,1.48537,62_STUDY,NO,https://mapcarta.com/W158986216,True
+C01,C,AEON Bukit Indah,103.65556,1.48044,62_STUDY,NO,https://mapcarta.com/N10285404236,True
+C02,C,J&T Bukit Indah (JHR479),103.6505056,1.4771782,62_STUDY,NO,https://www.courierslist.com/category/malaysia/iskandar-puteri/courier-service?pid=1,True
+C03,C,Horizon Hills,103.64555,1.4576,62_STUDY,NO,https://mapcarta.com/38582216,True
+C04,C,J&T Nusa Sentral (JHR408),103.6245841,1.4688333,62_STUDY,NO,https://www.courierslist.com/category/malaysia/iskandar-puteri/courier-service?pid=1,True
+C05,C,Eco Galleria,103.61631,1.44104,62_STUDY,NO,https://mapcarta.com/W532639218,True
+C06,C,MBE Eco Botanic (reference),103.6181463,1.4407571,62_STUDY,NO,https://www.courierslist.com/category/malaysia/iskandar-puteri/courier-service?pid=1,True
+C07,C,Sunway Big Box Retail Park,103.62855,1.39669,62_STUDY,NO,https://mapcarta.com/W679649744,True
+C08,C,Sutera Mall precinct,103.67148,1.51709,62_STUDY,NO,https://mapcarta.com/W807782585,True
+C09,C,Paradigm Mall Johor Bahru,103.68541,1.5159,62_STUDY,NO,https://mapcarta.com/W180349408,True
+C10,C,Kempas,103.7051,1.5288,62_STUDY,NO,https://mapcarta.com/15811170,True
+C11,C,Setia Tropika,103.7184,1.5462,62_STUDY,NO,https://mapcarta.com/38582134,True
+C12,C,Tebing @ Bandar Dato Onn,103.73679,1.5521,62_STUDY,NO,https://mapcarta.com/W1179981133,True
+C13,C,Kangkar Tebrau,103.75577,1.5312,62_STUDY,NO,https://mapcarta.com/N6161190016,True
+C14,C,Taman Nusa Bestari 2,103.6533,1.49385,62_STUDY,NO,https://mapcarta.com/N1731000359,True
+C15,C,Taman Nusa Idaman,103.63836,1.47271,62_STUDY,NO,https://mapcarta.com/N2204148256,True
+C16,C,Taman Nusa Indah,103.63147,1.4774,62_STUDY,NO,https://mapcarta.com/N2926211786,True
+C17,C,Mutiara Rini,103.63221,1.51383,62_STUDY,NO,https://mapcarta.com/N8164769164,True
+C18,C,Taman Ungku Tun Aminah,103.66164,1.52056,62_STUDY,NO,https://mapcarta.com/28061618,True
+C19,C,Lima Kedai,103.61698,1.50231,62_STUDY,NO,https://mapcarta.com/15860598,True
+C20,C,Taman Nusa Bayu,103.60088,1.48009,62_STUDY,NO,https://mapcarta.com/W681880040,True
+C21,C,Southern Industrial and Logistics Clusters,103.59728,1.46662,62_STUDY,NO,https://mapcarta.com/W210334796,True
+C22,C,EduCity Iskandar Malaysia,103.61348,1.43277,62_STUDY,NO,https://mapcarta.com/W532639426,True
+C23,C,Puteri Harbour,103.65815,1.41706,62_STUDY,NO,https://mapcarta.com/W494804050,True
+C24,C,Taman Mutiara Utama,103.62071,1.48934,62_STUDY,NO,https://mapcarta.com/W681880041,True
+C25,C,Taman Anggerik,103.69155,1.53445,62_STUDY,NO,https://mapcarta.com/N1691581398,True
+C26,C,Taman Universiti,103.62863,1.53769,62_STUDY,NO,https://mapcarta.com/28061722,True
+C27,C,Taman Nusantara Prima,103.58949,1.47979,62_STUDY,NO,https://mapcarta.com/W681880039,True
+B00,B,Sultan Abu Bakar CIQ / Second Link,103.59894,1.37765,62_STUDY,NO,ORIGINAL_B_FROZEN_DATA,True
+B01,B,Truck transfer search zone west (B-T1),103.598,1.392,62_STUDY,NO,ORIGINAL_B_FROZEN_DATA,True
+B02,B,Truck transfer search zone east (B-T2),103.62,1.39,62_STUDY,NO,ORIGINAL_B_FROZEN_DATA,True
+B03,B,Kampung Ladang,103.61988,1.36614,62_STUDY,NO,ORIGINAL_B_FROZEN_DATA,True
+B04,B,Kampung Tanjung Kupang,103.60302,1.35327,62_STUDY,NO,ORIGINAL_B_FROZEN_DATA,True
+B05,B,Kampung Pendas Baru,103.63508,1.37613,62_STUDY,NO,ORIGINAL_B_FROZEN_DATA,True
+B06,B,Medini township,103.62725,1.41221,62_STUDY,NO,ORIGINAL_B_FROZEN_DATA,True
+B07,B,Eco Botanic retail precinct,103.6205,1.4487,62_STUDY,NO,ORIGINAL_B_FROZEN_DATA,True
+B08,B,Port of Tanjung Pelepas,103.5468,1.358,62_STUDY,NO,ORIGINAL_B_FROZEN_DATA,True
+B09,B,Forest City Golf Hotel area,103.5528,1.41112,62_STUDY,NO,ORIGINAL_B_FROZEN_DATA,True
+A_P01,PORT,Berjaya Waterfront surface parking,103.78232,1.46958,PORT,NO,https://mapcarta.com/W1288603784,True
+A_P02,PORT,The Zon Duty Free,103.78294,1.47156,PORT,NO,https://mapcarta.com/W492140544,True
+A_P03,PORT,De Stulang commercial precinct,103.78129,1.46979,PORT,NO,https://mapcarta.com/W1288603788,True
+A_P04,PORT,Stulang Residents bus stop,103.7811,1.47115,PORT,NO,https://mapcarta.com/N9764633064,True
+A_P05,PORT,Berjaya Waterfront Food Truck Park,103.78196,1.46912,PORT,NO,https://mapcarta.com/N4226469389,True
+A_P06,PORT,Johor Bahru International Ferry Terminal building,103.78456,1.47088,PORT,NO,https://mapcarta.com/W211569124,True
+G_CIQ,GATEWAY,Sultan Iskandar CIQ / Causeway,103.76663,1.46502,GATEWAY,GROUND_GATEWAY_ONLY_NOT_UAV_PAD,Frozen A00 gateway reference; research anchor only,True

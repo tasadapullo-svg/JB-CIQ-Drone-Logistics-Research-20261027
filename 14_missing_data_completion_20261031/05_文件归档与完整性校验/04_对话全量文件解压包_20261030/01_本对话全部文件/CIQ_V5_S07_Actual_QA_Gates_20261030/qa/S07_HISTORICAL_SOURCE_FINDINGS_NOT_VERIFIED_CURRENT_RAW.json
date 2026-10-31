@@ -1,0 +1,38 @@
+{
+  "evidence_class": "HISTORICAL_GITHUB_SOURCE_REPORT_NOT_CURRENT_RAW_BYTE_RECALCULATION",
+  "source_repository": "tasadapullo-svg/JB-CIQ-Drone-Logistics-Research-20261027",
+  "source_commit": "4569817b8145efe2ae06f4b21addc1986f971c12",
+  "weather_source_report": "data/weather_2026/processed/final_verification_summary.json",
+  "weather_monthly_manifests": "data/weather_2026/processed/JB_SG_Weather_2026_MM.manifest.json",
+  "legacy_roads_report": "03_gis_and_road_network/road_network_project/JB_CIQ_E02_roadnet_V4_6/outputs/E02_stage_acceptance_summary.json",
+  "weather_fusion_historical_rows": 14688,
+  "ERA5_raw_historical_rows": 14708,
+  "weather_extra_rows_ERA5_historical": 20,
+  "ERA5_NASA_rain_corr_by_month": {
+    "05": 0.0277,
+    "06": 0.0319,
+    "07": 0.0256,
+    "08": 0.0875,
+    "09": 0.1324
+  },
+  "ERA5_NASA_wind_corr_by_month": {
+    "05": 0.2819,
+    "06": 0.5402,
+    "07": 0.6823,
+    "08": 0.7674,
+    "09": 0.673
+  },
+  "FCD_historical_rows": 1266840,
+  "FCD_unique_nodes_historical": 345,
+  "FCD_unique_hours_historical": 3672,
+  "FCD_missing_speed_historical": 125230,
+  "FCD_positive_speed_historical": 1141555,
+  "FCD_nonpositive_speed_historical": 55,
+  "FCD_missing_speed_pct_historical": 9.8852,
+  "legacy_A_directed_edges_historical": 178098,
+  "legacy_B_directed_edges_historical": 104317,
+  "legacy_91_OD_with_model_candidate_pending_QA": 91,
+  "legacy_37_OD_no_approved_route": 37,
+  "claimed_current_raw_weather_FCD_OSM_validation": false,
+  "S07_RELEASE": "HOLD"
+}

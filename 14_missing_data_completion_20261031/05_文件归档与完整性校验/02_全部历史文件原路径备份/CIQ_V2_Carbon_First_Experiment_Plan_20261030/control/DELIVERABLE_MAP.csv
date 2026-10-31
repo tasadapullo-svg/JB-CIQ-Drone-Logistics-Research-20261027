@@ -1,0 +1,8 @@
+﻿stage,source_inputs,script_or_check,mandatory_outputs,paper_use,status
+V2_S06,qgis_project_bundle.zip; nodes.csv; edges.csv; spatial_screen.csv; legacy_crosswalk.csv,tools/verify_stage.py; stage input QA,nodes_checked.csv; edges_checked.csv; spatial_exclusions.csv; spatial_freeze.json,RQ1,HOLD
+V2_S07,frozen_tasks.csv; road_od_hourly.csv; weather_hourly.csv; cross_border_wait.csv,tools/verify_stage.py; stage input QA,paired_task_manifest.csv; time_join_QA.csv; road_access_repair_log.csv; demand_freeze.json,"RQ1,RQ2",HOLD
+V2_S08,vehicle_registry.csv; fuel_parameters.csv; road_trips_m0.csv; fuel_costs.csv,tools/verify_stage.py; stage input QA,m0_trip_ledger.csv; m0_order_results.csv; m0_QA.json; m0_baseline_freeze.json,"RQ2,RQ3",HOLD
+V2_S09,uav_models.csv; uav_energy_parameters.csv; uav_candidate_missions.csv; regulatory_scenarios.csv,tools/verify_stage.py; stage input QA,uav_mission_energy.csv; uav_weather_restrictions.csv; airspace_scenario_QA.csv; uav_energy_freeze.json,"RQ1,RQ2,RQ3",HOLD
+V2_S10,dispatch_config.json; paired_tasks.csv; road_trip_library.csv; uav_mission_library.csv,tools/verify_stage.py; stage input QA,event_log.csv; trip_ledger.csv; order_mode_results.csv; dispatch_QA.json,"RQ2,RQ3",HOLD
+V2_S11,trip_ledger.csv; order_mode_results.csv; emission_factor_register.csv; cost_parameter_register.csv; optimization_constraints.json,tools/verify_stage.py; stage input QA,operational_carbon_ledger.csv; matched_comparison.csv; pareto_feasible.csv; emission_QA.json,RQ3,HOLD
+V2_S12,paired_run_results.csv; uncertainty_draws.csv; release_qa.json; figure_data.csv,tools/verify_stage.py; stage input QA,rq1_rq2_rq3_summary.csv; sensitivity_summary.csv; figures/; replication_report.md,"RQ1,RQ2,RQ3",HOLD

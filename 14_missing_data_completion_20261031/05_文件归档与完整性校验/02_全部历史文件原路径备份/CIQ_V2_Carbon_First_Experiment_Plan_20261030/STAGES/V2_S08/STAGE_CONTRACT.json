@@ -1,0 +1,56 @@
+{
+  "stage": "V2_S08",
+  "stage_name_cn": "汽油车纯道路 M0 基线",
+  "purpose_en": "Gasoline-car M0 benchmark",
+  "research_questions": "RQ2,RQ3",
+  "inputs": [
+    {
+      "filename": "vehicle_registry.csv",
+      "type": "CSV",
+      "purpose": "汽油车型/容量/服务配置及证据"
+    },
+    {
+      "filename": "fuel_parameters.csv",
+      "type": "CSV",
+      "purpose": "油耗/怠速/油品密度/热值/因子可追溯参数"
+    },
+    {
+      "filename": "road_trips_m0.csv",
+      "type": "CSV",
+      "purpose": "基线去返程、共享路程、车次事件及证据"
+    },
+    {
+      "filename": "fuel_costs.csv",
+      "type": "CSV",
+      "purpose": "燃油价格和非燃油成本数据源"
+    }
+  ],
+  "outputs": [
+    {
+      "filename": "m0_trip_ledger.csv",
+      "purpose": "车次级油耗及 TTW CO2 台账"
+    },
+    {
+      "filename": "m0_order_results.csv",
+      "purpose": "逐任务时间/完成/按时/费用与分摊"
+    },
+    {
+      "filename": "m0_QA.json",
+      "purpose": "单位、路程、队列和误差检查"
+    },
+    {
+      "filename": "m0_baseline_freeze.json",
+      "purpose": "M0 定义及哈希"
+    }
+  ],
+  "release_gates": [
+    "以汽油车为 M0 且车辆类型明确",
+    "油耗、怠速、燃油 CO2 因子具有出处/不确定性",
+    "所有去返程和共享路程不重复计数",
+    "M0 与后续 M1/M2 使用同一任务与车队公平性协议",
+    "不能把旧电动车 kgCO2e 当汽油 CO2"
+  ],
+  "expected_status": "BLOCKED_UNTIL_REAL_INPUTS_ACCEPTED",
+  "historical_git_commit": "4569817b8145efe2ae06f4b21addc1986f971c12",
+  "review_rule": "Automatic schema gate is not scientific approval; release requires human evidence review plus frozen source hashes."
+}

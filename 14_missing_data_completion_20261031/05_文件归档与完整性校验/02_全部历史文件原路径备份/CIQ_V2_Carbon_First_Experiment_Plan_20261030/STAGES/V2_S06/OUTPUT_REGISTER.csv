@@ -1,0 +1,5 @@
+﻿filename,definition,status,sha256
+nodes_checked.csv,可核验节点及空间证据,NOT_PRODUCED,
+edges_checked.csv,可核验连接及端点,NOT_PRODUCED,
+spatial_exclusions.csv,硬排除/待审批/情景适用分别编码,NOT_PRODUCED,
+spatial_freeze.json,CRS/输入 SHA/统计/人工验收签核,NOT_PRODUCED,

@@ -1,0 +1,6 @@
+﻿gate_id,acceptance_criterion,status,evidence_path,reviewer
+V2_S09-G01,两机型分别识别且不能用470 W旧泛化模型,BLOCKED,,
+V2_S09-G02,任务能耗包含带载/空载/起降/返航/充电损失,BLOCKED,,
+V2_S09-G03,每条任务天气基于实际起飞/返航时刻,BLOCKED,,
+V2_S09-G04,空域状态明确标记、未授权不能称可部署,BLOCKED,,
+V2_S09-G05,能耗缺口未闭合则阻止定量减排排序,BLOCKED,,
