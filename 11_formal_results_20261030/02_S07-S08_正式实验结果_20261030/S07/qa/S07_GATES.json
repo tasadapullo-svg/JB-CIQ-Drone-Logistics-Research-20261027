@@ -1,0 +1,14 @@
+{
+  "G07-W": "CONDITIONAL",
+  "G07-R": "CONDITIONAL",
+  "G07-INTEGRATION": "CONDITIONAL",
+  "S07": "CONDITIONAL",
+  "S08_release": "CONDITIONAL_SCENARIO",
+  "limitations": [
+    "ERA5 is reanalysis and only two returned grid cells represent 68 nodes",
+    "31 nodes exceed the 10 km weather-proxy warning threshold",
+    "FCD has no observed direction and its km/h unit is conditional on TomTom default",
+    "current OSM is not a May-Sep 2026 historical snapshot",
+    "road entrance legality, turn restrictions and cross-border permissions are unverified"
+  ]
+}

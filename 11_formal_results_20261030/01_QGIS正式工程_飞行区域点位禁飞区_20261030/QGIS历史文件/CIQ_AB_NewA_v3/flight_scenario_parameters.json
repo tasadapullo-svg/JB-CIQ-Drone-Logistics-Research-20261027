@@ -1,0 +1,47 @@
+{
+  "project": "CIQ_AB_NewA_v3",
+  "frozen_A_ids_removed": [
+    "A11"
+  ],
+  "excluded_west_site": "A11 Perling",
+  "A_study_sites": [
+    "A01",
+    "A02",
+    "A03",
+    "A04",
+    "A05",
+    "A06",
+    "A07",
+    "A08",
+    "A09",
+    "A10"
+  ],
+  "A_search_hubs_for_reach": [
+    "A01",
+    "A03",
+    "A09"
+  ],
+  "A02_note": "Alternative in same Tebrau II industrial cluster as A01; not counted independently",
+  "B_reference_hubs_for_reach": [
+    "B01",
+    "B02",
+    "B07"
+  ],
+  "frozen_B_has_no_verified_uav_pad": true,
+  "technical_range_reference_km": {
+    "DJI_FlyCart30_30kg": 16.0,
+    "Wingcopter198_reference": 92.0
+  },
+  "nominal_mission_budget_fraction": 0.7,
+  "geometry_mode": "radius_km = published_reference_max_km * fraction / 2 (illustrative return-to-same-base)",
+  "screens": [
+    "UNMASKED_GEOMETRY",
+    "OUTSIDE_UNION_OF_TWO_CONFLICTING_WMP228_REFERENCE_CIRCLES"
+  ],
+  "flight_rights": "NO_FLIGHT_PERMISSION_VERIFIED",
+  "obstacle_weather_payload_landuse": "NOT_VERIFIED",
+  "screenshot_windows": "HAND_DRAWN_APPROX_NOT_A_CADASTRAL_OR_LEGAL_BOUNDARY",
+  "coordinate_system_distance": "EPSG:32648 projected planar distance for 2–32 km local engineering illustration",
+  "data_date": "2026-10-29",
+  "caveat": "Wingcopter 92km and FlyCart 16km official maximum range are version/payload-specific; 70% factor is an arbitrary scenario, not an approved flight budget. Neither disk demonstrates operational feasibility."
+}

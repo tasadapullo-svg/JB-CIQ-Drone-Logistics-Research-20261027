@@ -1,0 +1,10 @@
+parameter_group,parameter,evidence_class,scientific_use,limitation
+frozen_design,"82,620 orders; 30 seeds; 153 days",PROJECT_FROZEN,Primary experiment,"Synthetic demand; seeds are replicates"
+M1_sites,11-node whitelist,PROJECT_HISTORICAL_CONDITIONAL,Primary corrected constraint,"Site permission not verified"
+DJI,payload/speed/battery,OEM_LABELLED_PROJECT_INPUT,Conditional simulation,"Operating conditions and degradation not field validated"
+Wingcopter,payload/speed/battery,PROJECT_LITERATURE_INPUT,Conditional sensitivity,"Field energy and exact configuration HOLD"
+weather,10 km screen,AUDIT_THRESHOLD,Primary strict scenario,"Not a legal or physical safety boundary"
+airspace,WMP228 reference intersection,REFERENCE_RISK_SCREEN,Exclusion flag,"Not operational clearance"
+traffic,FCD hourly speed,DIRECTION_UNOBSERVED_PROXY,Time-dependent road model,"Applied to directed OSM edges without observed direction"
+emissions,petrol plus grid operational proxy,MIXED_BOUNDARY_PROXY,Mode comparison,"Not lifecycle assessment"
+cost,partial OPEX,SCENARIO_ACCOUNTING,Conditional comparison,"Capital recovery and financing excluded"

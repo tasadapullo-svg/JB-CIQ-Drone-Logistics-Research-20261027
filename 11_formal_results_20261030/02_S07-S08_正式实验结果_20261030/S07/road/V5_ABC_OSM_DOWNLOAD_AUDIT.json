@@ -1,0 +1,24 @@
+{
+  "status": "GRAPH_OBTAINED_NOT_OPERATIONALLY_ACCEPTED",
+  "source": "OSM Overpass via OSMnx",
+  "bbox_epsg4326_left_bottom_right_top": [
+    103.5218,
+    1.32827,
+    103.85770000000001,
+    1.5771
+  ],
+  "num_v5_nodes": 68,
+  "snapshot": "CURRENT_OSM_AT_EXECUTION_NOT_HISTORICAL_2026_MAY_TO_SEPT",
+  "scope_warning": "bbox includes locations possibly across MY/SG; cross-border access and wait times are NOT inferred",
+  "legal_access_warning": "node snap is not proof of vehicle entrance, turn access, legal crossing, road passage or route validation",
+  "source_v5_nodes_sha256": "6d10ce88b5d7770fa1a776bffb5c386655d9ccab18064138c06ce11ea9d756a9",
+  "retrieval_utc": "2026-10-30T09:30:46.205613+00:00",
+  "osmnx_version": "2.1.0",
+  "nodes_G": 40187,
+  "directed_arcs": 90108,
+  "weak_components": 76,
+  "graphml_sha256": "73a5e88a5444c07bc35f3821e8cc4be2dfb82f63646425e780990b8c48b65470",
+  "nearest_node_candidates_at_100m": 0,
+  "all_68_nodes_preserved": 68,
+  "full_ABC_road_gate": "HOLD_MANUAL_ENTRANCE_TURN_CROSS_BORDER_AND_HISTORICITY_CHECK"
+}

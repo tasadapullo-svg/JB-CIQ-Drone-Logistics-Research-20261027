@@ -1,0 +1,12 @@
+{
+  "rows": 82620,
+  "unique_task_ids": 82620,
+  "scenarios": 4590,
+  "weather_matched": 82620,
+  "road_route_matched": 82620,
+  "positive_fcd_at_release": 73394,
+  "fcd_fallback_required": 9226,
+  "orders_gt10km_weather_grid": 55080,
+  "orders_preserved": true,
+  "status": "CONDITIONAL"
+}

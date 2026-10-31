@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "study_nodes": 68,
+  "gateway_ground_reference": 1,
+  "all_geometries": 121,
+  "candidate_UAV_geometries": 116,
+  "ground_reference_beelines": 5,
+  "DJI_geometric_candidates_within_5p6km": 99,
+  "DJI_geometric_candidates_beyond_5p6km": 17,
+  "Wing_geometric_candidates_within_32p2km": 116,
+  "approved_UAV_routes": 0,
+  "approved_UAV_pads": 0,
+  "all_B_source_points_retained": true,
+  "A11_not_reintroduced": true,
+  "distance_checks": "Haversine independent approximation compared with source WGS84 geodesic distances; 150 m QA tolerance",
+  "note": "Geometry-only filters; not weather, load, power, airspace legal status, risk or flight approval"
+}

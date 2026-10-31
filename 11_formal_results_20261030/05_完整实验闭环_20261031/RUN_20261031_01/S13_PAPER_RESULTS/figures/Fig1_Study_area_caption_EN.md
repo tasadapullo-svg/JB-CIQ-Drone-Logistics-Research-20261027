@@ -1,0 +1,1 @@
+Frozen V5 research geography. The 68 nodes and 11 project-whitelisted M1 sites are shown with conditional OSM road-edge midpoints. Site permission and operational airspace clearance remain unverified.

@@ -1,0 +1,9 @@
+{
+  "target_filename": "G1_GROUND_LEG_LEDGER.parquet",
+  "original_size_bytes": 26142050,
+  "sha256": "c2584e1ac13f63de3ac05cc4bf043aa9b502093be136cb0ab15f109555286d48",
+  "parts": [
+    "part_001.bin",
+    "part_002.bin"
+  ]
+}

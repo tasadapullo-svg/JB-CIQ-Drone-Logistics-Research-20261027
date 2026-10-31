@@ -1,0 +1,30 @@
+[
+  {
+    "zip": "CIQ_V5_S08A_M0_RECONCILIATION_RUN_20261030_01.zip",
+    "fresh_extract": "PASS",
+    "manifest_files_verified": 12,
+    "manifest_mismatches": 0,
+    "extracted_files": 13
+  },
+  {
+    "zip": "CIQ_V5_S09_UAV_MISSION_SIMULATION_RUN_20261030_01.zip",
+    "fresh_extract": "PASS",
+    "manifest_files_verified": 16,
+    "manifest_mismatches": 0,
+    "extracted_files": 17
+  },
+  {
+    "zip": "CIQ_V5_S10_FIVE_MODE_COMPARISON_RUN_20261030_01.zip",
+    "fresh_extract": "PASS",
+    "manifest_files_verified": 27,
+    "manifest_mismatches": 0,
+    "extracted_files": 28
+  },
+  {
+    "zip": "CIQ_V5_S08A_S09_S10_HANDOFF_RUN_20261030_01.zip",
+    "fresh_extract": "PASS",
+    "manifest_files_verified": 18,
+    "manifest_mismatches": 0,
+    "extracted_files": 19
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "status": "V3_GPKG_STATIC_OK",
+  "counts": {
+    "A_new_10_evidence_nodes": 10,
+    "A_new_4_site_search": 4,
+    "A_new_6_demand_references": 6,
+    "A_new_11_unapproved_air_lines": 11,
+    "A_CIQ_ground_gateway": 1,
+    "B_10_frozen_reference_points": 10,
+    "B_33_frozen_unique_geometry": 33,
+    "WMP228_two_historical_discs": 2,
+    "A_user_study_windows_approx": 2,
+    "AB_display_bounds_only": 2,
+    "A_9_FCD_examples_uncalibrated": 9,
+    "reach_DJI_A_nominal": 1,
+    "reach_DJI_A_WMP_screen": 1,
+    "reach_DJI_B_nominal": 1,
+    "reach_DJI_B_WMP_screen": 1,
+    "reach_WING_A_nominal": 1,
+    "reach_WING_A_WMP_screen": 1,
+    "reach_WING_B_nominal": 1,
+    "reach_WING_B_WMP_screen": 1
+  },
+  "reference_circles_are_not_legal_prohibited_area": true,
+  "A11_removed": true,
+  "A09_A10_retained": true,
+  "WMP_screen_is_comparison_not_authority": true,
+  "has_real_drone_operation_approvals": false,
+  "has_FCD_calibrated_routes": false
+}

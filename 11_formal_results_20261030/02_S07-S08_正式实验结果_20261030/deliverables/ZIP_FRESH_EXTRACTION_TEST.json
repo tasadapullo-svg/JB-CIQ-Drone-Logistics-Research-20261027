@@ -1,0 +1,18 @@
+[
+  {
+    "zip": "CIQ_V5_S07_REAL_DATA_FUSION_COMPLETE.zip",
+    "fresh_extract": "PASS",
+    "embedded_manifest_count": 1,
+    "manifest_files_verified": 44,
+    "manifest_mismatches": 0,
+    "extracted_files": 45
+  },
+  {
+    "zip": "CIQ_V5_S08_PETROL_M0_BASELINE_COMPLETE.zip",
+    "fresh_extract": "PASS",
+    "embedded_manifest_count": 1,
+    "manifest_files_verified": 36,
+    "manifest_mismatches": 0,
+    "extracted_files": 37
+  }
+]

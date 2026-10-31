@@ -1,0 +1,15 @@
+﻿Item,RQ,RequiredSourceWithinArchivedInputs,ScientificContent,Status
+Fig1,RQ1,V5 GPKG + S13_PAPER_RESULTS/figures/Fig1_source.csv,QGIS native map,PENDING_GIS_AUTHOR_VERIFICATION
+Fig2,Methods,S13_PAPER_RESULTS/figures/Fig2_source.csv,Workflow,DRAFT_SOURCE_READY
+Fig3,RQ1,PARAMETER_AND_SOURCE_AUDIT.csv + S11B PARAMS.yaml + OEM pages,Two aircraft + operational conditions,NEED_AUTHOR_REDESIGN
+Fig4,RQ1/RQ2,S07 Weather/FCD + S12_A stratified + S13 Fig3_source.csv,Weather and traffic,DATA_EXIST_CHECK_SPATIAL
+Fig5,RQ2,S13_PAPER_RESULTS/figures/Fig5_source.csv + G2_ORDER_SERVICE_STATUS.parquet,Service and allocation,SOURCE_AVAILABLE
+Fig6,RQ3,G2_PER_SEED_153DAY.csv + S13 Fig6_source.csv,GHG proxy and partial OPEX,SOURCE_AVAILABLE
+Fig7,RQ3,S12_C_SERVICE_CONSTRAINED_PARETO.csv + JOINT_SENSITIVITY_SUMMARY.csv,Tested Pareto + 13-scenario robustness,SOURCE_AVAILABLE_LIMITED_GRID
+Table1,All,Table1_Data_sources_and_evidence.csv + PARAMETER_AND_SOURCE_AUDIT.csv,Data sources/evidence,SOURCE_AVAILABLE
+Table2,Methods,Table2_Configuration_parameters.csv + PARAMS.yaml,Parameters and assumptions,SOURCE_AVAILABLE
+Table3,RQ2/RQ3,Table3_Strict_main_results.csv + G2_PER_SEED_153DAY.csv,Five-mode results,SOURCE_AVAILABLE
+Table4,RQ1/RQ2,Table4_Stratified_service.csv + S12_A_STRATIFIED_SERVICE.csv,Stratified service,SOURCE_AVAILABLE
+Table5,RQ2/RQ3,Table5_Paired_statistics.csv,Paired statistics,SOURCE_AVAILABLE
+Table6,RQ3,Table6_Cost_emissions_break_even.csv + G2_BREAK_EVEN_CORRECTED.csv,Cost boundary/break-even,SOURCE_AVAILABLE_CONDITIONAL
+Table7,RQ3,Table7_Robustness_and_Pareto.csv + JOINT_SENSITIVITY_SUMMARY.csv,Sensitivity and Pareto,SOURCE_AVAILABLE_LIMITED_GRID

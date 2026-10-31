@@ -1,0 +1,35 @@
+{
+  "G4": {
+    "gate": "G4_S12_B",
+    "status": "PASS_CONDITIONAL",
+    "completed": [
+      "MAIN_STRICT_10KM_24H",
+      "RELAXED_PROXY_24H",
+      "ENERGY_LOW_0P8",
+      "ENERGY_HIGH_1P2",
+      "DUTY_8H",
+      "DUTY_12H",
+      "DUTY_30H"
+    ],
+    "not_run_or_pending": [
+      "WEATHER_5_15_20_25KM",
+      "RESOURCE_GRID",
+      "EXACT_SOLVER_BENCHMARK"
+    ],
+    "claim_limit": "Only completed dynamic reruns may support sensitivity claims; relaxed weather proxy is not validation of flyability."
+  },
+  "G5": {
+    "gate": "G5_S12_C",
+    "status": "PASS_CONDITIONAL",
+    "tested_configurations": 5,
+    "service_feasible": 5,
+    "nondominated": [
+      "M2_WING"
+    ],
+    "limitations": [
+      "Pareto set is conditional on the small tested configuration set.",
+      "No exact-solver benchmark.",
+      "Paired uncertainty uses 30 seed-level 153-day replicates; it does not establish external validity."
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "orders": 82620,
+  "unique_task_ids": 82620,
+  "scenes": 4590,
+  "orders_per_scene_min": 18,
+  "orders_per_scene_max": 18,
+  "selected_dates": 30,
+  "selected_scenes": 900,
+  "selected_seeds": 30,
+  "months": {
+    "2026-05": 180,
+    "2026-06": 180,
+    "2026-07": 180,
+    "2026-08": 180,
+    "2026-09": 180
+  },
+  "selection_rule": "Within each month, equal-weight standardized daily mean gust + rain - FCD speed; six fixed stress-score quantiles 0,.2,.4,.6,.8,1; all 30 seeds for each date.",
+  "generator_found": true,
+  "protocol_found": true
+}

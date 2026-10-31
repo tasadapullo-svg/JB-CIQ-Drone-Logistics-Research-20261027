@@ -1,0 +1,11 @@
+{
+  "target_filename": "CIQ_V5_S11_CORRECTIVE_VALIDATION_COMPLETE.zip",
+  "original_size_bytes": 80337276,
+  "sha256": "637aa153807b162b76a3add029e72063ada8d38a3403b67a14164b28571e7c4f",
+  "parts": [
+    "part_001.bin",
+    "part_002.bin",
+    "part_003.bin",
+    "part_004.bin"
+  ]
+}

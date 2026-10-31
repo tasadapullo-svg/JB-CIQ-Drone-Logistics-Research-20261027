@@ -1,0 +1,12 @@
+﻿Purpose,Source,Year,DOI_or_URL,EvidenceRole
+Truck–drone problem foundation,Murray and Chu,2015,10.1016/j.trc.2015.03.005,External theory
+Truck–drone systematic review,Approaches to the truck-drone routing problem,2024,10.1016/j.swevo.2024.101825,External theory
+Truck–drone modern review,Chen et al.,2026,10.1016/j.tre.2026.105096,External theory
+Wind and drone energy,Betti Sorbelli et al.,2023,10.1109/TITS.2023.3234627,External theory
+Energy and time windows,Cooperated Truck-Drone Routing,2024,10.1109/TITS.2024.3478175,External theory
+Synthetic parcel demand,From synthetic population to parcel demand,2023,10.1016/j.trpro.2023.11.644,"External methods, not JB empirical validation"
+Gridded weather,Hersbach et al.,2020,10.1002/qj.3803,ERA5 methodology
+UAV DJI technical specifications,DJI FlyCart 30,2026 accessed,https://www.dji.com/flycart-30/specs,OEM specs
+UAV Wing technical specifications,Wingcopter 198 Cargo,2026 accessed,https://wsd.wingcopter.com/w198-cargo,"OEM specs, kWh unverified"
+Peninsular grid factor,Energy Commission Malaysia,2024 provisional,https://myenergystats.st.gov.my/documents/d/guest/grid-emission-factor-gef-in-malaysia-2022-2024-provisional-,"Official factor, temporal proxy"
+UAS operational approval requirements,CAAM UAS,2026 accessed,https://www.caam.gov.my/public/unmanned-aircraft-system-uas/,Regulatory context not clearance

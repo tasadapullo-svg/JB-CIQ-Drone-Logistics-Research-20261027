@@ -1,0 +1,24 @@
+{
+  "tasks_rows": 82620,
+  "task_unique": 82620,
+  "s09_rows": 165240,
+  "s10_order_rows": 413100,
+  "s10_unique_keys": 413100,
+  "s10_scenarios": 22950,
+  "old_ground_legs_read": 644903,
+  "old_flights_read": 55246,
+  "reproduced_one_existing_scenario": {
+    "mode": "M0_PETROL",
+    "date_local": "2026-05-01",
+    "scenario_seed": 20261027,
+    "orders_csv": 18,
+    "orders_parquet": 18,
+    "completed_csv": 18,
+    "completed_recomputed": 18,
+    "on_time_csv": 17,
+    "on_time_recomputed": 17,
+    "exact_match": true
+  },
+  "missing_inputs": 0,
+  "status": "PASS"
+}

@@ -1,0 +1,15 @@
+﻿model,parameter,value,unit,evidence_class,source,applicability
+DJI_FLYCART30,payload,30.0,kg,MANUFACTURER,https://www.dji.com/flycart-30/specs,dual battery
+DJI_FLYCART30,empty maximum test distance,28.0,km,MANUFACTURER,https://www.dji.com/flycart-30/specs,windless controlled test; not safe mission range
+DJI_FLYCART30,30kg maximum test distance,16.0,km,MANUFACTURER,https://www.dji.com/flycart-30/specs,windless controlled test; not safe mission range
+DJI_FLYCART30,dual nominal battery energy,3.9688,kWh,MANUFACTURER_DERIVED,https://www.dji.com/flycart-30/specs,"2 x 1984.4Wh; nominal, not usable"
+DJI_FLYCART30,wind resistance,12.0,m/s,MANUFACTURER,https://www.dji.com/flycart-30/specs,test condition applicability uncertain
+WINGCOPTER198_CARGO,payload,4.7,kg,MANUFACTURER,https://wsd.wingcopter.com/w198-cargo,current Cargo web specification
+WINGCOPTER198_CARGO,range upper bound,92.0,km,MANUFACTURER,https://wsd.wingcopter.com/w198-cargo,payload/mission conditions not specified
+WINGCOPTER198_CARGO,wind resistance,18.0,m/s,MANUFACTURER,https://wsd.wingcopter.com/w198-cargo,up to; detailed conditions not specified
+WINGCOPTER198_CARGO,loaded energy intensity,0.1,kWh/km,SCENARIO,NONE,not measured aircraft energy; sensitivity required
+WINGCOPTER198_CARGO,empty energy intensity,0.08,kWh/km,SCENARIO,NONE,not measured aircraft energy; sensitivity required
+BOTH,charge efficiency,0.9,fraction,SCENARIO,NONE,range sensitivity only
+BOTH,reserve,0.2,fraction,SCENARIO,NONE,not certified reserve
+BOTH,rain screen,0.5,mm/h,SCENARIO,NONE,not a certified aircraft limit
+GRID,Peninsular 2024 provisional GEF,0.74,kgCO2e/kWh,OFFICIAL,https://myenergystats.st.gov.my/documents/d/guest/grid-emission-factor-gef-in-malaysia-2022-2024-provisional-,operational grid scenario; not LCA

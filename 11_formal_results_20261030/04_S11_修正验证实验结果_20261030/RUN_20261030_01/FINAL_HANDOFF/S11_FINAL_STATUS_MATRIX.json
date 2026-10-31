@@ -1,0 +1,41 @@
+{
+  "G11-0": {
+    "status": "PASS",
+    "evidence": "G11_0_PRECHECK/reports/G11_0_STATUS.json"
+  },
+  "G11-1": {
+    "status": "PASS",
+    "evidence": "G11_1_DYNAMIC_WEATHER/data/S11_LAUNCH_WEATHER_LEDGER.parquet"
+  },
+  "G11-2": {
+    "status": "PASS",
+    "evidence": "G11_2_BATTERY_SOC/qa/RESOURCE_CONFLICT_AUDIT.json"
+  },
+  "G11-3": {
+    "status": "PASS",
+    "evidence": "G11_3_FAIRNESS/data/PAIRWISE_CAUSAL_DECOMPOSITION.csv"
+  },
+  "G11-4": {
+    "status": "PASS",
+    "evidence": "G11_4_DUTY_ROAD/data/DUTY_SHIFT_SENSITIVITY.csv; G11_4_DUTY_ROAD/qa/ROAD_CACHE_GATE.json"
+  },
+  "G11-5": {
+    "status": "PASS_CONDITIONAL",
+    "evidence": "G11_5_ENERGY_COST/data/ENERGY_EVIDENCE_REGISTRY.csv",
+    "hold": "Wing energy is non-OEM; fixed capital and lifecycle inventory unavailable"
+  },
+  "G11-6": {
+    "status": "PASS_CONDITIONAL",
+    "evidence": "G11_6_STATS_PARETO/data/S11_PAIRED_STATISTICS.csv",
+    "hold": "inference bounded by G11-5"
+  },
+  "G11-7": {
+    "status": "HOLD",
+    "evidence": "G11_7_GIS/data/REGULATORY_SOURCE_REGISTRY.csv",
+    "hold": "screening is not route authorization or CIQ approval"
+  },
+  "FINAL": {
+    "status": "PASS_CONDITIONAL",
+    "evidence": "FINAL_HANDOFF/S11_SCI_FINAL_AUDIT_REPORT_CN.md"
+  }
+}

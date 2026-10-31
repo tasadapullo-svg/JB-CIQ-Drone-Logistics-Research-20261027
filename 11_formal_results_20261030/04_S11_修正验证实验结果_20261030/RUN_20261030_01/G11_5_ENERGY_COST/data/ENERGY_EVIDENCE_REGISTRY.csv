@@ -1,0 +1,5 @@
+parameter,value,unit,evidence,use
+DJI battery capacity,3.9688,kWh,OEM_NOMINAL,main
+Wing battery capacity,3.0,kWh,SCENARIO_NOT_OEM,conditional
+grid factor,0.74,kgCO2e/kWh,PROJECT_FROZEN_PROXY,operational sensitivity
+petrol TTW factor,2.2410927,kgCO2/litre,PROJECT_FROZEN,tank-to-wheel

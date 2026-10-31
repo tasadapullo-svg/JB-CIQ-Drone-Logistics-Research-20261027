@@ -1,0 +1,10 @@
+{
+  "target_filename": "S11_G11_1_DYNAMIC_WEATHER.zip",
+  "original_size_bytes": 43537080,
+  "sha256": "c73db5090c90a3a12adf4d8fdeff9ab7d2085dc5a604f9a9b02f6725ec137648",
+  "parts": [
+    "part_001.bin",
+    "part_002.bin",
+    "part_003.bin"
+  ]
+}

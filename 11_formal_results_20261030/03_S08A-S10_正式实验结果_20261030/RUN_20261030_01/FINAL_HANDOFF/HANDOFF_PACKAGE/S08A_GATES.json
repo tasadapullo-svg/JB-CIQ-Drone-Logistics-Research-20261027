@@ -1,0 +1,14 @@
+{
+  "COMPUTATION_STATUS": "PASS",
+  "SCI_EVIDENCE_STATUS": "CONDITIONAL",
+  "S10_M0_RELEASE": "M0_30H_OPERATIONAL_WINDOW_CONDITIONAL",
+  "original_S08_immutable": true,
+  "limitations": [
+    "30h is an operational vehicle scheduling window, not a validated individual-driver shift",
+    "relay-driver interpretation is required; cost remains active vehicle-hours at MYR15/hour",
+    "FCD direction is unobserved and speeds are floored at 5 km/h",
+    "current OSM, site entrances, turn constraints and border permissions remain conditional",
+    "prior 2/4-vehicle sensitivity changes depot composition",
+    "18-order/3-vehicle heuristic is not proven globally optimal"
+  ]
+}

@@ -1,0 +1,1 @@
+{"sample_n": 3000, "seed": 20261030, "mean_absolute_percent_error": 0.2277686324259622, "p95_absolute_percent_error": 0.4412896851289954, "acceptance": "mean<=5% and p95<=10%", "status": "PASS"}

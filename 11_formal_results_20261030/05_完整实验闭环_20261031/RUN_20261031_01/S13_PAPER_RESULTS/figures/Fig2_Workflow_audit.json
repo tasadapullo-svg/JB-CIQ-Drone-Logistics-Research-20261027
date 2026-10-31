@@ -1,0 +1,7 @@
+{
+  "figure": "Fig2_Workflow",
+  "source": "G0_EXPERIMENT_CATALOG.csv and corrected code",
+  "caption": "Workflow linking frozen inputs to event-level resource accounting, paired comparisons, and service-constrained Pareto analysis.",
+  "status": "VERIFIED_FROM_FINAL_CSV",
+  "sha256_png": "b2dd137b87a6154854cc21535dda53be8d92a37fe00cdbaad419ccdcc0d961ac"
+}

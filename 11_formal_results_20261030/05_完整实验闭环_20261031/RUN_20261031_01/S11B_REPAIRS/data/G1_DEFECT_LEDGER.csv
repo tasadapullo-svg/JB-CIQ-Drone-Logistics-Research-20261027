@@ -1,0 +1,7 @@
+defect_id,historical_issue,corrective_action,status
+P0-01,Dynamic M1 station creation,Replaced by explicit 11-node whitelist,CLOSED
+P0-02,Asymmetric M1 duty clock,"Vehicle, station, flight and operator events use explicit clocks",CLOSED
+P0-03,Return/recovery omission,"Outbound, return launch, recovery and mandatory vehicle depot return enforced",CLOSED
+P0-04,M1/M2 geometry mismatch,Common directed mission catalog and reverse/WMP/cross-border kernel,CLOSED
+P0-05,Post-hoc energy sensitivity,Energy multiplier enters mission qualification and SOC before selection,CLOSED_CODE; SENSITIVITY_RUN_SEPARATELY
+P0-06,Break-even summed across seeds,Per-seed 153-day comparison; seeds not summed,CLOSED

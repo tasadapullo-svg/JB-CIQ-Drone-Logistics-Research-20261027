@@ -1,0 +1,12 @@
+{
+  "run_started_or_completed_utc": "2026-10-30T09:37:29.553827+00:00",
+  "python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "pandas": "2.3.3",
+  "numpy": "2.5.0",
+  "geopandas": "1.2.0",
+  "networkx": "3.6.1",
+  "osmnx": "2.1.0",
+  "pyproj": "3.7.2",
+  "scipy": "1.18.1"
+}

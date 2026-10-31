@@ -1,0 +1,9 @@
+test_fcd_full_counts_and_missing_preserved (test_outputs.TestS07Outputs.test_fcd_full_counts_and_missing_preserved) ... ok
+test_gate_is_not_overclaimed (test_outputs.TestS07Outputs.test_gate_is_not_overclaimed) ... ok
+test_v5_weather_road_and_orders (test_outputs.TestS07Outputs.test_v5_weather_road_and_orders) ... ok
+test_weather_and_boundaries (test_outputs.TestS07Outputs.test_weather_and_boundaries) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.749s
+
+OK

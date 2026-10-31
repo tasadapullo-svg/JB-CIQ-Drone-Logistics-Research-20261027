@@ -1,0 +1,6 @@
+{
+  "S10_PREFLIGHT": "PASS",
+  "S10_FULL_RUN": "PASS_CONDITIONAL",
+  "S10_SCI_CARBON_CLAIM": "HOLD",
+  "reason": "Wingcopter task energy, airspace/site permission, symmetric WTW/LCA and full capital costs are unverified"
+}

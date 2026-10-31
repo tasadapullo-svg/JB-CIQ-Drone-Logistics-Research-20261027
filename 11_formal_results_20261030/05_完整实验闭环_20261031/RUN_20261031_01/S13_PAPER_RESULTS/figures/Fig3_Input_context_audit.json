@@ -1,0 +1,7 @@
+{
+  "figure": "Fig3_Input_context",
+  "source": "V5_TASK_TIME_WEATHER_ROAD_INDEX.parquet",
+  "caption": "Monthly task counts, release-hour gridded gusts, and direction-unobserved FCD speed proxies for May to September 2026.",
+  "status": "VERIFIED_FROM_FINAL_CSV",
+  "sha256_png": "fb2c741b2ff072fbe652fe74c49025b9e5c54b7c95fdd7bb252753372c592709"
+}

@@ -1,0 +1,11 @@
+experiment_id,factor,level,status,scenarios,note
+MAIN_STRICT_10KM_24H,weather spatial audit,10km strict,FULL_RERUN,4590,Primary preregistered analysis.
+RELAXED_PROXY_24H,weather spatial audit,relaxed proxy,FULL_RERUN,4590,Sensitivity only; not evidence of real-world flyability.
+ENERGY_LOW_0P8,UAV mission energy,0.8x,SUBSET_RERUN,900,Must be dynamically rerun.
+ENERGY_HIGH_1P2,UAV mission energy,1.2x,SUBSET_RERUN,900,Must be dynamically rerun.
+DUTY_8H,duty window,8h,SUBSET_RERUN,900,Dynamic rerun.
+DUTY_12H,duty window,12h,SUBSET_RERUN,900,Dynamic rerun.
+DUTY_30H,duty window,30h,SUBSET_RERUN,900,Diagnostic boundary; not primary.
+WEATHER_5_15_20_25KM,weather distance thresholds,5/15/20/25km,NOT_RUN,0,10km strict and unrestricted proxy completed; intermediate thresholds not computed.
+RESOURCE_GRID,vehicles/UAVs/batteries/chargers,factorial,NOT_RUN,0,"Only the preregistered 3 vehicles, 11 M1 station assets, and 2 M2 batteries/vehicle were tested."
+EXACT_SOLVER_BENCHMARK,algorithm,exact vs heuristic,NOT_RUN,0,No independently validated exact solver was available.

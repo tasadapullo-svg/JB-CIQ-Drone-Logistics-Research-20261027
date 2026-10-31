@@ -1,0 +1,4 @@
+factor,range,status
+Wing energy model,0.5x-2x,HOLD_PRIMARY_SOURCE
+grid factor,frozen 0.740,CONDITIONAL
+fixed capital,not observed; break-even ceiling only,HOLD

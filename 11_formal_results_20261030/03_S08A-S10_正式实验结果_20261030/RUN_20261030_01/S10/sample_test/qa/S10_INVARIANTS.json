@@ -1,0 +1,22 @@
+{
+  "mode_order_rows": 2700,
+  "expected_mode_order_rows": 2700,
+  "unique_mode_order_keys": 2700,
+  "duplicate_mode_order_keys": 0,
+  "mode_scenario_rows": 150,
+  "expected_mode_scenario_rows": 150,
+  "orders_per_mode": {
+    "M0_PETROL": 540,
+    "M1_DJI": 540,
+    "M1_WING": 540,
+    "M2_DJI": 540,
+    "M2_WING": 540
+  },
+  "orders_per_mode_scenario_min": 18,
+  "orders_per_mode_scenario_max": 18,
+  "ground_leg_duplicate_keys": 0,
+  "flight_duplicate_ids": 0,
+  "negative_ground_distance": 0,
+  "negative_flight_energy": 0,
+  "all_tasks_preserved": true
+}

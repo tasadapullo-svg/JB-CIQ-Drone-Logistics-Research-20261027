@@ -1,0 +1,22 @@
+{
+  "base_scenarios": 4590,
+  "frozen_orders": 82620,
+  "mode_order_rows": 991440,
+  "mode_scenario_rows": 55080,
+  "all_spatial_flights": 56342,
+  "strict_flights": 7389,
+  "relaxed_flights": 48953,
+  "ground_legs": 1487220,
+  "order_key_duplicates": 0,
+  "scenario_key_duplicates": 0,
+  "flight_id_duplicates": 0,
+  "ground_leg_id_duplicates": 0,
+  "seed_count": 30,
+  "orders_per_seed_values": [
+    2754
+  ],
+  "days_per_seed_values": [
+    153
+  ],
+  "status": "PASS"
+}

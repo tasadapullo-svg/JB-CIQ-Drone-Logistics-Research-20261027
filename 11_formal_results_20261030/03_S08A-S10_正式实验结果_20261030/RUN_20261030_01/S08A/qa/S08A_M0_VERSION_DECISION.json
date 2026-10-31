@@ -1,0 +1,7 @@
+{
+  "selected_version": "M0_30H_OPERATIONAL_WINDOW_CONDITIONAL",
+  "routing_output": "UNCHANGED_ORIGINAL_S08_MULTI_START",
+  "reason": "full numerical/event conservation passes; retain pre-existing result without outcome-driven degradation",
+  "driver_interpretation": "vehicles may operate continuously; relay drivers are assumed; paid labor equals active vehicle-hours",
+  "hard_shift_variants": "DIAGNOSTIC_ONLY_NOT_SIMULATED; no claim of 8/12/24h completion rates"
+}

@@ -1,0 +1,27 @@
+CIQ A/C/B 新完整可移植 QGIS 工程（2026-10-30）
+
+【直接打开（建议先试）】
+1. 把 ZIP 全部解压，保留文件夹结构，不要只解压 .qgz。
+2. QGIS Desktop 3.22.4 → 项目 → 打开 → CIQ_ABC_ALL_69_NAMES_PORTABLE.qgz。
+3. 这个预置工程包含全部 19 个 GeoPackage 图层，三个点图层设置了 "编号 | 完整名称" 标签；数据相对路径为 ./data/...
+4. 完全离线时可检查 GIS 矢量层、节点坐标、全量名称索引和预览图；在线 OSM 瓦片不是本地文件。
+
+【正式完整布局（建议在你电脑运行）】
+1. 保存其他 QGIS 项目；因为完整布局脚本会清空当前画布。
+2. Ctrl+Alt+P 打开 Python 控制台。
+3. 打开 code/RUN_ONE_LINE_IN_QGIS_CONSOLE.txt 复制其中的“单行命令”，粘贴到 >>> 后回车。
+4. 弹出选择文件框时，选 code/01_BUILD_COMPLETE_QGIS322.py。
+5. 它会生成 CIQ_ABC_FINAL_REVIEW.qgz 与六套布局导出到 exports/。
+
+【数据量和含义】
+62 个 A/C/B 研究节点 + 6 个 CIQ 港区证据节点 + 1 个地面网关 = 69 个独立节点。
+111 条 V7 候选直线 + 10 条 V8 连线，其中 V8 的 5 条是地面交接直线，不能被称为道路线路。
+已保留 WMP228 历史参照圆和全部审计 CSV；所有空域与航线均非飞行许可。
+
+【验证情况】
+本次检查：19 个 GPKG 数据表、69 个非空且唯一编号、项目 XML、相对路径、ZIP 完整性。
+本环境未安装 QGIS 3.22.4，预置 .qgz 的 QGIS UI 打开/渲染与六布局实际导出尚未完成本机验证；如预置文件导入失败，以提供的 PyQGIS 构建脚本生成 CIQ_ABC_FINAL_REVIEW.qgz 为准。
+完整显示所有标签与不发生重叠是两件事。请用区域大图和 QA 索引进行最终检查。
+
+【如果预置工程标签未显示】
+打开 code/RUN_REPAIR_IF_LABELS_MISSING.txt，复制单行命令到 QGIS Python 控制台，选择 code/02_REPAIR_ALL_69_LABELS_IN_OPEN_PROJECT.py。它会立即设置 69 个全名并保存当前工程，不改变 GeoPackage 几何。

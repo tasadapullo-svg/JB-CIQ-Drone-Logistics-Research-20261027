@@ -1,0 +1,2 @@
+algorithm,modes,budget,random_seed,status
+common direct-dispatch kernel,all ground components,same deterministic candidate enumeration,not used,PASS

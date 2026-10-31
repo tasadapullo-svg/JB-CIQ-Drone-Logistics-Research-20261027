@@ -1,0 +1,1 @@
+Seed-level mean and normal-approximation 95% interval for (a) the mixed-boundary operational emissions proxy and (b) partial operating cost. Values are per 153-day replicate; the 30 seeds are not summed.

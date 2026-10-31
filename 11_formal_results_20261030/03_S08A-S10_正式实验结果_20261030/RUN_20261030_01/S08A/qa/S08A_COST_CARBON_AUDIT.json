@@ -1,0 +1,18 @@
+{
+  "road_km": 2601346.2435166473,
+  "fuel_litres_formula": 260134.6243516647,
+  "reported_fuel_litres": 260134.62435166474,
+  "fuel_residual_litres": -2.9103830456733704e-11,
+  "ttw_co2_kg_per_litre": 2.2410927,
+  "ttw_co2_formula_kg": 582985.807651758,
+  "reported_ttw_co2_kg": 582985.8076517581,
+  "co2_residual_kg": -1.1641532182693481e-10,
+  "driver_hours": 311908.5791618963,
+  "driver_cost_MYR": 4678628.687428445,
+  "maintenance_cost_MYR": 520269.2487033295,
+  "fuel_cost_MYR": 990516.2026292817,
+  "calculated_operating_cost_MYR": 6189414.138761056,
+  "reported_operating_cost_MYR": 6189414.138761057,
+  "cost_residual_MYR": -9.313225746154785e-10,
+  "scope": "PETROL_COMBUSTION_TTW_CO2_ONLY; COST_IS_PARTIAL_OPEX"
+}

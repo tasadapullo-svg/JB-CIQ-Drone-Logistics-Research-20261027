@@ -1,0 +1,13 @@
+{
+  "gpkg": "C:\\Users\\DELL\\Desktop\\CIQ 无人机物流 SCI 研_20261026\\output_S07_S08_Codex_20261030\\shared\\v5_extracted\\CIQ_ABC_QGIS322_V5_ONE_WMP228_68_NODES_FULL_PROJECT\\data\\CIQ_ABC_V5_ACTIVE.gpkg",
+  "gpkg_sha256": "1edbeeba32257f35dfbb90bf36c0e86474a032038d1783fcfc85bb34ab94311b",
+  "active_points": 68,
+  "zones": {
+    "A": 29,
+    "C": 29,
+    "B": 10
+  },
+  "missing_or_extra": 0,
+  "max_coordinate_difference_m": 0.0,
+  "status": "PASS"
+}

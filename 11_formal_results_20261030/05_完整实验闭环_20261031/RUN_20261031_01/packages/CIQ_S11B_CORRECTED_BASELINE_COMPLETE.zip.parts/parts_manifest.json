@@ -1,0 +1,12 @@
+{
+  "target_filename": "CIQ_S11B_CORRECTED_BASELINE_COMPLETE.zip",
+  "original_size_bytes": 89760555,
+  "sha256": "05a716ededb26df8b862e72ac646a92373384044b5bf602258343369b47327e2",
+  "parts": [
+    "part_001.bin",
+    "part_002.bin",
+    "part_003.bin",
+    "part_004.bin",
+    "part_005.bin"
+  ]
+}

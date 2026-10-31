@@ -1,0 +1,11 @@
+{
+  "git_commit": "4569817b8145efe2ae06f4b21addc1986f971c12",
+  "finding": "PASS_LOGICAL_CONTENT_RAW_BYTES_DIFFER_DUE_WORKTREE_EOL_FILTER",
+  "explanation": "The Windows worktree CSV bytes use CRLF, so raw byte size/SHA differ from the LF Git blob. git hash-object with the repository path filter reproduces the committed blob exactly; git status and git diff report no content modification.",
+  "files": [
+    {"name": "E02_A_directed_edges_OSM.csv", "commit_blob": "96245d509e964d509e36bb0fde50015113cf91a0", "filtered_worktree_blob": "96245d509e964d509e36bb0fde50015113cf91a0", "raw_worktree_blob": "9425197680293be47a43814ffb864b9a9ffa0db6", "raw_bytes": 15137740},
+    {"name": "E02_B_directed_edges_OSM.csv", "commit_blob": "da71c01fdbea6da04eb63d80584219a081312d41", "filtered_worktree_blob": "da71c01fdbea6da04eb63d80584219a081312d41", "raw_worktree_blob": "30d646245325f3c2da1870cbed55d6aa0b0cd8c5", "raw_bytes": 8756496},
+    {"name": "E02_A_road_graph_nodes.csv", "commit_blob": "afc8bb3150af914c397bdf59777997c07384cb03", "filtered_worktree_blob": "afc8bb3150af914c397bdf59777997c07384cb03", "raw_worktree_blob": "bc861d5f3005c12892b72e5288542b04b3ba8c8c", "raw_bytes": 3328460},
+    {"name": "E02_B_road_graph_nodes.csv", "commit_blob": "e48dd04e4147b09cdeda8585698ee131d8eb74c7", "filtered_worktree_blob": "e48dd04e4147b09cdeda8585698ee131d8eb74c7", "raw_worktree_blob": "65a1edc7ff46f3e66818057d4a9fa9b2984955f8", "raw_bytes": 2001659}
+  ]
+}

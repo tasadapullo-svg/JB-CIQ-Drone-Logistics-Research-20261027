@@ -1,0 +1,19 @@
+{
+  "gate": "G4_S12_B",
+  "status": "PASS_CONDITIONAL",
+  "completed": [
+    "MAIN_STRICT_10KM_24H",
+    "RELAXED_PROXY_24H",
+    "ENERGY_LOW_0P8",
+    "ENERGY_HIGH_1P2",
+    "DUTY_8H",
+    "DUTY_12H",
+    "DUTY_30H"
+  ],
+  "not_run_or_pending": [
+    "WEATHER_5_15_20_25KM",
+    "RESOURCE_GRID",
+    "EXACT_SOLVER_BENCHMARK"
+  ],
+  "claim_limit": "Only completed dynamic reruns may support sensitivity claims; relaxed weather proxy is not validation of flyability."
+}

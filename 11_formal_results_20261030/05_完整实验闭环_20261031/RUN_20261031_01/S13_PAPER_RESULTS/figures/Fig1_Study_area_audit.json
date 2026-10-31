@@ -1,0 +1,7 @@
+{
+  "figure": "Fig1_Study_area",
+  "source": "S12_A_V5_68_NODE_REGISTRY.csv; OSM_ROUTE_EDGES_WITH_FCD_PROXY.parquet",
+  "caption": "Frozen V5 research geography. The 68 nodes and 11 project-whitelisted M1 sites are shown with conditional OSM road-edge midpoints. Site permission and operational airspace clearance remain unverified.",
+  "status": "VERIFIED_FROM_FINAL_CSV",
+  "sha256_png": "0fc0b960ef6c9883fb0ddfbbfdb2c01af4cc34522e0cdb1324587a13b344a084"
+}

@@ -1,0 +1,4 @@
+research_question,experiment,figures,tables,paper_claim,evidence_level,hold
+RQ1,G3 spatial audit,Fig1;Fig3,Table1;Table4,Conditional spatial evidence; permissions HOLD,CONDITIONAL_SIMULATION,External validity and operational permission
+RQ2,G1/G2 corrected dispatch,Fig4;Fig5,Table3;Table5,Model-internal service effects,CONDITIONAL_SIMULATION,External validity and operational permission
+RQ3,G4/G5 cost-emissions Pareto,Fig6;Fig7,Table6;Table7,Lowest tested operational proxy subject to service,CONDITIONAL_SIMULATION,External validity and operational permission

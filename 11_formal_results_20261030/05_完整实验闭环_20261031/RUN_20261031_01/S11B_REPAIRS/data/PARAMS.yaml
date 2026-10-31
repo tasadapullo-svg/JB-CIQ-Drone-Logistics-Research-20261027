@@ -1,0 +1,51 @@
+version_id: S11B_CORRECTED_20261031_01
+primary_scenario:
+  spatial: STRICT_EXCLUDE_GT10KM
+  weather_distance_audit_km: 10
+  duty_window_h: 24
+  seeds: 30
+  days_per_seed: 153
+  orders_per_seed: 2754
+resources:
+  petrol_vehicles: 3
+  depots: [A01, B06, C02]
+  m1_fixed_sites: [A01, A02, A03, A09, A_N05, A_N07, B06, B07, C02, C04, C21]
+  m1_asset_per_site: 1
+  m2_batteries_per_vehicle: 2
+  onboard_charging: false
+service:
+  pickup_minutes: 5
+  dropoff_minutes: 5
+  station_handoff_minutes: 5
+  recovery_service_minutes: 5
+energy_and_cost:
+  petrol_l_per_km: 0.1
+  petrol_co2_kg_per_l: 2.2410927
+  grid_kg_co2e_per_kwh: 0.740
+  driver_myr_per_h: 15
+  operator_myr_per_h: 15
+  maintenance_myr_per_km: 0.20
+  electricity_myr_per_kwh: 0.50
+aircraft:
+  DJI:
+    payload_kg: 30
+    cruise_speed_mps: 15
+    gust_limit_mps: 12
+    battery_kwh: 3.9688
+    reserve_fraction: 0.20
+    charger_kw: 7.2
+    charger_efficiency: 0.90
+  WING:
+    payload_kg: 4.7
+    cruise_speed_mps: 25
+    gust_limit_mps: 18
+    battery_kwh: 3.0
+    reserve_fraction: 0.20
+    charger_kw: 2.0
+    charger_efficiency: 0.90
+evidence_scope:
+  simulation: CONDITIONAL
+  station_permission: HOLD
+  wmp228_operational_clearance: HOLD
+  wingcopter_field_energy: HOLD
+  lifecycle_assessment: NOT_PERFORMED

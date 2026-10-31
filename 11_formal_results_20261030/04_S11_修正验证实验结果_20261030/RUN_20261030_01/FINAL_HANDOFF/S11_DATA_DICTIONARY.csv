@@ -1,0 +1,5 @@
+dataset,path,grain,rows
+S11_ORDER_RESULTS,G11_3_FAIRNESS/data/S11_ORDER_RESULTS.parquet,order x mode x spatial scenario,"991,440"
+S11_SCENARIO_RESULTS,G11_3_FAIRNESS/data/S11_SCENARIO_RESULTS.csv,scenario x mode x spatial scenario,"55,080"
+S11_UAV_FLIGHTS,G11_2_BATTERY_SOC/data/S11_UAV_FLIGHTS.parquet,physical UAV mission,"56,342"
+S11_GROUND_PHYSICAL_LEGS,G11_4_DUTY_ROAD/data/S11_GROUND_PHYSICAL_LEGS.parquet,physical directed road leg,"1,487,220"

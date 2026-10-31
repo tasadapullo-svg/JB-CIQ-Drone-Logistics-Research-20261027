@@ -1,0 +1,175 @@
+{
+  "module_A_status": "PASS",
+  "module_A": {
+    "status": "PASS",
+    "scene_rows": 58500,
+    "summary_rows": 65,
+    "unique_configs": 13,
+    "unique_modes": 5,
+    "unique_scenes": 900,
+    "expected_orders_per_config_mode": 16200,
+    "baseline_reproduction_max_abs_diff": {
+      "orders": 0.0,
+      "completed": 0.0,
+      "on_time": 0.0,
+      "vehicle_km": 2.842170943040401e-14,
+      "grid_input_kwh": 8.881784197001252e-16,
+      "uav_flights": 0.0
+    },
+    "baseline_reproduction_pass": true,
+    "fuel_ledger_recalc_route_invariance_pass": true,
+    "m2_wing_subset_baseline_reduction_pct": 3.5271185628658075,
+    "m2_wing_nonpositive_reduction_configs": [],
+    "m2_wing_reduction_under_1pct_configs": [],
+    "baseline_lowest_ghg_feasible_mode": "M2_WING",
+    "ranking_reversal_configs": [],
+    "uncertainty": "two-way date and seed cluster bootstrap, 5000 replicates"
+  },
+  "module_B_status": "PASS_CONDITIONAL",
+  "module_B": {
+    "orders": 82620,
+    "unique_task_ids": 82620,
+    "scenes": 4590,
+    "orders_per_scene_min": 18,
+    "orders_per_scene_max": 18,
+    "selected_dates": 30,
+    "selected_scenes": 900,
+    "selected_seeds": 30,
+    "months": {
+      "2026-05": 180,
+      "2026-06": 180,
+      "2026-07": 180,
+      "2026-08": 180,
+      "2026-09": 180
+    },
+    "selection_rule": "Within each month, equal-weight standardized daily mean gust + rain - FCD speed; six fixed stress-score quantiles 0,.2,.4,.6,.8,1; all 30 seeds for each date.",
+    "generator_found": true,
+    "protocol_found": true
+  },
+  "golden_ledger_audit": {
+    "summary_modes_six_including_duplicate_controls": true,
+    "orders_18_per_mode": true,
+    "order_results_present": true,
+    "ground_legs_present": true,
+    "event_clock_present": true,
+    "fuel_equals_vehicle_km_times_0_1": true,
+    "soc_nonnegative": true,
+    "soc_reserve_respected_when_columns_available": true,
+    "weather_four_rows_per_flight": true,
+    "mandatory_return_legs_present": true,
+    "pass": true,
+    "table_rows": {
+      "EVENT_CLOCK": 485,
+      "FLIGHTS": 5,
+      "GROUND_LEGS": 191,
+      "ORDER_RESULTS": 108,
+      "SOC_LEDGER": 5,
+      "WEATHER_LEDGER": 20
+    }
+  },
+  "historical_inputs_unchanged": true,
+  "input_hashes_before_and_after": [
+    {
+      "absolute_path": "C:\\Users\\DELL\\Desktop\\CIQ 无人机物流 SCI 研_20261026\\output_S07_S08_Codex_20261030\\S07\\data\\V5_TASK_TIME_WEATHER_ROAD_INDEX.parquet",
+      "bytes": 2278217,
+      "sha256": "3d65e788e43ee24ae4ae9f254c99ec2a604bd2c248247c4a90a744db092ff78b",
+      "sha256_after": "3d65e788e43ee24ae4ae9f254c99ec2a604bd2c248247c4a90a744db092ff78b"
+    },
+    {
+      "absolute_path": "C:\\Users\\DELL\\Desktop\\CIQ 无人机物流 SCI 研_20261026\\01_全部历史文件原路径\\CIQ_V5_S06_S07_Rebase_20261030\\code\\build_v5_rebase_and_synthetic_tasks.py",
+      "bytes": 20883,
+      "sha256": "26c0574263222bd8781691425ad34e3280092aeadb26973388a3254fd330713b",
+      "sha256_after": "26c0574263222bd8781691425ad34e3280092aeadb26973388a3254fd330713b"
+    },
+    {
+      "absolute_path": "C:\\Users\\DELL\\Desktop\\CIQ 无人机物流 SCI 研_20261026\\01_全部历史文件原路径\\CIQ_V5_S06_S07_Rebase_20261030\\qa\\V5_SYNTHETIC_TASK_DESIGN_PROTOCOL.json",
+      "bytes": 1991,
+      "sha256": "1dc8dab8775df753cee165cacaaa31d2fe0311898a733701d3c1cb37ae912c59",
+      "sha256_after": "1dc8dab8775df753cee165cacaaa31d2fe0311898a733701d3c1cb37ae912c59"
+    },
+    {
+      "absolute_path": "C:\\Users\\DELL\\Desktop\\CIQ 无人机物流 SCI 研_20261026\\output_SCI_Complete_Experimental_Closure_20261031\\RUN_20261031_01\\S11B_REPAIRS\\data\\PARAMS.yaml",
+      "bytes": 1270,
+      "sha256": "ba6da79e6bee5721d25bfd39bea2d7ec3232a16aa30e93ccaad31b9a5575c102",
+      "sha256_after": "ba6da79e6bee5721d25bfd39bea2d7ec3232a16aa30e93ccaad31b9a5575c102"
+    },
+    {
+      "absolute_path": "C:\\Users\\DELL\\Desktop\\CIQ 无人机物流 SCI 研_20261026\\output_SCI_Complete_Experimental_Closure_20261031\\RUN_20261031_01\\S11B_REPAIRS\\code\\run_s11b.py",
+      "bytes": 19075,
+      "sha256": "790155053ed05c8a91070949957f1bab07c006c35169d7b653a917d4136c7737",
+      "sha256_after": "790155053ed05c8a91070949957f1bab07c006c35169d7b653a917d4136c7737"
+    },
+    {
+      "absolute_path": "C:\\Users\\DELL\\Desktop\\CIQ 无人机物流 SCI 研_20261026\\output_SCI_Complete_Experimental_Closure_20261031\\RUN_20261031_01\\S11B_REPAIRS\\data\\G1_SCENARIO_SUMMARY.csv",
+      "bytes": 11047725,
+      "sha256": "1a316357cf905d8e67ea4a1944d384fb2fbd6ba2fedaf6f9a8bf77ed3cf0c079",
+      "sha256_after": "1a316357cf905d8e67ea4a1944d384fb2fbd6ba2fedaf6f9a8bf77ed3cf0c079"
+    },
+    {
+      "absolute_path": "C:\\Users\\DELL\\Desktop\\CIQ 无人机物流 SCI 研_20261026\\output_SCI_Complete_Experimental_Closure_20261031\\RUN_20261031_01\\S11B_REPAIRS\\data\\G2_PER_SEED_153DAY.csv",
+      "bytes": 90426,
+      "sha256": "d13fc89f7b34b8d6e2441b2e879bcf0af37000a795a96cd8f7dbf9a0c57cf3cc",
+      "sha256_after": "d13fc89f7b34b8d6e2441b2e879bcf0af37000a795a96cd8f7dbf9a0c57cf3cc"
+    },
+    {
+      "absolute_path": "C:\\Users\\DELL\\Desktop\\CIQ 无人机物流 SCI 研_20261026\\output_SCI_Complete_Experimental_Closure_20261031\\RUN_20261031_01\\S11B_REPAIRS\\data\\G1_PARAMETER_EVIDENCE_MATRIX.csv",
+      "bytes": 1127,
+      "sha256": "ab349b0e5f92ad672938f337f02a4d08add127e4c7091cf55a944504cde3afa8",
+      "sha256_after": "ab349b0e5f92ad672938f337f02a4d08add127e4c7091cf55a944504cde3afa8"
+    }
+  ],
+  "executed_code_hashes": [
+    {
+      "relative_path": "code/build_joint_results.py",
+      "bytes": 7885,
+      "sha256": "06fba54bfb8ed03b0d633419699b9d2734b7f706a7a2ac1a68bfaf16cc770e62"
+    },
+    {
+      "relative_path": "code/finalize_minimal.py",
+      "bytes": 12756,
+      "sha256": "cbf18d2dd5ad879aee4cfcd9e5519c794046ca7e7c0def832435298e692b6047"
+    },
+    {
+      "relative_path": "code/prepare_and_audit.py",
+      "bytes": 8958,
+      "sha256": "48d23c387886f9c7c3eac3479c7a5507a964fb66cebe763441b95c3c6c42fd9a"
+    },
+    {
+      "relative_path": "code/run_joint_dispatch.py",
+      "bytes": 19453,
+      "sha256": "46b346bd67c6bc2630336855e9650959a10b1015ece9b83639e2c6bf6f52fc84"
+    }
+  ],
+  "claim_evidence": [
+    {
+      "claim": "Joint experiment was fully run",
+      "state": "verified",
+      "evidence": "58,500 scene-level rows; 65 summary rows; baseline and golden-ledger checks"
+    },
+    {
+      "claim": "Synthetic orders are empirically representative of JB/CIQ demand",
+      "state": "unsupported",
+      "evidence": "Generator explicitly labels empirical_demand_evidence=NONE_CONDITIONAL_SCENARIO"
+    },
+    {
+      "claim": "Operational GHG proxy is life-cycle carbon",
+      "state": "contradicted",
+      "evidence": "Ledger contains TTW petrol plus grid-operation factor only"
+    }
+  ],
+  "commands": [
+    "prepare_and_audit.py",
+    "run_joint_dispatch.py (five D/W pairs)",
+    "build_joint_results.py",
+    "run_joint_dispatch.py (one golden scenario with ledgers)",
+    "finalize_minimal.py"
+  ],
+  "package_validation": "Two-pass ZIP CRC and internal SHA-256 verification; final pass result stored below.",
+  "pre_final_package_validation_result": {
+    "zip_test_bad_member": null,
+    "manifest_entries_verified": 11,
+    "zip_members": 12,
+    "zip_bytes": 3497577,
+    "zip_sha256": "976ae31ae5a4e28719a7c3c9ecb8a416a6efda58d24576d99e870379d87fe917"
+  }
+}

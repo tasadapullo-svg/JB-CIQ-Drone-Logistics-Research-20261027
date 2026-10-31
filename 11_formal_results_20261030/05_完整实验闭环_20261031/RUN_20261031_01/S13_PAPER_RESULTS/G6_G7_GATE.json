@@ -1,0 +1,8 @@
+{
+  "gate": "G6_G7_S13",
+  "status": "PASS_CONDITIONAL",
+  "figures": 7,
+  "tables": 7,
+  "claim_audit_rows": 7,
+  "paper_limit": "Paper-ready conditional simulation text; external citations, target-journal formatting, permissions, field energy, and lifecycle evidence remain HOLD."
+}

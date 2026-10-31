@@ -1,0 +1,7 @@
+{
+  "figure": "Fig4_Model_correction",
+  "source": "historical S11 and corrected S11B flight ledgers",
+  "caption": "Strict-scenario flight counts before and after fixed-site, symmetric event-clock, mandatory recovery, common-geometry, and continuous-SOC corrections. The comparison is multi-factor and is not attributed to one defect.",
+  "status": "VERIFIED_FROM_FINAL_CSV",
+  "sha256_png": "dc835f4da3f93f5e20e95c534a5dc7bd4170475bae88ba9401783a3833f0466c"
+}

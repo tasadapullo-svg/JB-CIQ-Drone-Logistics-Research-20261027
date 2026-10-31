@@ -1,0 +1,52 @@
+[
+  {
+    "case": "DJI_overweight",
+    "expected": "PAYLOAD_EXCEEDED",
+    "pass": true
+  },
+  {
+    "case": "Wing_overweight",
+    "expected": "PAYLOAD_EXCEEDED",
+    "pass": true
+  },
+  {
+    "case": "DJI_wind_limit",
+    "expected": "WEATHER_WIND",
+    "pass": true
+  },
+  {
+    "case": "Wing_wind_limit",
+    "expected": "WEATHER_WIND",
+    "pass": true
+  },
+  {
+    "case": "rain_limit",
+    "expected": "WEATHER_RAIN",
+    "pass": true
+  },
+  {
+    "case": "spatial_warning",
+    "expected": "WEATHER_SPATIAL_HOLD",
+    "pass": true
+  },
+  {
+    "case": "no_geometry",
+    "expected": "NO_CANDIDATE_LANDING",
+    "pass": true
+  },
+  {
+    "case": "wmp_intersection",
+    "expected": "WMP228_RESTRICTION",
+    "pass": true
+  },
+  {
+    "case": "roundtrip_required",
+    "expected": "OUT_AND_BACK_ENERGY",
+    "pass": true
+  },
+  {
+    "case": "airspace_unverified",
+    "expected": "NOT_LEGAL_APPROVAL",
+    "pass": true
+  }
+]

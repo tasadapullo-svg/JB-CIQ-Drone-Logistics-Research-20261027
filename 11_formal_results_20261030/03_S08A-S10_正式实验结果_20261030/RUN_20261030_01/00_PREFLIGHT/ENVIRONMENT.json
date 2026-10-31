@@ -1,0 +1,8 @@
+{
+  "python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "pandas": "2.3.3",
+  "numpy": "2.5.0",
+  "run_id": "RUN_20261030_01",
+  "historical_inputs_read_only": true
+}

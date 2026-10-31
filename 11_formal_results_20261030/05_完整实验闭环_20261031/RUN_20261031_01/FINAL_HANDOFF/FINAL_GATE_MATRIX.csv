@@ -1,0 +1,8 @@
+gate,status,evidence_path
+G0,PASS,C:\Users\DELL\Desktop\CIQ 无人机物流 SCI 研_20261026\output_SCI_Complete_Experimental_Closure_20261031\RUN_20261031_01\G0_INPUTS\G0_REPRO_GATE.json
+G1,PASS,C:\Users\DELL\Desktop\CIQ 无人机物流 SCI 研_20261026\output_SCI_Complete_Experimental_Closure_20261031\RUN_20261031_01\S11B_REPAIRS\qa\G1_GATE.json
+G2,PASS_CONDITIONAL,C:\Users\DELL\Desktop\CIQ 无人机物流 SCI 研_20261026\output_SCI_Complete_Experimental_Closure_20261031\RUN_20261031_01\S11B_REPAIRS\qa\G2_LEDGER_RECONCILIATION.json
+G3,PASS_CONDITIONAL,C:\Users\DELL\Desktop\CIQ 无人机物流 SCI 研_20261026\output_SCI_Complete_Experimental_Closure_20261031\RUN_20261031_01\S12_EXPERIMENTS\S12_A\G3_GATE.json
+G4,PASS_CONDITIONAL,C:\Users\DELL\Desktop\CIQ 无人机物流 SCI 研_20261026\output_SCI_Complete_Experimental_Closure_20261031\RUN_20261031_01\S12_EXPERIMENTS\G4_GATE.json
+G5,PASS_CONDITIONAL,C:\Users\DELL\Desktop\CIQ 无人机物流 SCI 研_20261026\output_SCI_Complete_Experimental_Closure_20261031\RUN_20261031_01\S12_EXPERIMENTS\G5_GATE.json
+G6_G7,PASS_CONDITIONAL,C:\Users\DELL\Desktop\CIQ 无人机物流 SCI 研_20261026\output_SCI_Complete_Experimental_Closure_20261031\RUN_20261031_01\S13_PAPER_RESULTS\G6_G7_GATE.json

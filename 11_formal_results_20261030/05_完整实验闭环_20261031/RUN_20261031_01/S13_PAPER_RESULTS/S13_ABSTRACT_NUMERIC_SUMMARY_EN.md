@@ -1,0 +1,3 @@
+# Abstract numeric summary (paper-ready draft)
+
+A corrected multimodal simulation evaluated 82,620 frozen synthetic orders in 4,590 scenarios, organized as 30 independent 153-day seed replicates. Six dispatcher modes were compared under a strict 10 km weather-representativeness audit and a 24 h duty window. Fixed M1 sites, four-event weather screening, continuous battery state, complete UAV return, and mandatory vehicle depot return were enforced. Mode-specific paired effects and 95% seed-cluster bootstrap intervals are reported in Table 5. The analysis quantifies conditional service, operational energy-emissions proxies, and partial operating costs; it does not claim verified flight permission or lifecycle decarbonization.

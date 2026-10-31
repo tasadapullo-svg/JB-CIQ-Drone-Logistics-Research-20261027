@@ -1,0 +1,2 @@
+若在 QGIS 打开便携 .qgz 后仍有节点名称缺失，先保存其他项目，然后运行下面这一行；弹出选择文件框后选择 code/02_REPAIR_ALL_69_LABELS_IN_OPEN_PROJECT.py：
+from qgis.PyQt.QtWidgets import QFileDialog; p=QFileDialog.getOpenFileName(None,"选择标签修复脚本","","Python (*.py)")[0]; exec(compile(open(p,encoding="utf-8").read(),p,"exec"),{"__file__":p,"__name__":"__main__"}) if p else print("已取消")

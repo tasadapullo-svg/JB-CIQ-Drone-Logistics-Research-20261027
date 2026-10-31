@@ -1,0 +1,22 @@
+{"progress": 250, "total": 4590, "date": "2026-05-09"}
+{"progress": 500, "total": 4590, "date": "2026-05-17"}
+{"progress": 750, "total": 4590, "date": "2026-05-25"}
+{"progress": 1000, "total": 4590, "date": "2026-06-03"}
+{"progress": 1250, "total": 4590, "date": "2026-06-11"}
+{"progress": 1500, "total": 4590, "date": "2026-06-19"}
+{"progress": 1750, "total": 4590, "date": "2026-06-28"}
+{"progress": 2000, "total": 4590, "date": "2026-07-06"}
+{"progress": 2250, "total": 4590, "date": "2026-07-14"}
+{"progress": 2500, "total": 4590, "date": "2026-07-23"}
+{"progress": 2750, "total": 4590, "date": "2026-07-31"}
+{"progress": 3000, "total": 4590, "date": "2026-08-08"}
+{"progress": 3250, "total": 4590, "date": "2026-08-17"}
+{"progress": 3500, "total": 4590, "date": "2026-08-25"}
+{"progress": 3750, "total": 4590, "date": "2026-09-02"}
+{"progress": 4000, "total": 4590, "date": "2026-09-11"}
+{"progress": 4250, "total": 4590, "date": "2026-09-19"}
+{"progress": 4500, "total": 4590, "date": "2026-09-27"}
+{"progress": 4590, "total": 4590, "date": "2026-09-30"}
+{"progress": 153, "total": 153, "date": "2026-09-30"}
+{"progress": 153, "total": 153, "date": "2026-09-30"}
+{"status": "CONDITIONAL", "scenarios": 4590, "orders": 82620, "completed": 82620, "completion_rate": 1.0, "on_time": 75158, "on_time_rate_all_orders": 0.909682885499879, "vehicle_km": 2601346.2435166473, "fuel_litres": 260134.62435166474, "ttw_co2_kg": 582985.8076517581, "operating_cost_MYR": 6189414.138761057, "physical_legs": 179010, "vehicle_trip_rows": 13770, "model_evidence": "CONDITIONAL_SCENARIO_CURRENT_OSM_UNDIRECTED_FCD_PROXY_UNVERIFIED_ENTRANCES", "accounting": "PHYSICAL_LEGS_COUNTED_ONCE; NO PER_ORDER_FUEL_DUPLICATION", "co2_scope": "TTW_CO2_ONLY; NOT WTW OR FULL CO2E", "parameters": {"vehicle_definition": "LIGHT_GASOLINE_DELIVERY_VAN_SCENARIO", "vehicle_count": 3, "vehicle_capacity_kg": 500.0, "depots": ["A01", "B06", "C02"], "service_minutes_per_event": 5.0, "litres_per_100km": 10.0, "density_kg_per_litre": 0.73, "net_calorific_value_MJ_per_kg": 44.3, "ttw_co2_kg_per_TJ": 69300.0, "driver_MYR_per_hour": 15.0, "maintenance_MYR_per_km": 0.2, "waiting_engine_off": true, "idling_litres_per_hour": 0.0, "shift_end_minutes": 1800.0}, "input_hashes": {"tasks": "8cc9c4d20b78cb80bff4fa9fd69750e0b7c172d6f48d07a7880b224bf5ddecca", "fuel_prices": "ed963ccbe0bd9a9a4ae10a5fad032fac18112b732037b6f1fee227c0e0a6c54b", "od_matrix": "5903223ca56a6dd28aaccdd1aa49ca58b7b03e13c6a261c0699cfefbec7da80b", "edge_fcd_map": "fc5b020c1bb6cc12b691f2599e62acd5aeda6924d21ba21c49377fb024a78c14"}}

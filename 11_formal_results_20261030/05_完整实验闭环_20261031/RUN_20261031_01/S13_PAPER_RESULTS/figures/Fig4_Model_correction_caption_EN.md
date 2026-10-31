@@ -1,0 +1,1 @@
+Strict-scenario flight counts before and after fixed-site, symmetric event-clock, mandatory recovery, common-geometry, and continuous-SOC corrections. The comparison is multi-factor and is not attributed to one defect.

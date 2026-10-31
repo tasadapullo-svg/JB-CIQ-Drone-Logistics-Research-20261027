@@ -1,0 +1,1 @@
+Cost-emissions outcomes under the strict main scenario. Circles denote configurations classified as nondominated within the tested set; crosses denote dominated or service-infeasible configurations. This is not a proof of global optimality.

@@ -1,0 +1,1 @@
+{"qa": {"expected_order_rows": 991440, "actual_order_rows": 991440, "expected_scenario_rows": 55080, "actual_scenario_rows": 55080, "order_key_duplicates": 0, "scenario_key_duplicates": 0, "physical_leg_id_duplicates": 0, "flight_id_duplicates": 0, "soc_below_reserve_events": 0, "soc_conservation_max_abs_kwh": 0.0, "status": "PASS"}, "flights": 56342, "legs": 1487220}

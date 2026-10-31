@@ -1,0 +1,11 @@
+{
+  "version_id": "S11B_CORRECTED_20261031_01",
+  "source_sha256": "790155053ed05c8a91070949957f1bab07c006c35169d7b653a917d4136c7737",
+  "primary_scenario": "STRICT_EXCLUDE_GT10KM_24H",
+  "qa_status": "PASS",
+  "fixed_station_count": 11,
+  "duty_window_hours": 24,
+  "vehicle_count": 3,
+  "m2_batteries_per_vehicle": 2,
+  "claim_scope": "conditional simulation"
+}

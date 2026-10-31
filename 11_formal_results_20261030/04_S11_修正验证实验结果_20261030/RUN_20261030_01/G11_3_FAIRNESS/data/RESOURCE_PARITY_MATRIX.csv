@@ -1,0 +1,4 @@
+component,M1_NO_UAV,M2_NO_UAV,hybrid,status
+vehicle_count,3,3,3,PARITY
+ground_dispatch_algorithm,common_direct,common_direct,same ground kernel,PARITY
+duty_window_h,24,24,24,PARITY

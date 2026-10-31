@@ -1,0 +1,20 @@
+parameter,base_value,unit,evidence_class,source_or_basis,scientific_use
+vehicle_definition,LIGHT_GASOLINE_DELIVERY_VAN_SCENARIO,,SCENARIO_ASSUMPTION,No vehicle make/model was supplied,Conditional model only
+vehicle_count,3,vehicles_per_scenario,SCENARIO_ASSUMPTION,"One initial depot candidate in each A/B/C zone",Sensitivity uses 2 and 4 vehicles on 306 scenarios
+vehicle_capacity,500,kg,SCENARIO_ASSUMPTION,Generic light delivery van capacity scenario,All observed parcels are 0.5-8 kg
+service_time,5,minutes_per_pickup_or_dropoff,SCENARIO_ASSUMPTION,No observed CIQ service-time study supplied,Sensitivity/limitation
+fuel_consumption,10,L_per_100km,IPCC_REPRESENTATIVE_ASSUMPTION,https://www.ipcc-nggip.iges.or.jp/public/2006gl/pdf/2_Volume2/V2_3_Ch3_Mobile_Combustion.pdf,"IPCC table note uses representative 10 km/L for gasoline vehicles; not a measured JB fleet rate"
+fuel_consumption_sensitivity,"8;10;12",L_per_100km,SCENARIO_RANGE,Brackets the IPCC representative assumption,Recalculates fuel/cost/TTW CO2 without rerouting
+motor_gasoline_NCV,44.3,MJ_per_kg,IPCC_DEFAULT,https://www.ipcc-nggip.iges.or.jp/public/2006gl/pdf/2_Volume2/V2_1_Ch1_Introduction.pdf,IPCC 2006 Volume 2 Table 1.2
+motor_gasoline_CO2_EF,69300,kg_CO2_per_TJ_NCV,IPCC_DEFAULT,https://www.ipcc-nggip.iges.or.jp/public/2006gl/pdf/2_Volume2/V2_1_Ch1_Introduction.pdf,IPCC 2006 Volume 2 Table 1.4
+gasoline_density,0.73,kg_per_L,EXTERNAL_GOVERNMENT_REFERENCE,https://www.forestresearch.gov.uk/tools-and-resources/fthr/biomass-energy-resources/reference-biomass/facts-figures/carbon-emissions-of-different-fuels/,UK government reference; not Malaysia batch-specific
+RON95_weekly_price,dynamic,MYR_per_L,OFFICIAL_MALAYSIA_OPEN_DATA,https://storage.data.gov.my/commodities/fuelprice.csv,Uses latest weekly level at or before each scenario date
+RON95_BUDI95_sensitivity,1.99,MYR_per_L,OFFICIAL_PRICE_ELIGIBILITY_UNVERIFIED,https://www.mof.gov.my/portal/ms/berita/siaran-media/harga-petroleum-30092026,Cost sensitivity only; commercial eligibility is not assumed
+RON95_SKPS_sensitivity,2.05,MYR_per_L,OFFICIAL_PRICE_ELIGIBILITY_UNVERIFIED,https://www.mof.gov.my/portal/ms/berita/siaran-media/harga-petroleum-30092026,Cost sensitivity only; eligibility is not assumed
+driver_cost_base,15,MYR_per_hour,SCENARIO_ASSUMPTION,No actual operator payroll supplied,Includes sensitivity at 8.72 and 25
+driver_cost_lower,8.72,MYR_per_hour,OFFICIAL_MINIMUM_WAGE_REFERENCE,https://www.jtkswk.gov.my/v2/wp-content/uploads/2025/01/PERINTAH-GAJI-MINIMUM-2024.pdf,Lower sensitivity bound; not total employer labour cost
+maintenance_cost,0.20,MYR_per_km,SCENARIO_ASSUMPTION,No audited local fleet maintenance ledger supplied,Operating-cost scenario component
+idling_rate,0,L_per_hour,SCENARIO_ASSUMPTION,Waiting and service assumed engine-off,No idling fuel added in base case
+FCD_speed_unit,km_per_hour,unit,CONDITIONAL_SOURCE_INTERPRETATION,C:/Users/DELL/Desktop/CIQ_Drone_Logistics_SCI_GitHub_20261028/05_review_and_validation/traffic_review/README_traffic_review_conclusion_V4.3.md,Raw request did not save unit; direction is unobserved
+road_graph,current_OSM,directed_graph,CONDITIONAL_PUBLIC_SOURCE,https://www.openstreetmap.org/copyright,Current retrieval is not a May-Sep 2026 historic snapshot
+depot_nodes,"A01;B06;C02",V5_nodes,SCENARIO_ASSUMPTION,V5 conditional references with no verified ground gate,Not evidence of legal depot access

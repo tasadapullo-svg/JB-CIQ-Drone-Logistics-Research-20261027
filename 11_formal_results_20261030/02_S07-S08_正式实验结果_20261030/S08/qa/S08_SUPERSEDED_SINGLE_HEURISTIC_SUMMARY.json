@@ -1,0 +1,13 @@
+{
+  "status": "SUPERSEDED_NOT_FINAL",
+  "reason": "The first full run used one deadline-slack heuristic. Small exact enumeration showed it was dominated in all 10 three-order checks, so the result was not accepted as the final petrol baseline.",
+  "scenarios": 4590,
+  "orders": 82620,
+  "completed": 82620,
+  "on_time": 74073,
+  "vehicle_km": 2789047.634684592,
+  "fuel_litres": 278904.76346845913,
+  "ttw_co2_kg": 625051.4294043905,
+  "operating_cost_MYR": 6324166.161068358,
+  "do_not_report_as_final": true
+}

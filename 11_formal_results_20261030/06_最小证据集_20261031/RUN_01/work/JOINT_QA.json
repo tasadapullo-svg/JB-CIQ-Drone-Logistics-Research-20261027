@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "scene_rows": 58500,
+  "summary_rows": 65,
+  "unique_configs": 13,
+  "unique_modes": 5,
+  "unique_scenes": 900,
+  "expected_orders_per_config_mode": 16200,
+  "baseline_reproduction_max_abs_diff": {
+    "orders": 0.0,
+    "completed": 0.0,
+    "on_time": 0.0,
+    "vehicle_km": 2.842170943040401e-14,
+    "grid_input_kwh": 8.881784197001252e-16,
+    "uav_flights": 0.0
+  },
+  "baseline_reproduction_pass": true,
+  "fuel_ledger_recalc_route_invariance_pass": true,
+  "m2_wing_subset_baseline_reduction_pct": 3.5271185628658075,
+  "m2_wing_nonpositive_reduction_configs": [],
+  "m2_wing_reduction_under_1pct_configs": [],
+  "baseline_lowest_ghg_feasible_mode": "M2_WING",
+  "ranking_reversal_configs": [],
+  "uncertainty": "two-way date and seed cluster bootstrap, 5000 replicates"
+}

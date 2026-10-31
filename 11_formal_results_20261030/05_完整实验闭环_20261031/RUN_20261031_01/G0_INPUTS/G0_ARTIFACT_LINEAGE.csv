@@ -1,0 +1,5 @@
+stage,artifact,use_in_new_run,difference_or_limit
+S08,M0 30h petrol baseline,historical reference only,not causal-comparable to S11 24h
+S10,five-mode model,historical comparison,M1 station set implicit in eligible origins; no explicit whitelist
+S11,actual-event weather/SOC/fair controls,regression baseline,P0 station/window/return/geometry/sensitivity/cost issues
+S11B,new corrected model,target baseline,must pass G1/G2 before S12 main inference

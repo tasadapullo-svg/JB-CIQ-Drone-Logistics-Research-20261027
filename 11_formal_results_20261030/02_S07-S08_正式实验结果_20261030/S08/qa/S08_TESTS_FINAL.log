@@ -1,0 +1,8 @@
+test_full_denominators_and_single_result (test_outputs.TestS08Outputs.test_full_denominators_and_single_result) ... ok
+test_physical_leg_accounting (test_outputs.TestS08Outputs.test_physical_leg_accounting) ... ok
+test_summary_is_conditional_and_co2_scope_is_explicit (test_outputs.TestS08Outputs.test_summary_is_conditional_and_co2_scope_is_explicit) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.247s
+
+OK

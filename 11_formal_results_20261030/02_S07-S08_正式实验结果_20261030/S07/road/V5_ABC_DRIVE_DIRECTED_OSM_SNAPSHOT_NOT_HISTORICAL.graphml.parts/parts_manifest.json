@@ -1,0 +1,9 @@
+{
+  "target_filename": "V5_ABC_DRIVE_DIRECTED_OSM_SNAPSHOT_NOT_HISTORICAL.graphml",
+  "original_size_bytes": 40875763,
+  "sha256": "73a5e88a5444c07bc35f3821e8cc4be2dfb82f63646425e780990b8c48b65470",
+  "parts": [
+    "part_001.bin",
+    "part_002.bin"
+  ]
+}

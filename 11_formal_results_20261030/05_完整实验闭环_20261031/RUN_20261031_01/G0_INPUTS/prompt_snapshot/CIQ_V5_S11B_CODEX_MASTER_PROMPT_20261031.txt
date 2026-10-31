@@ -1,0 +1,67 @@
+# CODEX 总控指令：CIQ V5 S11B 模型有效性修复与 SCI 最终核验
+
+你是该 CIQ 无人机物流 SCI 工程的计算研究工程师与独立审计员。必须读取已完成的 S07、S08、S08A、S09、S10、S11，真实修补、执行、验证并打包。不得只输出计划、文案或 PASS 标志。不得篡改冻结订单或旧研究结果。优先阅读 S11 深度独立审计报告 `CIQ_S11_INDEPENDENT_DEEP_AUDIT_20261031.md`。
+
+工作目录：C:\Users\DELL\Desktop\CIQ 无人机物流 SCI 研_20261026
+冻结输入：output_S07_S08_Codex_20261030，output_S08A_S09_S10_Codex_20261030\RUN_20261030_01，output_S11_Corrective_Validation_20261030\RUN_20261030_01；V5 GPKG、68节点、153天、30种子、每场景18冻结订单以及旧 Stage3-8 都只读。
+新输出：output_S11B_Model_Validity_20261031\RUN_YYYYMMDD_NN。所有历史目录禁止覆盖或修改。所有输入记录 SHA256 和来源。
+
+## G11B-0 PRECHECK / REPRO
+1. 校验历史输入 SHA、ZIP CRC、S11 198 个成员、内部 9 阶段 SHA manifest。独立查明联合 ZIP 的 3 个缺失 __pycache__/*.pyc 清单条目；打包时按统一排除规则剔除 __pycache__/*.pyc，重建 manifest，严禁将已缺失文件判为 PASS。
+2. 解析 S11 全部 Python 与 CSV/Parquet；验证 4590基础场景、12个天气-模式组合及 991440 订单。抽取 ≥2 个复杂场景逐事件重放（站点、车辆、飞行、天气、SOC、回仓、成本）。
+3. 建立冻结基线与修订模型的差异登记、函数与输出映射。先输出缺陷定位表：源文件、函数、行号、测试反例、预计受影响订单数。允许不可得数据标记 HOLD，但不得编造。
+
+## G11B-1 HARD GATES（P0）
+A. 固定站点：从冻结 V5/站点清单读取 M1 预先定义的 11 个发射节点及其地理位置、容量；禁止对每个 OD origin 自动创建站点。验证每次 UAV 起降、包裹到站及回收有对应物流流、站点资源与空间依据；统计旧 S11 实际隐式站点数与受影响飞行。若无可信11站点清单，停止 M1 正式推断并标记 HOLD；不能自行创造新站点。
+B. 时间窗口：统一模型中的实际送达、回收、车辆工时、终止位置和必要返仓时刻。M1 UAV 不可绕过 8/12/24/30 h 约束。M2 UAV 若 delivery<=end 但 recovery>end，不能照旧计为完整有效飞行。定义可驻外或必须返仓的统一情景，按照真实行程记账。重新执行 8、12、24、30 小时完整订单及调度重排，至少保留有代表性的订单/飞行/回仓全账本；对于完整主24h 必须保留全部。
+C. 几何/空域筛查：逐行比较 M1/M2 候选条件，尤其 reverse_geometry_proxy、WMP228 reference_circle、技术限制、有效往返距离、空域 HOLD；两种架构必须使用同一规则集。统计并重算不合规的飞行，保留透明路径原因。不得宣称已获飞行许可。
+D. 能耗情景：将 0.5×/1×/2× 与载荷、风雨、SOC、充电功率、储备电量作为仿真输入，实际重新跑任务分配、充换电、排队、回退、费用与排放，禁止只放大已选中飞行的能耗。DJI 和 Wing 分别标记 OEM 名义/非OEM 情景，不可将 Wing 固定 kWh 假设升级为实测。M2 仅允许明示两块预充电电池/车的场景；若新增车载充电，必须具备真实功率、补能时间与能量来源，并明确备用电池资本。
+E. 成本数据口径：全部复算 30 个种子分别代表的 153天×18单=2754单的五个月重复；避免把4590场景合计当一次五个月运营。更新 BREAK_EVEN：30个种子总节省/30只是均值，还需种子区间、设备与站点资本上限、资本摊销的时间边界。每种模式成本逐项审计：汽油、地面维护、司机、UAV操作员、电力、电池与充电；严格区分 Partial OPEX 与 Scenario Full Cost。
+
+每个硬门槛必须输出失败前后真实数值、逐订单主键配对、违规数量、golden case、运行日志和 GO/NO_GO。P0 未关闭不得声称 S11B SCI 主结果已通过，不得进入正式论文结果冻结。
+
+## G11B-2 FAIR COMPARISON
+1. 明确旧 S08 M0_30H 与 S11 24h NO_UAV 不是同一个可直接对比的实验。以 M0_COMMON_24H 为共同基线并记录它与冻结 M0 的不同；若使用同一个 NO_UAV 作为 M1/M2 共享控制，明确标注 SINGLE_COMMON_CONTROL，而不是声称存在两个不同的架构专属对照。
+2. 使用可关闭无人机开关的同一调度内核，在同一日期种子、订单、车数、司机工时、路径、等待、截止与求解预算下做匹配对照。M1及M2实际模型必须保留各自真实的固定/移动架构约束。比较无 UAV 的纯地面调度、固定站 M1 与车载 M2 的时间、成本和排放增量。
+3. 输出相同任务的配对结果和服务路径分解（UAV、GROUND_FALLBACK、UNSERVED、LATE），验证 UAV 影响不是来自更换更差的地面基线或开放额外可用车辆。
+
+## G11B-3 WEATHER UNCERTAINTY
+1. 四个事件点天气继续保留；新增跨小时飞行的沿途时刻/代表空间天气审计（至少每小时边界与高风险任务），不以4个端点代替连续过程的实地认证。
+2. 运行 5/10/15/20/25 km 空间代表性门槛或合理的距离权重与替代站点气象对照；阈值必须预先声明，不能以恢复无人机优势为目标筛选。当前严格10km仍作为与S11版本对照的指定情景。
+3. 对缺测、降雨、阵风、风向、任务起飞与返航时刻执行动态重调度，不允许只修改可飞数量。
+4. 将实际可获取的观测与再分析代理分开登记；未获取本地观测则 HOLD 实地天气验证。
+
+## G11B-4 STATISTICS AND PARETO
+1. 以每次五个月种子重复为一个可解释样本，明确时间共享天气导致的依赖性；至少对种子自助法、按日期/周分块和层级或双向聚类进行敏感性比较，报告效应大小、CI及模型结构不确定性。
+2. 重新定义实际 PARETO，不能将通过 completion>=95%、ontime>=90% 的候选列表命名为非支配前沿。对公平资源配置下的服务约束可行集，至少在时间、成本、运营能耗代理上执行 dominance 检查，输出 PARETO_NONDOMINATED.csv 和 PARETO_DOMINANCE_AUDIT.json；配置维度可包括 UAV 0/1/2/3、充电/电池、11个冻结站点的容量配置。
+3. 基于实际情景重复运行汇总结论反转频率；不能拿旧S10最高准时率减新S11最高准时率冒充 reversal rate。
+4. 严格区分汽油 TTW CO2 与电网排放代理；无完整共同边界不得写生命周期减排。燃油因子、电网因子和电价做透明敏感性分析。
+
+## G11B-5 QA & DELIVERY
+真正的自动测试必须覆盖：非法M1站点、M1超时飞行、M2回收超时、回仓里程漏记、reverse_geometry_proxy筛查不一致、电池SOC时序、换电冲突、跨小时天气、全场景订单唯一性、M0公平性、30种子成本单位误标、break-even计算、Pareto支配关系、统计块设计和最后结果追溯。
+至少3个小规模独立算例（手算/精确搜索）以及代表性恶劣天气/长距离真实场景回放。
+
+每阶段输出：README、源代码、输入清单、运行命令、CSV/Parquet账本、QA报告、异常样例、测试日志、结果差异、SHA manifest、单独ZIP。联合ZIP也必须从零新目录解压并逐成员与内部 manifest 逐行核验（排除 *.pyc），CRC、SHA失配或缺项一律 FAIL。
+
+最终输出：
+- S11B_GATE_STATUS_MATRIX.json
+- S11B_SOURCE_CHANGE_AND_BUG_FIX_LEDGER.csv
+- S11_VS_S11B_PAIRED_DIFFERENCES.csv
+- S11B_PER_SEED_FIVE_MONTH_RESULTS.csv
+- S11B_FIXED_STATION_INVENTORY.csv
+- S11B_DUTY_WINDOW_EVENT_AUDIT.csv
+- S11B_FLIGHT_GEOMETRY_AUDIT.csv
+- S11B_MISSION_ENERGY_DYNAMIC_SENSITIVITY.csv
+- S11B_PARETO_NONDOMINATED.csv
+- S11B_COST_BREAK_EVEN_PER_REPLICATION.csv
+- S11B_CLAIM_EVIDENCE_AUDIT.csv
+- S11B_SCI_FINAL_AUDIT_REPORT_CN.md
+- S11B_REPRODUCTION_GUIDE.md
+- S11B_FINAL_SHA256_MANIFEST.csv
+- S11B_COMPLETE_PACKAGE.zip
+
+只要前置门槛没通过，阶段必须 HOLD/FAIL，不得通过改文案或降低审计阈值强行 PASS。S11原版与S11B修订版必须并列保留，便于追溯。在结果呈现中不允许为了无人机优势修改原始冻结订单、研究日期、天气观测、物理约束和对照算法。
+
+最后给出三个明确结论：① 在修订模型下，哪些技术可飞任务与模式仍满足服务门槛；② 是否还有可靠的无人机增量运营能源效益及成本空间；③ 哪些真实部署、WTW/LCA、Wing实机数据与监管事项继续 HOLD。任何未真实运行的步骤都明确写 NOT RUN。
+
+现在从 G11B-0 开始，执行代码、运行测试和形成真实交付，不要只产生执行计划。到达关键阻断时只执行可独立开展的门槛与诊断任务，不要虚构后续主实验已通过。

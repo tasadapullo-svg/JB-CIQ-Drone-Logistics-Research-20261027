@@ -1,0 +1,44 @@
+{
+  "COMPUTATION_STATUS": "PASS",
+  "SCI_EVIDENCE_STATUS": "CONDITIONAL",
+  "rows": 165240,
+  "tasks": 82620,
+  "models": 2,
+  "candidate_edges": 116,
+  "duplicate_candidate_pairs": 0,
+  "integrated_task_table_sha256": "3d65e788e43ee24ae4ae9f254c99ec2a604bd2c248247c4a90a744db092ff78b",
+  "frozen_order_source_sha256": "8cc9c4d20b78cb80bff4fa9fd69750e0b7c172d6f48d07a7880b224bf5ddecca",
+  "candidate_sha256": "425fb70a4d7a7c4db49d2ce887e8b40975a1cbb4daf565bf6364dc6a99408654",
+  "by_model": {
+    "DJI_FLYCART30": {
+      "rows": 82620,
+      "geometry_candidates": 28477,
+      "payload_pass": 82620,
+      "technical_feasible": 27191,
+      "weather_relaxed_pass": 24281,
+      "weather_strict_pass": 2631,
+      "conditional_schedule_eligible": 23161,
+      "grid_kwh_eligible_main_scenario": 43023.889465736574,
+      "energy_evidence": "OEM_NOMINAL_RANGE_EQUIVALENT_PLUS_SCENARIO_RESERVE"
+    },
+    "WINGCOPTER198_CARGO": {
+      "rows": 82620,
+      "geometry_candidates": 28477,
+      "payload_pass": 55080,
+      "technical_feasible": 19009,
+      "weather_relaxed_pass": 24349,
+      "weather_strict_pass": 2631,
+      "conditional_schedule_eligible": 16233,
+      "grid_kwh_eligible_main_scenario": 19213.41795013333,
+      "energy_evidence": "SCENARIO_PROXY_NOT_AIRCRAFT_CALIBRATION"
+    }
+  },
+  "gates": {
+    "S09_FULL_CONDITIONAL_RUN": "PASS_CONDITIONAL",
+    "REAL_OPERATIONAL_FEASIBILITY": "HOLD",
+    "VALIDATED_AIRCRAFT_ENERGY": "HOLD",
+    "AIRSPACE_AND_LANDING_PERMISSION": "HOLD",
+    "S10_CONDITIONAL_TECHNICAL_SCENARIO": "GO_WITH_EXPLICIT_ASSUMPTIONS",
+    "S10_VALIDATED_CARBON_CLAIM": "HOLD"
+  }
+}

@@ -1,0 +1,32 @@
+C:\Users\DELL\Desktop\CIQ ���˻����� SCI ��_20261026\output_SCI_Complete_Experimental_Closure_20261031\RUN_20261031_01\S11B_REPAIRS\code\merge_full.py:66: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`).Please use a specific unit instead.
+  return_end = pd.to_datetime(returns["date_local"]).dt.tz_localize("Asia/Kuala_Lumpur") + pd.Timedelta(hours=24)
+{
+  "gate": "G1",
+  "status": "PASS",
+  "tests": {
+    "scenario_summary_rows_55080": true,
+    "strict_scenario_mode_rows_27540": true,
+    "order_mode_rows_991440": true,
+    "strict_order_mode_rows_495720": true,
+    "all_4590_scenarios": true,
+    "all_82620_tasks": true,
+    "all_30_seeds": true,
+    "order_composite_unique": true,
+    "physical_leg_id_unique": true,
+    "flight_id_unique": true,
+    "soc_reserve_respected": true,
+    "strict_weather_gt10_excluded": true,
+    "four_weather_events_per_flight": true,
+    "all_return_arrivals_within_window": true,
+    "controls_orderwise_identical": true
+  },
+  "counts": {
+    "summary": 55080,
+    "orders": 991440,
+    "legs": 1667813,
+    "flights": 69842,
+    "weather": 279368,
+    "soc": 69842,
+    "events": 4384193
+  }
+}

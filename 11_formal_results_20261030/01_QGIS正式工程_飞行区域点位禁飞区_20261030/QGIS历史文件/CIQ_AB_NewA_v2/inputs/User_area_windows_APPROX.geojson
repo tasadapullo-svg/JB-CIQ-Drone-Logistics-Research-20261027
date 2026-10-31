@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "User_area_windows_APPROX",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": "USER_EAST_BOX_APPROX", "name": "East rectangle from user QGIS screenshot (APPROX)", "basis": "IMAGE_HAND_ESTIMATE_NOT_GEOREFERENCED", "bounds": "103.7745,1.467,103.848,1.543", "warning": "THIS POLYGON IS ONLY A VIEWPORT SEARCH FRAME. Re-digitize from actual QGIS polygon if it exists. Local deviations >=0.5 km possible", "boundary_basis": "APPROX_FROM_USER_SCREENSHOT" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 103.7745, 1.467 ], [ 103.848, 1.467 ], [ 103.848, 1.543 ], [ 103.7745, 1.543 ], [ 103.7745, 1.467 ] ] ] } },
+{ "type": "Feature", "properties": { "id": "WEST_COMPARISON_WINDOW_ANALYTICAL", "name": "Perling–Bukit Indah comparison window (research design only)", "basis": "ANALYTICAL_SEARCH_WINDOW_NOT_DRAWN_BY_USER", "bounds": "103.64,1.455,103.708,1.515", "warning": "NOT a georeferenced trace of screenshot #2, only an analysis study window", "boundary_basis": "APPROX_FROM_USER_SCREENSHOT" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 103.64, 1.455 ], [ 103.708, 1.455 ], [ 103.708, 1.515 ], [ 103.64, 1.515 ], [ 103.64, 1.455 ] ] ] } }
+]
+}

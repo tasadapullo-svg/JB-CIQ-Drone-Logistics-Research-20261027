@@ -1,0 +1,4 @@
+boundary,included,excluded,claim_limit
+petrol,tank-to-wheel CO2,"fuel production, vehicle embodied",
+UAV,grid operational proxy,"battery/UAV embodied, infrastructure",
+comparison,mixed operational proxy,full lifecycle,not LCA

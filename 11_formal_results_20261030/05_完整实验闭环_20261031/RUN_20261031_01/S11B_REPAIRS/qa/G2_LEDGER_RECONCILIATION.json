@@ -1,0 +1,24 @@
+{
+  "gate": "G2",
+  "status": "PASS_CONDITIONAL",
+  "counts": {
+    "per_seed_rows": 360,
+    "pairing_rows": 72,
+    "orders": 991440,
+    "ground_legs": 1667813,
+    "flights": 69842,
+    "soc_rows": 69842
+  },
+  "checks": {
+    "30_seeds_per_mode_spatial": true,
+    "2754_orders_per_seed_mode": true,
+    "flight_soc_one_to_one": true,
+    "fuel_reconciles_from_km": true,
+    "ghg_reconciles": true
+  },
+  "limitations": [
+    "No independently validated exact-solver benchmark for all 18-task scenes.",
+    "Operational GHG is a mixed-boundary proxy, not lifecycle assessment.",
+    "Break-even excludes capital recovery and financing."
+  ]
+}

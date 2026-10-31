@@ -1,0 +1,141 @@
+# CIQ V5 — S11 模型修订、对照实验与 SCI 证据闭环（Codex 完整执行总控 Prompt）
+
+你现在是具备 Python、GIS、交通网络分析、无人机任务调度、能源排放核算、统计推断和 SCI 可复现性审计能力的高级科研工程师。请在本机真实工程中执行 S11_CORRECTIVE_VALIDATION，不是撰写工作计划，不是生成模拟审计日志，也不是只修改报告的表述。必须实际读取、编写、运行、核验、封装，严格记录完成与未完成事项。
+
+## A. 本机工作范围与不可变约束
+
+主工作目录：C:\Users\DELL\Desktop\CIQ 无人机物流 SCI 研_20261026
+历史工程候选目录：C:\Users\DELL\Desktop\CIQ_Drone_Logistics_SCI_GitHub_20261028
+上一轮输出目录：output_S08A_S09_S10_Codex_20261030\RUN_20261030_01
+新增输出目录：output_S11_Corrective_Validation_20261030\RUN_YYYYMMDD_NN
+
+自动发现真实路径并验证。路径不在本地则记录 NOT_FOUND；禁止凭文件名推定存在，禁止以空白、伪造或零值替代缺失输入。新建独立输出目录；S07、S08、S08A、S09、S10、V5 QGIS/GPKG、冻结 82,620 张订单及旧 Stage 3–8 一律只读，不得覆盖、移动、静默重建或改写历史验收结论。所有代码修订在 S11 中建分支或复制并记录源 SHA-256 与变更 diff，不能隐式把历史修订版替换为新基线。
+
+先实际读取：
+- CIQ_S08A_S09_S10_INDEPENDENT_SCI_AUDIT_20261030.md
+- FINAL_HANDOFF_CN.md、FINAL_STATUS_MATRIX.json、完整测试日志及 SHA 登记
+- S07、S08 交接、S08A 对账、S09 审计、S10 模式/配对统计与全量订单输出
+- S09/S10 Python 实现及所有输出 QA/Parquet/CSV
+
+如上述文件尚未位于主目录，递归检索已下载 ZIP 和相邻工作目录；只提取到 S11 临时目录。记录每个实际使用文件的绝对路径、大小、SHA256、来源阶段、用途、数据类型、日期范围和证据等级。无法读取的大型数据必须写明阻断，不能只根据总结推断已验收。
+
+研究主线固定：2026年5–9月 Johor Bahru（Causeway 与 Second Link 周边）的马来西亚境内条件性合成物流。保持既定订单、A/B/C 区域、V5 网络及研究时空范围；比较 M0（汽油车）、M1（固定站地空混合）、M2（车辆—无人机协同），两机型 DJI FlyCart 30 与 Wingcopter 198 Cargo。不得将本地模拟物流叙述为已实测的跨境通关配送，不得声称真实飞行许可、实机标定、完整 WTW/LCA 净减碳或完整成本最优。
+
+## B. 已知审计参考值（仅用于回归核对，禁止硬编码为新结果）
+
+冻结基础：153 天 × 30 种子 = 4,590 场景；82,620 订单；五模式共 22,950 模式场景、413,100 模式订单。S08A M0：179,010 物理地面路段、13,770 车辆行程、165,240 取送事件。S09 两机型共 165,240 任务行；旧条件性可调度 DJI 23,161、Wing 16,233；旧严格空间/其他条件候选分别 2,631、1,766。S10 旧 M2-DJI 准时率 97.3929%、相对 M0 条件性运营能源代理降幅 32.09%；旧 M2-WING 96.8059%、降幅 30.28%。这些是旧模型输出，绝不是 S11 通过标准；S11 新结果可明显变差、失效或逆转，不得调参维持优势。
+
+旧排放是 PETROL_TTW_CO2_PLUS_GRID_GENERATION_GHG_PROXY；成本是 PARTIAL_OPEX；M0 30H_OPERATIONAL_WINDOW_CONDITIONAL。S10 中 M2-DJI 59,459 个纯地面任务也出现准时率明显改善，因此“整体改进全归功于无人机”的说法不成立。优先修订 G11-1 动态天气、G11-2 SOC、G11-3 公平性对照。
+
+## C. 强制执行顺序与硬门槛
+
+严格按 G11-0→G11-1→G11-2→G11-3→G11-4→G11-5→G11-6→G11-7→FINAL 执行。每一关输出 STATUS=PASS / PASS_CONDITIONAL / HOLD / FAIL，附实际证据路径、测试摘要、修订前后变化、下一关 GO/NO_GO。没有证据不能 PASS；阻断后可以进行互不依赖的代码和小规模测试，但不得宣布下游全量 SCI 验收。禁止空壳脚本、空白图、常量布尔测试和伪造运行记录。
+
+### G11-0 — INPUT FREEZE / PREFLIGHT
+
+1. 校验四个 S08A/S09/S10/FINAL ZIP、S07/S08 输入、冻结 V5/订单/天气/FCD/OSM 的实际哈希；与既有 manifest 对照，历史源文件保持只读。
+2. 生成 INPUT_REGISTRY.csv、HASH_REGISTRY.csv、SOURCE_LINEAGE.csv、ENVIRONMENT_LOCK.txt、MISSING_OR_AMBIGUOUS_INPUTS.csv、VERSION_GRAPH.md 和 PRECHECK_AUDIT.md。
+3. 检查环境依赖：pyarrow、pandas、numpy、geopandas、networkx、shapely、pyproj、pytest、scipy 等按源码实际需求固定版本；验证 CSV/Parquet 能真实读取，并抽查 S08A、S09、S10 完整键。
+4. 将工作流分为 quick-test、小规模 golden-case、全量生产、二次独立审计四级；检查可用内存/磁盘并实现分块处理、断点恢复与运行日志。
+5. 在不变更任何历史数据的前提下先重现至少 1 个既有场景，并报告是否与旧结果精确一致。如不能重现，标记 REPRODUCIBILITY_HOLD，不能凭现有 ZIP 直接宣布通过。
+
+G11-0 未通过不得冻结下一关主实验。
+
+### G11-1 — ACTUAL-LAUNCH WEATHER + STRICT SPATIAL RERUN
+
+1. 检查 S09 中以 release_utc 判定天气，而 S10 真实起飞因站点排队、车辆前往发射点而推迟的缺陷。抽离统一任务事件/气象资格函数，输入机型、发射和回收节点、载荷、计划起飞时刻、飞行轨迹/时段、天气数据和空间溯源；输出技术、气象、空间、监管四个独立状态，不得用一个条件性 true 掩盖空间 HOLD。
+2. 对真实发射、投递到达、返航起飞、回收完成及其间跨小时天气采样；对风速、风向/逆风、阵风、降雨、缺测与网格距离分别记录来源和阈值。若数据只支持小时级，保留小时分辨率并做保守跨小时检查，不能臆造分钟级天气真值。
+3. 如果延迟起飞导致天气不满足，调度器必须按统一政策选择 WAIT、GROUND_FALLBACK、UNSERVED 或 TIME_WINDOW_EXPIRED，再依真实资源状态重算时间、路程、电耗、油耗和成本；不能只改可飞标志和汇总计数。
+4. 至少全量运行 STRICT_EXCLUDE_GT10KM 与 RELAXED_PROXY 两套情景，使用同一 153 天×30 种子×冻结订单；若有可靠的独立天气资料才运行 ALTERNATIVE_WEATHER_PROVENANCE，否则第三组明确 HOLD，不得人为填站点/观测值。
+5. 输出 S11_LAUNCH_WEATHER_LEDGER.parquet、WEATHER_PROVENANCE.csv、WEATHER_CHANGED_DECISIONS.csv、STRICT_RELAXED_PAIRED_RESULTS.csv，分日期/区域/机型/任务记录资格改变、等待、回退和未完成。核查旧 DJI 23,161/2,631 与 Wing 16,233/1,766 差异来源；动态重跑允许产生新数量。
+
+验收：所有实际飞行对应可审计的事件天气，空间资格独立，严格情景真实触发重调度，原始订单零丢失，失败/回退在统一分母内。
+
+### G11-2 — BATTERY SOC / CHARGING / SWAP / OPERATOR RESOURCE
+
+1. 为每架无人机和每块电池建立唯一 ID、额定/可用电池容量、初始SOC、起飞前储能、任务用电、返航后储能、最低安全储备、充电/换电/备用电池状态、占用和可用时刻。
+2. M1 固定站与 M2 车载无人机使用同一可审计电量守恒机制；车载充电必须证明电源/功率与车辆运行可用性，如无证据设为 OFF 或情景假设，不可默认无限补电。记录充电效率、充电能量来源、峰值充电器数量、排队、替换时间、人工占用和电网输入。
+3. 不得以 Wing 92 km 最高航程反推出已验证电池 kWh。可使用显式 LOW/BASE/HIGH 能耗及电池容量假设，证据等级为 SCENARIO；缺乏定义的关键物理参数标记 HOLD，禁止隐藏不确定性。
+4. 硬约束：0≤SOC≤可用容量、返航后 SOC≥reserve；同一无人机/电池/充电器/操作员不得重叠超售；起飞前必有足够可用电量；充电量与网电量按效率守恒；车辆与无人机发射/回收同步，未回收不得视为可再次起飞。
+5. 提供至少两个可手算的 golden-case（如连续两次任务、电池不足遇坏天气）和全量行程账本校验。
+
+输出 UAV_SOC_EVENT_LEDGER.parquet、BATTERY_ASSET_LEDGER.csv、CHARGER_QUEUE.csv、RESOURCE_CONFLICT_AUDIT.json、SOC_COUNTERFACTUAL_SUMMARY.csv。
+
+### G11-3 — CAUSAL/ALGORITHMIC FAIRNESS & NO-UAV CONTROLS
+
+1. 新增 M2_NO_UAV：保留 M2 同一车辆调度器、出发时刻、输入订单和资源限制，只禁止 UAV 决策，重算全部场景。新增 M1_NO_UAV：保留 M1 fallback 路由、同一算法与车辆预算，只禁飞。禁止拿 M0 改名冒充两个对照组。
+2. 必须分别报告：M2_NO_UAV−M0（架构/路由差异）、M2_DJI−M2_NO_UAV 和 M2_WING−M2_NO_UAV（在相同 M2 规则下的 UAV 增量）、M1_DJI/WING−M1_NO_UAV。
+3. 统一对照的车辆数量、司机规则、订单和服务截止、FCD时间更新、停车/装卸、地面排放和成本科目；设置相同或可审计的调度搜索预算，比较单启发式、多起点及更强基线。算法预算必须以运行时间/迭代次数/搜索次数等可量化指标记录。
+4. 对 3 车 + 0/1/2/3 架 UAV（至少 1/2/3 UAV 资源梯度）开展资源敏感性。增加独立报告：同等车辆资源下的 UAV 增量，与额外航空资产导致的系统增益，不能混为“同资源技术优势”。
+5. 无人机驾驶/监管人工及司机多任务能力须显式约束；不允许 M2 UAV 监控工时无证据地固定 0。
+
+输出 CONTROL_MODE_SUMMARY.csv、PAIRWISE_CAUSAL_DECOMPOSITION.csv、ALGORITHM_BUDGET_AUDIT.csv、RESOURCE_PARITY_MATRIX.csv、DISPATCH_DECISION_TRACE.parquet。禁止使用“因果证明”措辞超出现有模拟控制的识别范围。
+
+### G11-4 — DUTY/TIME AND DYNAMIC ROAD VALIDATION
+
+1. 对 M0/M1/M2 与控制组采用统一 8/12/24/30h 运营时间窗口，并区分单司机连续驾驶、可交接班、连续可用车辆三种逻辑；明示每种情景的司机人数、换班成本、驾驶时间和允许跨日规则。不得擅自把 30 小时的车辆可用窗口当成合法司机个人班次。
+2. 订单分母固定，区分 ON_TIME、LATE_COMPLETED、UNSERVED、CANCELLED_BY_WEATHER、NO_CAPACITY 和 FALLBACK；报告完成率与准时率，不得以无限顺延制造现实 100% 服务率。
+3. 检查 M0 按真实出发分钟逐边更新时间与混合模式 hourly departure cache 的差异。在拥堵高峰、跨小时边界、坏天气、长订单等预注册的日期/场景中做 exact dynamic edge-time 重放，计算路径、时间、服务与能源差额。若高于事先定义并写入方案的误差容忍阈值，则将同一高精度算法应用所有模式全量重算。
+4. 所有模式物理路段只能记一次路程和油耗；车辆等待与司机人工应计入成本但不凭空计入行驶油耗。地面时间、等候、充电、操作人工与无人机执行事件须有统一事件时间线。
+
+输出 DUTY_SHIFT_SENSITIVITY.csv、UNSERVED_ORDERS.csv、ROAD_TIME_CACHE_ERROR.csv、COST_TIME_LEDGER.csv、TIME_CONSERVATION_AUDIT.json。
+
+### G11-5 — ENERGY / EMISSIONS / FULLER COST SENSITIVITY
+
+1. 建立参数证据台账：OEM_SPEC、OFFICIAL_PUBLIC_DATA、LITERATURE_DERIVED、CALCULATED、SCENARIO_ASSUMPTION、HOLD；参数含机型航程/载荷/耐风、电池容量、任务 kWh/km 或物理功率、风雨阈值、SOC reserve、充电效率、燃油消耗与价格、电价、电网因子、人员单价、站点/机体/电池/保险/维护/折旧。
+2. 对 DJI/Wing 联合测试载荷×距离×顺逆风×天气限制×充电效率×reserve×机队资源，必须把变化传递回任务资格、实际发射、排队、地面回退和订单结果，禁止只将旧 S10 的总 kWh 按系数缩放就宣称完成敏感性实验。
+3. 能源排放至少分列 PETROL_TTW_CO2、GRID_OPERATION_GHG_PROXY、COMBINED_MIXED_BOUNDARY_PROXY；只在能源链边界真正对称且证据可追溯时提供对称 WTW/运营 GHG。不得将非对称合计当完整 CO₂e 或 LCA 净减排。注明采用的马来半岛临时 GEF 年份及应用于2026的假设。
+4. 成本分别报告 OPERATING_CASH_COST、PARTIAL_OPEX、SCENARIO_FULL_COST，包括人员、能源、维护、无人机/备用电池/固定站/充电设施、保险、监管许可情景、资本折旧及可选固定站占地。费用缺来源的科目标注 LOW/BASE/HIGH，不得制造“已核验报价”。
+5. 计算 BREAK_EVEN：每月/每五个月新增 UAV 相关固定成本容忍额、临界电价/燃油价/利用率/资本年化费用；修正模型后重新计算，不能沿用旧 MYR 32,349 的临界预算作为结论。
+
+输出 ENERGY_EVIDENCE_REGISTRY.csv、MISSION_ENERGY_SENSITIVITY.parquet、EMISSION_SCOPE_MATRIX.csv、COST_COMPONENT_LEDGER.csv、BREAK_EVEN.csv、ASSUMPTION_UNCERTAINTY.csv。
+
+### G11-6 — PAIRED STATISTICS / ROBUSTNESS / PARETO
+
+1. 以同一天、同一种子、同订单或同场景构造配对比较。日/周/月时间自相关、30种子、区域和模型情景参数应分别处理；区分随机需求种子波动、共享天气条件、结构参数不确定性。明确置信区间计算单位、重复次数、bootstrap 及多重比较策略。
+2. 输出每种模式及每个 NO_UAV 控制组的准时率、完成率、完成时间分位数、地面公里、汽油、网电、能源 GHG 各组成、部分/扩展成本；同时报告均值、分布、95% 区间和失败/反转比例。禁止选择有利的月份/种子作论文主结论。
+3. 对 A/B/C、Causeway/Second Link 邻近区域、2026-05至09逐月、雨/风/拥堵分层比较；分析超过天气10km警戒时优势是否反转。计算可行域须明示准时率门槛、完成率门槛与资源约束。
+4. 绘制 time–cost–emission Pareto 前沿时，应在相同服务约束、相同排放边界与明确成本边界下比较真实重算的配置；条件不一致的点不应放在同一“最优”前沿。
+5. 既有 S10 的30种子 Holm p 值只表明旧条件性模型的配对差异，不是实地显著减排证据。S11 重新检验并报告效应大小和结论在结构假设下的稳定性。
+
+输出 S11_MODE_SUMMARY.csv、S11_PAIRED_STATISTICS.csv、S11_MONTH_ZONE_BREAKDOWN.csv、BLOCK_BOOTSTRAP_AUDIT.json、CONCLUSION_REVERSAL_RATE.csv、PARETO_CONFIGURATION.csv、FIG_DATA_PROVENANCE.csv 和至少初步可审核的高分辨率 SCI 图稿（仅从真实计算表绘制）。
+
+### G11-7 — GIS / AIRSPACE / CIQ SCI EVIDENCE GATES
+
+1. 对 V5 68节点、A/B/C 标签、21个>100m道路接入候选、距天气网格>10km节点的空间关系做新旧文件对照，不允许为提升结果删改坐标、移动地图点或遮蔽禁飞风险。
+2. WMP228 必须区分 CAAM 历史有效官方边界与研究中使用的参考圆。查询并登记 2026年5至9月适用的 eAIP/AMDT、NOTAM（如能获取）、机场/管制空域以及必要的马来西亚/新加坡监管约束；仅在原始官方几何与生效日期可追溯时作权威判断。若资料不齐，保留 REGULATORY_HOLD，不能把未相交等同获批。
+3. 明确所有冻结订单为 MY_INLAND_SCENARIO_CIQ_WAIT_NOT_APPLICABLE；CIQ 只代表邻近口岸走廊的地理/交通语境。禁止将结果称为经实测的跨境清关节时或获批跨境 UAV 航路。
+4. 提供 GIS_SCI_EVIDENCE_GATES.csv、AIRSPACE_PROVENANCE.csv、NODE_ENTRANCE_HOLD.csv、QGIS_FIG1_FIG3_LAYER_INDEX.md；QGIS 正式地图仍需地理配准、岸线/边界与版权验收。
+
+## D. 自动化测试与独立复算
+
+必须建立真实函数级单测和端到端测试，而非只检查文件存在或使用 pass=True 常量。最低测试集涵盖：release≠launch、跨小时气象突变、返航中坏天气、空间>10km、气象缺测、SOC耗尽、reserve不足、补能效率、换电超售、飞机/车/操作员资源重叠、司机换班、逆风/顺风、地面失败回退、道路跨小时、负时间、重复任务键、物理路段双记、燃油与电量守恒、订单分母和经济成本加总。
+
+实现至少两个小规模 golden scenarios，用独立脚本/手工轨迹核对事件调度和能源守恒；独立读取 Parquet 重算 55,246 旧航次与 644,903 旧地面物理路段中的核心账目或明确列出不能读取的原因。新 S11 输出同样必须可逐事件复算。每阶段保存 pytest 输出、样本日志、环境锁、性能日志和内容哈希。
+
+## E. 科学成果发布门槛
+
+S11 必须在未看新结果前预注册“可行”的基础判定（例如最低服务率、天气/载荷/电量/监管代理条件、资源与成本约束）。如果严格天气使 UAV 任务大量退出、NO_UAV 对照解释了大部分改善、SOC/充电导致服务恶化，必须如实保留这些不利发现。不得根据结果反向挑阈值、修订单、删除失败场景或选择性报告机型。
+
+所有结论按 EVIDENCE_VERIFIED / SCI_CONDITIONAL / SCENARIO_ONLY / HOLD 分类。只有来源、边界、算法公平性、动态天气、SOC、结果配对和可重放测试均达标，才可发布 S11_REVISED_SCI_CONDITIONAL；现实部署与实测生命周期净减排在缺证据时继续 HOLD。
+
+## F. 输出与封装
+
+在新 RUN 目录按 G11_0_PRECHECK、G11_1_DYNAMIC_WEATHER、G11_2_BATTERY_SOC、G11_3_FAIRNESS、G11_4_DUTY_ROAD、G11_5_ENERGY_COST、G11_6_STATS_PARETO、G11_7_GIS、FINAL_HANDOFF 建立分目录。每关至少包括 code/、data/、qa/、reports/、figures/（无图则明确 NOT_APPLICABLE）、README、CHANGELOG、运行命令、输入与输出 SHA256_MANIFEST、失败与阻断清单。大数据使用分块 Parquet/CSV，不得只保留摘要而删除关键事件账本。
+
+每关独立 ZIP：CRC 测试→新目录解压→内部逐文件 SHA256 校验→记录 bytes/hash/文件数。再生成联合 ZIP，包含阶段报告、最终数据字典、完整依赖/运行说明、代码、审计及必要数据；如外部历史源数据过大，可用 SHA 锁定引用，但必须说明独立复现需要哪些外部文件，不能宣传 ZIP 可独立运行而事实上缺少输入。
+
+最终统一输出：
+- S11_FINAL_STATUS_MATRIX.json（各关 PASS/CONDITIONAL/HOLD/FAIL，逐项引用证据）
+- S11_OLD_VS_NEW_RESULTS.csv（S10 老结果与 S11 修订结果同口径配对）
+- S11_P0_P1_P2_CLOSURE_MATRIX.csv（每个已审计缺陷的修订方式、验证证据、残留限制）
+- S11_SCI_FINAL_AUDIT_REPORT_CN.md
+- S11_RESULTS_DISCUSSION_CLAIM_BOUNDARIES_EN.md
+- S11_COMPLETE_REPRODUCTION_GUIDE.md
+- S11_FINAL_DELIVERABLE_SHA256.csv 与 ZIP_FRESH_EXTRACTION_TEST.json
+
+报告必须回答四个问题：①严格天气+实际起飞+SOC后，无人机仍有多少次真实调度的条件性技术可行任务？②同一车辆调度器禁飞后，M1/M2 的 UAV 增量时间、准时、成本与能源效应究竟是多少？③在公平司机工时和更完整运营成本下，哪种配置满足既定服务约束且处于 Pareto 可行域？④哪些结论稳健，哪些因天气空间、机型能耗、补能或监管限制仍处 HOLD？
+
+## G. 执行纪律与即时输出
+
+现在开始实际执行 G11-0，然后按关卡推进。不要停在建议书或提示词；不要反复询问已能从工程检测的信息。对确实缺少的物理/官方证据，先完成可合法实施的条件性实验并把不确定性量化，同时将该证据标 HOLD。硬门槛未过则不运行依赖它的正式全量实验；可以完成独立测试和源代码修复。每个关卡运行后输出简短状态：实际使用文件→实测输出数量→测试结果→SHA→遗留 HOLD→GO/NO_GO；最后给出所有成果的真实 Windows 绝对路径。完整保留历史 S07–S10，不允许覆盖、夸大或虚构任何科学结果。

@@ -1,0 +1,9 @@
+spatial_scenario,mode,maximum_additional_fixed_cost_MYR_over_5_months,mean_per_scenario_MYR,interpretation
+STRICT_EXCLUDE_GT10KM,M1_DJI,34003.823647157216,7.4082404460037505,break-even ceiling; fixed capital not observed
+STRICT_EXCLUDE_GT10KM,M1_WING,23241.957709719794,5.063607344165533,break-even ceiling; fixed capital not observed
+STRICT_EXCLUDE_GT10KM,M2_DJI,-6675.886179080598,-1.4544414333508928,break-even ceiling; fixed capital not observed
+STRICT_EXCLUDE_GT10KM,M2_WING,-2815.335610342144,-0.6133628780701839,break-even ceiling; fixed capital not observed
+RELAXED_PROXY,M1_DJI,221627.61527020467,48.28488350113391,break-even ceiling; fixed capital not observed
+RELAXED_PROXY,M1_WING,151927.40706357022,33.099652955026194,break-even ceiling; fixed capital not observed
+RELAXED_PROXY,M2_DJI,31220.044687222595,6.801752655168321,break-even ceiling; fixed capital not observed
+RELAXED_PROXY,M2_WING,66452.287986893,14.477622655096514,break-even ceiling; fixed capital not observed

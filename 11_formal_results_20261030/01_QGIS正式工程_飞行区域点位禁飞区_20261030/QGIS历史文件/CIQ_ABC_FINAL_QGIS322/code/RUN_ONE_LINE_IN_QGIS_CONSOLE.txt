@@ -1,0 +1,3 @@
+# QGIS Desktop 3.22.4 -> Plugins -> Python Console, paste below (replace path):
+p = r"D:\CIQ_ABC_FINAL_QGIS322\code\01_BUILD_COMPLETE_QGIS322.py"
+exec(compile(open(p, encoding="utf-8").read(),p,"exec"), {"__file__":p})

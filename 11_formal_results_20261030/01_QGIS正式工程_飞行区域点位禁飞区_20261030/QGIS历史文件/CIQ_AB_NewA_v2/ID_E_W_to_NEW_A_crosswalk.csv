@@ -1,0 +1,12 @@
+﻿previous_review_id,NEW_A_id,purpose
+E01,A01,Swift Tebrau II | priority facility search
+E02,A02,Tebrau II | alternative in SAME industrial cluster
+E03,A03,Bakar Batu | conditional ground feeder search
+E04,A04,Mid Valley Southkey | demand reference
+E05,A05,Taman Molek | mixed demand reference
+E06,A06,Permas Jaya | residential/commercial demand
+E07,A07,Kampung Tengah | demand reference (land caution)
+E08,A08,Pandan wholesale market | demand reference
+W01,A09,Bukit Indah industrial reference | west comparison
+W02,A10,Bukit Indah courier reference | west demand
+W03,A11,Perling residential reference | west demand

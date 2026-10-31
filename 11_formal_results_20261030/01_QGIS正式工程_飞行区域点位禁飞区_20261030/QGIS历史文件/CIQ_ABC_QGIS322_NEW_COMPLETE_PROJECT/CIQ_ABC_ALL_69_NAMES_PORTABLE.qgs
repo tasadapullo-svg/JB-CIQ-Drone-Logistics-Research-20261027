@@ -1,0 +1,1356 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE qgis PUBLIC "http://mrcc.com/qgis.dtd" "SYSTEM">
+<qgis version="3.22.4-Białowieża" projectname="CIQ A B C 69 Node Complete Project">
+  <homePath path=""/>
+  <title>Johor CIQ A/C/B | 69 named nodes | source geometry only</title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+      <srsid>3452</srsid>
+      <srid>4326</srid>
+      <authid>EPSG:4326</authid>
+      <description>WGS 84</description>
+      <projectionacronym>longlat</projectionacronym>
+      <ellipsoidacronym>WGS84</ellipsoidacronym>
+      <geographicflag>true</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <mapcanvas name="theMapCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>103.510</xmin>
+      <ymin>1.314</ymin>
+      <xmax>103.880</xmax>
+      <ymax>1.581</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <projections>1</projections>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <layer_coordinate_transform_info/>
+  </mapcanvas>
+  <layer-tree-canvas>
+    <custom-order enabled="0"/>
+  </layer-tree-canvas>
+  <layer-tree-group name="" expanded="1" checked="Qt::Checked">
+    <customproperties/>
+    <layer-tree-group checked="Qt::Checked" name="01  NODES - ALL 69 COMPLETE NAMES" expanded="1">
+      <customproperties/>
+      <layer-tree-layer source="./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=V7_ALL_62_RETAINED_ROLES" checked="Qt::Checked" name="A/C/B 62 study reference nodes" expanded="0" providerKey="ogr" id="V7_ALL_62_RETAINED_ROLES_45cae9f1ada5">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer source="./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=V8_CIQ_PORT_6_EVIDENCE_POINTS" checked="Qt::Checked" name="CIQ port 6 evidence nodes" expanded="0" providerKey="ogr" id="V8_CIQ_PORT_6_EVIDENCE_POINT_d75fefefa539">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer source="./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=G_CIQ_ground_gateway" checked="Qt::Checked" name="Ground CIQ gateway (1)" expanded="0" providerKey="ogr" id="G_CIQ_ground_gateway_984c72c9c457">
+        <customproperties/>
+      </layer-tree-layer>
+    </layer-tree-group>
+    <layer-tree-group checked="Qt::Checked" name="02  LINKS - CANDIDATES NOT APPROVED" expanded="0">
+      <customproperties/>
+      <layer-tree-layer source="./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=V7_ALL_111_GEOMETRY_ONLY" checked="Qt::Checked" name="111 V7 geometric candidates" expanded="0" providerKey="ogr" id="V7_ALL_111_GEOMETRY_ONLY_5215ef1778e9">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer source="./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=V8_CIQ_PORT_10_GROUND_AND_UAV_GEOMETRY" checked="Qt::Checked" name="10 V8 geometric links" expanded="0" providerKey="ogr" id="V8_CIQ_PORT_10_GROUND_AND_UA_4e8fd88cda09">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer source="./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=HOLD_ground_only_harbours" checked="Qt::Unchecked" name="Ground only harbour beelines" expanded="0" providerKey="ogr" id="HOLD_ground_only_harbours_6324ce2dd728">
+        <customproperties/>
+      </layer-tree-layer>
+    </layer-tree-group>
+    <layer-tree-group checked="Qt::Checked" name="03  AIRSPACE - HISTORICAL REFERENCES" expanded="0">
+      <customproperties/>
+      <layer-tree-layer source="./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=WMP228_history_two_discs" checked="Qt::Checked" name="WMP228 historic full reference discs" expanded="0" providerKey="ogr" id="WMP228_history_two_discs_3bda45cb7889">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer source="./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=Senai_5NM_aerodrome_ADVISORY" checked="Qt::Unchecked" name="Senai proximity advisory" expanded="0" providerKey="ogr" id="Senai_5NM_aerodrome_ADVISORY_feb0f45762f1">
+        <customproperties/>
+      </layer-tree-layer>
+    </layer-tree-group>
+    <layer-tree-group checked="Qt::Checked" name="04  STUDY BOUNDARIES - APPROXIMATE" expanded="0">
+      <customproperties/>
+      <layer-tree-layer source="./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=AC_study_corridors_APPROX" checked="Qt::Checked" name="A/C approximate study bounds" expanded="0" providerKey="ogr" id="AC_study_corridors_APPROX_e7dfaa1e2ac3">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer source="./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=B_geometric_display_envelope" checked="Qt::Checked" name="B convex hull display boundary" expanded="0" providerKey="ogr" id="B_geometric_display_envelope_4413b58e5fc5">
+        <customproperties/>
+      </layer-tree-layer>
+    </layer-tree-group>
+    <layer-tree-group checked="Qt::Checked" name="05  GEOMETRIC RANGE - OFF BY DEFAULT" expanded="0">
+      <customproperties/>
+      <layer-tree-layer source="./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=UAV_4_SITE_SEARCH_REACH_2_MODELS" checked="Qt::Unchecked" name="DJI/Wing nominal example reaches" expanded="0" providerKey="ogr" id="UAV_4_SITE_SEARCH_REACH_2_MO_62eb23263fd6">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer source="./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=V8_DJI_GEOMETRIC_REACH_ONLY" checked="Qt::Unchecked" name="V8 DJI nominal range" expanded="0" providerKey="ogr" id="V8_DJI_GEOMETRIC_REACH_ONLY_bd145b2fdb00">
+        <customproperties/>
+      </layer-tree-layer>
+    </layer-tree-group>
+    <layer-tree-group checked="Qt::Checked" name="90  FROZEN SOURCES - OFF BY DEFAULT" expanded="0">
+      <customproperties/>
+      <layer-tree-layer source="./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=B_10_FROZEN_NOT_PADS" checked="Qt::Unchecked" name="B ten original nodes" expanded="0" providerKey="ogr" id="B_10_FROZEN_NOT_PADS_1634ceb2df98">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer source="./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=B_33_FROZEN_reaudited" checked="Qt::Unchecked" name="B 33 original links" expanded="0" providerKey="ogr" id="B_33_FROZEN_reaudited_1cfd8230abb9">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer source="./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=AC_52_nodes_NOT_PADS" checked="Qt::Unchecked" name="A/C 52 original nodes" expanded="0" providerKey="ogr" id="AC_52_nodes_NOT_PADS_dcc77ce5ef32">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer source="./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=AC_78_geometric_links" checked="Qt::Unchecked" name="A/C 78 original edges" expanded="0" providerKey="ogr" id="AC_78_geometric_links_ce8b8b1d7027">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer source="./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=V7_12_SEARCH_ONLY_SITE_PRIORITIES" checked="Qt::Unchecked" name="12 priority site search candidates" expanded="0" providerKey="ogr" id="V7_12_SEARCH_ONLY_SITE_PRIOR_d37cbbb855ac">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer source="./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=Senibong_OSM_conflict_point" checked="Qt::Unchecked" name="Senibong OSM conflict reference" expanded="0" providerKey="ogr" id="Senibong_OSM_conflict_point_f6f5c24c10ab">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer source="./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=V8_WMP228_TWO_REFERENCE_DISCS" checked="Qt::Unchecked" name="V8 circles backup (off)" expanded="0" providerKey="ogr" id="V8_WMP228_TWO_REFERENCE_DISC_39cb2771d995">
+        <customproperties/>
+      </layer-tree-layer>
+    </layer-tree-group>
+  </layer-tree-group>
+  <projectlayers>
+    <maplayer geometry="Point" type="vector" simplifyDrawingHints="1" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" labelsEnabled="1" minScale="1e+8" maxScale="0" styleCategories="AllStyleCategories">
+      <extent>
+        <xmin>103.5468</xmin>
+        <ymin>1.35327</ymin>
+        <xmax>103.8327</xmax>
+        <ymax>1.5521</ymax>
+      </extent>
+      <id>V7_ALL_62_RETAINED_ROLES_45cae9f1ada5</id>
+      <datasource>./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=V7_ALL_62_RETAINED_ROLES</datasource>
+      <keywordList>
+        <value/>
+      </keywordList>
+      <layername>A/C/B 62 study reference nodes</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <renderer-v2 type="singleSymbol" symbollevels="0" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0" force_rhr="0">
+            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+              <prop k="name" v="circle"/>
+              <prop k="color" v="26,114,177,255"/>
+              <prop k="outline_color" v="255,255,255,255"/>
+              <prop k="outline_width" v="0.25"/>
+              <prop k="size" v="2.5"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="angle" v="0"/>
+              <prop k="scale_method" v="area"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties>
+        <property key="labeling" value="pal"/>
+        <property key="labeling/enabled" value="true"/>
+        <property key="labeling/drawLabels" value="true"/>
+        <property key="labeling/fieldName" value="concat(&quot;id&quot;, ' | ', &quot;name&quot;)"/>
+        <property key="labeling/isExpression" value="true"/>
+        <property key="labeling/displayAll" value="true"/>
+        <property key="labeling/fontFamily" value="Arial"/>
+        <property key="labeling/fontSize" value="8"/>
+        <property key="labeling/fontSizeInMapUnits" value="false"/>
+        <property key="labeling/fontBold" value="true"/>
+        <property key="labeling/fontWeight" value="75"/>
+        <property key="labeling/fontColor" value="#111111"/>
+        <property key="labeling/bufferDraw" value="true"/>
+        <property key="labeling/bufferSize" value="0.75"/>
+        <property key="labeling/bufferColorR" value="255"/>
+        <property key="labeling/bufferColorG" value="255"/>
+        <property key="labeling/bufferColorB" value="255"/>
+        <property key="labeling/bufferColorA" value="255"/>
+        <property key="labeling/placement" value="6"/>
+        <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
+        <property key="labeling/dist" value="1.2"/>
+        <property key="labeling/distInMapUnits" value="false"/>
+        <property key="labeling/priority" value="10"/>
+        <property key="labeling/scaleVisibility" value="false"/>
+        <property key="labeling/limitNumLabels" value="false"/>
+        <property key="labeling/maxNumLabels" value="9999"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <displayfield>name</displayfield>
+      <editform/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform/>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+    </maplayer>
+    <maplayer geometry="Point" type="vector" simplifyDrawingHints="1" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" labelsEnabled="1" minScale="1e+8" maxScale="0" styleCategories="AllStyleCategories">
+      <extent>
+        <xmin>103.7811</xmin>
+        <ymin>1.46912</ymin>
+        <xmax>103.78456</xmax>
+        <ymax>1.47156</ymax>
+      </extent>
+      <id>V8_CIQ_PORT_6_EVIDENCE_POINT_d75fefefa539</id>
+      <datasource>./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=V8_CIQ_PORT_6_EVIDENCE_POINTS</datasource>
+      <keywordList>
+        <value/>
+      </keywordList>
+      <layername>CIQ port 6 evidence nodes</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <renderer-v2 type="singleSymbol" symbollevels="0" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0" force_rhr="0">
+            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+              <prop k="name" v="circle"/>
+              <prop k="color" v="23,152,114,255"/>
+              <prop k="outline_color" v="255,255,255,255"/>
+              <prop k="outline_width" v="0.25"/>
+              <prop k="size" v="2.5"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="angle" v="0"/>
+              <prop k="scale_method" v="area"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties>
+        <property key="labeling" value="pal"/>
+        <property key="labeling/enabled" value="true"/>
+        <property key="labeling/drawLabels" value="true"/>
+        <property key="labeling/fieldName" value="concat(&quot;node_id&quot;, ' | ', &quot;name&quot;)"/>
+        <property key="labeling/isExpression" value="true"/>
+        <property key="labeling/displayAll" value="true"/>
+        <property key="labeling/fontFamily" value="Arial"/>
+        <property key="labeling/fontSize" value="8"/>
+        <property key="labeling/fontSizeInMapUnits" value="false"/>
+        <property key="labeling/fontBold" value="true"/>
+        <property key="labeling/fontWeight" value="75"/>
+        <property key="labeling/fontColor" value="#111111"/>
+        <property key="labeling/bufferDraw" value="true"/>
+        <property key="labeling/bufferSize" value="0.75"/>
+        <property key="labeling/bufferColorR" value="255"/>
+        <property key="labeling/bufferColorG" value="255"/>
+        <property key="labeling/bufferColorB" value="255"/>
+        <property key="labeling/bufferColorA" value="255"/>
+        <property key="labeling/placement" value="6"/>
+        <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
+        <property key="labeling/dist" value="1.2"/>
+        <property key="labeling/distInMapUnits" value="false"/>
+        <property key="labeling/priority" value="10"/>
+        <property key="labeling/scaleVisibility" value="false"/>
+        <property key="labeling/limitNumLabels" value="false"/>
+        <property key="labeling/maxNumLabels" value="9999"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <displayfield>name</displayfield>
+      <editform/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform/>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+    </maplayer>
+    <maplayer geometry="Point" type="vector" simplifyDrawingHints="1" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" labelsEnabled="1" minScale="1e+8" maxScale="0" styleCategories="AllStyleCategories">
+      <extent>
+        <xmin>103.76663</xmin>
+        <ymin>1.46502</ymin>
+        <xmax>103.76663</xmax>
+        <ymax>1.46502</ymax>
+      </extent>
+      <id>G_CIQ_ground_gateway_984c72c9c457</id>
+      <datasource>./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=G_CIQ_ground_gateway</datasource>
+      <keywordList>
+        <value/>
+      </keywordList>
+      <layername>Ground CIQ gateway (1)</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <renderer-v2 type="singleSymbol" symbollevels="0" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0" force_rhr="0">
+            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+              <prop k="name" v="circle"/>
+              <prop k="color" v="180,91,35,255"/>
+              <prop k="outline_color" v="255,255,255,255"/>
+              <prop k="outline_width" v="0.25"/>
+              <prop k="size" v="2.5"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="angle" v="0"/>
+              <prop k="scale_method" v="area"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties>
+        <property key="labeling" value="pal"/>
+        <property key="labeling/enabled" value="true"/>
+        <property key="labeling/drawLabels" value="true"/>
+        <property key="labeling/fieldName" value="concat(&quot;id&quot;, ' | ', &quot;name&quot;)"/>
+        <property key="labeling/isExpression" value="true"/>
+        <property key="labeling/displayAll" value="true"/>
+        <property key="labeling/fontFamily" value="Arial"/>
+        <property key="labeling/fontSize" value="8"/>
+        <property key="labeling/fontSizeInMapUnits" value="false"/>
+        <property key="labeling/fontBold" value="true"/>
+        <property key="labeling/fontWeight" value="75"/>
+        <property key="labeling/fontColor" value="#111111"/>
+        <property key="labeling/bufferDraw" value="true"/>
+        <property key="labeling/bufferSize" value="0.75"/>
+        <property key="labeling/bufferColorR" value="255"/>
+        <property key="labeling/bufferColorG" value="255"/>
+        <property key="labeling/bufferColorB" value="255"/>
+        <property key="labeling/bufferColorA" value="255"/>
+        <property key="labeling/placement" value="6"/>
+        <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
+        <property key="labeling/dist" value="1.2"/>
+        <property key="labeling/distInMapUnits" value="false"/>
+        <property key="labeling/priority" value="10"/>
+        <property key="labeling/scaleVisibility" value="false"/>
+        <property key="labeling/limitNumLabels" value="false"/>
+        <property key="labeling/maxNumLabels" value="9999"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <displayfield>name</displayfield>
+      <editform/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform/>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+    </maplayer>
+    <maplayer geometry="Line" type="vector" simplifyDrawingHints="1" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" labelsEnabled="0" minScale="1e+8" maxScale="0" styleCategories="AllStyleCategories">
+      <extent>
+        <xmin>103.5468</xmin>
+        <ymin>1.35327</ymin>
+        <xmax>103.8327</xmax>
+        <ymax>1.5521</ymax>
+      </extent>
+      <id>V7_ALL_111_GEOMETRY_ONLY_5215ef1778e9</id>
+      <datasource>./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=V7_ALL_111_GEOMETRY_ONLY</datasource>
+      <keywordList>
+        <value/>
+      </keywordList>
+      <layername>111 V7 geometric candidates</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <renderer-v2 type="singleSymbol" symbollevels="0" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="0" force_rhr="0">
+            <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+              <prop k="line_color" v="43,132,170,188"/>
+              <prop k="line_style" v="dash"/>
+              <prop k="line_width" v="0.34"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="capstyle" v="round"/>
+              <prop k="offset" v="0"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <displayfield>fid</displayfield>
+      <editform/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform/>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+    </maplayer>
+    <maplayer geometry="Line" type="vector" simplifyDrawingHints="1" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" labelsEnabled="0" minScale="1e+8" maxScale="0" styleCategories="AllStyleCategories">
+      <extent>
+        <xmin>103.76663</xmin>
+        <ymin>1.46502</ymin>
+        <xmax>103.7997</xmax>
+        <ymax>1.5013</ymax>
+      </extent>
+      <id>V8_CIQ_PORT_10_GROUND_AND_UA_4e8fd88cda09</id>
+      <datasource>./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=V8_CIQ_PORT_10_GROUND_AND_UAV_GEOMETRY</datasource>
+      <keywordList>
+        <value/>
+      </keywordList>
+      <layername>10 V8 geometric links</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <renderer-v2 type="singleSymbol" symbollevels="0" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="0" force_rhr="0">
+            <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+              <prop k="line_color" v="18,142,109,202"/>
+              <prop k="line_style" v="dash"/>
+              <prop k="line_width" v="0.34"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="capstyle" v="round"/>
+              <prop k="offset" v="0"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <displayfield>fid</displayfield>
+      <editform/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform/>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+    </maplayer>
+    <maplayer geometry="Line" type="vector" simplifyDrawingHints="1" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" labelsEnabled="0" minScale="1e+8" maxScale="0" styleCategories="AllStyleCategories">
+      <extent>
+        <xmin>103.77529</xmin>
+        <ymin>1.47028</ymin>
+        <xmax>103.78839</xmax>
+        <ymax>1.4985</ymax>
+      </extent>
+      <id>HOLD_ground_only_harbours_6324ce2dd728</id>
+      <datasource>./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=HOLD_ground_only_harbours</datasource>
+      <keywordList>
+        <value/>
+      </keywordList>
+      <layername>Ground only harbour beelines</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <renderer-v2 type="singleSymbol" symbollevels="0" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="0" force_rhr="0">
+            <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+              <prop k="line_color" v="120,120,125,160"/>
+              <prop k="line_style" v="dash"/>
+              <prop k="line_width" v="0.34"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="capstyle" v="round"/>
+              <prop k="offset" v="0"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <displayfield>fid</displayfield>
+      <editform/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform/>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+    </maplayer>
+    <maplayer geometry="Polygon" type="vector" simplifyDrawingHints="1" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" labelsEnabled="0" minScale="1e+8" maxScale="0" styleCategories="AllStyleCategories">
+      <extent>
+        <xmin>103.692821680519</xmin>
+        <ymin>1.4456637608276</ymin>
+        <xmax>103.775790072898</xmax>
+        <ymax>1.51266956211267</ymax>
+      </extent>
+      <id>WMP228_history_two_discs_3bda45cb7889</id>
+      <datasource>./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=WMP228_history_two_discs</datasource>
+      <keywordList>
+        <value/>
+      </keywordList>
+      <layername>WMP228 historic full reference discs</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <renderer-v2 type="singleSymbol" symbollevels="0" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0" force_rhr="0">
+            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+              <prop k="color" v="255,255,255,0"/>
+              <prop k="outline_color" v="179,42,55,208"/>
+              <prop k="outline_style" v="dash"/>
+              <prop k="outline_width" v="0.38"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="joinstyle" v="bevel"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <displayfield>fid</displayfield>
+      <editform/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform/>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+    </maplayer>
+    <maplayer geometry="Polygon" type="vector" simplifyDrawingHints="1" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" labelsEnabled="0" minScale="1e+8" maxScale="0" styleCategories="AllStyleCategories">
+      <extent>
+        <xmin>103.587050612443</xmin>
+        <ymin>1.55680079735674</ymin>
+        <xmax>103.753507770634</xmax>
+        <ymax>1.72431024152481</ymax>
+      </extent>
+      <id>Senai_5NM_aerodrome_ADVISORY_feb0f45762f1</id>
+      <datasource>./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=Senai_5NM_aerodrome_ADVISORY</datasource>
+      <keywordList>
+        <value/>
+      </keywordList>
+      <layername>Senai proximity advisory</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <renderer-v2 type="singleSymbol" symbollevels="0" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0" force_rhr="0">
+            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+              <prop k="color" v="255,255,255,0"/>
+              <prop k="outline_color" v="174,131,35,160"/>
+              <prop k="outline_style" v="dash"/>
+              <prop k="outline_width" v="0.38"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="joinstyle" v="bevel"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <displayfield>fid</displayfield>
+      <editform/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform/>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+    </maplayer>
+    <maplayer geometry="Polygon" type="vector" simplifyDrawingHints="1" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" labelsEnabled="0" minScale="1e+8" maxScale="0" styleCategories="AllStyleCategories">
+      <extent>
+        <xmin>103.581405491811</xmin>
+        <ymin>1.38855206299799</ymin>
+        <xmax>103.838537422405</xmax>
+        <ymax>1.56023542902942</ymax>
+      </extent>
+      <id>AC_study_corridors_APPROX_e7dfaa1e2ac3</id>
+      <datasource>./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=AC_study_corridors_APPROX</datasource>
+      <keywordList>
+        <value/>
+      </keywordList>
+      <layername>A/C approximate study bounds</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <renderer-v2 type="singleSymbol" symbollevels="0" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0" force_rhr="0">
+            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+              <prop k="color" v="255,255,255,0"/>
+              <prop k="outline_color" v="209,104,73,160"/>
+              <prop k="outline_style" v="dash"/>
+              <prop k="outline_width" v="0.38"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="joinstyle" v="bevel"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <displayfield>fid</displayfield>
+      <editform/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform/>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+    </maplayer>
+    <maplayer geometry="Polygon" type="vector" simplifyDrawingHints="1" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" labelsEnabled="0" minScale="1e+8" maxScale="0" styleCategories="AllStyleCategories">
+      <extent>
+        <xmin>103.531524585941</xmin>
+        <ymin>1.33789635776204</ymin>
+        <xmax>103.650357142183</xmax>
+        <ymax>1.46407499518738</ymax>
+      </extent>
+      <id>B_geometric_display_envelope_4413b58e5fc5</id>
+      <datasource>./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=B_geometric_display_envelope</datasource>
+      <keywordList>
+        <value/>
+      </keywordList>
+      <layername>B convex hull display boundary</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <renderer-v2 type="singleSymbol" symbollevels="0" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0" force_rhr="0">
+            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+              <prop k="color" v="255,255,255,0"/>
+              <prop k="outline_color" v="74,113,193,160"/>
+              <prop k="outline_style" v="dash"/>
+              <prop k="outline_width" v="0.38"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="joinstyle" v="bevel"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <displayfield>fid</displayfield>
+      <editform/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform/>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+    </maplayer>
+    <maplayer geometry="Polygon" type="vector" simplifyDrawingHints="1" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" labelsEnabled="0" minScale="1e+8" maxScale="0" styleCategories="AllStyleCategories">
+      <extent>
+        <xmin>103.307919130043</xmin>
+        <ymin>1.17538593805115</ymin>
+        <xmax>104.07173644645</xmax>
+        <ymax>1.82238228288402</ymax>
+      </extent>
+      <id>UAV_4_SITE_SEARCH_REACH_2_MO_62eb23263fd6</id>
+      <datasource>./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=UAV_4_SITE_SEARCH_REACH_2_MODELS</datasource>
+      <keywordList>
+        <value/>
+      </keywordList>
+      <layername>DJI/Wing nominal example reaches</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <renderer-v2 type="singleSymbol" symbollevels="0" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0" force_rhr="0">
+            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+              <prop k="color" v="255,255,255,0"/>
+              <prop k="outline_color" v="90,92,113,100"/>
+              <prop k="outline_style" v="dash"/>
+              <prop k="outline_width" v="0.38"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="joinstyle" v="bevel"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <displayfield>fid</displayfield>
+      <editform/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform/>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+    </maplayer>
+    <maplayer geometry="Polygon" type="vector" simplifyDrawingHints="1" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" labelsEnabled="0" minScale="1e+8" maxScale="0" styleCategories="AllStyleCategories">
+      <extent>
+        <xmin>103.731989691119</xmin>
+        <ymin>1.41892688470216</ymin>
+        <xmax>103.832651255595</xmax>
+        <ymax>1.52023309172877</ymax>
+      </extent>
+      <id>V8_DJI_GEOMETRIC_REACH_ONLY_bd145b2fdb00</id>
+      <datasource>./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=V8_DJI_GEOMETRIC_REACH_ONLY</datasource>
+      <keywordList>
+        <value/>
+      </keywordList>
+      <layername>V8 DJI nominal range</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <renderer-v2 type="singleSymbol" symbollevels="0" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0" force_rhr="0">
+            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+              <prop k="color" v="255,255,255,0"/>
+              <prop k="outline_color" v="90,92,113,100"/>
+              <prop k="outline_style" v="dash"/>
+              <prop k="outline_width" v="0.38"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="joinstyle" v="bevel"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <displayfield>fid</displayfield>
+      <editform/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform/>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+    </maplayer>
+    <maplayer geometry="Point" type="vector" simplifyDrawingHints="1" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" labelsEnabled="0" minScale="1e+8" maxScale="0" styleCategories="AllStyleCategories">
+      <extent>
+        <xmin>103.5468</xmin>
+        <ymin>1.35327</ymin>
+        <xmax>103.63508</xmax>
+        <ymax>1.4487</ymax>
+      </extent>
+      <id>B_10_FROZEN_NOT_PADS_1634ceb2df98</id>
+      <datasource>./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=B_10_FROZEN_NOT_PADS</datasource>
+      <keywordList>
+        <value/>
+      </keywordList>
+      <layername>B ten original nodes</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <renderer-v2 type="singleSymbol" symbollevels="0" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0" force_rhr="0">
+            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+              <prop k="name" v="circle"/>
+              <prop k="color" v="91,110,149,255"/>
+              <prop k="outline_color" v="255,255,255,255"/>
+              <prop k="outline_width" v="0.25"/>
+              <prop k="size" v="1.9"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="angle" v="0"/>
+              <prop k="scale_method" v="area"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <displayfield>fid</displayfield>
+      <editform/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform/>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+    </maplayer>
+    <maplayer geometry="Line" type="vector" simplifyDrawingHints="1" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" labelsEnabled="0" minScale="1e+8" maxScale="0" styleCategories="AllStyleCategories">
+      <extent>
+        <xmin>103.5468</xmin>
+        <ymin>1.35327</ymin>
+        <xmax>103.63508</xmax>
+        <ymax>1.4487</ymax>
+      </extent>
+      <id>B_33_FROZEN_reaudited_1cfd8230abb9</id>
+      <datasource>./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=B_33_FROZEN_reaudited</datasource>
+      <keywordList>
+        <value/>
+      </keywordList>
+      <layername>B 33 original links</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <renderer-v2 type="singleSymbol" symbollevels="0" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="0" force_rhr="0">
+            <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+              <prop k="line_color" v="65,90,135,160"/>
+              <prop k="line_style" v="dash"/>
+              <prop k="line_width" v="0.34"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="capstyle" v="round"/>
+              <prop k="offset" v="0"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <displayfield>fid</displayfield>
+      <editform/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform/>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+    </maplayer>
+    <maplayer geometry="Point" type="vector" simplifyDrawingHints="1" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" labelsEnabled="0" minScale="1e+8" maxScale="0" styleCategories="AllStyleCategories">
+      <extent>
+        <xmin>103.58949</xmin>
+        <ymin>1.39669</ymin>
+        <xmax>103.8327</xmax>
+        <ymax>1.5521</ymax>
+      </extent>
+      <id>AC_52_nodes_NOT_PADS_dcc77ce5ef32</id>
+      <datasource>./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=AC_52_nodes_NOT_PADS</datasource>
+      <keywordList>
+        <value/>
+      </keywordList>
+      <layername>A/C 52 original nodes</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <renderer-v2 type="singleSymbol" symbollevels="0" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0" force_rhr="0">
+            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+              <prop k="name" v="circle"/>
+              <prop k="color" v="91,110,149,255"/>
+              <prop k="outline_color" v="255,255,255,255"/>
+              <prop k="outline_width" v="0.25"/>
+              <prop k="size" v="1.9"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="angle" v="0"/>
+              <prop k="scale_method" v="area"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <displayfield>fid</displayfield>
+      <editform/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform/>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+    </maplayer>
+    <maplayer geometry="Line" type="vector" simplifyDrawingHints="1" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" labelsEnabled="0" minScale="1e+8" maxScale="0" styleCategories="AllStyleCategories">
+      <extent>
+        <xmin>103.58949</xmin>
+        <ymin>1.39</ymin>
+        <xmax>103.8327</xmax>
+        <ymax>1.5521</ymax>
+      </extent>
+      <id>AC_78_geometric_links_ce8b8b1d7027</id>
+      <datasource>./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=AC_78_geometric_links</datasource>
+      <keywordList>
+        <value/>
+      </keywordList>
+      <layername>A/C 78 original edges</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <renderer-v2 type="singleSymbol" symbollevels="0" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="0" force_rhr="0">
+            <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+              <prop k="line_color" v="65,90,135,160"/>
+              <prop k="line_style" v="dash"/>
+              <prop k="line_width" v="0.34"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="capstyle" v="round"/>
+              <prop k="offset" v="0"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <displayfield>fid</displayfield>
+      <editform/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform/>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+    </maplayer>
+    <maplayer geometry="Point" type="vector" simplifyDrawingHints="1" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" labelsEnabled="0" minScale="1e+8" maxScale="0" styleCategories="AllStyleCategories">
+      <extent>
+        <xmin>103.59728</xmin>
+        <ymin>1.46662</ymin>
+        <xmax>103.8327</xmax>
+        <ymax>1.5521</ymax>
+      </extent>
+      <id>V7_12_SEARCH_ONLY_SITE_PRIOR_d37cbbb855ac</id>
+      <datasource>./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=V7_12_SEARCH_ONLY_SITE_PRIORITIES</datasource>
+      <keywordList>
+        <value/>
+      </keywordList>
+      <layername>12 priority site search candidates</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <renderer-v2 type="singleSymbol" symbollevels="0" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0" force_rhr="0">
+            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+              <prop k="name" v="circle"/>
+              <prop k="color" v="91,110,149,255"/>
+              <prop k="outline_color" v="255,255,255,255"/>
+              <prop k="outline_width" v="0.25"/>
+              <prop k="size" v="1.9"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="angle" v="0"/>
+              <prop k="scale_method" v="area"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <displayfield>fid</displayfield>
+      <editform/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform/>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+    </maplayer>
+    <maplayer geometry="Point" type="vector" simplifyDrawingHints="1" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" labelsEnabled="0" minScale="1e+8" maxScale="0" styleCategories="AllStyleCategories">
+      <extent>
+        <xmin>103.8182</xmin>
+        <ymin>1.48531</ymin>
+        <xmax>103.8182</xmax>
+        <ymax>1.48531</ymax>
+      </extent>
+      <id>Senibong_OSM_conflict_point_f6f5c24c10ab</id>
+      <datasource>./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=Senibong_OSM_conflict_point</datasource>
+      <keywordList>
+        <value/>
+      </keywordList>
+      <layername>Senibong OSM conflict reference</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <renderer-v2 type="singleSymbol" symbollevels="0" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0" force_rhr="0">
+            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+              <prop k="name" v="circle"/>
+              <prop k="color" v="91,110,149,255"/>
+              <prop k="outline_color" v="255,255,255,255"/>
+              <prop k="outline_width" v="0.25"/>
+              <prop k="size" v="1.9"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="angle" v="0"/>
+              <prop k="scale_method" v="area"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <displayfield>fid</displayfield>
+      <editform/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform/>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+    </maplayer>
+    <maplayer geometry="Polygon" type="vector" simplifyDrawingHints="1" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" labelsEnabled="0" minScale="1e+8" maxScale="0" styleCategories="AllStyleCategories">
+      <extent>
+        <xmin>103.692826496006</xmin>
+        <ymin>1.44566904033571</ymin>
+        <xmax>103.775784615105</xmax>
+        <ymax>1.51266428284823</ymax>
+      </extent>
+      <id>V8_WMP228_TWO_REFERENCE_DISC_39cb2771d995</id>
+      <datasource>./data/CIQ_ABC_FINAL_EDITABLE.gpkg|layername=V8_WMP228_TWO_REFERENCE_DISCS</datasource>
+      <keywordList>
+        <value/>
+      </keywordList>
+      <layername>V8 circles backup (off)</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <renderer-v2 type="singleSymbol" symbollevels="0" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0" force_rhr="0">
+            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+              <prop k="color" v="255,255,255,0"/>
+              <prop k="outline_color" v="90,92,113,100"/>
+              <prop k="outline_style" v="dash"/>
+              <prop k="outline_width" v="0.38"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="joinstyle" v="bevel"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <displayfield>fid</displayfield>
+      <editform/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform/>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+    </maplayer>
+  </projectlayers>
+  <properties>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <SpatialRefSys>
+      <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
+      <ProjectCRSID type="int">3452</ProjectCRSID>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+  </properties>
+  <visibility-presets/>
+</qgis>

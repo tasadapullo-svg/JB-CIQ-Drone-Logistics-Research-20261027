@@ -1,0 +1,35 @@
+{
+  "package": "V5",
+  "status": "STATIC_CHECKS_PASS_QGIS_RUNTIME_NOT_AVAILABLE",
+  "nodes_total": 68,
+  "active_points_by_area": {
+    "A": 29,
+    "B": 10,
+    "C": 29
+  },
+  "original_nodes": 69,
+  "excluded": [
+    "A_N10"
+  ],
+  "removed_incident_links": 0,
+  "candidate_geometry_links": 121,
+  "intra_region_links": {
+    "A": 39,
+    "B": 33,
+    "C": 39
+  },
+  "inter_region_links": 10,
+  "wmp228_reference_count": 1,
+  "selected_wmp": "CAAS_2026",
+  "wmp_center_lat": 1.4791666666666667,
+  "wmp_center_lon": 103.72611111111111,
+  "wmp_radius_m": 3704,
+  "wmp_is_legal_coastline_boundary": false,
+  "boundary_clearance_visual_m": 160.0,
+  "link_reference_intersections_HOLD": 0,
+  "derived_active_gpkg_sha256": "1edbeeba32257f35dfbb90bf36c0e86474a032038d1783fcfc85bb34ab94311b",
+  "original_v4_gpkg_sha256": "3ee7d3fe56e50ed0f2292e0ce7581a25f76954481f3c4f2d0f163178414b56e3",
+  "qgis_qgz_installed_runtime": "NOT_TESTED",
+  "online_osm_basemap_included": true,
+  "online_osm_runtime": "UNVERIFIED"
+}

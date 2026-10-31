@@ -1,0 +1,10 @@
+{
+  "candidate_edges": 116,
+  "reference_circle_intersections": 0,
+  "wmp228_geometry": "V5_REFERENCE_CIRCLE_SCREEN_NOT_AUTHORITATIVE_LEGAL_POLYGON",
+  "all_landing_sites": "UNVERIFIED",
+  "all_routes": "GEOMETRY_ONLY_NOT_APPROVED",
+  "frozen_tasks_cross_border_status": {
+    "MY_INLAND_SCENARIO_CIQ_WAIT_NOT_APPLICABLE": 82620
+  }
+}

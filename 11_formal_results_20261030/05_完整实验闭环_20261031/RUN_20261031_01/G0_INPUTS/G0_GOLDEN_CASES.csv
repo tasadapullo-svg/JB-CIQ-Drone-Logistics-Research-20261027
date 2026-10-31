@@ -1,0 +1,3 @@
+physical_leg_id,from_node,to_node,recorded_distance_km,independent_path_distance_km,distance_abs_error_km,recorded_driving_minutes,event_clock_minutes,clock_abs_error_minutes,status
+NO_UAV_COMMON-2026-05-01-20261027-2,A01,A05,3.591585290496106,3.5915852904961074,1.3322676295501878e-15,3.8168836166666664,3.8168836166666664,0.0,PASS
+RELAXED_PROXY-M2_WING-2026-09-30-20261056-35,B04,C02,22.83352503074838,22.83352503074838,0.0,27.473470466666665,27.473470466666665,0.0,PASS

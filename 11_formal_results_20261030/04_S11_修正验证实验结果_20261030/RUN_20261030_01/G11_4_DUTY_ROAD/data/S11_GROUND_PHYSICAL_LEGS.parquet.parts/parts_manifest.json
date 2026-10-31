@@ -1,0 +1,9 @@
+{
+  "target_filename": "S11_GROUND_PHYSICAL_LEGS.parquet",
+  "original_size_bytes": 24184980,
+  "sha256": "b4c1a9f0c0fd95b3cd57b23939cd16bce0ab43efd7181e3693f72360092597d9",
+  "parts": [
+    "part_001.bin",
+    "part_002.bin"
+  ]
+}

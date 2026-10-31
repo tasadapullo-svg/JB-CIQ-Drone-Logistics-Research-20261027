@@ -1,0 +1,9 @@
+{
+  "target_filename": "CIQ_V5_S10_FIVE_MODE_COMPARISON_RUN_20261030_01.zip",
+  "original_size_bytes": 30422762,
+  "sha256": "34375511054345c2afd5b100b5b2735b826590405398e5e48091d1b5c3cc2ec4",
+  "parts": [
+    "part_001.bin",
+    "part_002.bin"
+  ]
+}

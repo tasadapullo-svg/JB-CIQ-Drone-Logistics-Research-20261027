@@ -1,0 +1,29 @@
+{
+  "internal_edge_traversal_counts": {
+    "FCD_POSITIVE_UNDIRECTED_PROXY": 11592465,
+    "FALLBACK_FCD_NODE_HOUR_MEDIAN": 1484692
+  },
+  "dominant_leg_quality_rows": [
+    {
+      "traffic_quality": "FALLBACK_FCD_NODE_HOUR_MEDIAN",
+      "legs": 19220,
+      "distance_km": 284130.95112377557,
+      "driving_minutes": 329265.79481768335
+    },
+    {
+      "traffic_quality": "FCD_POSITIVE_UNDIRECTED_PROXY",
+      "legs": 155825,
+      "distance_km": 2317215.292392872,
+      "driving_minutes": 2720253.8231073166
+    },
+    {
+      "traffic_quality": "SAME_NODE",
+      "legs": 3965,
+      "distance_km": 0.0,
+      "driving_minutes": 0.0
+    }
+  ],
+  "speed_rule": "max(5 km/h, min(FCD proxy, OSM speed))",
+  "direction_status": "FCD_UNDIRECTED_PROXY",
+  "historical_network_status": "CURRENT_OSM_NOT_MAY_SEP_2026_SNAPSHOT"
+}

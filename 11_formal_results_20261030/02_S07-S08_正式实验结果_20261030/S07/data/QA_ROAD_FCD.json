@@ -1,0 +1,23 @@
+{
+  "graphml": "C:\\Users\\DELL\\Desktop\\CIQ 无人机物流 SCI 研_20261026\\output_S07_S08_Codex_20261030\\S07\\road\\V5_ABC_DRIVE_DIRECTED_OSM_SNAPSHOT_NOT_HISTORICAL.graphml",
+  "graphml_sha256": "73a5e88a5444c07bc35f3821e8cc4be2dfb82f63646425e780990b8c48b65470",
+  "retrieval_basis": "CURRENT_OSM_OVERPASS_ODBL",
+  "graph_nodes": 40187,
+  "graph_directed_arcs": 90108,
+  "weak_components": 76,
+  "largest_scc_nodes": 39318,
+  "largest_scc_arcs": 88905,
+  "v5_nodes": 68,
+  "nodes_within_100m": 47,
+  "nodes_over_100m": 21,
+  "max_snap_distance_m": 368.1749578343229,
+  "directed_od_rows": 4624,
+  "routable_directed_od": 4624,
+  "route_edges_with_fcd_proxy": 7494,
+  "fcd_nodes_mapped": 345,
+  "FCD_direction": "UNOBSERVED_UNDIRECTED_PROXY",
+  "turn_restrictions": "UNVERIFIED",
+  "site_entrances": "CONDITIONAL_NOT_LEGALLY_VERIFIED",
+  "cross_border": "NO_WAIT_OR_PERMISSION_INFERRED",
+  "status": "CONDITIONAL"
+}

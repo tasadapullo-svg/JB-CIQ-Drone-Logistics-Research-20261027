@@ -1,0 +1,7 @@
+{
+  "figure": "Fig7_Pareto",
+  "source": "S12_C_SERVICE_CONSTRAINED_PARETO.csv",
+  "caption": "Cost-emissions outcomes under the strict main scenario. Circles denote configurations classified as nondominated within the tested set; crosses denote dominated or service-infeasible configurations. This is not a proof of global optimality.",
+  "status": "VERIFIED_FROM_FINAL_CSV",
+  "sha256_png": "b14cb84b77399e14901741e62719adeb7e786886ce8fce90fe771a1332301ab0"
+}

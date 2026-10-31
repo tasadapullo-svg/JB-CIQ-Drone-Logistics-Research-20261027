@@ -1,0 +1,16 @@
+{
+  "NEW_A_nodes": 11,
+  "NEW_A_site_search": 4,
+  "NEW_A_demand": 7,
+  "NEW_A_straight_test_lines": 12,
+  "B_frozen_nodes": 10,
+  "B_unique_geometry_segments": 33,
+  "Old_A_nodes_in_new_project": 0,
+  "Old_A_edges_in_new_project": 0,
+  "WMP_reference_discs": 2,
+  "verified_UAV_pads": 0,
+  "roads_calibrated": false,
+  "project_internal_refs_checked": 16,
+  "airspace_legal_boundary_verified": false,
+  "source_road_routes_computed": false
+}

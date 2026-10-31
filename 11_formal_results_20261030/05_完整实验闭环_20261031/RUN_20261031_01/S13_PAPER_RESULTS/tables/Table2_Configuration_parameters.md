@@ -1,0 +1,14 @@
+| parameter | value | evidence_class | interpretation |
+| --- | --- | --- | --- |
+| Operating window | 24 h | Preregistered scenario | Primary |
+| Vehicles | 3 | Scenario assumption | Shared across modes |
+| M1 fixed stations | 11 | Historical project whitelist | Physical permission HOLD |
+| M2 batteries | 2 per vehicle | Scenario assumption | Finite, no onboard charging |
+| DJI payload | 30 kg | OEM-labelled project input | Conditional |
+| Wingcopter payload | 4.7 kg | Project literature input | Independent validation HOLD |
+| Weather distance | 10 km | Audit threshold | Not a legal/safety boundary |
+| Fuel intensity | 0.1 L/km | Scenario assumption | Sensitivity needed |
+| Petrol CO2 factor | 2.2410927 kg/L | Project parameter | Tank-to-wheel proxy |
+| Grid factor | 0.740 kg/kWh | Project parameter | Operational proxy |
+
+These parameters define a conditional simulation. They do not constitute aircraft certification or operating permission.

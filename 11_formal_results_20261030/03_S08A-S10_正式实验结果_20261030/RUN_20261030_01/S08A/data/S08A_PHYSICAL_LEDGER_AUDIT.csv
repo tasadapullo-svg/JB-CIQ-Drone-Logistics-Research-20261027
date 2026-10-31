@@ -1,0 +1,2 @@
+﻿rows,unique_composite_keys,duplicate_composite_keys,negative_distance,negative_driving_minutes,arrival_before_departure,return_rows,expected_return_rows,return_completed_false,zero_distance_returns,zero_distance_returns_same_node,invalid_or_hold_zero_returns,road_km_sum,trip_km_sum,km_residual
+179010,179010,0,0,0,0,13770,13770,0,367,367,0,2601346.2435166473,2601346.2435166473,0.0

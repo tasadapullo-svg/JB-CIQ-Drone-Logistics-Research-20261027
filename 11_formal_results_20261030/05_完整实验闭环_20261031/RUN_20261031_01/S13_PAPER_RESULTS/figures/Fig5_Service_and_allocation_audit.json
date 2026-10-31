@@ -1,0 +1,7 @@
+{
+  "figure": "Fig5_Service_and_allocation",
+  "source": "G1 ledgers and Table 3",
+  "caption": "Strict-scenario UAV allocation and all-order service rates. The denominator includes completed, late, and unserved tasks rather than only flown tasks.",
+  "status": "VERIFIED_FROM_FINAL_CSV",
+  "sha256_png": "33ecd62eb3077a58c4b4508347c445850f820920648f328b91d942d83f6ee955"
+}

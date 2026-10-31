@@ -1,0 +1,38 @@
+{
+  "status": "CONDITIONAL",
+  "order_results": 82620,
+  "completed": 82620,
+  "late_orders": 7462,
+  "uncompleted": 0,
+  "delivery_minutes": {
+    "mean": 38.6374,
+    "median": 38.0137,
+    "p95": 62.3550,
+    "p99": 75.0395,
+    "max": 114.4779
+  },
+  "multi_start_strategy_scenarios": {
+    "BATCH_PICKUPS": 2998,
+    "DEADLINE_SLACK": 1592,
+    "DISTANCE_FIRST": 0
+  },
+  "concurrent_load_finding": "No route carried more than one frozen order concurrently; max observed vehicle load was 8 kg. Vehicles still served multiple orders sequentially. The release/deadline pattern and selected objective did not justify forced consolidation.",
+  "small_exact_validation": {
+    "cases": 10,
+    "scope": "three orders, one vehicle, full pickup-before-drop precedence enumeration",
+    "mean_vehicle_km_gap_vs_exact": 0.0528320723,
+    "mean_late_minutes_excess_vs_exact": 19.68875978,
+    "interpretation": "The multi-start heuristic is improved but not globally optimal; this limitation prevents a FINAL_BASELINE claim."
+  },
+  "superseded_single_strategy": {
+    "vehicle_km": 2789047.6347,
+    "on_time": 74073,
+    "reason": "dominated by improved multi-start model; excluded from final results"
+  },
+  "final_multi_start": {
+    "vehicle_km": 2601346.2435,
+    "on_time": 75158,
+    "vehicle_km_reduction_vs_superseded": 0.0672994569,
+    "additional_on_time_orders": 1085
+  }
+}

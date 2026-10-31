@@ -1,0 +1,23 @@
+V5 — CIQ QGIS Desktop 3.22.4 COMPLETE PROJECT — 2026-10-30
+
+1. 解压整个 ZIP（保留所有子目录），直接双击：
+   CIQ_ABC_V5_68_NODES_ONE_WMP228.qgz
+2. 默认本地显示 A、B、C 三个独立区域、68 个简称节点和一个 WMP228 圆。
+3. 图层树：02 A Area / 03 B Area / 04 C Area，取消勾选整个组即可独立隐藏。
+4. 00 组内有 A Area / B Area / C Area 三个独立名称标签；00B 有 WMP228 名称标签；可单独隐藏。
+5. 单一 WMP228 显示基于 V4 中 CAAS_2026 参考圆 (中心 01°28′45″N 103°43′34″E, 半径 2 NM)。
+6. 根据用户要求 A_N10 不进入 V5 活动 GIS 图层，原始记录保存在 archive 下的 V4 GPKG 中。
+7. A 和 C 的研究范围多边形从已有 V4 图层裁去 2026 参考圆（附加160米绘图间隔），B 区保持。
+8. 工程已嵌入 OpenStreetMap 在线 XYZ 底图图层（单独开关）；显示需要联网。
+   若本机 QGIS 3.22.4 不能初始化该 XYZ 图层，运行 code/01_OPEN_AND_REFRESH_QGIS322.py 自动修复。
+   将 RUN_IN_QGIS_CONSOLE_ONE_LINE.txt 中的一行命令粘贴到 QGIS Python 控制台，选择 code/01_OPEN_AND_REFRESH_QGIS322.py。
+9. 所有地理图层在 data/CIQ_ABC_V5_ACTIVE.gpkg 内，仅含一个选中的 WMP228 参考圆。
+10. 原始 V4 文件原样保存在 archive 用于追溯；里面两个历史圈不会出现在新的 V5 QGIS 活动图层中。
+
+IMPORTANT SCI LIMITS:
+- WMP228 2026 full circle = cartographic reference, NOT the legal coast-trimmed prohibition polygon.
+- Updated effective CAAM AIP and NOTAM need to be confirmed before any legal operational claim.
+- Area outlines are study-area cartographic envelopes, NOT legal boundaries or permitted UAV operation zones.
+- Any line intersection with selected WMP228 circle: HOLD, see qa/WMP228_2026_REFERENCE_INTERSECTING_LINKS_HOLD.csv.
+- No node coordinates were moved; no routes were certified.
+- Static XML, GeoPackage, ZIP and spatial overlay checks passed; QGIS 3.22.4 actual GUI rendering cannot be certified in this environment.

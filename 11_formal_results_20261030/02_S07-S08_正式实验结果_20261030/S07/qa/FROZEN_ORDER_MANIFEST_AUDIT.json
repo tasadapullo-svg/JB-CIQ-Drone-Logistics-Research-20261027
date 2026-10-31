@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "orders": 82620,
+  "unique_task_ids": 82620,
+  "manifest_rows": 4590,
+  "scenario_hash_matches": 4590,
+  "scenario_hash_mismatches": 0,
+  "hash_rule": "sha256(UTF8(task_id joined by LF plus final LF)) in original scenario row order",
+  "scenario_size": 18,
+  "zone_balance_each_scenario": {"A": 6, "B": 6, "C": 6}
+}

@@ -1,0 +1,6 @@
+{
+  "S08A": ["historical S07", "historical S08", "frozen orders"],
+  "S09": ["S07 integrated tasks", "S07 hourly weather", "V5 116 UAV geometry candidates", "official manufacturer specifications", "explicit scenario assumptions"],
+  "S10": ["S08A frozen conditional M0", "S09 conditional mission layer", "S07 road/FCD proxy"],
+  "FINAL": ["S08A", "S09", "S10"]
+}

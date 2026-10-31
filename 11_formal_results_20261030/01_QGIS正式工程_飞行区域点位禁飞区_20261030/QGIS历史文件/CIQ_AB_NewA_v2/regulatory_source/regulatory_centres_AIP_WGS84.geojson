@@ -1,0 +1,174 @@
+{
+  "type": "FeatureCollection",
+  "name": "Fig3a_AIP_reference_centres",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7425,
+          1.4791666666666667
+        ]
+      },
+      "properties": {
+        "id": "WMP228_CAAM",
+        "name": "WMP228 Bukit Serene — CAAM source",
+        "group": "WMP_CAAM",
+        "radius_m": 3704,
+        "authority": "CAAM",
+        "source_date": "2025-12-02 AIP",
+        "source_url": "https://aip.caam.gov.my/aip/eAIP/2025-12-02/html/eAIP/WM-ENR-5.1-en-MS.html",
+        "status": "REFERENCE_CIRCLE_NOT_COASTLINE_CLIPPED",
+        "note": "Malaysian AIP ENR 5.1, permanent prohibited area; southern limit follows South Johor coastline."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.72611111111111,
+          1.4791666666666667
+        ]
+      },
+      "properties": {
+        "id": "WMP228_CAAS",
+        "name": "WMP228 Bukit Serene — CAAS comparative source",
+        "group": "WMP_CAAS",
+        "radius_m": 3704,
+        "authority": "CAAS",
+        "source_date": "2026-01-22 AIP",
+        "source_url": "https://aim-sg.caas.gov.sg/aim-content/uploads/aip/22-JAN-2026/AIP-2/2026-01-22-000000/html/eAIP/SG-ENR-5.1-en-GB.html?s=F97BD583AF52BB5740542AEFC5D990F3A35BF0C2",
+        "status": "ALTERNATE_SOURCE_CIRCLE_NOT_SEPARATE_AIRSPACE",
+        "note": "CAAS refers to AIP Malaysia; divergent centre longitude; same WMP228 designation; not a second airspace."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.67027777777778,
+          1.6405555555555555
+        ]
+      },
+      "properties": {
+        "id": "WMKJ_ATZ_5NM",
+        "name": "Senai WMKJ 5 NM ARP screening",
+        "group": "MY_ATZ",
+        "radius_m": 9260,
+        "authority": "CAAM",
+        "source_date": "2026-08-11 AIP / SI 11/2022",
+        "source_url": "https://aip.caam.gov.my/aip/eAIP/2026-08-11/html/eAIP/WM-AD-2.WMKJ-en-MS.html",
+        "status": "ATZ_SCREEN_PROXY_NOT_CTR_POLYGON",
+        "note": "ARP corrected; old 014400N 1033724E is an arc centre from CTR description, not airport ARP."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.86764444444444,
+          1.4169555555555555
+        ]
+      },
+      "properties": {
+        "id": "WSSL_5KM",
+        "name": "Seletar WSSL 5 km screening",
+        "group": "SG_5KM",
+        "radius_m": 5000,
+        "authority": "CAAS",
+        "source_date": "2026-09-03 AIP",
+        "source_url": "https://aim-sg.caas.gov.sg/aim-content/uploads/aip/17-SEP-2026/AIP/2026-09-03-000000/html/eAIP/SG-AD-2-WSSL-en-GB.html",
+        "status": "AERODROME_SCREEN_NOT_ONEMAP_BOUNDARY",
+        "note": "5 km generic aerodrome screening; jurisdiction/operational decision requires OneMap and CAAS."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.81603333333334,
+          1.4265
+        ]
+      },
+      "properties": {
+        "id": "WSAG_5KM",
+        "name": "Sembawang WSAG 5 km screening",
+        "group": "SG_5KM",
+        "radius_m": 5000,
+        "authority": "CAAS",
+        "source_date": "2026-05-14 AIP",
+        "source_url": "https://aim-sg.caas.gov.sg/aim-content/uploads/aip/26-MAY-2026/AIP/2026-05-14-000000/html/eAIP/SG-AD-2-WSAG-en-GB.html",
+        "status": "AERODROME_SCREEN_NOT_ONEMAP_BOUNDARY",
+        "note": "Sembawang helicopter airbase; generic 5 km screening (not reconstructed ATZ)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.70827777777778,
+          1.3876111111111111
+        ]
+      },
+      "properties": {
+        "id": "WSAT_5KM",
+        "name": "Tengah WSAT 5 km screening",
+        "group": "SG_5KM",
+        "radius_m": 5000,
+        "authority": "CAAS",
+        "source_date": "2026-03-19 AIP",
+        "source_url": "https://aim-sg.caas.gov.sg/aim-content/uploads/aip/31-MAR-2026/AIP/2026-03-19-000000/pdf/SG-amdt.pdf",
+        "status": "AERODROME_SCREEN_NOT_ONEMAP_BOUNDARY",
+        "note": "Tengah military airbase; generic 5 km screening, not site permission."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.90277777777779,
+          1.3557222222222223
+        ]
+      },
+      "properties": {
+        "id": "WSAP_5KM",
+        "name": "Paya Lebar WSAP 5 km screening",
+        "group": "SG_5KM",
+        "radius_m": 5000,
+        "authority": "CAAS",
+        "source_date": "2026-05-14 AIP",
+        "source_url": "https://aim-sg.caas.gov.sg/aim-content/uploads/aip/30-JUN-2026/AIP/2026-05-14-000000/html/eAIP/SG-AD-2-WSAP-en-GB.html",
+        "status": "AERODROME_SCREEN_NOT_ONEMAP_BOUNDARY",
+        "note": "Additional airport near wider Wingcopter distance-only envelope; check OneMap."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.98932500000001,
+          1.3592111111111111
+        ]
+      },
+      "properties": {
+        "id": "WSSS_5KM",
+        "name": "Singapore Changi WSSS 5 km screening",
+        "group": "SG_5KM",
+        "radius_m": 5000,
+        "authority": "CAAS",
+        "source_date": "2026-09-03 AIP",
+        "source_url": "https://aim-sg.caas.gov.sg/aim-content/uploads/aip/17-SEP-2026/AIP/2026-09-03-000000/html/eAIP/SG-AD-2-WSSS-en-GB.html",
+        "status": "AERODROME_SCREEN_NOT_ONEMAP_BOUNDARY",
+        "note": "Changi airport reference outside central map but relevant to extended Wingcopter distance-only envelope."
+      }
+    }
+  ]
+}

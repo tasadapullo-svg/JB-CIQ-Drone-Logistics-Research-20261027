@@ -1,0 +1,10 @@
+{
+  "target_filename": "CIQ_S11B_S12_S13_FINAL_HANDOFF_COMPLETE.zip",
+  "original_size_bytes": 46319300,
+  "sha256": "02a49abda9747b5bb33b84844d210e9c41775e5114c7dcb39f02147d47c6a626",
+  "parts": [
+    "part_001.bin",
+    "part_002.bin",
+    "part_003.bin"
+  ]
+}

@@ -1,0 +1,10 @@
+defect_id,audited_defect,closure_status,revision,evidence,residual_limit
+P0-1,release-time weather used as launch weather,closed,four-event actual-time weather ledger,G11_1_DYNAMIC_WEATHER/data/S11_LAUNCH_WEATHER_LEDGER.parquet,weather remains hourly and grid-proxy
+P0-2,>10 km proxy drove most flights,closed with two-scenario boundary,strict exclusion is primary; relaxed retained,G11_1_DYNAMIC_WEATHER/data/STRICT_RELAXED_PAIRED_RESULTS.csv,strict result has lower external validity where weather stations are sparse
+P0-3,M2 ground-only tasks benefited from different algorithm,closed,common deterministic NO_UAV ground kernel,G11_3_FAIRNESS/data/PAIRWISE_CAUSAL_DECOMPOSITION.csv,absolute results remain model-conditional
+P0-4,M2 lacked continuous SOC/assets,closed,battery-level continuous SOC and two precharged packs per vehicle,G11_2_BATTERY_SOC/data/UAV_SOC_EVENT_LEDGER.parquet,M2 onboard charging is not assumed
+P1-1,energy realism weak,partially closed,0.5x/1x/2x counterfactual ledger,G11_5_ENERGY_COST/data/MISSION_ENERGY_SENSITIVITY.parquet,Wing capacity/energy lacks OEM validation
+P1-2,cost incomplete,partially closed,driver/operator/electricity/fuel/maintenance plus break-even ceiling,G11_5_ENERGY_COST/data/BREAK_EVEN.csv,"capital, insurance and certification costs unavailable"
+P1-3,30 h window,closed,full 8/12/24/30 rescheduling reruns,G11_4_DUTY_ROAD/data/DUTY_SHIFT_SENSITIVITY.csv,shift-rule/legal labor compliance not independently established
+P1-4,road hourly cache,closed,"3,000-leg exact-departure replay",G11_4_DUTY_ROAD/qa/ROAD_CACHE_GATE.json,FCD remains undirected speed proxy
+P1-5,airspace/regulatory overclaim,open HOLD,official-source registry and claim boundary,G11_7_GIS/data/REGULATORY_SOURCE_REGISTRY.csv,no route-specific CAAM/SUP/CIQ approval

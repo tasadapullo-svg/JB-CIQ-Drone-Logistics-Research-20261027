@@ -1,0 +1,7 @@
+defect_id,defect,evidence,required_fix,gate
+P0-01,M1 station auto-proliferation,stations.setdefault(origin),11-node historical conditional whitelist found; physical approval HOLD,G1
+P0-02,M1 duty-window asymmetry,no end-window check in m1,must repair and rerun,G1
+P0-03,return/recovery cutoff omission,return leg omitted if after end,must enforce paired endpoint policies,G1
+P0-04,M1/M2 reverse geometry mismatch,M2 lacks reverse_geometry_proxy exclusion,must use common kernel,G1
+P0-05,energy sensitivity post-hoc,mission energy multiplied after scheduling,must dynamically rerun,G1/G4
+P0-06,break-even repeat aggregation,30 seed sum labelled one five-month ceiling,must normalize per seed,G2

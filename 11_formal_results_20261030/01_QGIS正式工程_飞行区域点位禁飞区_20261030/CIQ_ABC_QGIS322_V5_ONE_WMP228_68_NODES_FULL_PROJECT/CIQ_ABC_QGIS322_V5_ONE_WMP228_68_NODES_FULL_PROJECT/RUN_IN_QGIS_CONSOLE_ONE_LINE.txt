@@ -1,0 +1,6 @@
+QGIS Desktop 3.22.4 — ONE-LINE optional full opener with OSM basemap:
+
+from qgis.PyQt.QtWidgets import QFileDialog; p=QFileDialog.getOpenFileName(None,"Select 01_OPEN_AND_REFRESH_QGIS322.py", "", "Python scripts (*.py)")[0]; exec(compile(open(p,encoding="utf-8").read(),p,"exec"),{"__name__":"__main__","__file__":p}) if p else print("Canceled")
+
+Select inside the unzipped V5 folder: code/01_OPEN_AND_REFRESH_QGIS322.py
+Or simply double-click CIQ_ABC_V5_68_NODES_ONE_WMP228.qgz to open vectors without needing to run any code.

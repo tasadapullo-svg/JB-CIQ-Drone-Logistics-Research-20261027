@@ -1,0 +1,5 @@
+﻿source,consumer,relation
+S07,S08A/S09/S10/S11,frozen tasks/weather/road/FCD
+S08A,S11,M0 conditional baseline
+S09,S11,candidate/energy evidence
+S10,S11,old comparison and defect regression

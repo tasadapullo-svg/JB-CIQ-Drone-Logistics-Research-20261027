@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "unique_node_labels": 69,
+  "zones": {
+    "A": 23,
+    "C": 29,
+    "B": 10,
+    "A_PORT": 6,
+    "CIQ_GROUND": 1
+  },
+  "overview_id_labels": 69,
+  "canvas_and_region_full_labels": 69,
+  "name_fields_missing": 0,
+  "coordinate_mismatches_with_68_node_csv": 0,
+  "gpkg_sha256": "3ee7d3fe56e50ed0f2292e0ce7581a25f76954481f3c4f2d0f163178414b56e3",
+  "warning": "This is a data and labeling-configuration audit, NOT a QGIS rendering/visual-overlap audit. Inspect exported PNGs in QGIS 3.22.4."
+}

@@ -1,0 +1,6 @@
+claim_id,claim,evidence,recalculation,status,allowed_wording
+C01,Full revised order/scenario coverage,C:\Users\DELL\Desktop\CIQ 无人机物流 SCI 研_20261026\output_S11_Corrective_Validation_20261030\RUN_20261030_01\G11_3_FAIRNESS\data\S11_ORDER_RESULTS.parquet,row/key counts,Verified,"All 4,590 base scenarios were processed under 12 revised mode-spatial combinations."
+C02,Continuous battery SOC feasibility,C:\Users\DELL\Desktop\CIQ 无人机物流 SCI 研_20261026\output_S11_Corrective_Validation_20261030\RUN_20261030_01\G11_2_BATTERY_SOC\data\UAV_SOC_EVENT_LEDGER.parquet,SOC before - mission = SOC after; reserve check,Verified,No simulated flight violated the modeled SOC reserve.
+C03,Full lifecycle decarbonization,No embodied/LCA inventory,not possible,Not verifiable,Only an operational mixed-boundary proxy is reported; no lifecycle claim is supported.
+C04,Wing energy realism,C:\Users\DELL\Desktop\CIQ 无人机物流 SCI 研_20261026\output_S11_Corrective_Validation_20261030\RUN_20261030_01\G11_5_ENERGY_COST\data\ENERGY_EVIDENCE_REGISTRY.csv,scenario sensitivity only,Unsupported,Wing energy results remain conditional on an explicit non-OEM battery assumption.
+C05,Regulatory operational approval,WMP228 reference-circle proxy only,no route-specific authority determination,Not verifiable,"Airspace screening is a modeling proxy, not an authorization."

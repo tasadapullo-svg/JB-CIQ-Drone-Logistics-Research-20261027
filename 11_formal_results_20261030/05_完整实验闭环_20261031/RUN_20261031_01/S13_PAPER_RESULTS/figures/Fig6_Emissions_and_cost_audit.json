@@ -1,0 +1,7 @@
+{
+  "figure": "Fig6_Emissions_and_cost",
+  "source": "G2_PER_SEED_153DAY.csv",
+  "caption": "Seed-level mean and normal-approximation 95% interval for (a) the mixed-boundary operational emissions proxy and (b) partial operating cost. Values are per 153-day replicate; the 30 seeds are not summed.",
+  "status": "VERIFIED_FROM_FINAL_CSV",
+  "sha256_png": "38472cac1d8556e0c9f77ac196d9f744bb5da2bc8ac157dd9366733de8c5d5f4"
+}

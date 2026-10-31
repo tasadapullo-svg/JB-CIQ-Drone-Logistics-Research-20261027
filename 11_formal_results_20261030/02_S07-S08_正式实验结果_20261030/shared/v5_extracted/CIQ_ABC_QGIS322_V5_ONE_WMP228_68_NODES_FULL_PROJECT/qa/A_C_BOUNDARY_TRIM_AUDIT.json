@@ -1,0 +1,24 @@
+[
+  {
+    "area":"A",
+    "old_area_km2":65.166,
+    "new_area_km2":64.672,
+    "removed_area_km2":0.494,
+    "circle_overlap_km2":0.0,
+    "outside_display_outline_nodes":[
+
+    ],
+    "interpretation":"Cartographic research envelope, not UAV permitted polygon"
+  },
+  {
+    "area":"C",
+    "old_area_km2":219.299,
+    "new_area_km2":198.561,
+    "removed_area_km2":20.738,
+    "circle_overlap_km2":0.0,
+    "outside_display_outline_nodes":[
+
+    ],
+    "interpretation":"Cartographic research envelope, not UAV permitted polygon"
+  }
+]

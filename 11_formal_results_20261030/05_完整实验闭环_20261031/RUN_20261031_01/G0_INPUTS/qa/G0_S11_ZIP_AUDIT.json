@@ -1,0 +1,17 @@
+{
+  "zip_sha256": "637aa153807b162b76a3add029e72063ada8d38a3403b67a14164b28571e7c4f",
+  "expected_sha256": "637aa153807b162b76a3add029e72063ada8d38a3403b67a14164b28571e7c4f",
+  "bytes": 80337276,
+  "member_count": 198,
+  "crc_bad_member": null,
+  "manifest_count": 9,
+  "manifest_rows": 189,
+  "manifest_missing_members": [
+    "G11_0_PRECHECK/code/__pycache__/run_g11_0.cpython-314.pyc",
+    "G11_1_DYNAMIC_WEATHER/code/__pycache__/run_s11_corrective_chunk.cpython-314.pyc",
+    "G11_4_DUTY_ROAD/code/__pycache__/audit_hour_cache.cpython-314.pyc"
+  ],
+  "manifest_missing_count": 3,
+  "missing_are_only_pyc": true,
+  "status": "PASS_CONDITIONAL"
+}

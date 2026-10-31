@@ -2,7 +2,37 @@
 
 > A reproducible research package for multimodal drone-logistics analysis around the Johor Bahru–Singapore Causeway and Second Link CIQ areas.
 
-[中文说明](#中文说明) · [Repository contents](#repository-contents) · [Reproduction](#reproduction) · [Scientific limitations](#scientific-limitations)
+[Current formal release](#current-formal-release-2026-10-30) · [中文版本说明](#中文版本说明先读) · [Repository contents](#repository-contents) · [Reproduction](#reproduction) · [Scientific limitations](#scientific-limitations)
+
+## Current formal release: 2026-10-30
+
+> **Version boundary:** directories `00`–`10`, `data`, and `outputs` preserve the research package completed through 2026-10-28. They are retained as historical groundwork and early-stage evidence. The formal research version starts on **2026-10-30** in directories `11`–`13`.
+
+The 2026-10-30 release is based on a redesigned flight-study area, revised study points, explicitly identified no-fly constraints, a rebuilt QGIS project, and rerun experiments. Results dated 2026-10-31 are continuations and closure checks of this formal research line, not a return to the earlier version.
+
+| Version | Repository location | Status and permitted use |
+|---|---|---|
+| Historical package through 2026-10-29 | `00_project_documentation/` through `10_experiment_results/`, plus `data/` and `outputs/` | Historical groundwork, feasibility evidence, method development, and provenance only. Do not substitute its spatial definitions or experimental outputs for the formal results. |
+| Formal experiment results from 2026-10-30 | `11_formal_results_20261030/` | Current QGIS definition and formal S07–S11 experiment chain; this is the primary source for current results and conclusions. |
+| Manuscript and theory closure dated 2026-10-31 | `12_manuscript_and_theory_20261031/` | Current writing control draft, theory-source starter, figure/table evidence index, and closure package. These are research and writing materials, not a completed submitted manuscript. |
+| Version and release documentation | `13_release_documentation_20261031/` | Rules for interpreting the old and current versions. |
+
+Start with:
+
+- `11_formal_results_20261030/README_最终版实验结果_先读.md`
+- `12_manuscript_and_theory_20261031/README_正式论文与理论材料_先读.md`
+- `13_release_documentation_20261031/README_项目总览与版本规则_20261031.md`
+
+## 中文版本说明（先读）
+
+本仓库以 **2026年10月30日** 为正式版本分界点：
+
+- 原有 `00–10`、`data` 和 `outputs` 保存截至10月28日形成的历史研究包；其中10月29日以前的方案、实验、图表与审查材料仅作为前期基础论证、方法演进和来源追溯，不作为当前正式结论的直接依据。
+- `11_formal_results_20261030` 保存10月30日重新设计飞行区域、研究点位、明确禁飞区并重建 QGIS 后重新完成的正式实验结果，是当前论文结果与结论的主要依据。
+- `12_manuscript_and_theory_20261031` 保存10月31日新增的全文收口总控稿、图表证据索引、理论来源起始表和收口材料包。这些文件属于10月30日正式研究路线的写作与证据整理成果，不是已经完成的投稿稿件。
+- `13_release_documentation_20261031` 保存版本关系和文件使用顺序说明。
+
+如果历史文件与当前正式结果存在差异，以 `11_formal_results_20261030` 及其10月31日闭环验证为准。历史文件仍保留，用于证明研究基础、解释版本变化和支持可追溯性。
 
 ## Project overview
 
@@ -20,7 +50,7 @@ The package includes engineering audits and staged experiments from Stage 3 thro
 
 ## Repository status
 
-Package validation date: **2026-10-28**.
+Legacy package validation date: **2026-10-28**. Formal-results update date: **2026-10-31**.
 
 | Check | Result |
 |---|---:|
@@ -34,7 +64,9 @@ Package validation date: **2026-10-28**.
 | Largest tracked file | 20 MiB |
 | Preserved weather-source files | 19,757 |
 
-Every source file is accounted for in `github_upload_manifest.csv`. The two excluded files contain real API credentials and remain outside this public package. They are not required for reviewing the already downloaded data.
+For the legacy `00`–`10`, `data`, and `outputs` package, every source file is accounted for in `github_upload_manifest.csv`. The two excluded files contain real API credentials and remain outside this public package. They are not required for reviewing the already downloaded data.
+
+The formal update adds 997 tracked files across `11`–`13`. Eight formal-result files larger than 20 MiB are represented by verified `.parts` directories with `parts_manifest.json`, original byte size, and SHA-256. Run `python tools/reassemble_large_files.py --verify-only` to verify both historical and current split assets.
 
 ## Research data and evidence classes
 
@@ -109,6 +141,9 @@ Stage 8 adds traceable aircraft-specification and spatial screening evidence. It
 ├── 08_archives/                       # Preserved source/delivery archives
 ├── 09_other_materials/                # Literature and supporting materials
 ├── 10_experiment_results/             # Stage 3–8 outputs and supplementary analyses
+├── 11_formal_results_20261030/         # Formal QGIS and rerun S07–S11 results
+├── 12_manuscript_and_theory_20261031/  # Current manuscript closure and theory/evidence indexes
+├── 13_release_documentation_20261031/  # Old-versus-current version rules
 ├── data/weather_2026/                 # Raw API responses, logs, QC, and workbooks
 ├── outputs/                           # Engineering audits and intermediate outputs
 ├── tools/reassemble_large_files.py    # Large-file verification and reconstruction

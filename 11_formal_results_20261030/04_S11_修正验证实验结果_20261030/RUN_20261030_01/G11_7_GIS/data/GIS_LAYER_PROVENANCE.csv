@@ -1,0 +1,4 @@
+layer,source,evidence
+V5 nodes,frozen GeoPackage/S07 index,project-validated
+weather grid distance,S07 node-hour weather,distance-derived
+WMP228,reference-circle screening,"scenario proxy, not legal determination"

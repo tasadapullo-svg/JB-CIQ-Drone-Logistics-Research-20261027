@@ -1,0 +1,15 @@
+step,label
+1,"Frozen V5 +
+82,620 tasks"
+2,"Historical weather
++ FCD proxy"
+3,"Directed roads +
+flight screening"
+4,"Shared dispatcher
+M0 / M1 / M2"
+5,"Event weather +
+SOC + recovery"
+6,"Service / energy /
+cost ledgers"
+7,"Paired inference +
+constrained Pareto"

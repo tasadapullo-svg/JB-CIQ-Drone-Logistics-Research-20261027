@@ -1,0 +1,9 @@
+stage,goal,mandatory_check,blocker,required_outputs,initial_status
+G0,输入与版本冻结,旧数据源SHA+独立复现,缺文件或无法复现,G0_INPUT_REGISTRY;G0_EXPERIMENT_CATALOG,NOT_RUN
+G1,S11B硬修复,11站点+运营窗口+航路筛查+SOC+能耗完整重调度,P0未修复,G1_DEFECT_LEDGER;G1_CORRECTED_MODEL_VERSION,NOT_RUN
+G2,公平与记账,同调度器NO_UAV+按30种子归一+账本守恒,配对不公平或双重计费,G2_MODE_PAIRING;G2_PER_SEED_153DAY,NOT_RUN
+G3,空间交通天气任务,节点+OD+FCD+ERA5+天气阈值分层,外部实证缺失需HOLD,S12_SPATIAL_NODE_AUDIT;S12_WEATHER_DISTANCE_SWEEP,NOT_RUN
+G4,动态敏感性,载荷风雨SOC充电轮班成本排放真实重新调度,仅事后比例缩放,S12_DYNAMIC_SENSITIVITY;S12_FULL_COST_SCENARIOS,NOT_RUN
+G5,稳健统计与Pareto,日期/种子依赖+消融+算法质量+真正非支配,样本单位错误或假Pareto,S12_PAIRED_ESTIMATES;S12_PARETO_NONDOMINATED,NOT_RUN
+G6,SCI图表,Fig1-7与T1-7逐数溯源+QGIS地图,缺真实可追溯数据,S13_FIG_TABLE_CLAIM_TRACEABILITY,NOT_RUN
+G7,论文定稿证据,Methods Results Discussion Conclusions和最终验收,主张越界或无法核验,FINAL_SCI_ACCEPTANCE_REPORT_CN;ALL_PACKAGES,NOT_RUN

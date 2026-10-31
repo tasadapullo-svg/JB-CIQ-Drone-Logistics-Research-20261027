@@ -1,0 +1,19 @@
+{
+  "status": "STATIC_PASS_RUNTIME_NOT_VERIFIED",
+  "version": "V4_short_node_ids_only",
+  "node_layers": {
+    "V7_ALL_62_RETAINED_ROLES": 62,
+    "V8_CIQ_PORT_6_EVIDENCE_POINTS": 6,
+    "G_CIQ_ground_gateway": 1
+  },
+  "unique_labels": 69,
+  "geometry_links": 121,
+  "qgs_qgz_match": true,
+  "gpkg_source_unchanged": true,
+  "visible_label_fields": {
+    "V7_ALL_62_RETAINED_ROLES": "id",
+    "V8_CIQ_PORT_6_EVIDENCE_POINTS": "node_id",
+    "G_CIQ_ground_gateway": "id"
+  },
+  "qgis_desktop_3_22_4_rendering": "NOT_RUN_in_this_environment"
+}

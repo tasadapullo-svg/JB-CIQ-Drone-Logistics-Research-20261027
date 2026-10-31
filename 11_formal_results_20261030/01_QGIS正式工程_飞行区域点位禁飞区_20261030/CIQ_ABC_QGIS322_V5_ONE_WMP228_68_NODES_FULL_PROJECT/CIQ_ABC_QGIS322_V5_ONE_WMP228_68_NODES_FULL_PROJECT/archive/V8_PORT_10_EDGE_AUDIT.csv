@@ -1,0 +1,11 @@
+﻿edge_id,from_id,to_id,mode,one_way_km,roundtrip_geom_km,min_WMP_hist_circle_clearance_m,historical_circle_crossing,DJI_geom_5p6_km,Wing_geom_32p2_km,airspace_current_verified,endpoint_pads_verified,terrain_population_obstacles_verified,commercial_operation_permission,conclusion,reason
+P01_A_P01_A03,A_P01,A03,UAV_GEOMETRY_SEARCH,3.1987,6.3974,750.4,0,1,1,NO,NO,NO,NO,NOT_AN_APPROVED_UAV_ROUTE,"Direct from land-side parking search to Bakar Batu, terminal endpoint NOT approved"
+P02_A_P01_A04,A_P01,A04,UAV_GEOMETRY_SEARCH,3.4859,6.9718,537.3,0,1,1,NO,NO,NO,NO,NOT_AN_APPROVED_UAV_ROUTE,Commercial demand center has no landing pad; geometry only
+P03_A_P01_A07,A_P01,A07,UAV_GEOMETRY_SEARCH,4.0053,8.0107,851.6,0,1,1,NO,NO,NO,NO,NOT_AN_APPROVED_UAV_ROUTE,Residential centroid has no landing pad; geometry only
+P04_A_P01_A_C01,A_P01,A_C01,UAV_GEOMETRY_SEARCH,2.9242,5.8484,851.6,0,1,1,NO,NO,NO,NO,NOT_AN_APPROVED_UAV_ROUTE,"Stulang residential district reference, no landing pad"
+P05_A_P01_A_N01,A_P01,A_N01,UAV_GEOMETRY_SEARCH,3.5449,7.0897,851.6,0,1,1,NO,NO,NO,NO,NOT_AN_APPROVED_UAV_ROUTE,"Bayu Puteri demand reference, no landing pad"
+P06_A_P01_T_STULANG,A_P01,T_STULANG,GROUND_HANDOFF_STRAIGHT_REFERENCE,0.2984,0.5969,851.6,0,1,1,NO,NO,NO,NO,NOT_AN_APPROVED_UAV_ROUTE,Ground port connection only; OSM routed road distance NOT computed
+P07_A_P01_A_P02,A_P01,A_P02,GROUND_HANDOFF_STRAIGHT_REFERENCE,0.2296,0.4591,851.6,0,1,1,NO,NO,NO,NO,NOT_AN_APPROVED_UAV_ROUTE,Retail ground transfer only; road path not computed
+P08_A_P01_A_P03,A_P01,A_P03,GROUND_HANDOFF_STRAIGHT_REFERENCE,0.117,0.2339,734.7,0,1,1,NO,NO,NO,NO,NOT_AN_APPROVED_UAV_ROUTE,Local commercial ground transfer only; road path not computed
+P09_A_P01_A_P06,A_P01,A_P06,GROUND_HANDOFF_STRAIGHT_REFERENCE,0.2878,0.5755,851.6,0,1,1,NO,NO,NO,NO,NOT_AN_APPROVED_UAV_ROUTE,Terminal building is not a UAV pad; ground handoff only
+P10_G_CIQ_A_P01,G_CIQ,A_P01,GROUND_HANDOFF_STRAIGHT_REFERENCE,1.8174,3.6348,-596.8,1,1,1,NO,NO,NO,NO,NOT_AN_APPROVED_UAV_ROUTE,First checkpoint to proposed parking parcel search; geodesic is not road route

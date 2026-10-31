@@ -1,0 +1,7 @@
+QGIS 3.22.4 — repair existing project labels to SHORT NODE IDs only.
+1. Open CIQ_ABC_69_SHORT_IDS_PORTABLE.qgz and save a backup if edited.
+2. Open Plugins > Python Console; paste this SINGLE LINE then Enter:
+
+from qgis.PyQt.QtWidgets import QFileDialog; p=QFileDialog.getOpenFileName(None,"选择 02_REPAIR_ALL_69_LABELS_IN_OPEN_PROJECT.py","","Python (*.py)")[0]; exec(compile(open(p,encoding="utf-8").read(),p,"exec"),{"__file__":p,"__name__":"__main__"}) if p else print("已取消")
+
+3. Select code/02_REPAIR_ALL_69_LABELS_IN_OPEN_PROJECT.py from the unpacked folder.

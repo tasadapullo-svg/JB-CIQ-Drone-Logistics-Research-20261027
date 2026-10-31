@@ -1,0 +1,9 @@
+gate,status,evidence
+G11-0,PASS,input lineage and historical reproduction
+G11-1,PASS,actual-event weather and strict/relaxed ledgers
+G11-2,PASS,continuous SOC and asset ledger
+G11-3,PASS,common no-UAV control kernel and paired decomposition
+G11-4,CONDITIONAL,24 h primary; 8/12 post-hoc; 30 h censored; road-cache replay pending
+G11-5,HOLD,"Wing energy, fixed capital and lifecycle inventory not independently observed"
+G11-6,CONDITIONAL,paired and block bootstrap complete; claims bounded by G11-4/5
+G11-7,HOLD,"airspace/CIQ layers are screening proxies, not legal authorization"

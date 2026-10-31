@@ -1,0 +1,11 @@
+experiment_id,research_question,description,run_scope,required_outputs,acceptance_gate
+EXP-G0-01,RQ1-RQ3,input/version audit and S11 reproduction,FULL,G0_INPUT_REGISTRY;G0_REPRO_GATE,PASS if hashes/counts/keys reproduce
+EXP-G1-01,RQ1-RQ2,S11B strict 24h corrected baseline,FULL_RERUN,S11B corrected ledgers,"P0 invariants; all 82,620 orders per mode"
+EXP-G1-02,RQ2,8/12/30h corrected clock sensitivity,FULL_RERUN,duty sensitivity ledgers,actual reschedule; no post-cut
+EXP-G1-03,RQ2,0.5x/1x/2x energy dynamic rerun,FULL_RERUN,dynamic sensitivity,eligibility/SOC/fallback recalc
+EXP-G2-01,RQ2-RQ3,shared solver UAV on/off pairing,FULL,mode pairing and per-seed totals,same budget/resources/orders
+EXP-G3-01,RQ1,68-node GIS/order/FCD/weather evidence,FULL_AUDIT,spatial/weather/strata files,source and evidence labels
+EXP-G4-01,RQ2-RQ3,resource/weather/cost parameter sensitivities,MIXED_FULL_SUBSET,scenario registry,each row labelled FULL/SUBSET/HOLD
+EXP-G5-01,RQ1-RQ3,paired CI/ablation/Pareto,FULL,paired and nondominated outputs,30 seed replicates; dominance audit
+EXP-G6-01,RQ1-RQ3,Fig1-7 and Table1-7,NOT_RUN,traceability matrix,only audited data
+EXP-G7-01,RQ1-RQ3,manuscript and final evidence freeze,NOT_RUN,paper sections and packages,claim-evidence audit

@@ -1,0 +1,12 @@
+station_node_id,constraint,permission_status,source
+A01,EXPLICIT_FIXED_WHITELIST,HOLD_NOT_VERIFIED,"historical S10 implicit-launch discovery, frozen as conditional project whitelist"
+A02,EXPLICIT_FIXED_WHITELIST,HOLD_NOT_VERIFIED,"historical S10 implicit-launch discovery, frozen as conditional project whitelist"
+A03,EXPLICIT_FIXED_WHITELIST,HOLD_NOT_VERIFIED,"historical S10 implicit-launch discovery, frozen as conditional project whitelist"
+A09,EXPLICIT_FIXED_WHITELIST,HOLD_NOT_VERIFIED,"historical S10 implicit-launch discovery, frozen as conditional project whitelist"
+A_N05,EXPLICIT_FIXED_WHITELIST,HOLD_NOT_VERIFIED,"historical S10 implicit-launch discovery, frozen as conditional project whitelist"
+A_N07,EXPLICIT_FIXED_WHITELIST,HOLD_NOT_VERIFIED,"historical S10 implicit-launch discovery, frozen as conditional project whitelist"
+B06,EXPLICIT_FIXED_WHITELIST,HOLD_NOT_VERIFIED,"historical S10 implicit-launch discovery, frozen as conditional project whitelist"
+B07,EXPLICIT_FIXED_WHITELIST,HOLD_NOT_VERIFIED,"historical S10 implicit-launch discovery, frozen as conditional project whitelist"
+C02,EXPLICIT_FIXED_WHITELIST,HOLD_NOT_VERIFIED,"historical S10 implicit-launch discovery, frozen as conditional project whitelist"
+C04,EXPLICIT_FIXED_WHITELIST,HOLD_NOT_VERIFIED,"historical S10 implicit-launch discovery, frozen as conditional project whitelist"
+C21,EXPLICIT_FIXED_WHITELIST,HOLD_NOT_VERIFIED,"historical S10 implicit-launch discovery, frozen as conditional project whitelist"

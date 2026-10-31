@@ -1,0 +1,38 @@
+{
+  "project_file": "CIQ_ABC_ALL_69_NAMES_PORTABLE.qgz",
+  "project_qgs": "CIQ_ABC_ALL_69_NAMES_PORTABLE.qgs",
+  "source_gpkg_sha256": "3ee7d3fe56e50ed0f2292e0ce7581a25f76954481f3c4f2d0f163178414b56e3",
+  "gpkg_integrity_check": "ok",
+  "gpkg_table_count": 19,
+  "gpkg_tables": [
+    "AC_52_nodes_NOT_PADS",
+    "AC_78_geometric_links",
+    "AC_study_corridors_APPROX",
+    "B_10_FROZEN_NOT_PADS",
+    "B_33_FROZEN_reaudited",
+    "B_geometric_display_envelope",
+    "G_CIQ_ground_gateway",
+    "HOLD_ground_only_harbours",
+    "Senai_5NM_aerodrome_ADVISORY",
+    "Senibong_OSM_conflict_point",
+    "UAV_4_SITE_SEARCH_REACH_2_MODELS",
+    "V7_12_SEARCH_ONLY_SITE_PRIORITIES",
+    "V7_ALL_111_GEOMETRY_ONLY",
+    "V7_ALL_62_RETAINED_ROLES",
+    "V8_CIQ_PORT_10_GROUND_AND_UAV_GEOMETRY",
+    "V8_CIQ_PORT_6_EVIDENCE_POINTS",
+    "V8_DJI_GEOMETRIC_REACH_ONLY",
+    "V8_WMP228_TWO_REFERENCE_DISCS",
+    "WMP228_history_two_discs"
+  ],
+  "node_count": 69,
+  "unique_node_id_count": 69,
+  "nonempty_name_count": 69,
+  "labels_expressions": {
+    "V7_ALL_62_RETAINED_ROLES": "concat(\"id\", ' | ', \"name\")",
+    "V8_CIQ_PORT_6_EVIDENCE_POINTS": "concat(\"node_id\", ' | ', \"name\")",
+    "G_CIQ_ground_gateway": "concat(\"id\", ' | ', \"name\")"
+  },
+  "external_dependency": "Optional online OSM map tiles, not embedded",
+  "qgis_runtime_tested": false
+}

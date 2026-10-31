@@ -1,0 +1,19 @@
+{
+  "gate": "G3_S12_A",
+  "status": "PASS_CONDITIONAL",
+  "checks": {
+    "82620_frozen_tasks": true,
+    "30_seeds": true,
+    "153_days": true,
+    "68_nodes": true,
+    "249696_weather_links": true,
+    "345_fcd_nodes": true,
+    "3672_fcd_hours": true
+  },
+  "hold": [
+    "FCD direction not observed.",
+    "Synthetic demand cannot establish real demand prevalence.",
+    "No independent local weather-station validation.",
+    "Station/landing permissions and WMP228 operational clearance not verified."
+  ]
+}
